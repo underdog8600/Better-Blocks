@@ -1,5 +1,6 @@
 {
-	"name": "Speedster Ship Pad",
+/*
+"name": "Speedster Ship Pad",
 	"description": "Transform into the SPEEDSTER mech.",
 	"type": "MechPad",
 	"mech": "speedster-mech",
@@ -15,4 +16,5 @@
 		{ "item": "quantum-ingot", "amount": 8 },
 	]
 	"research": "glaive-ship-pad"
+*/
 }
