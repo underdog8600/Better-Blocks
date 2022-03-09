@@ -1,5 +1,5 @@
 {
-    "type": "wraith",
+    "type": "flying",
     "name": "Drone",
     "health": 120,
     "mass": 1.0,
