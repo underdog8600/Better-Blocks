@@ -1,7 +1,7 @@
 {
 	"type": "Conveyor",
 	"name": "Empovered conveyor",
-	"description": "Uses tithorium as energy generator to get high speed",
+	"description": "Uses tithorium as energy generator to get high speed, 31/s",
 	"health": 650,
 	"requirements": [
 		{"item": "dark-steel", "amount": 3},
@@ -9,6 +9,6 @@
 		{"item": "tithorium", "amount": 2}
 	],
 	"category": "distribution",
-	"speed": 0.2333333333
+	"speed": 0.233
 	"research": "uran-conveyor"
 }
