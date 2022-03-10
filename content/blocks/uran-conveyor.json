@@ -1,13 +1,14 @@
 {
 	"type": "Conveyor",
 	"name": "Uranium conveyor",
-	"description": "Conveyor that made for faster item gain - 20/s",
+	"description": "Conveyor that made for faster item gain",
 	"health": 320,
 	"requirements": [
 		{"item": "dark-steel", "amount": 2},
 		{"item": "uran", "amount": 1}
 	],
 	"category": "distribution",
-	"speed": 0.166
+	"speed": 0.18
+        "displayedSpeed": 25
 	"research": "dark-conveyor"
 }
