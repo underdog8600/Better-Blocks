@@ -1,7 +1,7 @@
 {
 	"type": "Conveyor",
 	"name": "Infinitium conveyor",
-	"description": "Uses power of infinitium to be faster than Dark Matter Conveyor - 62.5/s",
+	"description": "Uses power of infinitium to be faster than Dark Matter Conveyor",
 	"health": 8000,
 	"requirements": [
 		{"item": "dark-steel", "amount": 40},
@@ -9,5 +9,6 @@
 	],
 	"category": "distribution",
 	"speed": 1.00
+        "displayedSpeed": 110
 	"research": "dm-conveyor"
 }
