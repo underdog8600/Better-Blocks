@@ -1,5 +1,5 @@
 {
-	"type": "burstTurret",
+	"type": "itemTurret",
 	"name": "Turret S10-Minigun",
 	"description": "Minigun for mindustry",
 	"targetAir": true,
@@ -7,12 +7,12 @@
 	"health": 400,
 	"size": 2,
 	"inaccuracy": 23,
-	"reload": 5,
+	"reloadTime": 5,
 	"shootCone": 40,
 	"shots": 2,
 	"range": 140,
 	"burstSpacing": 6,
-	"ammo": {
+	"ammoTypes": {
 		"copper": {
 			"speed": 4.2,
 			"damage": 5,
