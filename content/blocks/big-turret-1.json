@@ -11,7 +11,7 @@
 "chargeEffects": 9,
 "recoil": 6,
 "shootType": 
-	{"lancerLaser"
+	{"type": "lancerLaser"
 	 "damage": 20
 	},
 "shootEffect": "lancerLaserShoot",
