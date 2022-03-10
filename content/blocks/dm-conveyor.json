@@ -1,7 +1,7 @@
 {
 	"type": "Conveyor",
 	"name": "Dark Matter conveyor",
-	"description": "Faster than quantum conveyor, 60/s",
+	"description": "Faster than quantum conveyor - 60/s",
 	"health": 2500,
 	"requirements": [
 		{"item": "dark-steel", "amount": 8},
