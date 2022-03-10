@@ -1,5 +1,5 @@
 {
-	"type": "burstTurret",
+	"type": "itemTurret",
 	"name": "[#FD7A01]Flamethrower",
 	"description": "Uses something hot to use flame power",
 	"targetAir": false,
@@ -7,12 +7,12 @@
 	"health": 800,
 	"size": 3,
 	"inaccuracy": 6,
-	"reload": 29,
+	"reloadTime": 29,
 	"shootCone": 40,
 	"shots": 4,
 	"range": 90,
 	"burstSpacing": 6,
-	"ammo": {
+	"ammoTypes": {
 		"pyratite": {
 			"speed": 4,
 			"damage": 25,
