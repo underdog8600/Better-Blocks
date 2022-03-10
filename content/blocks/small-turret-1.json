@@ -1,4 +1,4 @@
-"type": "chargeTurret",
+"type": "PowerTurret",
 "name": "Laser Turret B2-A",
 "description": "Fast Energy Gun",
 "targetAir": true,
