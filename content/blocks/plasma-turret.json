@@ -1,5 +1,5 @@
 {
-	"type": "PowerTurret",
+	"type": "LaserTurret",
 	"name": "Plasma Turret",
 	"description": "This turret uses not many energy ,but has alot of damage",
 	"health": 1500,
