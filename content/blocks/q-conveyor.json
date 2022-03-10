@@ -1,7 +1,7 @@
 {
 	"type": "Conveyor",
 	"name": "Quantum conveyor",
-	"description": "The best conveyor, 30/s",
+	"description": "The best conveyor - 30/s",
 	"health": 1200,
 	"requirements": [
 		{"item": "dark-steel", "amount": 4},
