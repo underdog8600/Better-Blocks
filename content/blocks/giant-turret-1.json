@@ -8,6 +8,7 @@
 	"size": 5,
 	"reloadTime": 10,
 	"shootCone": 20,
+	"shootType": "meltdownLaser",
 	"powerUse": 10.0,
 	"range": 240,
 	"shootShake": 3,
