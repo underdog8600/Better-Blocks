@@ -1,5 +1,5 @@
 {
-	"type": "LaserTurret",
+	"type": "chargeTurret",
 	"name": "Laser Turret B17-S Plus",
 	"description": "Big Energy Gun",
 	"targetAir": true,
