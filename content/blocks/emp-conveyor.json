@@ -1,7 +1,7 @@
 {
 	"type": "Conveyor",
 	"name": "Empovered conveyor",
-	"description": "Uses tithorium as energy generator to get high speed, 31/s",
+	"description": "Uses tithorium as energy generator to get high speed - 31/s",
 	"health": 650,
 	"requirements": [
 		{"item": "dark-steel", "amount": 3},
