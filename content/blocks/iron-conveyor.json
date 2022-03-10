@@ -1,7 +1,7 @@
 {
 	"type": "Conveyor",
 	"name": "Iron conveyor",
-	"description": "Better than common conveyor ,but worse than titanium, 6.66/s",
+	"description": "Better than common conveyor, but worse than titanium - 6.66/s",
 	"health": 55,
 	"requirements": [
 		{"item": "iron", "amount": 1},
