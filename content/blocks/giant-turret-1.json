@@ -10,11 +10,10 @@
 	"shootCone": 20,
 	"shootType": {
    	 "type": "ContinuousLaserBulletType",
-   	 "damage": 250,
-   	 "width": 7,
+   	 "damage": 150,
+   	 "width": 9,
   	 "length": 240,
    	 "colors": ["CD4238AA", "FF5845FF", "FFFFFFF", "FFFFFFF"],
-   	 "statusDuration": 60,
 	 },
 	"powerUse": 10.0,
 	"range": 240,
@@ -27,7 +26,7 @@
 	"consumes": {
 		"liquid": {
 			"liquid": "cryofluid",
-			"amount": 0.5
+			"amount": 1
 		},
 	},
 	"activeSound": "beam",
