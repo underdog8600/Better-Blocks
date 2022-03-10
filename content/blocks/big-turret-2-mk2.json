@@ -1,5 +1,5 @@
 {
-	"type": "burstTurret",
+	"type": "ItemTurret",
 	"name": "Laser Turret L200-U Omega MK2",
 	"description": "The best turret",
 	"targetAir": true,
@@ -12,7 +12,7 @@
 	"shots": 8,
 	"range": 350,
 	"burstSpacing": 6,
-	"ammo": {
+	"ammoTypes": {
 		"super-tithorium": {
 			"speed": 12,
 			"damage": 12,
