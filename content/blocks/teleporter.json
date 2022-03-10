@@ -21,7 +21,8 @@
 	"size": 1,
 	"requirements": [
 		{ "item": "dark-steel", "amount": 35 },
-		{ "item": "enriched-uran", "amount": 12 }
+		{ "item": "enriched-uran", "amount": 12 },
+                { "item": "quantum-ingot", "amount": 1}
 	],
 	"category": "distribution"
 	"research": "uran-conveyor"
