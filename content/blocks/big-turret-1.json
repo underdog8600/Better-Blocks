@@ -11,7 +11,7 @@
     "chargeMaxDelay": 190,
     "chargeEffects": 9,
 	"recoil": 6,
-	"shootType": "lancerLaser"
+	"shootType": "lancerLaser",
 	"shootEffect": "lancerLaserShoot",
     "smokeEffect": "lancerLaserShootSmoke",
     "chargeEffect": "lancerLaserCharge",
