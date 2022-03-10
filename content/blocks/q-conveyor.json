@@ -9,6 +9,7 @@
 		{"item": "super-tithorium", "amount": 2}
 	],
 	"category": "distribution",
-	"speed": 0.4
+	"speed": 0.4,
+        "displayedSpeed": 40
 	"research": "uran-conveyor"
 }
