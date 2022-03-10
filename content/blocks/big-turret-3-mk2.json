@@ -1,5 +1,5 @@
 {
-	"type": "burstTurret",
+	"type": "ItemTurret",
 	"name": "Sniper Turret U120-Super MK2",
 	"description": "Faster and stronger version of U120-Super",
 	"targetAir": true,
@@ -7,12 +7,12 @@
 	"health": 4000,
 	"size": 4,
 	"inaccuracy": 0.1,
-	"reload": 50,
+	"reloadTime": 50,
 	"shootCone": 20,
 	"shots": 3,
 	"range": 600,
 	"burstSpacing": 6,
-	"ammo": {
+	"ammoTypes": {
 		"silicon": {
 			"speed": 25,
 			"damage": 360,
