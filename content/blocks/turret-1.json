@@ -1,5 +1,5 @@
 {
-	"type": "burstTurret",
+	"type": "itemTurret",
 	"name": "Turret A100-Mem",
 	"description": "Uses silicon , compressed titanium/thorium",
 	"targetAir": false,
@@ -7,12 +7,12 @@
 	"health": 1200,
 	"size": 3,
 	"inaccuracy": 6,
-	"reload": 29,
+	"reloadTime": 29,
 	"shootCone": 40,
 	"shots": 2,
 	"range": 90,
 	"burstSpacing": 6,
-	"ammo": {
+	"ammoTypes": {
 		"silicon": {
 			"speed": 2.4,
 			"damage": 25,
