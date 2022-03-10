@@ -1,10 +1,10 @@
 {
-	"type": "ChargeTurret",
+	"type": "PowerTurret",
 	"name": "Plasma Turret",
 	"description": "This turret uses not many energy ,but has alot of damage",
 	"health": 1500,
 	"size": 5,
-	"reload": 40,
+	"reloadTime": 40,
 	"range": 160,
 	"chargeTime": 30,
 	"chargeMaxDelay": 50,
@@ -17,7 +17,10 @@
 	"smokeEffect": "lancerLaserShootSmoke"
 	"chargeEffect": "lancerLaserCharge"
 	"chargeBeginEffect": "lancerLaserChargeBegin"
-	"shootType": "lancerLaser",
+	"shootType": 
+	{"type": "lancerLaser"
+	 "damage": 30
+	},
 	"inaccuracy": 0.1,
 	"rotatespeed": 12,
 	"requirements": [
