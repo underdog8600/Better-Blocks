@@ -17,7 +17,7 @@
 	"baseRotateSpeed": 0.05,
     "weapon": {
         "length": 10.0,
-        "reload": 20.0,
+        "reloadTime": 20.0,
         "width": 20.0,
         "shots": 2,
         "inaccuracy": 2.0,
@@ -27,8 +27,8 @@
         "bullet": {
 			"speed": 20,
 			"damage": 40
-			"bulletWidth": 9,
-			"bulletHeight": 23,
+			"Width": 9,
+			"Height": 23,
 			"frontColor": "4acf4d",
 			"backColor": "8cff8f",
 		}
