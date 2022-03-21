@@ -4,4 +4,11 @@
 	"health": 11500
 	"itemCapacity": 25000
 	"size": 5
+	"unitCapModifier": 20,
+	"requirements": [
+		{ "item": "silicon", "amount": 4200 },
+		{ "item": "surge-alloy", "amount": 3000 },
+		{ "item": "thorium", "amount": 4900},
+	"category": "effect",
+	"research": "core-nucleus"
 }
