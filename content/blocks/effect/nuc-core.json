@@ -9,7 +9,7 @@
 		{ "item": "silicon", "amount": 4200 },
 		{ "item": "surge-alloy", "amount": 3000 },
 		{ "item": "thorium", "amount": 4900}
-	]
+	],
 	"category": "effect",
 	"research": "core-nucleus"
 }
