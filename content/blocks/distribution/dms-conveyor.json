@@ -9,8 +9,8 @@
 "cone": -360,
 "lenFrom": 5,
 "lenTo": 0,
-"colorFrom": "A9D8FFFF",
-"colorTo": "66B1FFFF"
+"colorFrom": "351c75",
+"colorTo": "6a329f"
 },
 "unloadEffect": {
 "type": "ParticleEffect",
@@ -21,8 +21,8 @@
 "cone": -360,
 "lenFrom": 5,
 "lenTo": 0,
-"colorFrom": "A9D8FFFF",
-"colorTo": "66B1FFFF"
+"colorFrom": "351c75",
+"colorTo": "6a329f"
 },
 "health": 2000,
 "speed": 0.067,
