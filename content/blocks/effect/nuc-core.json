@@ -5,10 +5,14 @@
 	"itemCapacity": 25000
 	"size": 5
 	"unitCapModifier": 20,
+	"unitType": "gamma",
 	"requirements": [
-		{ "item": "silicon", "amount": 4200 },
-		{ "item": "surge-alloy", "amount": 3000 },
-		{ "item": "thorium", "amount": 4900}
+		{ "item": "silicon", "amount": 15000 },
+		{ "item": "surge-alloy", "amount": 15000 },
+		{ "item": "thorium", "amount": 15000},
+		{ "item": "uran", "amount": 15000 },
+		{ "item": "dark-steel", "amount": 15000 },
+		{ "item": "enriched-uran", "amount": 10000 }
 	],
 	"category": "effect",
 	"research": "core-nucleus"
