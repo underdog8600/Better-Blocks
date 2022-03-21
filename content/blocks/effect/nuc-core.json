@@ -1,10 +1,10 @@
 {
 	"name": "Core: Uranium",
 	"type": "CoreBlock",
-	"health": 11500
+	"health": 11000
 	"itemCapacity": 25000
-	"size": 5
-	"unitCapModifier": 20,
+	"size": 6
+	"unitCapModifier": 30,
 	"unitType": "gamma",
 	"requirements": [
 		{ "item": "silicon", "amount": 15000 },
