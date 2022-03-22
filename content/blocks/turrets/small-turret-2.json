@@ -16,8 +16,8 @@
 		"copper": {
 			"speed": 4.2,
 			"damage": 5,
-			"bulletWidth": 4,
-			"bulletHeight": 6,
+			"width": 4,
+			"height": 6,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 4
@@ -25,8 +25,8 @@
 		"lead": {
 			"speed": 5.5,
 			"damage": 7,
-			"bulletWidth": 4,
-			"bulletHeight": 7,
+			"width": 4,
+			"height": 7,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 4
@@ -34,8 +34,8 @@
 		"silicon": {
 			"speed": 5,
 			"damage": 9,
-			"bulletWidth": 5,
-			"bulletHeight": 6,
+			"width": 5,
+			"height": 6,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 6
@@ -43,8 +43,8 @@
 		"comp-titanium": {
 			"speed": 9,
 			"damage": 14,
-			"bulletWidth": 4,
-			"bulletHeight": 12,
+			"width": 4,
+			"height": 12,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 9
