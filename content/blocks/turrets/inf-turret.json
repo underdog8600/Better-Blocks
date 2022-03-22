@@ -14,7 +14,7 @@
 	"burstSpacing": 1,
 	"ammoTypes": {
 		"silicon": {
-			"speed": 35,
+			"speed": 25,
 			"damage": 850,
                         "type": "BasicBulletType",
 			"Width": 24,
@@ -24,7 +24,7 @@
 			"ammoMultiplier": 1
 		},
 		"quantum-ingot": {
-			"speed": 35,
+			"speed": 25,
 			"damage": 2500,
                         "type": "BasicBulletType",
 			"Width": 24,
@@ -34,7 +34,7 @@
 			"ammoMultiplier": 1
 		},
 		"infinitium": {
-			"speed": 70,
+			"speed": 40,
 			"damage": 10000,
                         "type": "BasicBulletType",
 			"Width": 34,
