@@ -7,9 +7,9 @@
 	"health": 20000,
 	"size": 8,
 	"inaccuracy": 0.001,
-	"reloadTime": 5,
+	"reloadTime": 1,
 	"shootCone": 40,
-	"shots": 1,
+	"shots": 2,
 	"range": 360,
 	"burstSpacing": 1,
 	"ammoTypes": {
