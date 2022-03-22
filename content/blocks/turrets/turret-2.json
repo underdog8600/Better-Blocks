@@ -19,8 +19,8 @@
 			"status": "burning",
 			"statusDuration": 400,
 			"hitSize": 7,
-			"bulletWidth": 12,
-			"bulletHeight": 17,
+			"width": 12,
+			"height": 17,
 			"shootEffect": "shootPyraFlame",
 			"hitEffect": "hitFlameSmall",
 			"despawnEffect": "none"
