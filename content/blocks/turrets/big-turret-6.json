@@ -15,14 +15,14 @@
 	"ammoTypes": {
 		"blast-compound": {
 			"damage": 100,
-			"bulletWidth": 19,
-			"bulletHeight": 26,
+			"width": 19,
+			"height": 26,
 			"splashDamage": 300,
 			"splashDamageRadius": 60,
 			"shootEffect": "shootBig"
 			"hitEffect": "flakExplosion",
-			"frontColor": #E3141A,
-			"backColor": #E3141A,
+			"frontColor": "E3141A",
+			"backColor": "E3141A",
 			"ammoMultiplier": 2,
 		}
 	},
