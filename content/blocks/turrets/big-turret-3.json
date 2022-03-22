@@ -16,8 +16,8 @@
 		"silicon": {
 			"speed": 15,
 			"damage": 180,
-			"bulletWidth": 4,
-			"bulletHeight": 13,
+			"width": 4,
+			"height": 13,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 2
@@ -25,8 +25,8 @@
 		"comp-titanium": {
 			"speed": 22,
 			"damage": 300,
-			"bulletWidth": 5,
-			"bulletHeight": 16,
+			"width": 5,
+			"height": 16,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 4
