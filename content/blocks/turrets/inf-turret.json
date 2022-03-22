@@ -16,8 +16,8 @@
 		"silicon": {
 			"speed": 35,
 			"damage": 850,
-			"Width": 72,
-			"Height": 90,
+			"Width": 240,
+			"Height": 300,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 1
@@ -25,8 +25,8 @@
 		"quantum-ingot": {
 			"speed": 35,
 			"damage": 2500,
-			"Width": 72,
-			"Height": 90,
+			"Width": 240,
+			"Height": 300,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 1
@@ -34,8 +34,8 @@
 		"infinitium": {
 			"speed": 70,
 			"damage": 10000,
-			"Width": 102,
-			"Height": 135,
+			"Width": 340,
+			"Height": 450,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 2
