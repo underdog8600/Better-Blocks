@@ -1,0 +1,57 @@
+{
+  "type": "GenericSmelter",
+  "name": "Super Cryofluid-Mixer",
+  "description": "Mixes water, titanium and graphite to make a lot of cryofluid.",
+  "outputLiquid": {
+    "liquid": "cryofluid",
+    "amount": 24
+  },
+  "health": 340,
+  "itemCapacity": 30,
+  "fluidCapacity": 50,
+  "size": 3,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 2,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.4
+    },
+    "items": {
+      "items": [
+        {
+          "item": "titanium",
+          "amount": 4
+        },
+        {
+          "item": "graphite",
+          "amount": 4
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "thorium",
+      "amount": 200
+    },
+    {
+      "item": "titanium",
+      "amount": 100
+    },
+    {
+      "item": "graphite",
+      "amount": 100
+    },
+    {
+      "item": "silicon",
+      "amount": 75
+    }
+  ],
+  "category": "crafting",
+  "research": "cryofluid-mixer"
+}
