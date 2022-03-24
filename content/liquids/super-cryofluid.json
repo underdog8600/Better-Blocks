@@ -1,6 +1,6 @@
 {
-  "name": "Super Cyro Fluid",
-  "description": "Cyro Fluid that is infused with Super Tithorium.",
+  "name": "Super Cyrofluid",
+  "description": "Cyrofluid that is infused with Super Tithorium.",
   "viscosity": 0.5,
   "heatCapacity": 1.5,
   "explosiveness": 0,
