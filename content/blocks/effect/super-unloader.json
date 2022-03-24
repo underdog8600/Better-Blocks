@@ -1,7 +1,7 @@
 {
 	"type": "Unloader",
 	"name": "Super Unloader",
-	"description": "An Unloader with great speed",
+	"description": "An Unloader with great speed, 4x as fast",
 	"health": 200,
 	"requirements": [
 		{"item": "dark-steel", "amount": 1},
