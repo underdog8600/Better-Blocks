@@ -9,6 +9,6 @@
 		{"item": "carbon-mass", "amount": 1}
 	],
 	"category": "effect",
-	"speed": 0.1
+	"speed": 1
 	"research": "unloader"
 }
