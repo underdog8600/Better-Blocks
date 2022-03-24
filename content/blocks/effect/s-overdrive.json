@@ -3,7 +3,7 @@
 	"description": "OP version of overdrive projector",
 	"type": "OverdriveProjector"
 	"health": 40000,
-	"size": 2,
+	"size": 3,
 	"range": 150,
 	"reload": 60,
 	"speedBoost": 3,
