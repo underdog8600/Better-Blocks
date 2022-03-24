@@ -7,7 +7,7 @@
     "radius": 150,
     "shieldHealth": 10000,
     "phaseShieldBoost": 2000,
-    "phaseRadiusBoost": 200,
+    "phaseRadiusBoost": 100,
     "phaseUseTime": 350,
     "breakage": 260,
     "cooldownNormal": 1.2,
@@ -22,7 +22,7 @@
     "consumes": {
 		"power": 5,
 		"items": {
-			"items": [ {"item": "phase-fabric", "amount": 1} ],
+			"items": [ {"item": "phase-fabric", "amount": 10} ],
 			"booster": true,
 			"optional": true
         }
