@@ -2,7 +2,7 @@
   "name": "Super Cyro Fluid",
   "description": "Cyro Fluid that is infused with Super Tithorium.",
   "viscosity": 0.5,
-  "heatCapacity": 0.95,
+  "heatCapacity": 1,
   "explosiveness": 0,
   "temperature": 0.1,
   "color": "9000a4",
