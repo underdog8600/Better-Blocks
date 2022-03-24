@@ -22,7 +22,8 @@
     "consumes": {
 		"power": 5,
 		"items": {
-			"items": [ {"item": "phase-fabric", "amount": 10} ],
+			"items": [ {"item": "phase-fabric", "amount": 5},
+                                   {"item": "silicon", "amount": 5} ],
 			"booster": true,
 			"optional": true
         }
