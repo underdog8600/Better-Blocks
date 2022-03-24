@@ -9,6 +9,7 @@
 	"rotateSpeed": 14,
 	"drawRim": true
 	"updateEffect": "pulverizeRed"
+	"drillEffect": "healWaveMend"
 	"updateEffectChance": 0.03
 	"consumes": {
 		"power": 22.0
