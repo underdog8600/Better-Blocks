@@ -5,20 +5,19 @@
     "size": 4,
     "health": 500,
     "radius": 150,
-    "shieldHealth": 2000,
-    "phaseShieldBoost": 600,
-    "phaseRadiusBoost": 100,
+    "shieldHealth": 10000,
+    "phaseShieldBoost": 2000,
+    "phaseRadiusBoost": 200,
     "phaseUseTime": 350,
     "breakage": 260,
     "cooldownNormal": 1.2,
     "cooldownLiquid": 1.1,
     "category": "effect",
     "requirements": [
-        {"item": "lead", "amount": 300},
-        {"item": "titanium", "amount": 150},
-        {"item": "silicon", "amount": 265},
-	    {"item": "thorium", "amount": 200},
-	    {"item": "plastanium", "amount": 100}
+            {"item": "silicon", "amount": 800},
+	    {"item": "plastanium", "amount": 150},
+            { "item": "quantum-ingot", "amount": 2 },
+	    { "item": "dark-steel", "amount": 1100 }
     ],
     "consumes": {
 		"power": 5,
