@@ -1,6 +1,6 @@
 {
 "type": "StackConveyor",
-"name": "Dark Matter Stack conveyor",
+"name": "Dark Matter conveyor",
 "loadEffect": {
 "type": "ParticleEffect",
 "line": true,
