@@ -8,6 +8,7 @@
   "color": "E2F5FBFF",
   "viscosity": 0.1,
   "flammability": 0,
+  "effect": "freezing",
   "research": {
     "parent": "cryofluid"
   }
