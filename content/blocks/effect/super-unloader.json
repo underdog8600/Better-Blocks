@@ -1,0 +1,14 @@
+{
+	"type": "Unloader",
+	"name": "Super Unloader",
+	"description": "An Unloader with great speed",
+	"health": 200,
+	"requirements": [
+		{"item": "dark-steel", "amount": 1},
+		{"item": "carbon", "amount": 1},
+		{"item": "carbon-mass", "amount": 1}
+	],
+	"category": "effect",
+	"speed": 0.6
+	"research": "unloader"
+}
