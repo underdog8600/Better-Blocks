@@ -4,9 +4,8 @@
 	"description": "An Unloader with great speed, 24/s",
 	"health": 200,
 	"requirements": [
-		{"item": "dark-steel", "amount": 1},
-		{"item": "carbon", "amount": 1},
-		{"item": "carbon-mass", "amount": 1}
+		{"item": "dark-steel", "amount": 50},
+		{"item": "silicon", "amount": 100}
 	],
 	"category": "effect",
 	"speed": 2
