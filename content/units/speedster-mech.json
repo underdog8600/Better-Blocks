@@ -45,7 +45,7 @@
                         "pierce": true,
                         "pierceCap": 5,
                         "splashDamage": 50,
-                        "splashDamageRadius": 5,
+                        "splashDamageRadius": 20,
                         "homingRange": 64,
                         "homingPower": 0.05
                            }
