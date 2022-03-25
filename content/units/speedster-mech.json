@@ -12,6 +12,7 @@
         "buildSpeed": 3,
         "mineSpeed": 16,
         "mineTier": 8,
+        "itemCapacity": 200,
         "armor": 20,
         "buildTier": 5,
         "mass": 15,
