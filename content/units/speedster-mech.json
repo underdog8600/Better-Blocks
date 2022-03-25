@@ -8,6 +8,13 @@
 	"flying": true,
 	"health": 30000,
         "canBuild": true,
+        "buildSpeed": 3,
+        "mineSpeed": 16,
+        "mineTier": 8,
+        "armor": 20,
+        "buildTier": 5,
+        "mass": 10,
+        "commandLimit": 8,
 	"weaponOffsetX": 1,
 	"weaponOffsetY": 1,
 	"weapon": {
