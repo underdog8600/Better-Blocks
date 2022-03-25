@@ -7,12 +7,12 @@
 	"unitCapModifier": 30,
 	"unitType": "speedster-mech",
 	"requirements": [
-		{ "item": "silicon", "amount": 15000 },
-		{ "item": "surge-alloy", "amount": 15000 },
-		{ "item": "thorium", "amount": 15000},
-		{ "item": "uran", "amount": 15000 },
-		{ "item": "dark-steel", "amount": 15000 },
-		{ "item": "enriched-uran", "amount": 10000 }
+		{ "item": "enriched-uran", "amount": 20000 },
+		{ "item": "dark-steel", "amount": 20000 },
+		{ "item": "super-tithorium", "amount": 5000},
+		{ "item": "nuclear-fuel", "amount": 1500 },
+		{ "item": "quantum-ingot", "amount": 500 },
+		{ "item": "dark-matter", "amount": 100 }
 	],
 	"category": "effect",
 	"research": "core-nucleus"
