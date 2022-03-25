@@ -7,7 +7,7 @@
   "hasItems": true,
   "itemCapacity": 60,
   "hasLiquids": false,
-  "craftTime": 130,
+  "craftTime": 150,
   "craftEffect": "pulverizeRedder",
   "updateEffect": "pulverizeRed",
   "consumes": {
@@ -16,11 +16,11 @@
       "items": [
         {
           "item": "thorium",
-          "amount": 6
+          "amount": 12
         },
         {
           "item": "sand",
-          "amount": 15
+          "amount": 20
         }
       ]
     }
