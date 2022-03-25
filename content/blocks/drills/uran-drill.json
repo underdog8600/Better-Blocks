@@ -21,8 +21,8 @@
 		}
 	},
 	"requirements": [
-		{ "item": "nuclear-fuel", "amount": 6 },
-		{ "item": "dark-steel", "amount": 75 },
+		{ "item": "nuclear-fuel", "amount": 8 },
+		{ "item": "dark-steel", "amount": 150 },
 		{ "item": "uran", "amount": 30 }
 	],
 	"category": "production"
