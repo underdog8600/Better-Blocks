@@ -34,7 +34,7 @@
                         "type": "BasicBulletType",
                         "speed": 8,
                         "lifetime": 40,
-                        "damage": 100,
+                        "damage": 200,
 			"width": 8,
 			"height": 23,
 			"frontColor": "ffaf4a",
