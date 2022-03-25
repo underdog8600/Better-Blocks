@@ -34,7 +34,6 @@
     {"item": "copper", "amount": 10},
     {"item": "lead", "amount": 10},
     {"item": "coal", "amount": 10},
-    {"item": "scrap","amount": 10},
     {"item": "graphite", "amount": 6},
     {"item": "sand", "amount": 8}
   ],
