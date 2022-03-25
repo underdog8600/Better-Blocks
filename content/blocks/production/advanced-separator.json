@@ -13,13 +13,8 @@
   "consumes": {
     "power": 5.4,
     "liquid": 
-        {"liquid": "slag", "amount": 0.12},
-    "items": {
-      "items": [
-        {"item": "scrap",  "amount": 0.1}
-      ]
-    }
-  },
+        {"liquid": "slag", "amount": 0.01}
+     },
   "requirements": [
     {"item": "lead", "amount": 300},
     {"item": "titanium", "amount": 275},
@@ -29,13 +24,11 @@
     {"item": "surge-alloy", "amount": 30}
   ],
   "results": [
-    {"item": "thorium","amount": 4 },
-    {"item": "titanium", "amount": 6},
+    {"item": "thorium","amount": 10},
+    {"item": "titanium", "amount": 10},
     {"item": "copper", "amount": 10},
     {"item": "lead", "amount": 10},
-    {"item": "coal", "amount": 10},
-    {"item": "graphite", "amount": 6},
-    {"item": "sand", "amount": 8}
+    {"item": "coal", "amount": 10}
   ],
   "category": "crafting",
   "research": "disassembler",
