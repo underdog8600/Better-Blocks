@@ -17,9 +17,9 @@
         "buildTier": 5,
         "mass": 15,
         "commandLimit": 8,
-        "range": 180,
-        "maxRange": 180,
-        "aimDst": 180,
+        "range": 320,
+        "maxRange": 320,
+        "aimDst": 320,
         "weapons": [
                    {
                  "name": "nothing",
@@ -33,7 +33,7 @@
                  "bullet": {
                         "type": "BasicBulletType",
                         "speed": 8,
-                        "lifetime": 2,
+                        "lifetime": 20,
                         "damage": 100,
 			"width": 8,
 			"height": 23,
