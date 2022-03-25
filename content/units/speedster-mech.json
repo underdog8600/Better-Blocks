@@ -7,7 +7,7 @@
 	"hitsize": 24,
 	"engineColor": "666495",
 	"flying": true,
-	"health": 30000,
+	"health": 10000,
         "canBuild": true,
         "buildSpeed": 3,
         "mineSpeed": 16,
@@ -20,7 +20,7 @@
         "weapons": [
                    {
                  "name": "nothing",
-                 "range": 100,
+                 "range": 40,
                  "x": 0,
                  "y": 2,
                  "reload": 5,
