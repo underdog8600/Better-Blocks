@@ -46,8 +46,8 @@
                         "pierceCap": 1,
                         "splashDamage": 6,
                         "splashDamageRadius": 5,
-                        "homingRange": 170,
-                        "homingPower": 0.18
+                        "homingRange": 64,
+                        "homingPower": 0.1
                            }
                     }
                     ]
