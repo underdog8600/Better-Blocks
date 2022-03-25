@@ -33,7 +33,7 @@
                  "bullet": {
                         "type": "BasicBulletType",
                         "speed": 8,
-                        "lifetime": 20,
+                        "lifetime": 120,
                         "damage": 100,
 			"width": 8,
 			"height": 23,
