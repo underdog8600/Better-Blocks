@@ -5,7 +5,7 @@
 	"itemCapacity": 25000
 	"size": 6
 	"unitCapModifier": 30,
-	"unitType": "Speedster",
+	"unitType": "speedster",
 	"requirements": [
 		{ "item": "silicon", "amount": 15000 },
 		{ "item": "surge-alloy", "amount": 15000 },
