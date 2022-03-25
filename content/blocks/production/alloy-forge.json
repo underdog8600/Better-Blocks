@@ -33,22 +33,11 @@
     }
   },
   "requirements": [
-    {
-      "item": "lead",
-      "amount": 160
-    },
-    {
-      "item": "thorium",
-      "amount": 140
-    },
-    {
-      "item": "silicon",
-      "amount": 160
-    },
-    {
-      "item": "surge-alloy",
-      "amount": 25
-    }
+    {"item": "lead", "amount": 160},
+    {"item": "titanium", "amount": 150},
+    {"item": "thorium", "amount": 140},
+    {"item": "silicon", "amount": 160},
+    {"item": "surge-alloy", "amount": 40}
   ],
   "category": "crafting",
   "research": "alloy-smelter",
