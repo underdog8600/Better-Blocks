@@ -17,8 +17,8 @@
 		"bullet": {
 			"speed": 12,
 			"damage": 400,
-			"bulletWidth": 8,
-			"bulletHeight": 23,
+			"width": 8,
+			"height": 23,
 			"frontColor": "ffaf4a",
 			"backColor": "ffaf9a",
 			"shootEffect": "shootBig"
