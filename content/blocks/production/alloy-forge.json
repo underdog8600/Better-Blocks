@@ -10,7 +10,7 @@
   "craftEffect": "pulverizeRedder",
   "updateEffect": "hitMeltdown",
   "consumes": {
-    "power": 6,
+    "power": 6.5,
     "items": {
       "items": [
         {
