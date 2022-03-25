@@ -25,6 +25,7 @@
                  "y": 2,
                  "reload": 5,
                  "shootcone": 360,
+                 "inaccuracy": 5,
                  "spacing": 0,
                  "shootSound": "shoot",
                  "bullet": {
