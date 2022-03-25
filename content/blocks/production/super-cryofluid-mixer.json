@@ -35,10 +35,10 @@
     }
   },
   "requirements": [
-    {"item": "thorium", "amount": 200},
-    {"item": "titanium", "amount": 130},
-    {"item": "graphite", "amount": 200},
-    {"item": "silicon", "amount": 140}
+    {"item": "metaglass", "amount": 500},
+    {"item": "silicon", "amount": 200},
+    {"item": "dark-steel", "amount": 180},
+    {"item": "carbon", "amount": 50}
   ],
   "category": "crafting",
   "research": "cryofluid-mixer"
