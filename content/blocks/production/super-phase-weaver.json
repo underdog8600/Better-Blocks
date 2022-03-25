@@ -11,7 +11,7 @@
   "craftEffect": "pulverizeRedder",
   "updateEffect": "pulverizeRed",
   "consumes": {
-    "power": 9.9,
+    "power": 12.5,
     "items": {
       "items": [
         {
