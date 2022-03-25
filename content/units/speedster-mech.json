@@ -1,8 +1,8 @@
 {
 	"name": "Speedster",
 	"description": "Empowered Striker unit that can be controlled",
-	"speed": 3.0,
-	"buildPower": 200.0,
+	"speed": 5,
+        "drag": 0.15,
 	"hitsize": 24,
 	"engineColor": "666495",
 	"flying": true,
@@ -13,18 +13,22 @@
         "mineTier": 8,
         "armor": 20,
         "buildTier": 5,
-        "mass": 10,
+        "mass": 15,
         "commandLimit": 8,
-	"weaponOffsetX": 1,
-	"weaponOffsetY": 1,
-	"weapon": {
-		"name": "OOF",
-		"length": 3.5,
-		"reload": 6,
-		"alternate": true,
-		"bullet": {
-			"speed": 12,
-			"damage": 400,
+        "weapons": [
+                   {
+                 "name": "nothing",
+                 "range": 170,
+                 "x": 0,
+                 "y": 2,
+                 "reload": 5,
+                 "shootcone": 360,
+                 "spacing": 0,
+                 "shootSound": "shoot",
+                 "bullet": {
+                        "type": "BasicBulletType",
+                        "speed": 12,
+                        "damage": 100,
 			"width": 8,
 			"height": 23,
 			"frontColor": "ffaf4a",
@@ -32,6 +36,13 @@
 			"shootEffect": "shootBig"
 			"hitEffect": "hitFlameSmall",
 			"despawnEffect": "none"
-		}
-	}
+                        "pierce": true,
+                        "pierceCap": 1,
+                        "splashDamage": 6,
+                        "splashDamageRadius": 5,
+                        "homingRange": 170,
+                        "homingPower": 0.18
+                           }
+                    }
+                    ]
 }
