@@ -6,5 +6,6 @@
         "unitCapModifier": 50,
 	"unitType": "speedster-mech",
 	"itemCapacity": 2000000,
+	"buildVisibility": "sandboxOnly",
 	"size": 5
 }
