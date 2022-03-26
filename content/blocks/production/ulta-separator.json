@@ -8,12 +8,12 @@
   "hasLiquids": true,
   "hasItems": true,
   "liquidCapacity": 60,
-  "craftTime": 1,
+  "craftTime": 10,
   "spinnerSpeed": -5,
   "consumes": {
     "power": 5.4,
     "liquid": 
-        {"liquid": "slag", "amount": 0.01}
+        {"liquid": "infintium-liquid", "amount": 0.01}
      },
   "requirements": [
     {"item": "lead", "amount": 300},
