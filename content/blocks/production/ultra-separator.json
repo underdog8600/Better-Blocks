@@ -17,12 +17,10 @@
         {"liquid": "infinitium-liquid", "amount": 0.01}
      },
   "requirements": [
-    {"item": "lead", "amount": 300},
-    {"item": "titanium", "amount": 275},
-    {"item": "graphite", "amount": 275},
-    {"item": "phase-fabric", "amount": 30},
-    {"item": "plastanium", "amount": 30},
-    {"item": "surge-alloy", "amount": 30}
+		{ "item": "quantum-ingot", "amount": 35},
+		{ "item": "dark-steel", "amount": 2000},
+		{ "item": "divinium", "amount": 5},
+    		{"item": "infinitium", "amount": 10}
   ],
   "results": [
     {"item": "thorium","amount": 10},
@@ -35,5 +33,5 @@
   ],
   "category": "crafting",
   "research": "disassembler",
-  "health": 690
+  "health": 10000
 }
