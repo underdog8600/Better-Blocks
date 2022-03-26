@@ -8,10 +8,11 @@
   "hasLiquids": true,
   "hasItems": true,
   "liquidCapacity": 60,
-  "craftTime": 10,
+  "itemCapacity": 50,
+  "craftTime": 4,
   "spinnerSpeed": -5,
   "consumes": {
-    "power": 5.4,
+    "power": 8,
     "liquid": 
         {"liquid": "infinitium-liquid", "amount": 0.01}
      },
