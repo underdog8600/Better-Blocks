@@ -1,7 +1,7 @@
 {
   "type": "Separator",
-  "name": "Advanced Seperator",
-  "description": "An even more advanced Separator. Needs slag and metallglass to run. Outputs a lot more items.",
+  "name": "Ulta Seperator",
+  "description": "An Ultra Separator. Uses Infintium to produce all ores.",
   "size": 4,
   "hasPower": true,
   "solid": true,
@@ -28,7 +28,9 @@
     {"item": "titanium", "amount": 10},
     {"item": "copper", "amount": 10},
     {"item": "lead", "amount": 10},
-    {"item": "coal", "amount": 10}
+    {"item": "coal", "amount": 10},
+    {"item": "iron", "amount": 10},
+    {"item": "uranium", "amount": 10}
   ],
   "category": "crafting",
   "research": "disassembler",
