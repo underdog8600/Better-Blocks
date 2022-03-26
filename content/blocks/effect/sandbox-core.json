@@ -1,9 +1,10 @@
 {
 	"name": "Core: Sandbox",
 	"type": "CoreBlock",
-	"destructible": false
-	"health": 1000000
-	"mech": "speedster-mech"
-	"itemCapacity": 200000000
+	"destructible": false,
+	"health": 10000000,
+        "unitCapModifier": 50,
+	"unitType": "speedster-mech",
+	"itemCapacity": 2000000,
 	"size": 5
 }
