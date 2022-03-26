@@ -9,7 +9,7 @@
   "hasItems": true,
   "liquidCapacity": 60,
   "itemCapacity": 50,
-  "craftTime": 4,
+  "craftTime": 0.5,
   "spinnerSpeed": -5,
   "consumes": {
     "power": 8,
