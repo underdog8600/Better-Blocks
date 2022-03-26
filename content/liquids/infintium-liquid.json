@@ -2,7 +2,7 @@
 	"name": "[#FFFFFF]I[#EEEEEE]n[#DDDDDD]f[#CCCCCC]i[#BBBBBB]n[#AAAAAA]i[#999999]t[#888888]i[#777777]u[#666666]m Liquid",
 	"description": "[#FFFFFF]I[#EEEEEE]n[#DDDDDD]f[#CCCCCC]i[#BBBBBB]n[#AAAAAA]i[#999999]t[#888888]i[#777777]u[#666666]m in its liquid form.",
 	"temperature": 1,
-    "viscosity": 0.8,
+    "viscosity": 0.5,
     "effect": "melting",
     "color": "#000000"
 }
