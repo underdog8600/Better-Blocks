@@ -21,7 +21,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "quantum-ingot", "amount": 30},
+		{ "item": "quantum-ingot", "amount": 25},
 		{ "item": "dark-steel", "amount": 3000},
 		{ "item": "divinium", "amount": 5},
     		{"item": "infinitium", "amount": 10}
