@@ -30,7 +30,7 @@
     {"item": "lead", "amount": 10},
     {"item": "coal", "amount": 10},
     {"item": "iron", "amount": 10},
-    {"item": "uranium", "amount": 10}
+    {"item": "uran", "amount": 10}
   ],
   "category": "crafting",
   "research": "disassembler",
