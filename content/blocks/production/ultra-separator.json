@@ -7,7 +7,7 @@
   "solid": true,
   "hasLiquids": true,
   "hasItems": true,
-  "liquidCapacity": 120,
+  "liquidCapacity": 180,
   "itemCapacity": 50,
   "craftTime": 1,
   "spinnerSpeed": -5,
