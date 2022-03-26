@@ -1,7 +1,7 @@
 {
   "type": "Separator",
   "name": "Ulta Seperator",
-  "description": "An Ultra Separator. Uses liquified [#FFFFFF]I[#EEEEEE]n[#DDDDDD]f[#CCCCCC]i[#BBBBBB]n[#AAAAAA]i[#999999]t[#888888]i[#777777]u[#666666]m[] to produce all ores.",
+  "description": "An Ultra Separator. Uses liquified [#FFFFFF]I[][#EEEEEE]n[][#DDDDDD]f[][#CCCCCC]i[][#BBBBBB]n[][#AAAAAA]i[][#999999]t[][#888888]i[][#777777]u[][#666666]m[] to produce all ores.",
   "size": 4,
   "hasPower": true,
   "solid": true,
