@@ -8,6 +8,7 @@
 "reloadTime": 10,
 "shootCone": 20,
 "liquidCapacity": 60,
+"coolantMultiplier": 1,
 "shootType": {
 	"type": "ContinuousLaserBulletType",
 	"damage": 150,
