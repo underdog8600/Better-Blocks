@@ -5,7 +5,7 @@
 "targetGround": true,
 "health": 3000,
 "size": 5,
-"reloadTime": 120,
+"reloadTime": 240,
 "shootCone": 20,
 "liquidCapacity": 60,
 "coolantMultiplier": 1,
