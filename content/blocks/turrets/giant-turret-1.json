@@ -27,7 +27,7 @@
 "consumes": {
 	"liquid": {
 		"liquid": "cryofluid",
-                "update": true,
+                "update": false,
 		"amount": 1
 		},
 	},
