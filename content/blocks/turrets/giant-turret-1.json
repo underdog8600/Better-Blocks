@@ -14,6 +14,7 @@
 	"damage": 150,
 	"width": 9,
 	"length": 240,
+        "ammoMultiplier": 1,
 	"colors": ["CD4238AA", "FF5845FF", "FFFFFFF", "FFFFFFF"],
 	},
 "powerUse": 10.0,
