@@ -27,6 +27,7 @@
 	"liquid": {
 		"liquid": "cryofluid",
                 "update": true,
+                "optional": false,
 		"amount": 1
 		},
 	},
