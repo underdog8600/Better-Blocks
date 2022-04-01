@@ -12,7 +12,7 @@
 	"shots": 3,
 	"range": 600,
 	"burstSpacing": 6,
-        "unitSort": strongest,
+        "unitSort": "strongest",
 	"ammoTypes": {
 		"silicon": {
 			"speed": 25,
