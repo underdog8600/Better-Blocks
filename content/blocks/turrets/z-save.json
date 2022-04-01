@@ -11,8 +11,10 @@
 "chargeEffects": 9,
 "recoil": 6,
 "shootType": 
-	{"type": "lancerLaser"
-	 "damage": 20000
+	{"type": "lancerLaser",
+	 "damage": 20000,
+         "lifetime": 16,
+         "length": 400
 	},
 "shootEffect": "lancerLaserShoot",
 "smokeEffect": "lancerLaserShootSmoke",
