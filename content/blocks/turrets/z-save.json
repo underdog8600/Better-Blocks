@@ -1,4 +1,4 @@
-"type": "LaserTurret",
+"type": "PowerTurret",
 "name": "Z",
 "description": "Saves the game",
 "targetAir": true,
