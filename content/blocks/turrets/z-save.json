@@ -22,7 +22,7 @@
 "chargeBeginEffect": "lancerLaserChargeBegin",
 "powerUse": 0.1,
 "shootShake": 1.9
-"reloadTime": 50,
+"reloadTime": 30,
 "shootCone": 80,
 "shots": 4,
 "range": 320,
