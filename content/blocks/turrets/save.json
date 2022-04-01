@@ -1,0 +1,32 @@
+"type": "LaserTurret",
+"name": "Z",
+"description": "Saves the game",
+"targetAir": true,
+"targetGround": true,
+"health": 15000,
+"size": 1,
+"inaccuracy": 1,
+"chargeTime": 1,
+"chargeMaxDelay": 10,
+"chargeEffects": 9,
+"recoil": 6,
+"shootType": 
+	{"type": "lancerLaser"
+	 "damage": 20000
+	},
+"shootEffect": "lancerLaserShoot",
+"smokeEffect": "lancerLaserShootSmoke",
+"chargeEffect": "lancerLaserCharge",
+"chargeBeginEffect": "lancerLaserChargeBegin",
+"powerUse": 0.1,
+"shootShake": 1.9
+"reloadTime": 50,
+"shootCone": 80,
+"shots": 4,
+"range": 320,
+"requirements": [
+	{ "item": "copper", "amount": 1}
+	],
+"category": "turret"
+"shootSound": "laser"
+"research": "small-turret-1"
