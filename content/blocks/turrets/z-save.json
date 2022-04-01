@@ -1,34 +1,31 @@
-"type": "PowerTurret",
-"name": "Z",
-"description": "Saves the game",
-"targetAir": true,
-"targetGround": true,
-"health": 15000,
-"size": 1,
-"inaccuracy": 1,
-"chargeTime": 1,
-"chargeMaxDelay": 10,
-"chargeEffects": 9,
-"recoil": 6,
-"shootType": 
-	{"type": "lancerLaser",
-	 "damage": 20000,
-         "lifetime": 16,
-         "length": 400
+{
+	"type": "ItemTurret",
+	"name": "Z",
+	"description": "Saves the game",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 1000000,
+	"size": 1,
+	"inaccuracy": 0,
+	"reloadTime": 6,
+	"shootCone": 40,
+	"shots": 5,
+	"range": 300,
+	"burstSpacing": 6,
+	"ammoTypes": {
+		"copper": {
+			"speed": 10,
+			"damage": 10000,
+			"width": 4,
+			"height": 6,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 10
+		}
 	},
-"shootEffect": "lancerLaserShoot",
-"smokeEffect": "lancerLaserShootSmoke",
-"chargeEffect": "lancerLaserCharge",
-"chargeBeginEffect": "lancerLaserChargeBegin",
-"powerUse": 0.1,
-"shootShake": 1.9
-"reloadTime": 30,
-"shootCone": 80,
-"shots": 4,
-"range": 320,
-"requirements": [
-	{ "item": "copper", "amount": 1}
+	"requirements": [
+		{ "item": "copper", "amount": 1}
 	],
-"category": "turret"
-"shootSound": "laser"
-"research": "small-turret-1"
+	"category": "turret"
+	"research": "duo"
+}
