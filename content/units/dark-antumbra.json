@@ -11,21 +11,6 @@
         "engineOffset": 21,
         "engineSize": 5.3,
         "hitSize": 46,
-            BulletType missiles = new MissileBulletType(2.7f, 18){
-                width = 8,
-                height = 8,
-                shrinkY = 0,
-                drag = -0.01,
-                splashDamageRadius = 20,
-                splashDamage = 37,
-                ammoMultiplier = 4,
-                lifetime = 50,
-                hitEffect = blastExplosion,
-                despawnEffect = blastExplosion,
-                status = StatusEffects.blasted,
-                statusDuration = 60,
-            },
-
         "weapons": [
             {"name": "missiles-mount",
              "y": 8,
