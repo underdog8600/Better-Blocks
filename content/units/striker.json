@@ -24,7 +24,7 @@
         "shots": 2,
         "inaccuracy": 2.0,
         "alternate": true,
-        "ejectEffect": "shellEjectSmall",
+        "ejectEffect": {"shellEjectSmall"},
         "shootSound": "shoot",
         "bullet": {
 			"speed": 20,
