@@ -26,8 +26,8 @@
                 statusDuration = 60,
             },
 
-            weapons.add(
-            new Weapon("missiles-mount"){
+        "weapons": [
+            {new Weapon("missiles-mount")
                 y = 8,
                 x = 17,
                 reload = 20,
@@ -67,4 +67,4 @@
                     shootEffect = shootBig,
                 }
             }
-            )
+            ]
