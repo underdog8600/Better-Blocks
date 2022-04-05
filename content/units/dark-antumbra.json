@@ -21,6 +21,7 @@
              "bullet": {
                 "width": 8,
                 "height": 8,
+                "damage": 20,
                 "shrinkY": 0,
                 "drag": -0.01,
                 "splashDamageRadius": 20,
@@ -44,6 +45,7 @@
              "bullet": {
                 "width": 8,
                 "height": 8,
+                "damage": 20,
                 "shrinkY": 0,
                 "drag": -0.01,
                 "splashDamageRadius": 20,
@@ -70,10 +72,11 @@
              "rotate": true,
              "shadow": 8,
              "bullet": {
-                 "width": 12,
-                 "height": 18,
-                 "lifetime": 25,
-                 "shootEffect": "shootBig",
+                "width": 12,
+                "height": 18,
+                "damage": 100,
+                "lifetime": 25,
+                "shootEffect": "shootBig",
                 }
             }
             ]
