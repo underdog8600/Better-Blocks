@@ -21,7 +21,7 @@
 	    { "item": "dark-steel", "amount": 1100}
     ],
     "consumes": {
-		"power": 5,
+		"power": 20,
 		"items": {
 			"items": [ {"item": "phase-fabric", "amount": 5},
                                    {"item": "nuclear-fuel", "amount": 1} ],
