@@ -31,7 +31,7 @@
 			"shootEffect": "shootBig",
 			"lightning": 2,
 			"lightningLength": 6,
-			"lightningColor": "surge",
+			"lightningColor": "f3e979",
 			"lightningDamage": 20,
 		},
 	},
