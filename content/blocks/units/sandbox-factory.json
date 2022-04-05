@@ -1,0 +1,12 @@
+"type": "UnitFactory",
+"size": 8,
+"consumes": {
+"power": 5
+},
+"plans": [
+	{"unit": "dark-antumbra","requirements": [{"item": "silicon", "amount": 1}],"time": 360}
+],
+    "requirements": [
+	{"item": "silicon", "amount": 5}
+],
+"category": "units"
