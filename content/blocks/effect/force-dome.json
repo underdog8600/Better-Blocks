@@ -10,7 +10,8 @@
     "phaseRadiusBoost": 100,
     "phaseUseTime": 350,
     "breakage": 260,
-    "cooldownNormal": 2,
+    "canOverdrive": true,
+    "cooldownNormal": 0.5,
     "cooldownLiquid": 0.2,
     "category": "effect",
     "requirements": [
