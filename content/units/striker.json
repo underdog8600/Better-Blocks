@@ -15,7 +15,7 @@
     "engineOffset": 3,
     "engineSize": 3,
 	"baseRotateSpeed": 0.05,
-    "weapons": {
+    "weapons": [{
         "x": 0,
         "y": 2,
         "length": 10.0,
@@ -34,5 +34,5 @@
 			"frontColor": "4acf4d",
 			"backColor": "8cff8f",
 		}
-    }
+    }]
 }
