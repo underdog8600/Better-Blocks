@@ -3,7 +3,7 @@
 	"name": "Titanium Compresor"
 	"description": "You can get compressed titanium from it.",
 	"health": 1800,
-	"itemCapacity": 15,
+	"itemCapacity": 20,
 	"outputItem": {"item": "comp-titanium", "amount": 1},
 	"size": 2,
 	"hasPower": true,
