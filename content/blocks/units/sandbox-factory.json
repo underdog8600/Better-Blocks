@@ -1,11 +1,8 @@
 "type": "UnitFactory",
 "size": 8,
 "buildVisibility": "sandboxOnly",
-"consumes": {"power": 5},
+"consumes": {"power": 1},
 "plans": [
-	{"unit": "dark-antumbra","requirements": [{"item": "silicon", "amount": 1}],"time": 360}
-],
-    "requirements": [
-	{"item": "silicon", "amount": 5}
+	{"unit": "dark-antumbra","requirements": [{"item": "silicon", "amount": 1}],"time": 180}
 ],
 "category": "units"
