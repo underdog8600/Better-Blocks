@@ -15,7 +15,7 @@
     "engineOffset": 3,
     "engineSize": 3,
 	"baseRotateSpeed": 0.05,
-    "weapon": {
+    "weapons": {
         "length": 10.0,
         "reloadTime": 20.0,
         "width": 20.0,
