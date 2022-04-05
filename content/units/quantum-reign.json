@@ -44,7 +44,7 @@
 				"hitEffect": "flakExplosion",
 				"splashDamage": 15,
 				"splashDamageRadius": 10
-						}
-					}
+				}
+			}
 		}
 	]
