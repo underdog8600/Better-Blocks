@@ -3,7 +3,7 @@
 	"name": "Thorium Compresor"
 	"description": "You can get compressed thorium from it.",
 	"health": 2600,
-	"itemCapacity": 15,
+	"itemCapacity": 20,
 	"outputItem": {"item": "comp-thorium", "amount": 1},
 	"size": 2,
 	"hasPower": true,
