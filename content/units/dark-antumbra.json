@@ -58,22 +58,22 @@
              "rotate": true,
              "shadow": 6,
             },
-            new Weapon("large-bullet-mount"){
-                y = 2,
-                x = 10,
-                shootY = 10,
-                reload = 12,
-                shake = 1,
-                rotateSpeed = 2,
-                ejectEffect = casing1,
-                shootSound = shootBig,
-                rotate = true,
-                shadow = 8,
-                bullet = new BasicBulletType(7f, 55){
-                    width = 12,
-                    height = 18,
-                    lifetime = 25,
-                    shootEffect = shootBig,
+            {"name":"large-bullet-mount",
+             "y": 2,
+             "x": 10,
+             "shootY": 10,
+             "reload": 12,
+             "shake": 1,
+             "rotateSpeed": 2,
+             "ejectEffect": "casing1",
+             "shootSound": "shootBig",
+             "rotate": true,
+             "shadow": 8,
+             "bullet": {
+                 "width": 12,
+                 "height": 18,
+                 "lifetime": 25,
+                 "shootEffect": "shootBig",
                 }
             }
             ]
