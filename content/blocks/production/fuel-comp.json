@@ -3,7 +3,7 @@
 	"name": "Fuel Compressor"
 	"description": "Makes Nuclear Fuel.",
 	"health": 5000,
-	"itemCapacity": 20,
+	"itemCapacity": 24,
 	"outputItem": {"item": "nuclear-fuel", "amount": 1},
 	"size": 3,
 	"hasPower": true,
