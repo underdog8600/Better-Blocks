@@ -3,7 +3,7 @@
     "name": "Force Dome",
     "description": "A better Force Projector with more range and shield health.",
     "size": 4,
-    "health": 500,
+    "health": 5000,
     "radius": 150,
     "shieldHealth": 10000,
     "phaseShieldBoost": 2000,
