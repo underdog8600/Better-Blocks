@@ -27,16 +27,28 @@
             },
 
         "weapons": [
-            {new Weapon("missiles-mount")
-                y = 8,
-                x = 17,
-                reload = 20,
-                ejectEffect = casing1,
-                rotateSpeed = 8,
-                bullet = missiles,
-                shootSound = missile,
-                rotate = true,
-                shadow = 6,
+            {"name": "missiles-mount",
+             "y": 8,
+             "x": 17,
+             "reload": 20,
+             "ejectEffect": "casing1",
+             "rotateSpeed": 8,
+             "bullet": {
+                "width": 8,
+                "height": 8,
+                "shrinkY": 0,
+                "drag": -0.01,
+                "splashDamageRadius": 20,
+                "splashDamage": 37,
+                "lifetime": 50,
+                "hitEffect": "blastExplosion",
+                "despawnEffect": "blastExplosion",
+                "status": "blasted",
+                "statusDuration": 60
+                        },
+                "shootSound": "missile",
+                "rotate": true,
+                "shadow": 6,
             },
             new Weapon("missiles-mount"){
                 y = -8,
