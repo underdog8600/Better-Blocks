@@ -11,8 +11,8 @@
     "phaseUseTime": 350,
     "breakage": 260,
     "canOverdrive": true,
-    "cooldownNormal": 20,
-    "cooldownLiquid": 2,
+    "cooldownNormal": 2,
+    "cooldownLiquid": 1.5,
     "category": "effect",
     "requirements": [
             {"item": "silicon", "amount": 800},
