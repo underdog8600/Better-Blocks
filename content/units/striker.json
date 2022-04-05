@@ -16,6 +16,8 @@
     "engineSize": 3,
 	"baseRotateSpeed": 0.05,
     "weapons": {
+        "x": 0,
+        "y": 2,
         "length": 10.0,
         "reloadTime": 20.0,
         "width": 20.0,
