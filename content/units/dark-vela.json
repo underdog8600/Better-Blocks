@@ -50,7 +50,7 @@
                         "incendAmount": 1,
                         "healPercent": 1,
                         "collidesTeam": true,
-                        "colors": ["98ffa9","FFFFFF"]
+                        "colors": ["98ffa933", "98ffa980", "FFFFFF"]
                        },
               "shootStatus": "slow",
               "shootStatusDuration": 259,
