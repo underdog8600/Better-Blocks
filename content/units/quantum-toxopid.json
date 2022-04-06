@@ -48,8 +48,8 @@
                         "serrationFadeOffset": 0,
                         "serrations": 10,
                         "serrationWidth": 6,
-                        "fromColor": Pal.sapBullet,
-                        "toColor": Pal.sapBulletBack,
+                        "fromColor": "bf92f9",
+                        "toColor": "6d56bf",
                         "shootEffect": "sparkShoot",
                         "smokeEffect": "sparkShoot"
                         }
