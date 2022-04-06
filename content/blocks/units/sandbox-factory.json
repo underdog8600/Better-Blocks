@@ -1,5 +1,5 @@
 "type": "UnitFactory",
-"size": 5,
+"size": 8,
 "buildVisibility": "sandboxOnly",
 "consumes": {"power": 1},
 "plans": [
