@@ -58,16 +58,26 @@
                 "statusDuration": 60,
                 }
             },
-            new Weapon("large-artillery"){{
-                y = -13f;
-                x = 20f;
-                reload = 12f;
-                ejectEffect = Fx.casing1;
-                rotateSpeed = 7f;
-                shake = 1f;
-                shootSound = Sounds.shoot;
-                rotate = true;
-                shadow = 12f;
-                bullet = fragBullet;
-            }});
-        }};
+            {"name": "quantum-large-artillery",
+             "y": -13,
+             "x": 20,
+             "reload": 12,
+             "ejectEffect": "casing1",
+             "rotateSpeed": 7,
+             "shake": 1,
+             "shootSound": "shoot",
+             "rotate": true,
+             "shadow": 12,
+             "bullet": {
+                "type": "FlakBulletType",
+                "shootEffect": "shootBig",
+                "ammoMultiplier": 4,
+                "splashDamage": 65,
+                "splashDamageRadius": 25,
+                "collidesGround": true,
+                "lifetime": 47,
+                "status": ["blasted"],
+                "statusDuration": 60,
+                }
+            }
+           ]
