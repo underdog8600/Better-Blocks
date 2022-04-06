@@ -10,7 +10,7 @@
        "legMoveSpace": 1,
        "legPairOffset": 3,
        "legLength": 30,
-       "legExtension": -15;
+       "legExtension": -15,
        "legBaseOffset": 10,
        "landShake": 1,
        "legLengthScl": 0.96,
@@ -23,17 +23,19 @@
        "hovering": true,
        "visualElevation": 0.65,
        "groundLayer": 75,
-            BulletType sapper = new SapBulletType(){{
-                sapStrength = 0.85f;
-                length = 55f;
-                damage = 40;
-                shootEffect = Fx.shootSmall;
-                hitColor = color = Color.valueOf("bf92f9");
-                despawnEffect = Fx.none;
-                width = 0.55f;
-                lifetime = 30f;
-                knockback = -1f;
-            }};
+
+           {"type": "SapBulletType",
+            "sapStrength": 0.85,
+            "length0: 55,
+            "damage": 40,
+            "shootEffect": "shootSmall",
+            "hitColor": "bf92f9",
+            "color": "bf92f9",
+            "despawnEffect": "none",
+            "width": 0.55,
+            "lifetime": 30,
+            "knockback0: -1,
+            }
 
             weapons.add(
             new Weapon("spiroct-weapon"){{
