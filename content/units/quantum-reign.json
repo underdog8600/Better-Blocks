@@ -1,4 +1,5 @@
 	"name": "Quantum Reign"
+        "type": "mech",
 	"speed": 0.35,
 	"hitSize": 26,
 	"rotateSpeed": 1.65,
