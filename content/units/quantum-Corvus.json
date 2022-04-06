@@ -47,17 +47,14 @@
                        "lightningDamage": 50,
                        "lightningAngleRand": 40,
                        "largeHit": true,
-                       "lightColor": lightningColor = Pal.heal;
-
-                    shootEffect = Fx.greenLaserCharge;
-
-                    healPercent = 25f;
-                    collidesTeam = true;
-
-                    sideAngle = 15f;
-                    sideWidth = 0f;
-                    sideLength = 0f;
-                    colors = new Color[]{Pal.heal.cpy().a(0.4f), Pal.heal, Color.white};
-                }};
-            }});
-        }};
+                       "lightColor": ["98ffa9"],
+                       "lightningColor": ["98ffa9"],
+                       "shootEffect": "greenLaserCharge",
+                       "healPercent": 25,
+                       "collidesTeam": true,
+                       "sideAngle": 15,
+                       "sideWidth": 0,
+                       "sideLength": 0,
+                       "colors": ["98ffa9".a(0.4f), "98ffa9", "ffffff"}]
+                     }
+          }]
