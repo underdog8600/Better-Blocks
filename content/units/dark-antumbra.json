@@ -26,7 +26,7 @@
                 "drag": -0.01,
                 "splashDamageRadius": 20,
                 "splashDamage": 37,
-                "lifetime": 100,
+                "lifetime": 50,
                 "hitEffect": "blastExplosion",
                 "despawnEffect": "blastExplosion",
                 "status": "blasted",
@@ -50,7 +50,7 @@
                 "drag": -0.01,
                 "splashDamageRadius": 20,
                 "splashDamage": 37,
-                "lifetime": 100,
+                "lifetime": 50,
                 "hitEffect": "blastExplosion",
                 "despawnEffect": "blastExplosion",
                 "status": "blasted",
@@ -75,7 +75,7 @@
                 "width": 12,
                 "height": 18,
                 "damage": 100,
-                "lifetime": 60,
+                "lifetime": 25,
                 "shootEffect": "shootBig",
                 }
             }
