@@ -32,7 +32,7 @@
             "recoil": 0,
             "cooldownTime": 350,
             "shootStatusDuration": 120,
-            "shootStatus": ["unmoving"],
+            "shootStatus": "unmoving",
             "firstShotDelay": 100,
             "parentizeEffects": true,
             "bullet": {"type": "LaserBulletType"
