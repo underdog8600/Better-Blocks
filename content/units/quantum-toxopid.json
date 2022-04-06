@@ -99,6 +99,7 @@
                                       "hitEffect": "sapExplosion",
                                       "knockback": 0.8,
                                       "lifetime": 90,
+                                      "speed": 3,
                                       "width": 20,
                                       "height": 20,
                                       "collidesTiles": false,
