@@ -37,28 +37,27 @@
                     "colors": ["ec7458aa", "ff9c5a", "ffffff"]
                     }
             },
-            new Weapon("large-artillery"){{
-                x = 11f;
-                y = 27f;
-                rotateSpeed = 2f;
-                reload = 9f;
-                shootSound = Sounds.shoot;
-                shadow = 7f;
-                rotate = true;
-                recoil = 0.5f;
-
-                "bullet": {
+            {"name": "quantum-large-artillery",
+             "x": 11,
+             "y": 27,
+             "rotateSpeed": 2,
+             "reload": 9,
+             "shootSound": "shoot",
+             "shadow": 7,
+             "rotate": true,
+             "recoil": 0.5,
+             "bullet": {
                 "type": "FlakBulletType",
                 "shootEffect": "shootBig",
                 "ammoMultiplier": 4,
                 "splashDamage": 65,
                 "splashDamageRadius": 25,
                 "collidesGround": true,
-                "lifetime"; 47,
+                "lifetime": 47,
                 "status": ["blasted"],
                 "statusDuration": 60,
                 }
-            }},
+            },
             new Weapon("large-artillery"){{
                 y = -13f;
                 x = 20f;
