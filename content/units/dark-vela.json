@@ -37,6 +37,7 @@
              "bullet": {"type": "ContinuousLaserBulletType",
                         "damage": 35,
                         "length": 180,
+                        "width": 40,
                         "hitEffect": "hitMeltHeal",
                         "drawSize": 420,
                         "lifetime": 160,
