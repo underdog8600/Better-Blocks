@@ -6,7 +6,7 @@
         "rotateSpeed": 1.9,
         "flying": true,
         "lowAltitude": true,
-        "health": 30000,
+        "health": 25000,
         "armor": 12,
         "engineOffset": 21,
         "engineSize": 5.3,
