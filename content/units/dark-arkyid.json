@@ -23,29 +23,26 @@
        "hovering": true,
        "visualElevation": 0.65,
        "groundLayer": 75,
-
-           {"type": "SapBulletType",
-            "sapStrength": 0.85,
-            "length": 55,
-            "damage": 40,
-            "shootEffect": "shootSmall",
-            "hitColor": "bf92f9",
-            "color": "bf92f9",
-            "despawnEffect": "none",
-            "width": 0.55,
-            "lifetime": 30,
-            "knockback": -1,
-            }
-
-            weapons.add(
-            new Weapon("spiroct-weapon"){{
-                reload = 9f;
-                x = 4f;
-                y = 8f;
-                rotate = true;
-                bullet = sapper;
-                shootSound = Sounds.sap;
-            }},
+       "weapons": [
+            {"name": "dark-spiroct-weapon",
+             "reload": 9,
+             "x": 4,
+             "y": 8,
+             "rotate": true,
+             "bullet": {"type": "SapBulletType",
+                        "sapStrength": 0.85,
+                        "length": 55,
+                        "damage": 40,
+                        "shootEffect": "shootSmall",
+                        "hitColor": "bf92f9",
+                        "color": "bf92f9",
+                        "despawnEffect": "none",
+                        "width": 0.55,
+                        "lifetime": 30,
+                        "knockback": -1,
+                        }
+             "shootSound": "sap"
+            },
             new Weapon("spiroct-weapon"){{
                 reload = 14f;
                 x = 9f;
