@@ -56,12 +56,13 @@
               "shootStatusDuration": 200,
             },
             {"name": "dark-repair-beam-weapon-center-large",
+             "type": "RepairBeamWeapon",
              "x": 11,
              "y": -7.5,
              "shootY": 6,
              "beamWidth": 0.8,
              "repairSpeed": 1.4,
-             "bullet": {"type": "BulletType",
+             "bullet": {"type": "",
                         "damage": 0,
                         "maxRange": 120
                        }
