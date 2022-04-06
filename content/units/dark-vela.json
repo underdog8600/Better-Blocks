@@ -50,19 +50,18 @@
                         "healPercent": 1,
                         "collidesTeam": true,
                         "colors": ["98ffa9", "white"],
-                },
-
+                       },
               "shootStatus": "slow",
               "shootStatusDuration": 259,
             },
-            weapons.add(new RepairBeamWeapon("repair-beam-weapon-center-large"){
-                x = 44 / 4f;
-                y = -30f / 4f;
-                shootY = 6f;
-                beamWidth = 0.8f;
-                repairSpeed = 1.4f;
-
-                bullet = new BulletType(){{
-                    maxRange = 120f;
-                }
+            {"name": "dark-repair-beam-weapon-center-large",
+             "x": 11,
+             "y": -7.5,
+             "shootY": 6,
+             "beamWidth": 0.8,
+             "repairSpeed": 1.4,
+             "bullet": {"type": "",
+                        "maxRange"; 120
+                       }
+             }
             ]
