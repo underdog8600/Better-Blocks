@@ -6,6 +6,7 @@
 	{"unit": "dark-antumbra","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "dark-scepter","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "quantum-reign","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
-	{"unit": "dark-vela","requirements": [{"item": "silicon", "amount": 1}],"time": 180}
+	{"unit": "dark-vela","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
+	{"unit": "quantum-corvus","requirements": [{"item": "silicon", "amount": 1}],"time": 180}
 ],
 "category": "units"
