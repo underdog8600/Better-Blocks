@@ -1,52 +1,45 @@
        "name": "toxopid",
        "type": "legs",
-            drag = 0.1f;
-            speed = 0.5f;
-            hitSize = 26f;
-            health = 22000;
-            armor = 13f;
-            lightRadius = 140f;
-
-            rotateSpeed = 1.9f;
-            drownTimeMultiplier = 3f;
-
-            legCount = 8;
-            legMoveSpace = 0.8f;
-            legPairOffset = 3;
-            legLength = 75f;
-            legExtension = -20;
-            legBaseOffset = 8f;
-            landShake = 1f;
-            legLengthScl = 0.93f;
-            rippleScale = 3f;
-            legSpeed = 0.19f;
-            ammoType = new ItemAmmoType(Items.graphite, 8);
-            buildSpeed = 1f;
-
-            legSplashDamage = 80;
-            legSplashRange = 60;
-
-            hovering = true;
-            visualElevation = 0.95f;
-            groundLayer = Layer.legUnit;
-
-            weapons.add(
-            new Weapon("large-purple-mount"){{
-                y = -5f;
-                x = 11f;
-                shootY = 7f;
-                reload = 30;
-                shake = 4f;
-                rotateSpeed = 2f;
-                ejectEffect = Fx.casing1;
-                shootSound = Sounds.shootBig;
-                rotate = true;
-                shadow = 12f;
-                recoil = 3f;
-                shots = 2;
-                spacing = 17f;
-
-                bullet = new ShrapnelBulletType(){{
+       "drag": 0.1,
+       "speed": 0.5,
+       "hitSize": 26,
+       "health": 22000,
+       "armor": 13,
+       "lightRadius": 140,
+       "rotateSpeed": 1.9,
+       "drownTimeMultiplier": 3,
+       "legCount": 8,
+       "legMoveSpace": 0.8,
+       "legPairOffset": 3,
+       "legLength": 75,
+       "legExtension": -20,
+       "legBaseOffset": 8,
+       "landShake": 1,
+       "legLengthScl": 0.93,
+       "rippleScale": 3,
+       "legSpeed": 0.19,
+       "buildSpeed": 1,
+       "legSplashDamage": 80,
+       "legSplashRange": 60,
+       "hovering": true,
+       "visualElevation": 0.95,
+       "groundLayer": 75,
+       "weapons": [
+            {"name": "quantum-large-purple-mount",
+             "y": -5,
+             "x": 11,
+             "shootY": 7,
+             "reload": 30,
+             "shake": 4,
+             "rotateSpeed": 2,
+             "ejectEffect": "casing1",
+             "shootSound": "shootBig",
+             "rotate": true,
+             "shadow": 12,
+             "recoil": 3,
+             "shots": 2,
+             "spacing": 17,
+             "bullet": {"type": "ShrapnelBulletType",
                     length = 90f;
                     damage = 110f;
                     width = 25f;
