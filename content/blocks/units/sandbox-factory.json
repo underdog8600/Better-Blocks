@@ -3,6 +3,12 @@
 "buildVisibility": "sandboxOnly",
 "consumes": {"power": 1},
 "plans": [
+	{"unit": "antumbra","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
+	{"unit": "scepter","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
+	{"unit": "reign","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
+	{"unit": "vela","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
+	{"unit": "corvus","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
+
 	{"unit": "dark-antumbra","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "dark-scepter","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "quantum-reign","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
