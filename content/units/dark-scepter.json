@@ -28,7 +28,7 @@
 			"width": 11,
 			"height": 20,
 			"lifetime": 25,
-                        "speed": 10,
+                        "speed": 8,
 			"shootEffect": "shootBig",
 			"lightning": 2,
 			"lightningLength": 6,
