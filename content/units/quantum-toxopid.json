@@ -84,38 +84,36 @@
                         "lightning": 5,
                         "lightningLength": 20,
                         "smokeEffect": "shootBigSmoke2",
-                    hitShake = 10f;
-                    lightRadius = 40f;
-                    lightColor = Pal.sap;
-                    lightOpacity = 0.6f;
-
-                    status = StatusEffects.sapped;
-                    statusDuration = 60f * 10;
-
-                    fragLifeMin = 0.3f;
-                    fragBullets = 9;
-
-                    fragBullet = new ArtilleryBulletType(2.3f, 30){{
-                        hitEffect = Fx.sapExplosion;
-                        knockback = 0.8f;
-                        lifetime = 90f;
-                        width = height = 20f;
-                        collidesTiles = false;
-                        splashDamageRadius = 70f;
-                        splashDamage = 40f;
-                        backColor = Pal.sapBulletBack;
-                        frontColor = lightningColor = Pal.sapBullet;
-                        lightning = 2;
-                        lightningLength = 5;
-                        smokeEffect = Fx.shootBigSmoke2;
-                        hitShake = 5f;
-                        lightRadius = 30f;
-                        lightColor = Pal.sap;
-                        lightOpacity = 0.5f;
-
-                        status = StatusEffects.sapped;
-                        statusDuration = 60f * 10;
-                    }};
-                }};
-            }});
-        }};
+                        "hitShake": 10,
+                        "lightRadius": 40,
+                        "lightColor": "665c9f",
+                        "lightOpacity": 0.6,
+                        "status": "sapped",
+                        "statusDuration": 600,
+                        "fragLifeMin": 0.3,
+                        "fragBullets": 9,
+                        "fragBullet": {"type": "ArtilleryBulletType",
+                                      "hitEffect": "sapExplosion",
+                                      "knockback": 0.8,
+                                      "lifetime": 90,
+                                      "width": 20,
+                                      "height": 20,
+                                      "collidesTiles": false,
+                                      "splashDamageRadius": 70,
+                                      "splashDamage": 40,
+                                      "backColor": "6d56bf",
+                                      "frontColor": "bf92f9",
+                                      "lightningColor": "bf92f9",
+                                      "lightning": 2,
+                                      "lightningLength": 5,
+                                      "smokeEffect": "shootBigSmoke2",
+                                      "hitShake": 5,
+                                      "lightRadius": 30,
+                                      "lightColor": "bf92f9",
+                                      "lightOpacity": 0.5,
+                                      "status": "sapped",
+                                      "statusDuration": 600
+                                      }
+                        }
+                 }
+        ]
