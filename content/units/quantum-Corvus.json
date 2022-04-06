@@ -1,45 +1,40 @@
-        corvus = new UnitType("corvus"){{
-            hitSize = 29f;
-            health = 18000f;
-            armor = 9f;
-            landShake = 1.5f;
-            rotateSpeed = 1.5f;
-            drownTimeMultiplier = 6f;
-
-            commandLimit = 8;
-
-            legCount = 4;
-            legLength = 14f;
-            legBaseOffset = 11f;
-            legMoveSpace = 1.5f;
-            legTrns = 0.58f;
-            hovering = true;
-            visualElevation = 0.2f;
-            ammoType = new PowerAmmoType(4000);
-            groundLayer = Layer.legUnit;
-
-            speed = 0.3f;
-
-            drawShields = false;
-
-            weapons.add(new Weapon("corvus-weapon"){{
-                shootSound = Sounds.laserblast;
-                chargeSound = Sounds.lasercharge;
-                soundPitchMin = 1f;
-                top = false;
-                mirror = false;
-                shake = 14f;
-                shootY = 5f;
-                x = y = 0;
-                reload = 350f;
-                recoil = 0f;
-
-                cooldownTime = 350f;
-
-                shootStatusDuration = 60f * 2f;
-                shootStatus = StatusEffects.unmoving;
-                firstShotDelay = Fx.greenLaserCharge.lifetime;
-                parentizeEffects = true;
+       "name": "Quantum Corvus",
+       "type": "legs",
+       "hitSize": 29,
+       "health": 18000,
+       "armor": 9,
+       "landShake": 1.5,
+       "rotateSpeed": 1.5,
+       "drownTimeMultiplier": 6,
+       "commandLimit": 8,
+       "legCount": 4,
+       "legLength": 14,
+       "legBaseOffset": 11,
+       "legMoveSpace": 1.5,
+       "legTrns": 0.58,
+       "hovering": true,
+       "visualElevation": 0.2,
+       "groundLayer": 75,
+       "speed": 0.3,
+       "drawShields": false,
+       "weapons":[
+           {"name": "quantum-corvus-weapon",
+            "shootSound": "laserblast",
+            "chargeSound": "lasercharge",
+            "soundPitchMin": 1,
+            "top": false,
+            "mirror": false,
+            "shake": 14,
+            "shootY": 5,
+            "x": 0, 
+            "y": 0,
+            "reload": 350,
+            "recoil": 0,
+            "cooldownTime": 350,
+            "shootStatusDuration": 120,
+            "shootStatus": ["unmoving"],
+            "firstShotDelay": greenLaserCharge.lifetime,
+            "parentizeEffects": true,
 
                 bullet = new LaserBulletType(){{
                     length = 460f;
