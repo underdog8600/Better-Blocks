@@ -1,0 +1,13 @@
+            "name": "Repair Turret"
+            "type": "RepairPoint"
+            requirements(Category.units, with(Items.silicon, 90, Items.thorium, 80, Items.plastanium, 60));
+            "size": 2,
+            "length": 6,
+            "repairSpeed": 3,
+            "repairRadius": 145,
+            "powerUse": 5,
+            "beamWidth": 1.1,
+            "pulseRadius": 6.1,
+            "coolantUse": 0.16,
+            "coolantMultiplier": 1.6,
+            "acceptCoolant": true
