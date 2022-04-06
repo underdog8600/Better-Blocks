@@ -1,6 +1,5 @@
-            "name": "Repair Turret"
-            "type": "RepairPoint"
-            requirements(Category.units, with(Items.silicon, 90, Items.thorium, 80, Items.plastanium, 60));
+            "name": "Repair Turret",
+            "type": "RepairPoint",
             "size": 2,
             "length": 6,
             "repairSpeed": 3,
@@ -10,4 +9,11 @@
             "pulseRadius": 6.1,
             "coolantUse": 0.16,
             "coolantMultiplier": 1.6,
-            "acceptCoolant": true
+            "acceptCoolant": true,
+            "requirements": [
+		{ "item": "silicon", "amount": 90 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "plastanium", "amount": 60 }
+	],
+            "category": "units",
+	"research": "repair-point"
