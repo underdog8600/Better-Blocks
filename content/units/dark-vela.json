@@ -62,6 +62,7 @@
              "beamWidth": 0.8,
              "repairSpeed": 1.4,
              "bullet": {"type": "",
+                        "damage": 0,
                         "maxRange": 120
                        }
              }
