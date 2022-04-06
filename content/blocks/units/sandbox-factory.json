@@ -17,7 +17,7 @@
 	{"unit": "dark-vela","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "quantum-corvus","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "dark-arkyid","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
-
+	{"unit": "quantum-toxopid","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "dark-antumbra","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "quantum-eclipse","requirements": [{"item": "silicon", "amount": 1}],"time": 180}
 ],
