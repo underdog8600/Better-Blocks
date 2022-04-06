@@ -61,7 +61,7 @@
              "shootY": 6,
              "beamWidth": 0.8,
              "repairSpeed": 1.4,
-             "bullet": {"type": "",
+             "bullet": {"type": "BulletType",
                         "damage": 0,
                         "maxRange": 120
                        }
