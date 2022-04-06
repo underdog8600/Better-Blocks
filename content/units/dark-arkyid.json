@@ -26,7 +26,7 @@
 
            {"type": "SapBulletType",
             "sapStrength": 0.85,
-            "length0: 55,
+            "length": 55,
             "damage": 40,
             "shootEffect": "shootSmall",
             "hitColor": "bf92f9",
@@ -34,7 +34,7 @@
             "despawnEffect": "none",
             "width": 0.55,
             "lifetime": 30,
-            "knockback0: -1,
+            "knockback": -1,
             }
 
             weapons.add(
