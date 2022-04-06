@@ -49,7 +49,7 @@
                         "incendAmount": 1,
                         "healPercent": 1,
                         "collidesTeam": true,
-                        "colors": Color[]{Pal.heal.cpy().a(.2f), Pal.heal.cpy().a(.5f), Pal.heal.cpy().mul(1.2f), Color.white},
+                        "colors": ["98ffa9", "white"],
                 },
 
               "shootStatus": "slow",
