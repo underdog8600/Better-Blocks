@@ -33,24 +33,21 @@
             "cooldownTime": 350,
             "shootStatusDuration": 120,
             "shootStatus": ["unmoving"],
-            "firstShotDelay": greenLaserCharge.lifetime,
+            "firstShotDelay": 100,
             "parentizeEffects": true,
-
-                bullet = new LaserBulletType(){{
-                    length = 460f;
-                    damage = 560f;
-                    width = 75f;
-
-                    lifetime = 65f;
-
-                    lightningSpacing = 35f;
-                    lightningLength = 5;
-                    lightningDelay = 1.1f;
-                    lightningLengthRand = 15;
-                    lightningDamage = 50;
-                    lightningAngleRand = 40f;
-                    largeHit = true;
-                    lightColor = lightningColor = Pal.heal;
+            "bullet": {"type": "LaserBulletType"
+                       "length": 460,
+                       "damage": 560,
+                       "width": 75,
+                       "lifetime": 65,
+                       "lightningSpacing": 35,
+                       "lightningLength": 5,
+                       "lightningDelay": 1.1,
+                       "lightningLengthRand": 15,
+                       "lightningDamage": 50,
+                       "lightningAngleRand": 40,
+                       "largeHit": true,
+                       "lightColor": lightningColor = Pal.heal;
 
                     shootEffect = Fx.greenLaserCharge;
 
