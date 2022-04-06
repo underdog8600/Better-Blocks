@@ -48,7 +48,7 @@
              "x": 9,
              "y": 6,
              "rotate": true,
-             "bullet" {"type": "SapBulletType",
+             "bullet": {"type": "SapBulletType",
                         "sapStrength": 0.85,
                         "length": 55,
                         "damage": 40,
@@ -60,7 +60,7 @@
                         "lifetime": 30,
                         "knockback": -1,
                         },
-             shootSound": "sap"
+             "shootSound": "sap"
             },
             {"name": "dark-spiroct-weapon",
              "reload": 22,
