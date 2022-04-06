@@ -112,6 +112,6 @@
                         "shake": 5,
                         "status": "sapped",
                         "statusDuration": 600
-                }
+                       }
             }
         ]
