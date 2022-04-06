@@ -16,7 +16,7 @@
 "armor": 9,
 "canBoost": true,
 "landShake": 4,
-"immunities": [{"burning"}],
+"immunities": ["burning"],
 "commandLimit": 8,
 "singleTarget": true,
 "weapons": [{"name": "dark-vela-weapon",
