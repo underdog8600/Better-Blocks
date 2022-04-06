@@ -54,7 +54,7 @@
                 "splashDamageRadius": 25,
                 "collidesGround": true,
                 "lifetime": 47,
-                "status": ["blasted"],
+                "status": "blasted",
                 "statusDuration": 60,
                 }
             },
@@ -76,7 +76,7 @@
                 "splashDamageRadius": 25,
                 "collidesGround": true,
                 "lifetime": 47,
-                "status": ["blasted"],
+                "status": "blasted",
                 "statusDuration": 60,
                 }
             }
