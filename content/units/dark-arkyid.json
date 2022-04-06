@@ -99,6 +99,7 @@
                         "lifetime": 70,
                         "width": 19,
                         "height": 19,
+                        "speed": 4,
                         "collidesTiles": true,
                         "ammoMultiplier": 4,
                         "splashDamageRadius": 70,
