@@ -34,34 +34,27 @@
              "shootSound": "beam",
              "continuous": true,
              "cooldownTime": 200,
+             "bullet": {"type": "ContinuousLaserBulletType",
+                        "damage": 35,
+                        "length": 180,
+                        "hitEffect": "hitMeltHeal",
+                        "drawSize": 420,
+                        "lifetime": 160,
+                        "shake": 1,
+                        "despawnEffect": "smokeCloud",
+                        "smokeEffect": "none",
+                        "shootEffect": "greenLaserChargeSmall",
+                        "incendChance": 0.1,
+                        "incendSpread": 5,
+                        "incendAmount": 1,
+                        "healPercent": 1,
+                        "collidesTeam": true,
+                        "colors": Color[]{Pal.heal.cpy().a(.2f), Pal.heal.cpy().a(.5f), Pal.heal.cpy().mul(1.2f), Color.white},
+                },
 
-                bullet = new ContinuousLaserBulletType(){
-                    damage = 35f;
-                    length = 180f;
-                    hitEffect = Fx.hitMeltHeal;
-                    drawSize = 420f;
-                    lifetime = 160f;
-                    shake = 1f;
-                    despawnEffect = Fx.smokeCloud;
-                    smokeEffect = Fx.none;
-
-                    shootEffect = Fx.greenLaserChargeSmall;
-
-                    incendChance = 0.1f;
-                    incendSpread = 5f;
-                    incendAmount = 1;
-
-                    
-                    healPercent = 1f;
-                    collidesTeam = true;
-
-                    colors = new Color[]{Pal.heal.cpy().a(.2f), Pal.heal.cpy().a(.5f), Pal.heal.cpy().mul(1.2f), Color.white};
-                };
-
-                shootStatus = StatusEffects.slow;
-                shootStatusDuration = bullet.lifetime + firstShotDelay;
+              "shootStatus": "slow",
+              "shootStatusDuration": bullet.lifetime + firstShotDelay,
             },
-
             weapons.add(new RepairBeamWeapon("repair-beam-weapon-center-large"){
                 x = 44 / 4f;
                 y = -30f / 4f;
