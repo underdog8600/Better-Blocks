@@ -1,30 +1,24 @@
-       vela = new UnitType("vela")
-            hitSize = 24f;
-
-            rotateSpeed = 1.8f;
-            mechFrontSway = 1f;
-            buildSpeed = 3f;
-
-            mechStepParticles = true;
-            mechStepShake = 0.15f;
-            ammoType = new PowerAmmoType(2500);
-            drownTimeMultiplier = 4f;
-
-            speed = 0.44f;
-            boostMultiplier = 2.4f;
-            engineOffset = 12f;
-            engineSize = 6f;
-            lowAltitude = true;
-            riseSpeed = 0.02f;
-
-            health = 8200f;
-            armor = 9f;
-            canBoost = true;
-            landShake = 4f;
-            immunities = ObjectSet.with(StatusEffects.burning);
-
-            commandLimit = 8;
-            singleTarget = true;
+"name": "Dark Vela"
+"hitSize": 24,
+"rotateSpeed": 1.8,
+"mechFrontSway": 1,
+"buildSpeed": 3,
+"mechStepParticles": true,
+"mechStepShake": 0.15,
+"drownTimeMultiplier": 4,
+"speed": 0.44,
+"boostMultiplier": 2.4,
+"engineOffset": 12,
+"engineSize": 6,
+"lowAltitude": true,
+"riseSpeed": 0.02,
+"health": 8200,
+"armor": 9,
+"canBoost": true,
+"landShake": 4,
+"immunities": {"burning"},
+"commandLimit": 8,
+"singleTarget": true,
 
             weapons.add(new Weapon("vela-weapon"){{
                 mirror = false;
