@@ -81,37 +81,37 @@
                         },
              "shootSound": "sap"
             },
-            new Weapon("large-purple-mount"){{
-                y = -7f;
-                x = 9f;
-                shootY = 7f;
-                reload = 45;
-                shake = 3f;
-                rotateSpeed = 2f;
-                ejectEffect = Fx.casing1;
-                shootSound = Sounds.artillery;
-                rotate = true;
-                shadow = 8f;
-                recoil = 3f;
-
-                bullet = new ArtilleryBulletType(2f, 12){{
-                    hitEffect = Fx.sapExplosion;
-                    knockback = 0.8f;
-                    lifetime = 70f;
-                    width = height = 19f;
-                    collidesTiles = true;
-                    ammoMultiplier = 4f;
-                    splashDamageRadius = 70f;
-                    splashDamage = 65f;
-                    backColor = Pal.sapBulletBack;
-                    frontColor = lightningColor = Pal.sapBullet;
-                    lightning = 3;
-                    lightningLength = 10;
-                    smokeEffect = Fx.shootBigSmoke2;
-                    shake = 5f;
-
-                    status = StatusEffects.sapped;
-                    statusDuration = 60f * 10;
-                }};
-            }});
-        }};
+            {"name": "dark-large-purple-mount",
+             "y": -7,
+             "x": 9,
+             "shootY": 7,
+             "reload": 45,
+             "shake": 3,
+             "rotateSpeed": 2,
+             "ejectEffect": "casing1",
+             "shootSound": "artillery",
+             "rotate": true,
+             "shadow": 8,
+             "recoil": 3,
+             "bullet": {"type": "ArtilleryBulletType",
+                        "hitEffect": "sapExplosion",
+                        "knockback": 0.8,
+                        "lifetime": 70,
+                        "width": 19,
+                        "height": 19,
+                        "collidesTiles": true,
+                        "ammoMultiplier": 4,
+                        "splashDamageRadius": 70,
+                        "splashDamage": 65,
+                        "backColor": Pal.sapBulletBack,
+                        "frontColor": "",
+                        "lightningColor": Pal.sapBullet,
+                        "lightning": 3,
+                        "lightningLength": 10,
+                        "smokeEffect": "shootBigSmoke2",
+                        "shake": 5,
+                        "status": "sapped",
+                        "statusDuration": 600
+                }
+            }
+        ]
