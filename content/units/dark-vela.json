@@ -36,7 +36,7 @@
              "continuous": true,
              "cooldownTime": 200,
              "bullet": {"type": "ContinuousLaserBulletType",
-                        "damage": 35,
+                        "damage": 47,
                         "length": 180,
                         "width": 8,
                         "hitEffect": "hitMeltHeal",
@@ -49,7 +49,7 @@
                         "incendChance": 0.1,
                         "incendSpread": 5,
                         "incendAmount": 1,
-                        "healPercent": 1,
+                        "healPercent": 5,
                         "collidesTeam": true,
                         "colors": ["98ffa933", "98ffa980", "98ffa9CC", "FFFFFF"]
                        },
