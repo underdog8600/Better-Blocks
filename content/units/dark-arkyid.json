@@ -96,7 +96,7 @@
              "bullet": {"type": "ArtilleryBulletType",
                         "hitEffect": "sapExplosion",
                         "knockback": 0.8,
-                        "lifetime": 100,
+                        "lifetime": 80,
                         "width": 19,
                         "height": 19,
                         "speed": 2,
