@@ -37,7 +37,7 @@
             "parentizeEffects": true,
             "bullet": {"type": "LaserBulletType"
                        "length": 460,
-                       "damage": 560,
+                       "damage": 730,
                        "width": 75,
                        "lifetime": 65,
                        "lightningSpacing": 35,
@@ -50,7 +50,7 @@
                        "lightColor": "88558e",
                        "lightningColor": "88558e",
                        "shootEffect": "greenLaserCharge",
-                       "healPercent": 25,
+                       "healPercent": 35,
                        "collidesTeam": true,
                        "sideAngle": 15,
                        "sideWidth": 0,
