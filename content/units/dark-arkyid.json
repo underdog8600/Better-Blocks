@@ -1,6 +1,6 @@
        "name": "Dark Arkyid",
        "type": "legs",
-       "legacy": true,
+       "allowLegStep": true,
        "drag": 0.1,
        "speed": 0.62,
        "hitSize": 23,
