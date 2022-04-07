@@ -19,7 +19,7 @@
        "rippleScale": 3,
        "legSpeed": 0.19,
        "buildSpeed": 1,
-       "legSplashDamage": 80,
+       "legSplashDamage": 160,
        "legSplashRange": 60,
        "hovering": true,
        "visualElevation": 0.95,
