@@ -29,7 +29,7 @@
 			"height": 20,
 			"lifetime": 25,
                         "speed": 8,
-                        "damage": 60,
+                        "damage": 58,
 			"shootEffect": "shootBig",
 			"lightning": 2,
 			"lightningLength": 6,
@@ -43,7 +43,7 @@
 		"y": 6,
 		"rotate": true,
 		"ejectEffect": "casing1",
-		"bullet": "standardCopper",
+		"bullet": "standardThorium",
 	},
 	{"name": "dark-mount-weapon"
 		"reload": 16,
@@ -51,6 +51,6 @@
 		"y": -7,
 		"rotate": true,
 		"ejectEffect": "casing1",
-		"bullet": "standardCopper",
+		"bullet": "standardThorium",
 	}
 		]
