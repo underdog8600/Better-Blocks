@@ -43,7 +43,15 @@
 		"y": 6,
 		"rotate": true,
 		"ejectEffect": "casing1",
-		"bullet": "standardThorium",
+		"bullet": {
+                           "width": 7,
+                           "height": 9,
+                           "speed": 3,
+                           "damage": 28,
+                           "lifetime": 60,
+                           "shootEffect": "shootSmall",
+                           "smokeEffect": "shootSmallSmoke"
+                          }
 	},
 	{"name": "dark-mount-weapon"
 		"reload": 16,
@@ -51,6 +59,14 @@
 		"y": -7,
 		"rotate": true,
 		"ejectEffect": "casing1",
-		"bullet": "standardThorium",
+		"bullet": {
+                           "width": 7,
+                           "height": 9,
+                           "speed": 3,
+                           "damage": 28,
+                           "lifetime": 60,
+                           "shootEffect": "shootSmall",
+                           "smokeEffect": "shootSmallSmoke"
+                          }
 	}
 		]
