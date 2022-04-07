@@ -28,10 +28,11 @@
 			"height": 33,
 			"lifetime": 15,
                         "speed": 14,
+                        "damage": 85,
 			"shootEffect": "shootBig",
 			"fragVelocityMin": 0.4,
 			"hitEffect": "blastExplosion",
-			"splashDamage": 16,
+			"splashDamage": 20,
 			"splashDamageRadius": 13,
 			"fragBullets": 3,
 			"fragLifeMin": 0,
@@ -44,7 +45,7 @@
 				"pierceCap": 3,
 				"lifetime": 20,
 				"hitEffect": "flakExplosion",
-				"splashDamage": 15,
+				"splashDamage": 18,
 				"splashDamageRadius": 10
 				}
 			}
