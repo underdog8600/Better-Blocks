@@ -1,5 +1,6 @@
        "name": "Quantum Corvus",
        "type": "legs",
+       "allowLegStep": true,
        "hitSize": 29,
        "health": 52000,
        "armor": 12,
