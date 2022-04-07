@@ -8,7 +8,7 @@
   },
   "health": 340,
   "itemCapacity": 30,
-  "fluidCapacity": 50,
+  "liquidCapacity": 50,
   "size": 3,
   "craftTime": 60,
   "hasPower": true,
