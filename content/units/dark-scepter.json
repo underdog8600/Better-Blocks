@@ -29,11 +29,12 @@
 			"height": 20,
 			"lifetime": 25,
                         "speed": 8,
+                        "damage": 60,
 			"shootEffect": "shootBig",
 			"lightning": 2,
 			"lightningLength": 6,
 			"lightningColor": "f3e979",
-			"lightningDamage": 20,
+			"lightningDamage": 24,
 		},
 	},
 	{"name": "dark-mount-weapon"
