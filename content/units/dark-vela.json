@@ -36,7 +36,7 @@
              "continuous": true,
              "cooldownTime": 200,
              "bullet": {"type": "ContinuousLaserBulletType",
-                        "damage": 47,
+                        "damage": 44,
                         "length": 180,
                         "width": 8,
                         "hitEffect": "hitMeltHeal",
