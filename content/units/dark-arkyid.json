@@ -17,7 +17,7 @@
        "rippleScale": 2,
        "legSpeed": 0.2,
        "buildSpeed": 1,
-       "legSplashDamage": 32,
+       "legSplashDamage": 60,
        "legSplashRange": 30,
        "drownTimeMultiplier": 2,
        "hovering": true,
