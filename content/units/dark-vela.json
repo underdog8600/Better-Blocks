@@ -36,7 +36,7 @@
              "continuous": true,
              "cooldownTime": 200,
              "bullet": {"type": "ContinuousLaserBulletType",
-                        "damage": 40,
+                        "damage": 80,
                         "length": 180,
                         "width": 8,
                         "hitEffect": "hitMeltHeal",
@@ -58,7 +58,6 @@
             }],
             "RepairBeamWeapon": [
             {"name": "dark-repair-beam-weapon-center-large",
-             "type": "RepairBeamWeapon",
              "x": 11,
              "y": -7.5,
              "shootY": 6,
