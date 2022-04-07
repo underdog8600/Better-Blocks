@@ -40,7 +40,7 @@
              "shots": 2,
              "spacing": 17,
              "bullet": {"type": "ShrapnelBulletType",
-                        "length": 90,
+                        "length": 110,
                         "damage": 200,
                         "width": 25,
                         "serrationLenScl": 7,
