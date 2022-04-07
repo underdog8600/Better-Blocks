@@ -1,5 +1,6 @@
        "name": "Quantum Toxopid",
        "type": "legs",
+       "allowLegStep": true,
        "drag": 0.1,
        "speed": 0.5,
        "hitSize": 26,
