@@ -43,7 +43,7 @@
 		"y": 6,
 		"rotate": true,
 		"ejectEffect": "casing1",
-		"bullet": "standardThorium",
+		"bullet": "standardDense",
 	},
 	{"name": "dark-mount-weapon"
 		"reload": 16,
@@ -51,6 +51,6 @@
 		"y": -7,
 		"rotate": true,
 		"ejectEffect": "casing1",
-		"bullet": "standardThorium",
+		"bullet": "standardDense",
 	}
 		]
