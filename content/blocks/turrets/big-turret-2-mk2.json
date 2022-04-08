@@ -13,6 +13,15 @@
         "burstSpacing": 4,
 	"range": 350,
 	"ammoTypes": {
+		"compressed-titanium": {
+			"speed": 12,
+			"damage": 500,
+			"width": 6,
+			"height": 15,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 6
+		},
 		"super-tithorium": {
 			"speed": 12,
 			"damage": 700,
