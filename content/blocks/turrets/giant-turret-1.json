@@ -3,7 +3,7 @@
 "description": "GIANT TURRET that needs alot of energy and cryofluid",
 "targetAir": true,
 "targetGround": true,
-"health": 3000,
+"health": 7500,
 "size": 5,
 "reloadTime": 240,
 "shootCone": 20,
