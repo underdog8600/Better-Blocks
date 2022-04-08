@@ -4,7 +4,7 @@
 	"description": "Combines the best materials to produce QUANTUM INGOT.",
 	"health": 14000,
 	"liquidCapacity": 200,
-	"itemCapacity": 60,
+	"itemCapacity": 10,
 	"outputItem": {"item": "quantum-ingot", "amount": 1},
 	"size": 3,
 	"hasPower": true,
