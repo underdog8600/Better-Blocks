@@ -7,7 +7,7 @@
 	"health": 40000,
 	"size": 8,
 	"inaccuracy": 0.001,
-	"reloadTime": 40,
+	"reloadTime": 25,
 	"shootCone": 40,
 	"shots": 2,
 	"range": 360,
@@ -25,7 +25,7 @@
 		},
 		"quantum-ingot": {
 			"speed": 25,
-			"damage": 2500,
+			"damage": 2000,
                         "type": "BasicBulletType",
 			"width": 24,
 			"height": 30,
@@ -35,7 +35,7 @@
 		},
 		"infinitium": {
 			"speed": 40,
-			"damage": 5000,
+			"damage": 4000,
                         "type": "BasicBulletType",
 			"width": 34,
 			"height": 45,
