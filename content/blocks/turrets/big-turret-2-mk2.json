@@ -7,15 +7,14 @@
 	"health": 25000,
 	"size": 4,
 	"inaccuracy": 0.1,
-	"reloadTime": 2,
+	"reloadTime": 12,
 	"shootCone": 40,
-	"shots": 8,
+	"shots": 1
 	"range": 350,
-	"burstSpacing": 6,
 	"ammoTypes": {
 		"super-tithorium": {
 			"speed": 12,
-			"damage": 12,
+			"damage": 700,
 			"width": 6,
 			"height": 15,
 			"shootEffect": "shootSmall",
@@ -24,7 +23,7 @@
 		},
 		"quantum-ingot": {
 			"speed": 25,
-			"damage": 25,
+			"damage": 900,
 			"width": 8,
 			"height": 25,
 			"shootEffect": "shootSmall",
