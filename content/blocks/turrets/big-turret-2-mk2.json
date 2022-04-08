@@ -13,7 +13,7 @@
         "burstSpacing": 4,
 	"range": 350,
 	"ammoTypes": {
-		"compressed-titanium": {
+		"comp-titanium": {
 			"speed": 12,
 			"damage": 500,
 			"width": 6,
