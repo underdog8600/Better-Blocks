@@ -35,7 +35,7 @@
 		},
 		"infinitium": {
 			"speed": 40,
-			"damage": 10000,
+			"damage": 5000,
                         "type": "BasicBulletType",
 			"width": 34,
 			"height": 45,
