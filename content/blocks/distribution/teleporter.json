@@ -7,7 +7,7 @@
 	"rotateSpeed": 100.0,
 	"hasPower": true
 	"minDistribute": 1,
-	"reloadTime": 5,
+	"reloadTime": 30,
 	"range": 500
 	"itemCapacity": 60,
 	"translation": 1,
@@ -20,9 +20,9 @@
 	},
 	"size": 1,
 	"requirements": [
-		{ "item": "dark-steel", "amount": 35 },
-		{ "item": "enriched-uran", "amount": 12 },
-                { "item": "quantum-ingot", "amount": 1}
+		{ "item": "dark-steel", "amount": 35},
+		{ "item": "enriched-uran", "amount": 12},
+                { "item": "quantum-ingot", "amount": 2}
 	],
 	"category": "distribution"
 	"research": "uran-conveyor"
