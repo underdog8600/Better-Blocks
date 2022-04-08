@@ -13,15 +13,15 @@
 	"range": 360,
 	"burstSpacing": 3,
 	"ammoTypes": {
-		"silicon": {
+		"super-tithorium": {
 			"speed": 25,
-			"damage": 1000,
+			"damage": 1200,
                         "type": "BasicBulletType",
 			"width": 18,
 			"height": 24,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 2
+			"ammoMultiplier": 15
 		},
 		"quantum-ingot": {
 			"speed": 25,
@@ -31,7 +31,7 @@
 			"height": 30,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 20
+			"ammoMultiplier": 30,
 		},
 		"infinitium": {
 			"speed": 40,
@@ -41,7 +41,7 @@
 			"height": 45,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 30
+			"ammoMultiplier": 45
 		}
 	},
 	"requirements": [
