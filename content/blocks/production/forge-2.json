@@ -8,10 +8,10 @@
 	"size": 3,
 	"hasPower": true,
 	"hasItems": true,
-	"craftTime": 120,
+	"craftTime": 60,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 2.8,
+		"power": 3.5,
 		"items": {
 			"items": [
 				{ "item": "tithorium", "amount": 2 },
