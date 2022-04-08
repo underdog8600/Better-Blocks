@@ -4,7 +4,7 @@
 	"description": "Faster and stronger version of U120-Super",
 	"targetAir": true,
 	"targetGround": true,
-	"health": 4000,
+	"health": 12000,
 	"size": 4,
 	"inaccuracy": 0.1,
 	"reloadTime": 50,
