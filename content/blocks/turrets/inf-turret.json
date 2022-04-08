@@ -7,7 +7,7 @@
 	"health": 20000,
 	"size": 8,
 	"inaccuracy": 0.001,
-	"reloadTime": 60,
+	"reloadTime": 40,
 	"shootCone": 40,
 	"shots": 2,
 	"range": 360,
@@ -15,7 +15,7 @@
 	"ammoTypes": {
 		"silicon": {
 			"speed": 25,
-			"damage": 850,
+			"damage": 1000,
                         "type": "BasicBulletType",
 			"width": 24,
 			"height": 30,
@@ -31,7 +31,7 @@
 			"height": 30,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 1
+			"ammoMultiplier": 20
 		},
 		"infinitium": {
 			"speed": 40,
@@ -41,7 +41,7 @@
 			"height": 45,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 2
+			"ammoMultiplier": 30
 		}
 	},
 	"requirements": [
