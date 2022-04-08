@@ -11,17 +11,17 @@
 	"shootCone": 40,
 	"shots": 2,
 	"range": 360,
-	"burstSpacing": 1,
+	"burstSpacing": 3,
 	"ammoTypes": {
 		"silicon": {
 			"speed": 25,
 			"damage": 1000,
                         "type": "BasicBulletType",
-			"width": 24,
-			"height": 30,
+			"width": 18,
+			"height": 24,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 1
+			"ammoMultiplier": 2
 		},
 		"quantum-ingot": {
 			"speed": 25,
