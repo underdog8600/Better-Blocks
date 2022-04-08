@@ -14,7 +14,7 @@
 		"power": 2.8,
 		"items": {
 			"items": [
-				{ "item": "tithorium", "amount": 3 },
+				{ "item": "tithorium", "amount": 2 },
 				{ "item": "thorium", "amount": 20 }
 			]
 		}
