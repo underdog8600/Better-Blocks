@@ -3,7 +3,7 @@
 "buildVisibility": "sandboxOnly",
 "consumes": {"power": 1},
 "plans": [
-	{"unit": "scepter","time": 180},
+	{"unit": "scepter","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
 	{"unit": "reign","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "vela","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "corvus","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
