@@ -3,7 +3,7 @@
 "buildVisibility": "sandboxOnly",
 "consumes": {"power": 1},
 "plans": [
-	{"unit": "scepter","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
+	{"unit": "scepter","time": 180},
 	{"unit": "reign","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "vela","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "corvus","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
@@ -20,5 +20,5 @@
 	{"unit": "quantum-toxopid","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "dark-antumbra","requirements": [{"item": "silicon", "amount": 1}],"time": 180},
 	{"unit": "quantum-eclipse","requirements": [{"item": "silicon", "amount": 1}],"time": 180}
-],
+]
 "category": "units"
