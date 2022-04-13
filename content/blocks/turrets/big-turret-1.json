@@ -11,10 +11,20 @@
 	{"type": "lancerLaser"
 	 "damage": 20
 	},
+
+"ammoTypes": {
+		"tithorium": {
+			"speed": 8,
+			"damage": 4,
+			"width": 4,
+			"height": 6,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 10
+		}
+             },
 "shootEffect": "lancerLaserShoot",
 "smokeEffect": "lancerLaserShootSmoke",
-"chargeEffect": "lancerLaserCharge",
-"chargeBeginEffect": "lancerLaserChargeBegin",
 "powerUse": 2.8,
 "shootShake": 1.9
 "reloadTime": 50,
