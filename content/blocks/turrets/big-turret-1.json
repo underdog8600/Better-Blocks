@@ -14,14 +14,23 @@
 "ammoTypes": {
 		"tithorium": {
 			"speed": 8,
-			"damage": 4,
+			"damage": 30,
+			"width": 5,
+			"height": 8,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 3
+		},
+		"silicon": {
+			"speed": 8,
+			"damage": 20,
 			"width": 4,
 			"height": 6,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 10
+			"ammoMultiplier": 2
 		}
-             },
+            },
 "requirements": [
 	{ "item": "comp-titanium", "amount": 18 },
 	{ "item": "dark-steel", "amount": 70 }
