@@ -8,13 +8,13 @@
 "inaccuracy": 1,
 "recoil": 2,
 "reloadTime": 20,
-"shootCone": 20,
+"shootCone": 5,
 "shots": 4,
 "range": 320,
 "ammoTypes": {
                 "plut": {
 			"speed": 4,
-                        "lifetime": 60,
+                        "lifetime": 80,
 			"damage": 120,
 			"width": 12,
 			"height": 14,
@@ -28,7 +28,7 @@
 		},
 		"tithorium": {
 			"speed": 4,
-                        "lifetime": 60,
+                        "lifetime": 80,
 			"damage": 80,
 			"width": 10,
 			"height": 12,
@@ -41,7 +41,7 @@
 		},
 		"silicon": {
 			"speed": 4,
-                        "lifetime": 60,
+                        "lifetime": 80,
 			"damage": 60,
 			"width": 8,
 			"height": 10,
