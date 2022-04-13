@@ -12,6 +12,18 @@
 "shots": 4,
 "range": 320,
 "ammoTypes": {
+                "plutonium": {
+			"speed": 8,
+			"damage": 120,
+			"width": 11,
+			"height": 13,
+                        "homingPower": 0.1,
+                        "splashDamageRadius": 40,
+                        "splashDamage": 50,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 4
+		},
 		"tithorium": {
 			"speed": 8,
 			"damage": 80,
