@@ -21,10 +21,8 @@
              },
 "shootEffect": "lancerLaserShoot",
 "smokeEffect": "lancerLaserShootSmoke",
-"powerUse": 2.8,
 "shootShake": 1.9
-"reloadTime": 50,
-"shootCone": 80,
+"shootCone": 20,
 "shots": 4,
 "range": 320,
 "requirements": [
