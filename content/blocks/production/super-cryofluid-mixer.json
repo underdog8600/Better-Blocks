@@ -31,10 +31,10 @@
     }
   },
   "requirements": [
-    {"item": "metaglass", "amount": 500},
-    {"item": "silicon", "amount": 200},
-    {"item": "dark-steel", "amount": 180},
-    {"item": "carbon", "amount": 50}
+    {"item": "metaglass", "amount": 600},
+    {"item": "silicon", "amount": 300},
+    {"item": "dark-steel", "amount": 300},
+    {"item": "super-tithorium", "amount": 50}
   ],
   "category": "crafting",
   "research": "adv-cryofluid-mixer"
