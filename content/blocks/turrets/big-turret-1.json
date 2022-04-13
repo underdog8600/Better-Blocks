@@ -13,7 +13,7 @@
 "range": 320,
 "ammoTypes": {
                 "plut": {
-			"speed": 8,
+			"speed": 6,
 			"damage": 120,
 			"width": 11,
 			"height": 13,
@@ -26,7 +26,7 @@
 			"ammoMultiplier": 4
 		},
 		"tithorium": {
-			"speed": 8,
+			"speed": 6,
 			"damage": 80,
 			"width": 9,
 			"height": 11,
@@ -38,7 +38,7 @@
 			"ammoMultiplier": 3
 		},
 		"silicon": {
-			"speed": 8,
+			"speed": 6,
 			"damage": 60,
 			"width": 6,
 			"height": 8,
