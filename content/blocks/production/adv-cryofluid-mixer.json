@@ -10,7 +10,7 @@
   "itemCapacity": 30,
   "liquidCapacity": 50,
   "size": 3,
-  "craftTime": 60,
+  "craftTime": 90,
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
@@ -25,10 +25,6 @@
       "items": [
         {
           "item": "titanium",
-          "amount": 4
-        },
-        {
-          "item": "graphite",
           "amount": 4
         }
       ]
