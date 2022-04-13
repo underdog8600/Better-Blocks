@@ -13,11 +13,11 @@
 "range": 320,
 "ammoTypes": {
                 "plut": {
-			"speed": 5,
+			"speed": 4,
 			"damage": 120,
 			"width": 12,
 			"height": 14,
-                        "homingPower": 0.1,
+                        "homingPower": 0.3,
                         "status": "burning",
                         "splashDamageRadius": 40,
                         "splashDamage": 50,
@@ -26,11 +26,11 @@
 			"ammoMultiplier": 4
 		},
 		"tithorium": {
-			"speed": 5,
+			"speed": 4,
 			"damage": 80,
 			"width": 10,
 			"height": 12,
-                        "homingPower": 0.1,
+                        "homingPower": 0.3,
                         "splashDamageRadius": 30,
                         "splashDamage": 40,
 			"shootEffect": "shootSmall",
@@ -38,11 +38,11 @@
 			"ammoMultiplier": 3
 		},
 		"silicon": {
-			"speed": 5,
+			"speed": 4,
 			"damage": 60,
 			"width": 8,
 			"height": 10,
-                        "homingPower": 0.1,
+                        "homingPower": 0.3,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 2
