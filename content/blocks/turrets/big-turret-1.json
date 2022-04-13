@@ -7,7 +7,7 @@
 "size": 4,
 "inaccuracy": 1,
 "recoil": 2,
-"reloadTime": 10,
+"reloadTime": 20,
 "shootCone": 20,
 "shots": 4,
 "range": 320,
@@ -51,7 +51,7 @@
 "requirements": [
 	{ "item": "comp-titanium", "amount": 18 },
 	{ "item": "dark-steel", "amount": 70 }
-	{ "item": "tithorium", "amount": 25 },
+	{ "item": "super-tithorium", "amount": 25 },
 	{ "item": "enriched-uran", "amount": 5 }
 	],
 "category": "turret"
