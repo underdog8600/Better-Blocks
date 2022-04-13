@@ -18,6 +18,7 @@
 			"width": 11,
 			"height": 13,
                         "homingPower": 0.1,
+                        "status": "burning",
                         "splashDamageRadius": 40,
                         "splashDamage": 50,
 			"shootEffect": "shootSmall",
