@@ -44,7 +44,7 @@
 		"silicon": {
 			"speed": 5,
                         "lifetime": 80,
-			"damage": 60,
+			"damage": 50,
 			"width": 8,
 			"height": 10,
                         "homingPower": 0.5,
