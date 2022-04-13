@@ -41,7 +41,7 @@
 			"height": 45,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 45
+			"ammoMultiplier": 40
 		}
 	},
 	"requirements": [
