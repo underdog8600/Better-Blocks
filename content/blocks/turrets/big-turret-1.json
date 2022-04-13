@@ -12,7 +12,7 @@
 "shots": 4,
 "range": 320,
 "ammoTypes": {
-                "plutonium": {
+                "plut": {
 			"speed": 8,
 			"damage": 120,
 			"width": 11,
