@@ -12,7 +12,7 @@
 "shots": 4,
 "range": 320,
 "ammoTypes": {
-		"c-titanium": {
+		"comp-titanium": {
 			"speed": 8,
 			"damage": 80,
 			"width": 9,
