@@ -14,18 +14,22 @@
 "ammoTypes": {
 		"tithorium": {
 			"speed": 8,
-			"damage": 30,
-			"width": 5,
-			"height": 8,
+			"damage": 80,
+			"width": 9,
+			"height": 11,
+                        "homingPower": 0.1,
+                        "splashDamageRadius": 30,
+                        "splashDamage": 40,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 3
 		},
 		"silicon": {
 			"speed": 8,
-			"damage": 20,
-			"width": 4,
-			"height": 6,
+			"damage": 60,
+			"width": 6,
+			"height": 8,
+                        "homingPower": 0.1,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 2
