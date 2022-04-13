@@ -15,7 +15,7 @@
                 "plut": {
 			"speed": 5,
                         "lifetime": 80,
-			"damage": 120,
+			"damage": 200,
 			"width": 12,
 			"height": 14,
                         "homingPower": 0.5,
@@ -30,7 +30,7 @@
 		"tithorium": {
 			"speed": 5,
                         "lifetime": 80,
-			"damage": 80,
+			"damage": 140,
 			"width": 10,
 			"height": 12,
                         "homingPower": 0.5,
@@ -44,7 +44,7 @@
 		"silicon": {
 			"speed": 5,
                         "lifetime": 80,
-			"damage": 50,
+			"damage": 100,
 			"width": 8,
 			"height": 10,
                         "homingPower": 0.5,
