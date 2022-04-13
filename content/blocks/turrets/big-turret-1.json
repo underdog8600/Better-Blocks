@@ -8,6 +8,9 @@
 "inaccuracy": 1,
 "recoil": 2,
 "reloadTime": 10,
+"shootCone": 20,
+"shots": 4,
+"range": 320,
 "ammoTypes": {
 		"tithorium": {
 			"speed": 8,
@@ -19,12 +22,6 @@
 			"ammoMultiplier": 10
 		}
              },
-"shootEffect": "lancerLaserShoot",
-"smokeEffect": "lancerLaserShootSmoke",
-"shootShake": 1.9
-"shootCone": 20,
-"shots": 4,
-"range": 320,
 "requirements": [
 	{ "item": "comp-titanium", "amount": 18 },
 	{ "item": "dark-steel", "amount": 70 }
