@@ -3,8 +3,8 @@
 "fadeIn": false,
 "moveArrows": false,
 "range": 8,
-"transportTime": 4,
-"arrowSpacing": 9,
+"transportTime": 3,
+"arrowSpacing": 20,
 "itemCapacity": 20,
 "hasPower": false,
 "requirements": [
