@@ -6,6 +6,7 @@
 "speed": 100,
 "arrowSpacing": 9,
 "bufferCapacity": 20,
+"itemCapacity": 20,
 "requirements": [
 		{"item": "dark-steel", "amount": 10},
 		{"item": "carbon", "amount": 6},
