@@ -3,7 +3,7 @@
 "fadeIn": false,
 "moveArrows": false,
 "range": 8,
-"speed": 150,
+"speed": 40,
 "arrowSpacing": 9,
 "bufferCapacity": 20,
 "requirements": [
