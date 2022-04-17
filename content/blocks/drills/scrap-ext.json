@@ -8,10 +8,12 @@
 "baseEfficiency": 0,
 "itemUseTime": 60,
 "consumes": {
-	"power": 5
-        "items": [
+	"power": 5,
+        "items": {
+            "items": [
                {"item": "sand", "amount": 3}
-               ]
+                   ]
+               }
 	   },
 "requirements": [
        { "item": "carbon", "amount": 40 },
