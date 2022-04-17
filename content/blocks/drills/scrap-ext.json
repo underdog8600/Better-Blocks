@@ -4,7 +4,7 @@
 "updateEffect": "pulverize",
 "updateEffectChance": 0.05,
 "size": 3,
-"attribute": "oil"
+"attribute": "oil",
 "envRequired": "oil",
 "baseEfficiency": 0,
 "itemUseTime": 60,
