@@ -1,4 +1,4 @@
-"type": "GenericCrafter",
+"type": "AttributeCrafter",
 "name": "Scrap Extractor",
 "outputItem": {"item": "scrap", "amount": 1},
 "updateEffect": "pulverize",
