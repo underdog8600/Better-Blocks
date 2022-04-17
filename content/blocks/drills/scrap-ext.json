@@ -5,7 +5,7 @@
 "hasPower": true,
 "hasLiquids": false,
 "hasItems": true,
-"craftTime": 90,
+"craftTime": 60,
 "itemCapacity": 10,
 "attribute": "oil",
 "baseEfficiency": 0,
@@ -18,7 +18,7 @@
 	"power": 5,
         "items": {
             "items": [
-               {"item": "sand", "amount": 5}
+               {"item": "sand", "amount": 10}
                    ]
                }
 	   },
