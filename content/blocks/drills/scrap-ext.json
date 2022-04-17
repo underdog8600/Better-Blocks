@@ -1,6 +1,6 @@
 "type": "Fracker",
 "name": "Scrap Extractor",
-"result": "scrap",
+"outputItem": {"item": "scrap", "amount": 1},
 "updateEffect": "pulverize",
 "updateEffectChance": 0.05,
 "size": 3,
