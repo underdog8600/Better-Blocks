@@ -8,6 +8,7 @@
     "itemCapacity": 16,
     "buildCostMultiplier": 0.6,
     "attribute": "heat",
+    "envRequired": "heat",
     "baseEfficiency": 1,
     "boostScale": 0.1,
     "maxHeatBoost": 1.5,
