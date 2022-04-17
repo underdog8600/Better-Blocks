@@ -6,7 +6,7 @@
 "size": 3,
 "attribute": "oil",
 "maxBoost": 2,
-"itemUseTime": 60,
+"craftTime": 60,
 "consumes": {
 	"power": 5,
         "items": {
