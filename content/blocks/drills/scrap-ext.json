@@ -13,7 +13,7 @@
                {"item": "sand", "amount": 3}
                ]
 	   },
-"requirements" [
+"requirements": [
        { "item": "carbon", "amount": 40 },
        { "item": "dark-steel", "amount": 150 },
        { "item": "titanium", "amount": 120 }
