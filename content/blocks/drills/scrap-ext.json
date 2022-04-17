@@ -6,9 +6,9 @@
 "hasLiquids": false,
 "hasItems": true,
 "craftTime": 90,
-"itemCapacity": 16,
+"itemCapacity": 10,
 "attribute": "oil",
-"baseEfficiency": 0.1,
+"baseEfficiency": 0,
 "boostScale": 0.5,
 "maxHeatBoost": 10,
 "outputItem": {"item": "scrap", "amount": 1},
@@ -18,7 +18,7 @@
 	"power": 5,
         "items": {
             "items": [
-               {"item": "sand", "amount": 3}
+               {"item": "sand", "amount": 5}
                    ]
                }
 	   },
