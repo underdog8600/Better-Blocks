@@ -1,0 +1,12 @@
+"type": "Fracker",
+"name": "Scrap Extractor",
+"result": "scrap",
+"updateEffect": "pulverize",
+"updateEffectChance": 0.05,
+"size": 3,
+"attribute": "oil"
+"baseEfficiency": 0,
+"itemUseTime": 60,
+"consumes": {"item": "sand" 2},
+"consumes": power 3,
+"requirements": 
