@@ -6,7 +6,7 @@
 "hasLiquids": false,
 "hasItems": true,
 "craftTime": 60,
-"itemCapacity": 10,
+"itemCapacity": 20,
 "attribute": "oil",
 "baseEfficiency": 0,
 "boostScale": 0.5,
