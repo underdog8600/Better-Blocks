@@ -1,4 +1,4 @@
-"type": "Fracker",
+"type": "GenericCrafter",
 "name": "Scrap Extractor",
 "outputItem": {"item": "scrap", "amount": 1},
 "updateEffect": "pulverize",
