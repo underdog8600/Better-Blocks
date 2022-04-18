@@ -3,6 +3,7 @@
 "health": 960,
 "size": 3,
 "hasPower": true,
+"spinnerSpeed": -3,
 "hasLiquids": false,
 "hasItems": true,
 "craftTime": 60,
