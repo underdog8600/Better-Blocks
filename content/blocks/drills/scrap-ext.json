@@ -2,6 +2,8 @@
 "name": "Scrap Extractor",
 "health": 960,
 "size": 3,
+"rotateSpeed": 3,
+"drawRim": true,
 "hasPower": true,
 "hasLiquids": false,
 "hasItems": true,
@@ -18,7 +20,9 @@
 	"power": 5,
         "items": {
             "items": [
-               {"item": "sand", "amount": 10}
+                {"item": "sand", "amount": 5},
+		{"item": "copper", "amount": 3},
+		{"item": "lead", "amount": 2}
                    ]
                }
 	   },
