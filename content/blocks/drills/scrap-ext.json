@@ -2,8 +2,6 @@
 "name": "Scrap Extractor",
 "health": 960,
 "size": 3,
-"rotateSpeed": 3,
-"drawRim": true,
 "hasPower": true,
 "hasLiquids": false,
 "hasItems": true,
