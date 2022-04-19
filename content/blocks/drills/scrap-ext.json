@@ -6,7 +6,7 @@
 "hasLiquids": false,
 "hasItems": true,
 "craftTime": 60,
-"itemCapacity": 20,
+"itemCapacity": 12,
 "attribute": "oil",
 "baseEfficiency": 0,
 "boostScale": 0.3,
@@ -14,11 +14,6 @@
 "outputItem": {"item": "scrap", "amount": 3},
 "updateEffect": "pulverize",
 "updateEffectChance": 0.05,
-"DrawRotator": {
-	"rotator": "scrap-ext-rotator",
-	"drawSpinSprite": true,
-	"spinSpeed": 2
-	},
 "consumes": {
 	"power": 5,
         "items": {
