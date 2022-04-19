@@ -10,7 +10,7 @@
 "attribute": "oil",
 "baseEfficiency": 0,
 "boostScale": 2,
-"maxHeatBoost": 1,
+"maxHeatBoost": 3,
 "outputItem": {"item": "scrap", "amount": 3},
 "updateEffect": "pulverize",
 "updateEffectChance": 0.05,
