@@ -14,6 +14,11 @@
 "outputItem": {"item": "scrap", "amount": 3},
 "updateEffect": "pulverize",
 "updateEffectChance": 0.05,
+"DrawRotator": {
+	"rotator": "scrap-ext-rotator",
+	"drawSpinSprite": true,
+	"spinSpeed": 2
+	},
 "consumes": {
 	"power": 5,
         "items": {
