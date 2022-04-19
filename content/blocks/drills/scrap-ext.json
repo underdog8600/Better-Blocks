@@ -5,7 +5,7 @@
 "hasPower": true,
 "hasLiquids": false,
 "hasItems": true,
-"craftTime": 60,
+"craftTime": 20,
 "itemCapacity": 20,
 "attribute": "oil",
 "baseEfficiency": 0,
