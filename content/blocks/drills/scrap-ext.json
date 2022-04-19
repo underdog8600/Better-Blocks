@@ -8,6 +8,7 @@
 "craftTime": 60,
 "itemCapacity": 20,
 "attribute": "oil",
+"envEnabled": 32,
 "baseEfficiency": 0,
 "boostScale": 2,
 "maxHeatBoost": 3,
