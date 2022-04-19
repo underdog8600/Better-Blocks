@@ -5,20 +5,20 @@
 "hasPower": true,
 "hasLiquids": false,
 "hasItems": true,
-"craftTime": 20,
+"craftTime": 60,
 "itemCapacity": 20,
 "attribute": "oil",
 "baseEfficiency": 0,
 "boostScale": 0.5,
 "maxHeatBoost": 10,
-"outputItem": {"item": "scrap", "amount": 1},
+"outputItem": {"item": "scrap", "amount": 3},
 "updateEffect": "pulverize",
 "updateEffectChance": 0.05,
 "consumes": {
 	"power": 5,
         "items": {
             "items": [
-                {"item": "sand", "amount": 5},
+                {"item": "sand", "amount": 6},
 		{"item": "copper", "amount": 3},
 		{"item": "lead", "amount": 2}
                    ]
