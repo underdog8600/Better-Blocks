@@ -1,0 +1,9 @@
+"type": "LiquidRouter"
+"name": "liquid-container"
+"liquidCapacity": 700,
+"size": 2,
+"requirements": [
+    {"item": "titanium", "amount": 10}, 
+    {"item": "metaglass", "amount":15}
+      ],
+"category": "liquid"
