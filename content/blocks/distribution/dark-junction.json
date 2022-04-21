@@ -2,9 +2,11 @@
 "name": "Dark Junction",
 "speed": 26,
 "capacity": 10,
-"health": 30,
+"health": 300,
 "requirements": [
-         {"item": "dark-ingot": 4}
+	{"item": "dark-steel", "amount": 2},
+        {"item": "carbon", "amount": 2},
+	{"item": "carbon-mass", "amount": 2}
             ],
 "research": "dark-conveyor",
 "category": "distribution"
