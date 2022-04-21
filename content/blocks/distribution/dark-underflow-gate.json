@@ -1,0 +1,12 @@
+"type": "OverflowGate",
+"name": "Dark Underflow Gate",
+"speed": 2,
+"health": 300,
+"inverted": true,
+"requirements": [
+	{"item": "dark-steel", "amount": 4},
+        {"item": "carbon", "amount": 6},
+	{"item": "carbon-mass", "amount": 6}
+            ],
+"research": "dark-conveyor",
+"category": "distribution"
