@@ -4,8 +4,8 @@
 "health": 300,
 "requirements": [
 	{"item": "dark-steel", "amount": 4},
-        {"item": "carbon", "amount": 4},
-	{"item": "carbon-mass", "amount": 4}
+        {"item": "carbon", "amount": 6},
+	{"item": "carbon-mass", "amount": 6}
             ],
 "research": "dark-conveyor",
 "category": "distribution"
