@@ -1,0 +1,10 @@
+"type": "Junction",
+"name": "Dark Junction",
+"speed": 26,
+"capacity": 10,
+"health": 30,
+"requirements": [
+         {"item": "dark-ingot": 4}
+            ],
+"research": "dark-conveyor",
+"category": "distribution"
