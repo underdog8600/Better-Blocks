@@ -1,6 +1,6 @@
 "type": "Junction",
 "name": "Dark Junction",
-"speed": 16,
+"speed": 14,
 "capacity": 10,
 "health": 300,
 "requirements": [
