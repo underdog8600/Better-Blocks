@@ -1,7 +1,6 @@
 "type": "Router",
 "name": "Dark Router",
 "speed": 16,
-"capacity": 10,
 "health": 300,
 "requirements": [
 	{"item": "dark-steel", "amount": 3},
