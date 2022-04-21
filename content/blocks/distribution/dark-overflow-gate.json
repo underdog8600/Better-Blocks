@@ -1,6 +1,6 @@
 "type": "OverflowGate",
 "name": "Dark Overflow Gate",
-"speed": 2,
+"speed": 1.5,
 "health": 300,
 "requirements": [
 	{"item": "dark-steel", "amount": 4},
