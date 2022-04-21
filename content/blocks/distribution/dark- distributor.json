@@ -1,6 +1,6 @@
 "type": "Router",
 "name": "Dark Distributor",
-"speed": 16,
+"speed": 12,
 "size": 2,
 "health": 300,
 "requirements": [
