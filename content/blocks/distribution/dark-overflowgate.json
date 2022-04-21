@@ -1,0 +1,11 @@
+"type": "OverflowGate",
+"name": "Dark Overflow Gate",
+"speed": 2,
+"health": 300,
+"requirements": [
+	{"item": "dark-steel", "amount": 4},
+        {"item": "carbon", "amount": 4},
+	{"item": "carbon-mass", "amount": 4}
+            ],
+"research": "dark-conveyor",
+"category": "distribution"
