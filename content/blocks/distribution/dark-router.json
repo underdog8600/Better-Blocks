@@ -1,0 +1,12 @@
+"type": "Router",
+"name": "Dark Router",
+"speed": 16,
+"capacity": 10,
+"health": 300,
+"requirements": [
+	{"item": "dark-steel", "amount": 3},
+        {"item": "carbon", "amount": 3},
+	{"item": "carbon-mass", "amount": 3}
+            ],
+"research": "dark-conveyor",
+"category": "distribution"
