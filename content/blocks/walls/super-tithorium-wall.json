@@ -2,7 +2,7 @@
 	"name": "Super Tithorium Wall",
 	"description": "Has more protection than common tithorium wall",
 	"type": "Wall",
-	"health": 2030,
+	"health": 4030,
 	"size": 1,
 	"requirements": [
 		{ "item": "super-tithorium", "amount": 6 }
