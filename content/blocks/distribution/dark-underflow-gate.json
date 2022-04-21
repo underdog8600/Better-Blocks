@@ -1,6 +1,6 @@
 "type": "OverflowGate",
 "name": "Dark Underflow Gate",
-"speed": 2,
+"speed": 1.5,
 "health": 300,
 "inverted": true,
 "requirements": [
