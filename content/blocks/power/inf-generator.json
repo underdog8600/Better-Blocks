@@ -5,6 +5,7 @@
 "health": 51000,
 "powerProduction": 12000,
 "hasLiquids": true,
+"itemCapacity": 3,
 "itemDuration": 3600,
 "consumes": {
 	"item": "divinium",
