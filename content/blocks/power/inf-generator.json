@@ -1,7 +1,7 @@
 "type": "ImpactReactor",
 "name": "Infinity Generator",
 "description": "Generates [red]ALOT[] of energy",
-"size": 3,
+"size": 4,
 "health": 51000,
 "powerProduction": 12000,
 "hasLiquids": true,
