@@ -1,4 +1,4 @@
-"type": "NuclearReactor",
+"type": "ImpactReactor",
 "name": "Infinity Generator",
 "description": "Generates [red]ALOT[] of energy",
 "size": 3,
@@ -6,7 +6,13 @@
 "powerProduction": 12000,
 "hasLiquids": true,
 "itemDuration": 3600,
-"heating": 0,
+"consumes": {
+	"item": "nuclear-fuel",
+	"liquid": {
+		"liquid": "cryofluid",
+		"amount": 0.3
+		}
+    },
 "requirements": [
 	{"item": "infinitium", "amount": 4},
 	{"item": "dark-matter", "amount": 12}
