@@ -1,7 +1,7 @@
 "type": "NuclearReactor",
 "name": "Dark Matter Reactor",
 "description": "Generates alot of energy",
-"size": 2,
+"size": 3,
 "health": 24000,
 "hasLiquids": true,
 "itemDuration": 3600,
