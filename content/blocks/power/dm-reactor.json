@@ -7,6 +7,8 @@
 "itemDuration": 3600,
 "powerProduction": 5000,
 "heating": 0.008,
+"explosionRadius": 60,
+"explosionDamage": 10000,
 "consumes": {
 	"items": {
 		"items": [
