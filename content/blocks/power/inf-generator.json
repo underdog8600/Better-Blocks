@@ -7,10 +7,10 @@
 "hasLiquids": true,
 "itemDuration": 3600,
 "consumes": {
-	"item": "nuclear-fuel",
+	"item": "divinium",
 	"liquid": {
-		"liquid": "cryofluid",
-		"amount": 0.3
+		"liquid": "infinitium-liquid",
+		"amount": 0.1
 		}
     },
 "requirements": [
