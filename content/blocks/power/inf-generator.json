@@ -8,6 +8,7 @@
 "itemCapacity": 3,
 "itemDuration": 3600,
 "consumes": {
+        "power": 1,
 	"item": "divinium",
 	"liquid": {
 		"liquid": "infinitium-liquid",
