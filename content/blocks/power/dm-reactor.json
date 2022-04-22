@@ -6,6 +6,7 @@
 "hasLiquids": true,
 "itemDuration": 3600,
 "powerProduction": 5000,
+"heating": 0.008,
 "consumes": {
 	"items": {
 		"items": [
@@ -21,6 +22,6 @@
 	{"item": "quantum-ingot", "amount": 20},
 	{"item": "dark-matter", "amount": 5}
 	],
-"category": "power"
+"category": "power",
 "research": "q-generator"
 
