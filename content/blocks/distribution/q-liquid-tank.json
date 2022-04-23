@@ -1,0 +1,12 @@
+"type": "LiquidRouter"
+"name": "Quantum Liquid Container"
+"liquidCapacity": 18000,
+"size": 3,
+"health": 6000,
+"requirements": [
+    {"item": "quantum-ingot", "amount": 6},
+    {"item": "dark-steel", "amount": 600},
+    {"item": "titanium", "amount": 1000}, 
+    {"item": "metaglass", "amount": 400}
+      ],
+"category": "liquid"
