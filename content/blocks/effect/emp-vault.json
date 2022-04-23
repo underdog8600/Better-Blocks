@@ -1,0 +1,14 @@
+"name": "Emprovered Vault",
+"description": "High capacity vault",
+"type": "StorageBlock",
+"itemCapacity": 3000,
+"hasItems": true,
+"health": 30000,
+"size": 3,
+"requirements": [
+	{ "item": "super-tithorium", "amount": 150 },
+	{ "item": "dark-steel", "amount":400 },
+	{ "item": "tithorium", "amount":300 }
+],
+"category": "effect",
+"research": "q-vault"
