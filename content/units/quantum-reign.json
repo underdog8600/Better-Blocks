@@ -40,12 +40,13 @@
 			"fragBullet": {
 				"width": 10,
 				"height": 10,
+                                "damage": 36,
 				"pierce": true,
 				"pierceBuilding": true,
 				"pierceCap": 3,
 				"lifetime": 20,
 				"hitEffect": "flakExplosion",
-				"splashDamage": 24,
+				"splashDamage": 30,
 				"splashDamageRadius": 10
 				}
 			}
