@@ -28,7 +28,7 @@
 			"height": 33,
 			"lifetime": 15,
                         "speed": 14,
-                        "damage": 100,
+                        "damage": 140,
 			"shootEffect": "shootBig",
 			"fragVelocityMin": 0.4,
 			"hitEffect": "blastExplosion",
