@@ -14,10 +14,12 @@
 	}
 },
 "requirements": [
-	{"item": "osmium", "amount": 350},
-	{"item": "silicon", "amount": 180},
-	{"item": "metaglass", "amount": 280},
-	{"item": "thorium", "amount": 100}
+	{"item": "uron", "amount": 3000},
+	{"item": "dark-steel", "amount": 2500},
+	{"item": "tithorium", "amount": 1000},
+	{"item": "silicon", "amount": 1400},
+	{"item": "super-tithorium", "amount": 300},
+	{"item": "plut", "amount": 500}
 ],
 "upgrades": [
         ["century", "millennia"],
