@@ -7,19 +7,20 @@
         "liquid": {"liquid": "super-cyrofluid", "amount": 4},
 	"items": {
 		"items": [
-			{"item": "silicon", "amount": 850},
-			{"item": "dark-steel", "amount": 750},
-			{"item": "super-tithorium", "amount": 500}
+			{"item": "silicon", "amount": 1000},
+			{"item": "super-tithorium", "amount": 650},
+			{"item": "quantum-ingot", "amount": 50},
+			{"item": "plut", "amount": 350}
 		]
 	}
 },
 "requirements": [
-	{"item": "iron", "amount": 3000},
-	{"item": "dark-steel", "amount": 2500},
-	{"item": "tithorium", "amount": 1000},
-	{"item": "silicon", "amount": 1400},
-	{"item": "super-tithorium", "amount": 300},
-	{"item": "plut", "amount": 500}
+	{"item": "dark-steel", "amount": 5000},
+	{"item": "super-tithorium", "amount": 1200},
+	{"item": "silicon", "amount":8000},
+	{"item": "nuclear-fuel", "amount": 300},
+	{"item": "plut", "amount": 500},
+	{"item": "quantum-ingot", "amount": 30}
 ],
 "upgrades": [
         ["fortress", "dark-scepter"],
