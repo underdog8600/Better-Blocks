@@ -4,6 +4,7 @@
 "constructTime": 800,
 "consumes": {
 	"power": 13,
+        "liquid": 
 	"items": {
 		"items": [
 			{"item": "silicon", "amount": 850},
