@@ -23,10 +23,10 @@
 	{"item": "quantum-ingot", "amount": 30}
 ],
 "upgrades": [
-        ["fortress", "dark-scepter"],
-        ["quasar", "dark-vela"],
-	["spiroct", "dark-arkyid"],
-	["zenith", "dark-antumbra"]
+        ["dark-scepter", "quantum-reign"],
+        ["dark-vela", "quantum-corvus"],
+	["dark-arkyid", "quantum-toxopid"],
+	["dark-antumbra", "quantum-eclipse"]
 ],
 "category": "units",
 "research": "dark-reconstructor"
