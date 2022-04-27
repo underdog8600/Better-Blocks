@@ -1,7 +1,7 @@
 "type": "Reconstructor",
 "name": "Quantum Reconstructor",
 "size": 9,
-"constructTime": 16000,
+"constructTime": 27000,
 "liquidCapacity": 240,
 "consumes": {
 	"power": 40,
