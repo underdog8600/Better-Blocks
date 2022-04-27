@@ -4,7 +4,7 @@
 "constructTime": 800,
 "consumes": {
 	"power": 13,
-        "liquid": 
+        "liquid": {"liquid": "super-cyrofluid", "amount": 1},
 	"items": {
 		"items": [
 			{"item": "silicon", "amount": 850},
