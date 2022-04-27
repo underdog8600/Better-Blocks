@@ -2,6 +2,7 @@
 "name": "Dark Reconstructor",
 "size": 7,
 "constructTime": 8000,
+"liquidCapacity": 120,
 "consumes": {
 	"power": 30,
         "liquid": {"liquid": "super-cryofluid", "amount": 2},
