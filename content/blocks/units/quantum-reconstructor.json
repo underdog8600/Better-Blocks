@@ -1,0 +1,31 @@
+"type": "Reconstructor",
+"name": "Quantum Reconstructor",
+"size": 9,
+"constructTime": 800,
+"consumes": {
+	"power": 40,
+        "liquid": {"liquid": "super-cyrofluid", "amount": 4},
+	"items": {
+		"items": [
+			{"item": "silicon", "amount": 850},
+			{"item": "dark-steel", "amount": 750},
+			{"item": "super-tithorium", "amount": 500}
+		]
+	}
+},
+"requirements": [
+	{"item": "iron", "amount": 3000},
+	{"item": "dark-steel", "amount": 2500},
+	{"item": "tithorium", "amount": 1000},
+	{"item": "silicon", "amount": 1400},
+	{"item": "super-tithorium", "amount": 300},
+	{"item": "plut", "amount": 500}
+],
+"upgrades": [
+        ["fortress", "dark-scepter"],
+        ["quasar", "dark-vela"],
+	["spiroct", "dark-arkyid"],
+	["zenith", "dark-antumbra"]
+],
+"category": "units",
+"research": "dark-reconstructor"
