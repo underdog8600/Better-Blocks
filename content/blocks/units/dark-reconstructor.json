@@ -1,7 +1,7 @@
 "type": "Reconstructor",
 "name": "Dark Reconstructor",
 "size": 7,
-"constructTime": 8000,
+"constructTime": 10800,
 "liquidCapacity": 120,
 "consumes": {
 	"power": 30,
