@@ -6,10 +6,9 @@
 	"power": 13,
 	"items": {
 		"items": [
-			{"item": "silicon", "amount": 640},
-			{"item": "osmium", "amount": 540},
-			{"item": "titanium", "amount": 480},
-			{"item": "thorium", "amount": 250}
+			{"item": "silicon", "amount": 850},
+			{"item": "dark-steel", "amount": 750},
+			{"item": "super-tithorium", "amount": 500}
 		]
 	}
 },
