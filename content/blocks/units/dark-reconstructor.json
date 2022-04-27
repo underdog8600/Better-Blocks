@@ -14,7 +14,7 @@
 	}
 },
 "requirements": [
-	{"item": "uron", "amount": 3000},
+	{"item": "iron", "amount": 3000},
 	{"item": "dark-steel", "amount": 2500},
 	{"item": "tithorium", "amount": 1000},
 	{"item": "silicon", "amount": 1400},
@@ -22,10 +22,10 @@
 	{"item": "plut", "amount": 500}
 ],
 "upgrades": [
-        ["century", "millennia"],
-        ["agility", "pace"],
-	["b-galileo", "b-kuiper"],
-	["gacrux", "kentaurus"]
+        ["fortress", "dark-scepter"],
+        ["quasar", "dark-vela"],
+	["spiroct", "dark-arkyid"],
+	["zenith", "dark-antumbra"]
 ],
 "category": "units",
 "research": "tetrative-reconstructor"
