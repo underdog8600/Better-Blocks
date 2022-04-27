@@ -1,7 +1,7 @@
 "type": "Reconstructor",
 "name": "Dark Reconstructor",
 "size": 7,
-"constructTime": 800,
+"constructTime": 8000,
 "consumes": {
 	"power": 30,
         "liquid": {"liquid": "super-cyrofluid", "amount": 2},
