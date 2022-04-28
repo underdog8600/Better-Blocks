@@ -5,7 +5,7 @@
 	"health": 30000,
 	"itemCapacity": 25,
 	"outputItem": {"item": "divinium", "amount": 1},
-	"size": 8,
+	"size": 6,
 	"hasPower": true,
 	"hasItems": true,
 	"craftTime": 120,
