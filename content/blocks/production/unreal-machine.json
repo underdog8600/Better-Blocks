@@ -27,10 +27,10 @@
 	}
 },
 "requirements": [
-	{ "item": "tithorium", "amount": 60 },
-	{ "item": "titanium", "amount": 200 },
-	{ "item": "super-tithorium", "amount": 18 },
-	{ "item": "dark-steel", "amount": 600 }
+	{ "item": "quantum-ingot", "amount": 10 },
+	{ "item": "dark-steel", "amount": 1400 },
+	{ "item": "titanium", "amount": 3000 },
+	{ "item": "diamond", "amount": 600 }
 ],
 "category": "crafting",
 "idleSound": "respawning",
