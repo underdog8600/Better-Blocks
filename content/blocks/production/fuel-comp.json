@@ -14,7 +14,7 @@
 		"power": 8.0,
 		"items": {
 			"items": [
-				{ "item": "comp-thorium", "amount": 12 },
+				{ "item": "comp-thorium", "amount": 9 },
 				{ "item": "enriched-uran", "amount": 3 }
 			]
 		}
