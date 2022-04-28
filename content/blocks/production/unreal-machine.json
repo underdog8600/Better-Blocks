@@ -15,12 +15,15 @@
 	"power": 150.0,
 	"items": {
 		"items": [
-			{"item": "blast-compound", "amount": 20}
+			{"item": "blast-compound", "amount": 20},
+			{"item": "plastanium", "amount": 20},
+			{"item": "phase-fabric", "amount": 20},
+			{"item": "surge-alloy", "amount": 20}
 		]
 	},
 	"liquid": {
 		"liquid": "super-cryofluid",
-		"amount": 0.2
+		"amount": 0.4
 	}
 },
 "requirements": [
