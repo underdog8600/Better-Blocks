@@ -5,7 +5,7 @@
 	"health": 40000,
 	"itemCapacity": 6,
 	"outputItem": {"item": "dark-matter", "amount": 1},
-	"size": 8,
+	"size": 6,
 	"hasPower": true,
 	"hasItems": true,
 	"craftTime": 480,
