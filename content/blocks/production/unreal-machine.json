@@ -1,0 +1,35 @@
+"type": "GenericSmelter",
+"name": "Unreal Machine",
+"description": "Combines many materials into a singularity.",
+"health": 14000,
+"liquidCapacity": 120,
+"itemCapacity": 40,
+"outputItem": {"item": "singularity", "amount": 1},
+"size": 6,
+"hasPower": true,
+"hasLiquids": true,
+"hasItems": true,
+"craftTime": 600,
+"updateEffect": "smeltsmoke",
+"consumes": {
+	"power": 150.0,
+	"items": {
+		"items": [
+			{"item": "blast-compound", "amount": 20}
+		]
+	},
+	"liquid": {
+		"liquid": "super-cryofluid",
+		"amount": 0.2
+	}
+},
+"requirements": [
+	{ "item": "tithorium", "amount": 60 },
+	{ "item": "titanium", "amount": 200 },
+	{ "item": "super-tithorium", "amount": 18 },
+	{ "item": "dark-steel", "amount": 600 }
+],
+"category": "crafting",
+"idleSound": "respawning",
+"idleSoundVolume": 0.5,
+"research": "forge-3"
