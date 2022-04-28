@@ -1,7 +1,7 @@
 "type": "GenericSmelter",
 "name": "Unreal Machine",
 "description": "Combines many materials into a singularity.",
-"health": 14000,
+"health": 25000,
 "liquidCapacity": 120,
 "itemCapacity": 40,
 "outputItem": {"item": "singularity", "amount": 1},
