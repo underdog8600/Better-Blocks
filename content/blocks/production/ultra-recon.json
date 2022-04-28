@@ -14,6 +14,7 @@
 		"power": 200,
 		"items": {
 			"items": [
+				{ "item": "singularity", "amount": 3 },
 				{ "item": "dark-matter", "amount": 3 },
 				{ "item": "divinium", "amount": 2 }
 			]
