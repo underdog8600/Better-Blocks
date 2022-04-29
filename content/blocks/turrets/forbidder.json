@@ -13,16 +13,11 @@
 "size": 6,
 "shootCone": 2,
 "shootSound": "railgun",
-"unitSort": {"strongest"},
+"unitSort": strongest,
 "coolantMultiplier": 0.4,
-"health": 150000
+"health": 150000,
 "coolantUsage": 1,
-"consumes": {
-         "power": {
-               "amount": 10,
-               "update": false
-         }
-},
+"consumes": {"power": 10},
 "ammoTypes": {
             "singularity": {
                     "type": "PointBulletType",
