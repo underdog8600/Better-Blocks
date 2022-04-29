@@ -30,7 +30,7 @@
                     "buildingDamageMultiplier": 0.6,
                     "speed": 500,
                     "hitShake": 6,
-                    "ammoMultiplier", 1
+                    "ammoMultiplier": 1
                 }
             },
 "requirements": [
