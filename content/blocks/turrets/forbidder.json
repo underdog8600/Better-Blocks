@@ -18,8 +18,7 @@
 "health": 150000,
 "coolantUsage": 1,
 "consumes": {
-         "power": 10,
-         "update": false
+         "power": 10
 },
 "ammoTypes": {
             "singularity": {
