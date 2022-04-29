@@ -1,8 +1,8 @@
 "type": "ItemTurret",
 "name": "Forbidder",
-"range": 500,
+"range": 800,
 "rotateSpeed": 2,
-"reloadTime": 200,
+"reloadTime": 240,
 "ammoUseEffect": "casing3Double",
 "recoilAmount": 5,
 "restitution": 0.009,
@@ -28,7 +28,7 @@
                     "trailSpacing": 20,
                     "damage": 10000,
                     "buildingDamageMultiplier": 0.6,
-                    "speed": 500,
+                    "speed": 800,
                     "hitShake": 6,
                     "ammoMultiplier": 1
                 }
