@@ -18,20 +18,21 @@
 "coolantUsage": 1,
 "consumes": [{"power", "amount": 10}],
 "ammoTypes": {
-             {"singularity", new PointBulletType(){{
-                    shootEffect = Fx.instShoot;
-                    hitEffect = Fx.instHit;
-                    smokeEffect = Fx.smokeCloud;
-                    trailEffect = Fx.instTrail;
-                    despawnEffect = Fx.instBomb;
-                    trailSpacing = 20f;
-                    damage = 1350;
-                    buildingDamageMultiplier = 0.2f;
-                    speed = brange;
-                    hitShake = 6f;
-                    ammoMultiplier = 1f;
-                }}
-            );
+            "singularity": {
+                    "type": "PointBulletType",
+                    "shootEffect": "instShoot",
+                    "hitEffect": "instHit",
+                    "smokeEffect": "smokeCloud",
+                    "trailEffect": "instTrail",
+                    "despawnEffect": "instBomb",
+                    "trailSpacing": 20,
+                    "damage": 10000,
+                    "buildingDamageMultiplier": 0.6,
+                    "speed": 500,
+                    "hitShake": 6,
+                    "ammoMultiplier", 1
+                }
+            },
 "requirements": [
 	{ "item": "infinitium", "amount": 6 },
         { "item": "singularity", "amount": 1 },
