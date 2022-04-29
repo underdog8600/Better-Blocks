@@ -32,6 +32,8 @@
                     "damage": 10000,
                     "buildingDamageMultiplier": 0.6,
                     "speed": 800,
+                    "pierce": true,
+                    "pierceCap": 5,
                     "hitShake": 6,
                     "ammoMultiplier": 1
                 }
