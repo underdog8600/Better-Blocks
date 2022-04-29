@@ -32,6 +32,6 @@
                     ammoMultiplier = 1f;
                 }}
             );
-requirements(Category.turret, with(Items.copper, 1000, Items.metaglass, 600, Items.surgeAlloy, 300, Items.plastanium, 200, Items.silicon, 600))
-
+"requirements": copper, 1000, Items.metaglass, 600, Items.surgeAlloy, 300, Items.plastanium, 200, Items.silicon, 600))
+"Category": "turret"
            
