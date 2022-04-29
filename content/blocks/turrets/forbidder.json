@@ -13,7 +13,7 @@
 "size": 6,
 "shootCone": 2,
 "shootSound": "railgun",
-"unitSort": strongest,
+"unitSort": "strongest",
 "coolantMultiplier": 0.4,
 "health": 150000,
 "coolantUsage": 1,
