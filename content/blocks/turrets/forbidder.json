@@ -17,7 +17,12 @@
 "coolantMultiplier": 0.4,
 "health": 150000
 "coolantUsage": 1,
-"consumes": {"power":{ "amount": 10}},
+"consumes": {
+         "power": {
+               "amount": 10,
+               "update": false
+         }
+},
 "ammoTypes": {
             "singularity": {
                     "type": "PointBulletType",
