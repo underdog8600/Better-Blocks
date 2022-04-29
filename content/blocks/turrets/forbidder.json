@@ -39,5 +39,5 @@
         { "item": "singularity", "amount": 1 },
 	{ "item": "dark-steel", "amount": 2000 }
 ],
-"Category": "turret",
+"category": "turret",
 "research": "big-turret-2-mk2"
