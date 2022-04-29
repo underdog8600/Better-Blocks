@@ -11,6 +11,7 @@
 	"shootCone": 40,
 	"shots": 3,
         "burstSpacing": 4,
+        "maxAmmo": 45,
 	"range": 350,
 	"ammoTypes": {
 		"comp-titanium": {
