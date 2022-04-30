@@ -1,6 +1,6 @@
 "type": "ItemTurret",
 "name": "Forbidder",
-"range": 800,
+"range": 700,
 "rotateSpeed": 2,
 "reloadTime": 240,
 "ammoUseEffect": "casing3Double",
@@ -29,18 +29,16 @@
                     "trailEffect": "instTrail",
                     "despawnEffect": "instBomb",
                     "trailSpacing": 20,
-                    "damage": 10000,
+                    "damage": 40000,
                     "buildingDamageMultiplier": 0.6,
-                    "speed": 800,
-                    "pierce": true,
-                    "pierceCap": 5,
+                    "speed": 700,
                     "hitShake": 6,
                     "ammoMultiplier": 1
                 }
             },
 "requirements": [
 	{ "item": "infinitium", "amount": 6 },
-        { "item": "singularity", "amount": 1 },
+        { "item": "surge-alloy", "amount": 1000 },
 	{ "item": "dark-steel", "amount": 2000 }
 ],
 "category": "turret",
