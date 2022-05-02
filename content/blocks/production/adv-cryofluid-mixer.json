@@ -1,5 +1,5 @@
 {
-  "type": "GenericSmelter",
+  "type": "GenericCrafter",
   "name": "Advanced Cryofluid Mixer",
   "description": "Mixes water, titanium to make a lot of cryofluid.",
   "outputLiquid": {
@@ -14,7 +14,6 @@
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": true,
-  "updateEffect": "smeltsmoke",
   "consumes": {
     "power": 1.6,
     "liquid": {
