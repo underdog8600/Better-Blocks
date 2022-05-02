@@ -1,7 +1,7 @@
 {
   "type": "GenericSmelter",
   "name": "Advanced Cryofluid Mixer",
-  "description": "Mixes water, titanium and graphite to make a lot of cryofluid.",
+  "description": "Mixes water, titanium to make a lot of cryofluid.",
   "outputLiquid": {
     "liquid": "cryofluid",
     "amount": 48
