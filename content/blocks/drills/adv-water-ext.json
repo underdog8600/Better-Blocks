@@ -7,7 +7,9 @@
 "rotateSpeed": 2,
 "attribute": "water",
 "consumes": {"power": 2},
-"requirements": {
-Items.metaglass, 30, Items.graphite, 30, Items.lead, 30, Items.copper, 30))
-},
+"requirements": [
+	{ "item": "metaglass", "amount": 300 },
+	{ "item": "silicon", "amount": 150 },
+	{ "item": "dark-steel", "amount": 140 }
+],
 "category": "production"
