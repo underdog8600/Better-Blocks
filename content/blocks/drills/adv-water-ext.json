@@ -12,4 +12,5 @@
 	{ "item": "silicon", "amount": 150 },
 	{ "item": "dark-steel", "amount": 140 }
 ],
-"category": "production"
+"category": "production",
+"research": "water-extractor"
