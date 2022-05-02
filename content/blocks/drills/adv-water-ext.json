@@ -6,5 +6,8 @@
 "liquidCapacity": 30,
 "rotateSpeed": 1.4,
 "attribute": "water",
-"consumes": {power, 2},
-requirements(Category.production, with(Items.metaglass, 30, Items.graphite, 30, Items.lead, 30, Items.copper, 30))
+"consumes": {"power": 2},
+"requirements": {
+Items.metaglass, 30, Items.graphite, 30, Items.lead, 30, Items.copper, 30))
+},
+"category": "production"
