@@ -1,10 +1,10 @@
 "type": "SolidPump",
 "name": "Advanced Water Extractor",
 "result": "water",
-"pumpAmount": 0.11,
+"pumpAmount": 0.31,
 "size": 3,
-"liquidCapacity": 30,
-"rotateSpeed": 1.4,
+"liquidCapacity": 60,
+"rotateSpeed": 2,
 "attribute": "water",
 "consumes": {"power": 2},
 "requirements": {
