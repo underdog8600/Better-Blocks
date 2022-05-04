@@ -14,7 +14,7 @@
 		"power": 40.0
 		"liquid": {
 			"liquid": "water",
-			"amount": 0.4
+			"amount": 0
 			"optional": false,
 			"booster": true
 		}
