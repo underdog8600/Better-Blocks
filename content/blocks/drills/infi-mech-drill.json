@@ -9,7 +9,7 @@
 "drawRim": true
 "updateEffect": "pulverizeRed"
 "drillEffect": "healWaveMend"
-"updateEffectChance": 0.03
+"updateEffectChance": 0.01
 "liquidBoostIntensity": 2,
 "consumes": {
 	"power": 60.0
