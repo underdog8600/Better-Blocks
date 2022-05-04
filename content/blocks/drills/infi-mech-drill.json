@@ -1,22 +1,22 @@
 "name": "Infinitium Mechanical Drill",
-	"description": "The fastest drill",
-	"type": "Drill",
-	"size": 2,
-	"health": 40000,
-	"tier": 15,
-	"drillTime": 20,
+"description": "The fastest drill",
+"type": "Drill",
+"size": 2,
+"health": 40000,
+"tier": 15,
+"drillTime": 20,
 	"rotateSpeed": 14,
 	"drawRim": true
 	"updateEffect": "pulverizeRed"
 	"drillEffect": "healWaveMend"
 	"updateEffectChance": 0.03
+"liquidBoostIntensity": 2,
 	"consumes": {
 		"power": 40.0
 		"liquid": {
 			"liquid": "water",
 			"amount": 0
 			"optional": false,
-                        "liquidBoostIntensity": 2,
 			"booster": true
 		}
 	},
