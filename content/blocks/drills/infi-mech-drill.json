@@ -21,8 +21,8 @@
 	}
 },
 "requirements": [
-	{ "item": "infinitium", "amount": 2 },
-	{ "item": "quantum-ingot", "amount": 10 }
+	{ "item": "infinitium", "amount": 4 },
+	{ "item": "dark-matter", "amount": 10 }
 ],
 "category": "production",
 "research": "divine-drill"
