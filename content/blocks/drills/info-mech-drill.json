@@ -1,0 +1,28 @@
+"name": "Infinitium Mechanical Drill",
+	"description": "The fastest drill",
+	"type": "Drill",
+	"size": 2,
+	"health": 40000,
+	"tier": 15,
+	"drillTime": 1,
+	"rotateSpeed": 14,
+	"drawRim": true
+	"updateEffect": "pulverizeRed"
+	"drillEffect": "healWaveMend"
+	"updateEffectChance": 0.03
+	"consumes": {
+		"power": 40.0
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.4
+			"optional": false,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "divinium", "amount": 2 },
+		{ "item": "quantum-ingot", "amount": 10 },
+		{ "item": "dark-steel", "amount": 800 }
+	],
+	"category": "production",
+	"research": "divine-drill"
