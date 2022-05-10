@@ -16,9 +16,9 @@
 },
 "size": 3,
 "requirements": [
-	{ "item": "dark-steel", "amount": 35},
-	{ "item": "enriched-uran", "amount": 12},
-        { "item": "quantum-ingot", "amount": 2}
+	{ "item": "dark-steel", "amount": 800},
+	{ "item": "diamond", "amount": 50},
+        { "item": "divinium", "amount": 3}
 ],
 "category": "distribution",
 "research": "teleporter"
