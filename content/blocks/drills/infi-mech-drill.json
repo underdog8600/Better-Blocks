@@ -4,7 +4,7 @@
 "size": 2,
 "health": 40000,
 "tier": 15,
-"drillTime": 20,
+"drillTime": 10,
 "rotateSpeed": 14,
 "drawRim": true,
 "hardnessDrillMultiplier": 25,
