@@ -10,10 +10,7 @@
 "range": 1000
 "itemCapacity": 500,
 "translation": 1,
-"shootEffect": "none"
-"smokeEffect": "none"
-"recieveEffect": "none"
-"shake": 0,
+"shake": 1,
 "consumes": {
 	"power": 10
 },
