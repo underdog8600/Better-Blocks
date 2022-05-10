@@ -7,6 +7,7 @@
 "drillTime": 20,
 "rotateSpeed": 14,
 "drawRim": true,
+"hardnessDrillMultiplier": 10,
 "updateEffect": "pulverizeRed",
 "drillEffect": "healWaveMend",
 "updateEffectChance": 0.01,
