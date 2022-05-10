@@ -11,15 +11,8 @@
 "updateEffect": "pulverizeRed",
 "drillEffect": "healWaveMend",
 "updateEffectChance": 0.01,
-"liquidBoostIntensity": 2,
 "consumes": {
 	"power": 60.0
-	"liquid": {
-		"liquid": "water",
-		"amount": 1
-		"optional": false,
-		"booster": true
-	}
 },
 "requirements": [
 	{ "item": "infinitium", "amount": 4 },
