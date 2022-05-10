@@ -3,13 +3,13 @@
 "type": "MassDriver",
 "health": 30000,
 "knockback": 0,
-"rotateSpeed": 20.0,
+"rotateSpeed": 10.0,
 "hasPower": true
 "minDistribute": 30,
 "reloadTime": 180,
 "range": 1000
 "itemCapacity": 500,
-"translation": 1,
+"translation": 5,
 "shake": 1,
 "consumes": {
 	"power": 10
