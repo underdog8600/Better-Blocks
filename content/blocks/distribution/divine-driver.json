@@ -1,5 +1,5 @@
 "name": "Divine Driver",
-"description": "Copy of teleporter from Mindustry Classic",
+"description": "A mass driver that has been made out of divine materials.",
 "type": "MassDriver",
 "health": 30000,
 "knockback": 0,
@@ -15,7 +15,7 @@
 "recieveEffect": "none"
 "shake": 0,
 "consumes": {
-	"power": 2.5
+	"power": 10
 },
 "size": 3,
 "requirements": [
