@@ -11,6 +11,7 @@
 "updateEffect": "pulverizeRed",
 "drillEffect": "healWaveMend",
 "updateEffectChance": 0.01,
+"liquidBoostIntensity": 1,
 "consumes": {
 	"power": 60.0
 },
