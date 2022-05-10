@@ -7,7 +7,6 @@
 "reloadTime": 180,
 "range": 1000
 "itemCapacity": 500,
-"instantTransfer": true,
 "consumes": {
 	"power": 10
 },
