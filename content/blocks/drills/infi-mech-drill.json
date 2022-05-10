@@ -7,8 +7,8 @@
 "drillTime": 20,
 "rotateSpeed": 14,
 "drawRim": true
-"updateEffect": "pulverizeRed"
-"drillEffect": "healWaveMend"
+"updateEffect": "healWaveMend"
+"drillEffect": "pulverizeRed"
 "updateEffectChance": 0.01
 "liquidBoostIntensity": 2,
 "consumes": {
