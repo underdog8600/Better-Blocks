@@ -1,6 +1,6 @@
 "type": "Unloader",
 "name": "Infinity Unloader",
-"description": "An Unloader with near instant transfer.",
+"description": "An Unloader with near instant transfer, 60/s.",
 "health": 5000,
 "requirements": [
 	{"item": "infinitium", "amount": 2},
