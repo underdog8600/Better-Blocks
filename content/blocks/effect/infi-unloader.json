@@ -1,0 +1,11 @@
+"type": "Unloader",
+"name": "Infinity Unloader",
+"description": "An Unloader with instant transfer.",
+"health": 5000,
+"requirements": [
+	{"item": "infinitium", "amount": 2},
+	{"item": "divinium", "amount": 4}
+],
+"category": "effect",
+"speed": 100,
+"research": "super-unloader"
