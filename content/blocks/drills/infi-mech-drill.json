@@ -6,6 +6,7 @@
 "tier": 15,
 "drillTime": 10,
 "rotateSpeed": 14,
+"hasLiquids": false,
 "drawRim": true,
 "hardnessDrillMultiplier": 15,
 "updateEffect": "pulverizeRed",
