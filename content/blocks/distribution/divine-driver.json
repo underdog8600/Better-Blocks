@@ -2,15 +2,11 @@
 "description": "A mass driver that has been made out of divine materials.",
 "type": "MassDriver",
 "health": 30000,
-"knockback": 0,
-"rotateSpeed": 10.0,
 "hasPower": true
 "minDistribute": 30,
 "reloadTime": 180,
 "range": 1000
 "itemCapacity": 500,
-"translation": 5,
-"shake": 1,
 "consumes": {
 	"power": 10
 },
