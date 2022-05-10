@@ -7,5 +7,5 @@
 	{"item": "divinium", "amount": 4}
 ],
 "category": "effect",
-"speed": 0.1
+"speed": 0,
 "research": "super-unloader"
