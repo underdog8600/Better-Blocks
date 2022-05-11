@@ -9,7 +9,7 @@
 	"minDistribute": 1,
 	"reloadTime": 30,
 	"range": 500
-	"itemCapacity": 60,
+	"itemCapacity": 10,
 	"translation": 1,
 	"shootEffect": "none"
 	"smokeEffect": "none"
