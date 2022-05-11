@@ -7,8 +7,8 @@
 "hasLiquids": true,
 "itemCapacity": 3,
 "itemDuration": 3600,
-"plasma1": "FFFFFF",
-"plasma2": "",
+"plasma1": "FFFFFFFF",
+"plasma2": "FFFFFFB0",
 "consumes": {
         "power": 0,
 	"item": "divinium",
