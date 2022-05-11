@@ -7,7 +7,7 @@
 "hasLiquids": true,
 "itemCapacity": 3,
 "itemDuration": 3600,
-"plasma1": "",
+"plasma1": "FFFFFF",
 "plasma2": "",
 "consumes": {
         "power": 0,
