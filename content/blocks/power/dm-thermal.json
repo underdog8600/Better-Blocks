@@ -5,7 +5,7 @@
 "generateEffect": "redgeneratespark",
 "effectChance": 0.02,
 "size": 3,
-
+"canOverdrive": false,
 "floating": true,
 "ambientSound": "hum",
 "ambientSoundVolume": 0.06,
