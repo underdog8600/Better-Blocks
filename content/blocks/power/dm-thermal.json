@@ -2,7 +2,7 @@
 "name": "Dark Matter Thermal Generator",
 "health": 20000,
 "powerProduction": 1000,
-"generateEffect": "overdriveWave",
+"generateEffect": "lightningShoot",
 "effectChance": 0.011,
 "size": 3,
 "floating": true,
