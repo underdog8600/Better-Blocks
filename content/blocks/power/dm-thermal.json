@@ -1,0 +1,9 @@
+"type": "ThermalGenerator",
+"name": "Dark Matter Thermal Generator",
+"powerProduction": 1.8,
+"generateEffect": "redgeneratespark",
+"effectChance": 0.011,
+"size": 3,
+"floating": true,
+"ambientSound": "hum",
+"ambientSoundVolume": 0.06
