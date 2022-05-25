@@ -15,7 +15,7 @@
 "shootSound": "railgun",
 
 "coolantMultiplier": 0.4,
-"health": 150000,
+"health": 70000,
 "coolantUsage": 1,
 "consumes": {
          "power": 20
