@@ -3,7 +3,7 @@
 "description": "When you want something gone.",
 "targetAir": true,
 "targetGround": true,
-"health": 40000,
+"health": 80000,
 "size": 6,
 "reloadTime": 240,
 "shootCone": 20,
