@@ -15,7 +15,7 @@
 	"width": 12,
 	"length": 320,
         "ammoMultiplier": 1,
-	"colors": ["CD4238AA", "FF5845FF", "FFFFFFF", "FFFFFFF"],
+	"colors": ["FFFFFFAA", "000000AA", "000000FF", "FFFFFFF"],
 	},
 "powerUse": 10.0,
 "range": 320,
