@@ -11,7 +11,7 @@
 "coolantMultiplier": 1,
 "shootType": {
 	"type": "ContinuousLaserBulletType",
-	"damage": 600,
+	"damage": 750,
 	"width": 12,
 	"length": 320,
         "ammoMultiplier": 1,
