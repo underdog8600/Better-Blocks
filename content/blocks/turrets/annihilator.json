@@ -34,10 +34,9 @@
 	},
 "activeSound": "beam",
 "requirements": [
-	{ "item": "super-tithorium", "amount": 25 },
-	{ "item": "enriched-uran", "amount": 12 },
-	{ "item": "plut", "amount": 15 },
-	{ "item": "dark-steel", "amount": 120 }
+	{ "item": "dark-steel", "amount": 3000 },
+	{ "item": "dark-matter", "amount": 10 },
+	{ "item": "infinitium", "amount": 6 }
 	],
 "category": "turret",
 "research": "giant-turret-1"
