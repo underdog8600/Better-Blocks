@@ -17,7 +17,7 @@
         "ammoMultiplier": 1,
 	"colors": ["FFFFFFAA", "000000AA", "000000FF", "FFFFFFF"],
 	},
-"powerUse": 10.0,
+"powerUse": 20.0,
 "range": 320,
 "shootShake": 3,
 "firingMoveFract": 0.5,
