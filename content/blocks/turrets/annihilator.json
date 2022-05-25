@@ -1,0 +1,43 @@
+"type": "LaserTurret",
+"name": "Annihilator",
+"description": "When you want something gone.",
+"targetAir": true,
+"targetGround": true,
+"health": 40000,
+"size": 6,
+"reloadTime": 240,
+"shootCone": 20,
+"liquidCapacity": 60,
+"coolantMultiplier": 1,
+"shootType": {
+	"type": "ContinuousLaserBulletType",
+	"damage": 150,
+	"width": 9,
+	"length": 240,
+        "ammoMultiplier": 1,
+	"colors": ["CD4238AA", "FF5845FF", "FFFFFFF", "FFFFFFF"],
+	},
+"powerUse": 10.0,
+"range": 240,
+"shootShake": 3,
+"firingMoveFract": 0.5,
+"shootDuration": 360,
+"recoil": 2,
+"shootSound": "laserbig",
+"shootEffect": "shootBigSmoke2",
+"consumes": {
+	"liquid": {
+		"liquid": "super-cryofluid",
+                "update": false,
+		"amount": 1
+		},
+	},
+"activeSound": "beam",
+"requirements": [
+	{ "item": "super-tithorium", "amount": 25 },
+	{ "item": "enriched-uran", "amount": 12 },
+	{ "item": "plut", "amount": 15 },
+	{ "item": "dark-steel", "amount": 120 }
+	],
+"category": "turret",
+"research": "meltdown"
