@@ -1,5 +1,5 @@
 
-	"type": "itemTurret",
+	"type": "ItemTurret"
 	"name": "Infinity Turret",
 	"description": "o_o",
 	"targetAir": true,
