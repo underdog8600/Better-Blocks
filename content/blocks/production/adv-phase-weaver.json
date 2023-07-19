@@ -32,7 +32,7 @@
     {"item": "super-tithorium", "amount": 10}
   ],
   "drawer": [
-    {"type": "DrawRegion"}
+    {"type": "DrawDefault"}
     {"type": "DrawRegion",
     "suffix": "-bottom"}
     {"type": "DrawWeave"}
