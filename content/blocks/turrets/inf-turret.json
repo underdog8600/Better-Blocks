@@ -45,6 +45,9 @@
 			"ammoMultiplier": 30
 		}
 	},
+        "drawer": [
+                {"type": "DrawRegion"}
+	],
 	"requirements": [
 		{ "item": "infinitium", "amount": 4 },
 		{ "item": "dark-steel", "amount": 2000 }
