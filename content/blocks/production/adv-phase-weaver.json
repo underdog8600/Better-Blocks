@@ -31,7 +31,7 @@
     {"item": "dark-steel", "amount": 200},
     {"item": "super-tithorium", "amount": 10}
   ],
-  "drawer": "drawWeave",
+  
   "category": "crafting",
   "research": "phase-weaver",
   "outputItem": {
