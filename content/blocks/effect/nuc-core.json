@@ -1,19 +1,19 @@
 {
-	"name": "Core: Uranium",
-	"type": "CoreBlock",
-	"health": 11000
-	"itemCapacity": 25000
-	"size": 6
-	"unitCapModifier": 30,
-	"unitType": "speedster-mech",
-	"requirements": [
-		{ "item": "enriched-uran", "amount": 20000 },
-		{ "item": "dark-steel", "amount": 20000 },
-		{ "item": "super-tithorium", "amount": 5000},
-		{ "item": "nuclear-fuel", "amount": 1500 },
-		{ "item": "quantum-ingot", "amount": 500 },
-		{ "item": "dark-matter", "amount": 100 }
-	],
-	"category": "effect",
-	"research": "core-nucleus"
+"name": "Core: Uranium",
+"type": "CoreBlock",
+"health": 11000
+"itemCapacity": 25000
+"size": 6
+"unitCapModifier": 30,
+"unitType": "speedster-mech",
+"requirements": [
+	{ "item": "enriched-uran", "amount": 20000 },
+	{ "item": "dark-steel", "amount": 20000 },
+	{ "item": "super-tithorium", "amount": 5000},
+	{ "item": "nuclear-fuel", "amount": 1500 },
+	{ "item": "quantum-ingot", "amount": 500 },
+	{ "item": "dark-matter", "amount": 100 }
+],
+"category": "effect",
+"research": "core-nucleus"
 }
