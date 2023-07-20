@@ -1,9 +1,6 @@
 {
   "type": "GenericCrafter",
   "drawer": [
-    {"type": "DrawDefault"}
-    {"type": "DrawRegion",
-    "suffix": "-top"}
     {"type": "DrawSmelter"}
   ],
   "name": "Alloy Forge",
