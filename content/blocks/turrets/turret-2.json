@@ -7,7 +7,7 @@
 	"health": 800,
 	"size": 3,
 	"inaccuracy": 6,
-	"reloadTime": 29,
+	"reload": 29,
 	"shootCone": 40,
 	"shots": 4,
 	"range": 90,
