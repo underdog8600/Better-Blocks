@@ -1,15 +1,15 @@
 {
-	"type": "Conveyor",
-	"name": "Quantum conveyor",
-	"description": "The best conveyor",
-	"health": 1200,
-	"requirements": [
-		{"item": "dark-steel", "amount": 4},
-		{"item": "quantum-ingot", "amount": 1},
-		{"item": "super-tithorium", "amount": 2}
-	],
-	"category": "distribution",
-	"speed": 0.4,
-        "displayedSpeed": 40
-	"research": "uran-conveyor"
+"type": "Conveyor",
+"name": "Quantum conveyor",
+"description": "The best conveyor",
+"health": 1200,
+"requirements": [
+	{"item": "dark-steel", "amount": 4},
+	{"item": "quantum-ingot", "amount": 1},
+	{"item": "super-tithorium", "amount": 2}
+],
+"category": "distribution",
+"speed": 0.4,
+	"displayedSpeed": 40
+"research": "uran-conveyor"
 }
