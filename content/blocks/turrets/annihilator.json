@@ -30,7 +30,7 @@
                 "update": false,
 		"amount": 1
 		},
-	"Power": 20
+	"power": 20
 	},
 "activeSound": "beam",
 "requirements": [
