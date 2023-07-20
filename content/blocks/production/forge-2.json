@@ -1,8 +1,8 @@
 {
 "type": "GenericCrafter",
-  "drawer": [
-    {"type": "DrawSmelter"}
-  ],
+"drawer": [
+{"type": "DrawSmelter"}
+],
 "name": "Forge S200-Titanium Plus",
 "description": "Upgrades Tithorium to Super Tithorium.",
 "health": 5000,
@@ -31,6 +31,5 @@
 "category": "crafting",
 "idleSound": "respawning",
 "idleSoundVolume": 0.5,
-
 "research": "forge-1"
 }

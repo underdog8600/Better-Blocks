@@ -1,44 +1,44 @@
 {
-    "type": "GenericCrafter",
-  "drawer": [
-    {"type": "DrawSmelter"}
-  ],
-  "name": "Super Cryofluid Mixer",
-  "description": "Mixes Cyrofluid and Super Tithorium to create Super Cyrofluid.",
-  "outputLiquid": {
-    "liquid": "super-cryofluid",
-    "amount": 96
-  },
-  "health": 340,
-  "itemCapacity": 30,
-  "liquidCapacity": 50,
-  "size": 3,
-  "craftTime": 120,
-  "hasPower": true,
-  "hasLiquids": true,
-  "hasItems": true,
-  "updateEffect": "smeltsmoke",
-  "consumes": {
-    "power": 3,
-    "liquid": {
-      "liquid": "cryofluid",
-      "amount": 0.8
-    },
-    "items": {
-      "items": [
-        {
-          "item": "super-tithorium",
-          "amount": 2
-        }
-      ]
-    }
-  },
-  "requirements": [
-    {"item": "metaglass", "amount": 600},
-    {"item": "silicon", "amount": 300},
-    {"item": "dark-steel", "amount": 300},
-    {"item": "super-tithorium", "amount": 50}
-  ],
-  "category": "crafting",
-  "research": "adv-cryofluid-mixer"
+"type": "GenericCrafter",
+"drawer": [
+{"type": "DrawSmelter"}
+],
+"name": "Super Cryofluid Mixer",
+"description": "Mixes Cyrofluid and Super Tithorium to create Super Cyrofluid.",
+"outputLiquid": {
+	"liquid": "super-cryofluid",
+	"amount": 96
+},
+"health": 340,
+"itemCapacity": 30,
+"liquidCapacity": 50,
+"size": 3,
+"craftTime": 120,
+"hasPower": true,
+"hasLiquids": true,
+"hasItems": true,
+"updateEffect": "smeltsmoke",
+"consumes": {
+	"power": 3,
+	"liquid": {
+	  "liquid": "cryofluid",
+	  "amount": 0.8
+	},
+	"items": {
+	  "items": [
+		{
+		  "item": "super-tithorium",
+		  "amount": 2
+		}
+	  ]
+	}
+},
+"requirements": [
+	{"item": "metaglass", "amount": 600},
+	{"item": "silicon", "amount": 300},
+	{"item": "dark-steel", "amount": 300},
+	{"item": "super-tithorium", "amount": 50}
+],
+"category": "crafting",
+"research": "adv-cryofluid-mixer"
 }

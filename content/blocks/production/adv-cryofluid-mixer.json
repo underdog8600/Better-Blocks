@@ -1,43 +1,43 @@
 {
-    "type": "GenericCrafter",
-  "drawer": [
-    {"type": "DrawSmelter"}
-  ],
-  "name": "Advanced Cryofluid Mixer",
-  "description": "Mixes water, titanium to make a lot of cryofluid.",
-  "outputLiquid": {
-    "liquid": "cryofluid",
-    "amount": 48
-  },
-  "health": 340,
-  "itemCapacity": 30,
-  "liquidCapacity": 90,
-  "size": 3,
-  "craftTime": 120,
-  "hasPower": true,
-  "hasLiquids": true,
-  "hasItems": true,
-  "consumes": {
-    "power": 1.6,
-    "liquid": {
-      "liquid": "water",
-      "amount": 0.4
-    },
-    "items": {
-      "items": [
-        {
-          "item": "titanium",
-          "amount": 4
-        }
-      ]
-    }
-  },
-  "requirements": [
-    {"item": "metaglass", "amount": 500},
-    {"item": "silicon", "amount": 200},
-    {"item": "dark-steel", "amount": 180},
-    {"item": "carbon", "amount": 50}
-  ],
-  "category": "crafting",
-  "research": "cryofluid-mixer"
+"type": "GenericCrafter",
+"drawer": [
+{"type": "DrawSmelter"}
+],
+"name": "Advanced Cryofluid Mixer",
+"description": "Mixes water, titanium to make a lot of cryofluid.",
+"outputLiquid": {
+"liquid": "cryofluid",
+"amount": 48
+},
+"health": 340,
+"itemCapacity": 30,
+"liquidCapacity": 90,
+"size": 3,
+"craftTime": 120,
+"hasPower": true,
+"hasLiquids": true,
+"hasItems": true,
+"consumes": {
+	"power": 1.6,
+	"liquid": {
+	  "liquid": "water",
+	  "amount": 0.4
+	},
+	"items": {
+	  "items": [
+		{
+		  "item": "titanium",
+		  "amount": 4
+		}
+	  ]
+	}
+},
+"requirements": [
+	{"item": "metaglass", "amount": 500},
+	{"item": "silicon", "amount": 200},
+	{"item": "dark-steel", "amount": 180},
+	{"item": "carbon", "amount": 50}
+],
+"category": "crafting",
+"research": "cryofluid-mixer"
 }
