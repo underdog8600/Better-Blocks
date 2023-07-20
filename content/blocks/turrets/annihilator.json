@@ -5,7 +5,7 @@
 "targetGround": true,
 "health": 80000,
 "size": 6,
-"reloadTime": 240,
+"reload": 240,
 "shootCone": 20,
 "liquidCapacity": 60,
 "coolantMultiplier": 1,
@@ -17,7 +17,6 @@
         "ammoMultiplier": 1,
 	"colors": ["FFFFFFAA", "000000AA", "000000FF", "FFFFFFF"],
 	},
-"powerUse": 20.0,
 "range": 320,
 "shootShake": 3,
 "firingMoveFract": 0.5,
@@ -31,6 +30,7 @@
                 "update": false,
 		"amount": 1
 		},
+	"Power": 20
 	},
 "activeSound": "beam",
 "requirements": [
