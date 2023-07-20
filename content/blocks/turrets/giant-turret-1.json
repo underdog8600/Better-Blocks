@@ -5,7 +5,7 @@
 "targetGround": true,
 "health": 7500,
 "size": 5,
-"reloadTime": 240,
+"reload": 240,
 "shootCone": 20,
 "liquidCapacity": 60,
 "coolantMultiplier": 1,
@@ -17,7 +17,6 @@
         "ammoMultiplier": 1,
 	"colors": ["CD4238AA", "FF5845FF", "FFFFFFF", "FFFFFFF"],
 	},
-"powerUse": 10.0,
 "range": 240,
 "shootShake": 3,
 "firingMoveFract": 0.5,
@@ -31,6 +30,7 @@
                 "update": false,
 		"amount": 1
 		},
+	"power": 10
 	},
 "activeSound": "beam",
 "requirements": [
