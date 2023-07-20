@@ -1,10 +1,13 @@
 {
-	"type": "GenericSmelter",
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
 	"name": "Concentrator",
 	"description": "Uses coal and oil to get carbon mass",
 	"health": 1400,
 	"itemCapacity": 20,
-	"outputItem": { "item": "carbon-mass", "amount": 1 }
+	"outputItem": { "item": "carbon-mass", "amount": 1 },
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -15,7 +18,7 @@
 		"liquid": {
 			"liquid": "oil",
 			"amount": 0.2
-		}
+		},
 		"items": {
 			"items": [
 				{ "item": "coal", "amount": 10 }
@@ -29,6 +32,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.08
+	"idleSoundVolume": 0.08,
 	"research": "separator"
 }

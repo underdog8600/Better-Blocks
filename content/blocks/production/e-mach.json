@@ -1,6 +1,9 @@
 {
-	"type": "GenericSmelter",
-	"name": "Enrichment Machine"
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
+	"name": "Enrichment Machine",
 	"description": "This maching doing uranium enrichment (Needs so many power).",
 	"health": 700,
 	"itemCapacity": 4,
@@ -25,6 +28,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.2
+	"idleSoundVolume": 0.2,
 	"research": "incinerator"
 }

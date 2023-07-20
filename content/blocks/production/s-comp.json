@@ -1,6 +1,9 @@
 {
-	"type": "GenericSmelter",
-	"name": "Super Compresor"
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
+	"name": "Super Compresor",
 	"description": "You can get DIAMOND from it.",
 	"health": 12000,
 	"itemCapacity": 80,
@@ -25,6 +28,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.3
+	"idleSoundVolume": 0.3,
 	"research": "thor-comp"
 }

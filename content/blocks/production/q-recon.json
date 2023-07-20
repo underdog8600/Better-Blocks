@@ -1,5 +1,8 @@
 {
-	"type": "GenericSmelter",
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
 	"name": "Quantum Reconstructor",
 	"description": "Makes [purple]QUANTUM ACID[].",
 	"health": 25000,
@@ -30,6 +33,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.12
+	"idleSoundVolume": 0.12,
 	"research": "recon"
 }

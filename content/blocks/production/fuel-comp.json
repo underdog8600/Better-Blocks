@@ -1,6 +1,9 @@
 {
-	"type": "GenericSmelter",
-	"name": "Fuel Compressor"
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
+	"name": "Fuel Compressor",
 	"description": "Makes Nuclear Fuel.",
 	"health": 5000,
 	"itemCapacity": 18,
@@ -26,6 +29,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.3
+	"idleSoundVolume": 0.3,
 	"research": "e-mach"
 }

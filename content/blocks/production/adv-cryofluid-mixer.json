@@ -1,5 +1,8 @@
 {
-  "type": "GenericSmelter",
+    "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
   "name": "Advanced Cryofluid Mixer",
   "description": "Mixes water, titanium to make a lot of cryofluid.",
   "outputLiquid": {

@@ -1,5 +1,8 @@
 {
-	"type": "GenericSmelter",
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
 	"name": "Forge S100-Titanium",
 	"description": "Combines titanium and thorium to produce tithorium.",
 	"health": 2000,
@@ -26,6 +29,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"idleSoundVolume": 0.5,
 	"research": "alloy-smelter"
 }

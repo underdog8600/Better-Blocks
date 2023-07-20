@@ -1,5 +1,8 @@
 {
-	"type": "GenericSmelter",
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
 	"name": "Forge S1000-Quantum",
 	"description": "Combines the best materials to produce QUANTUM INGOT.",
 	"health": 14000,
@@ -32,6 +35,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"idleSoundVolume": 0.5,
 	"research": "forge-2"
 }

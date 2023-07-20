@@ -1,5 +1,8 @@
 {
-	"type": "GenericSmelter",
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
 	"name": "Extractor Type [#9F8464]Fe",
 	"description": "Uses Enriched Slag to get Iron",
 	"health": 3000,
@@ -26,6 +29,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.2
+	"idleSoundVolume": 0.2,
 	"research": "melter-t-a"
 }

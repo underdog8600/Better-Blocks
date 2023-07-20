@@ -28,6 +28,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.1
+	"idleSoundVolume": 0.1,
 	"research": "melter"
 }

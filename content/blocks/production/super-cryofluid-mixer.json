@@ -1,5 +1,8 @@
 {
-  "type": "GenericSmelter",
+    "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
   "name": "Super Cryofluid Mixer",
   "description": "Mixes Cyrofluid and Super Tithorium to create Super Cyrofluid.",
   "outputLiquid": {

@@ -1,10 +1,13 @@
 {
-	"type": "GenericSmelter",
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
 	"name": "Carbonator",
 	"description": "Uses carbon mass to get carbon",
 	"health": 2000,
 	"itemCapacity": 20,
-	"outputItem": { "item": "carbon", "amount": 1 }
+	"outputItem": { "item": "carbon", "amount": 1 },
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -25,6 +28,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.08
+	"idleSoundVolume": 0.08,
 	"research": "concentrator"
 }

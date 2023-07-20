@@ -1,4 +1,8 @@
-"type": "GenericSmelter",
+  {
+	"type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
 "name": "Unreal Machine",
 "description": "Combines many materials into a singularity.",
 "health": 25000,
@@ -36,3 +40,4 @@
 "idleSound": "respawning",
 "idleSoundVolume": 0.5,
 "research": "forge-3"
+  }

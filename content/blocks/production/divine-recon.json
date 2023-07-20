@@ -1,6 +1,9 @@
 {
-	"type": "GenericSmelter",
-	"name": "[#5BDBD5]Divine Reconstructor"
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
+	"name": "[#5BDBD5]Divine Reconstructor",
 	"description": "Use this machine to get [#5BDBD5]Divinium",
 	"health": 30000,
 	"itemCapacity": 25,
@@ -23,9 +26,9 @@
 		{ "item": "quantum-ingot", "amount": 18 },
 		{ "item": "dark-steel", "amount": 3000 },
 		{ "item": "dark-matter", "amount": 2 }
-	]
+	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.05
+	"idleSoundVolume": 0.05,
 	"research": "atomic-forge"
 }

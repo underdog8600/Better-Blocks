@@ -1,5 +1,8 @@
 {
-	"type": "GenericSmelter",
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
 	"name": "Steel Forge",
 	"description": "Makes Dark Steel.",
 	"health": 2000,
@@ -27,6 +30,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.1
+	"idleSoundVolume": 0.1,
 	"research": "kiln"
 }

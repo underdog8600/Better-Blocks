@@ -1,6 +1,9 @@
 {
-	"type": "GenericSmelter",
-	"name": "[#FFFFFF]I[][#EEEEEE]n[][#DDDDDD]f[][#CCCCCC]i[][#BBBBBB]n[][#AAAAAA]i[][#999999]t[][#888888]i[][#777777]u[][#666666]m[] Smelter"
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
+	"name": "[#FFFFFF]I[][#EEEEEE]n[][#DDDDDD]f[][#CCCCCC]i[][#BBBBBB]n[][#AAAAAA]i[][#999999]t[][#888888]i[][#777777]u[][#666666]m[] Smelter",
 	"description": "Melts [#FFFFFF]I[][#EEEEEE]n[][#DDDDDD]f[][#CCCCCC]i[][#BBBBBB]n[][#AAAAAA]i[][#999999]t[][#888888]i[][#777777]u[][#666666]m[] to its liquid form",
 	"health": 60000,
 	"itemCapacity": 5,
@@ -25,9 +28,9 @@
 		{ "item": "dark-steel", "amount": 3000},
 		{ "item": "divinium", "amount": 5},
     		{"item": "infinitium", "amount": 10}
-	]
+	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.05
+	"idleSoundVolume": 0.05,
 	"research": "ultra-recon"
 }

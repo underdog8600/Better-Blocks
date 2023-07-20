@@ -1,6 +1,9 @@
 {
-	"type": "GenericSmelter",
-	"name": "Plutonium Forge"
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
+	"name": "Plutonium Forge",
 	"description": "Don't touch this machine",
 	"health": 8000,
 	"itemCapacity": 10,
@@ -21,12 +24,12 @@
 	},
 	"requirements": [
 		{ "item": "comp-titanium", "amount": 40 },
-		{ "item": "dark-steel", "amount": 200 }
+		{ "item": "dark-steel", "amount": 200 },
 		{ "item": "nuclear-fuel", "amount": 5 },
 		{ "item": "enriched-uran", "amount": 12 }
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.12
+	"idleSoundVolume": 0.12,
 	"research": "e-mach"
 }

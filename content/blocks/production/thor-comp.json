@@ -1,6 +1,9 @@
 {
-	"type": "GenericSmelter",
-	"name": "Thorium Compresor"
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
+	"name": "Thorium Compresor",
 	"description": "You can get compressed thorium from it.",
 	"health": 2600,
 	"itemCapacity": 20,
@@ -24,6 +27,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.28
+	"idleSoundVolume": 0.28,
 	"research": "multi-press"
 }

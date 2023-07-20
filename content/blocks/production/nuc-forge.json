@@ -1,6 +1,9 @@
 {
-	"type": "GenericSmelter",
-	"name": "Nuclear Forge"
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
+	"name": "Nuclear Forge",
 	"description": "Decompresses and reforges compressed thorium into radioactive uranium",
 	"health": 2000,
 	"itemCapacity": 4,
@@ -25,6 +28,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.4
+	"idleSoundVolume": 0.4,
 	"research": "thor-comp"
 }

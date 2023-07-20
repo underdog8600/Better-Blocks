@@ -1,6 +1,9 @@
 {
-	"type": "GenericSmelter",
-	"name": "Reconstructor"
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
+	"name": "Reconstructor",
 	"description": "You can get [red]RUBY[] from it.",
 	"health": 15000,
 	"itemCapacity": 2,
@@ -20,11 +23,11 @@
 	},
 	"requirements": [
 		{ "item": "nuclear-fuel", "amount": 12 },
-		{ "item": "dark-steel", "amount": 600 }
+		{ "item": "dark-steel", "amount": 600 },
 		{ "item": "diamond", "amount": 10 }
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.1
+	"idleSoundVolume": 0.1,
 	"research": "s-comp"
 }

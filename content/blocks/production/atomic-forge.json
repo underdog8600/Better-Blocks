@@ -1,6 +1,9 @@
 {
-	"type": "GenericSmelter",
-	"name": "[green]Atomic Forge"
+	  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawSmelter"}
+  ],
+	"name": "[green]Atomic Forge",
 	"description": "Use this machine to get [#4a004a]dark matter",
 	"health": 40000,
 	"itemCapacity": 6,
@@ -26,6 +29,6 @@
 	],
 	"category": "crafting",
 	"idleSound": "respawning",
-	"idleSoundVolume": 0.05
+	"idleSoundVolume": 0.05,
 	"research": "q-recon"
 }
