@@ -1,5 +1,11 @@
 {
-  "type": "GenericSmelter",
+  "type": "GenericCrafter",
+  "drawer": [
+    {"type": "DrawRegion",
+    "suffix": "-bottom"}
+    {"type": "DrawSmelter"}
+    {"type": "DrawDefault"}
+  ],
   "name": "Alloy Forge",
   "description": "A better Alloy Smelter that is more costefficient.",
   "size": 4,
