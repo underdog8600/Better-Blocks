@@ -7,7 +7,7 @@
 "size": 4,
 "inaccuracy": 1,
 "recoil": 2,
-"reloadTime": 20,
+"reload": 20,
 "shootCone": 30,
 "shots": 4,
 "range": 320,
