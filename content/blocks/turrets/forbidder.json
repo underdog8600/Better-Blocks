@@ -13,7 +13,6 @@
 "size": 6,
 "shootCone": 2,
 "shootSound": "railgun",
-
 "coolantMultiplier": 0.4,
 "health": 70000,
 "coolantUsage": 1,
@@ -38,7 +37,7 @@
             },
 "requirements": [
 	{ "item": "infinitium", "amount": 6 },
-        { "item": "surge-alloy", "amount": 1000 },
+    { "item": "surge-alloy", "amount": 1000 },
 	{ "item": "dark-steel", "amount": 2000 }
 ],
 "category": "turret",
