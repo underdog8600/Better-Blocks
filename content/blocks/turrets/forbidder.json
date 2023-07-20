@@ -2,7 +2,7 @@
 "name": "Forbidder",
 "range": 700,
 "rotateSpeed": 2,
-"reloadTime": 240,
+"reload": 240,
 "ammoUseEffect": "casing3Double",
 "recoilAmount": 5,
 "restitution": 0.009,
