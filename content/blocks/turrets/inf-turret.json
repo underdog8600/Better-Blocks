@@ -49,6 +49,6 @@
 		{ "item": "infinitium", "amount": 4 },
 		{ "item": "dark-steel", "amount": 2000 }
 	],
-	"category": "turret"
+	"category": "turret",
 	"research": "big-turret-2-mk2"
 
