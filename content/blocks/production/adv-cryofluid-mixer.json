@@ -7,7 +7,7 @@
 "description": "Mixes water, titanium to make a lot of cryofluid.",
 "outputLiquid": {
 "liquid": "cryofluid",
-"amount": 8
+"amount": 0.8
 },
 "health": 340,
 "itemCapacity": 30,
