@@ -10,6 +10,7 @@
 "hasPower": true,
 "consumesPower": true,
 "conductivePower": true,
+"shieldHealth": 15000,
 "consumes": {
 	"power": 18
 },
