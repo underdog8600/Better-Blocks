@@ -38,14 +38,16 @@
 		"type": "FlakBulletType",
 		"shootEffect": "shootBig",
 		"speed": 4,
-		"damage": 150,
+		"damage": 500,
 		"ammoMultiplier": 4,
-		"splashDamage": 90,
+		"splashDamage": 200,
 		"splashDamageRadius": 25,
 		"collidesGround": true,
 		"lifetime": 60,
 		"status": "blasted",
 		"statusDuration": 60,
+		"homingRange": 64,
+		"homingPower": 0.05
 		}
 	},
 	{"name": "quantum-large-artillery",
@@ -61,14 +63,16 @@
 		"type": "FlakBulletType",
 		"shootEffect": "shootBig",
 		"speed": 4,
-		"damage": 150,
+		"damage": 500,
 		"ammoMultiplier": 4,
-		"splashDamage": 90,
+		"splashDamage": 200,
 		"splashDamageRadius": 25,
 		"collidesGround": true,
 		"lifetime": 60,
 		"status": "blasted",
 		"statusDuration": 60,
+		"homingRange": 64,
+		"homingPower": 0.05
 		}
 	}
      ],
