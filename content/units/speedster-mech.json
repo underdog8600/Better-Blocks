@@ -21,34 +21,34 @@
 "maxRange": 320,
 "aimDst": 320,
 "weapons": [
-		   {
-		 "name": "nothing",
-		 "x": 0,
-		 "y": 2,
-		 "reload": 5,
-		 "shootcone": 360,
-		 "inaccuracy": 5,
-		 "spacing": 0,
-		 "shootSound": "shoot",
-		 "bullet": {
-				"type": "BasicBulletType",
-				"speed": 8,
-				"lifetime": 40,
-				"damage": 200,
-				"width": 8,
-				"height": 23,
-				"frontColor": "ffaf4a",
-				"backColor": "ffaf9a",
-				"shootEffect": "shootBig"
-				"hitEffect": "hitFlameSmall",
-				"despawnEffect": "none"
-				"pierce": true,
-				"pierceCap": 5,
-				"splashDamage": 50,
-				"splashDamageRadius": 20,
-				"homingRange": 64,
-				"homingPower": 0.05
-				   }
+	{
+	"name": "nothing",
+	"x": 0,
+	"y": 2,
+	"reload": 5,
+	"shootcone": 360,
+	"inaccuracy": 5,
+	"spacing": 0,
+	"shootSound": "shoot",
+	"bullet": {
+		"type": "BasicBulletType",
+		"speed": 8,
+		"lifetime": 40,
+		"damage": 200,
+		"width": 8,
+		"height": 23,
+		"frontColor": "ffaf4a",
+		"backColor": "ffaf9a",
+		"shootEffect": "shootBig"
+		"hitEffect": "hitFlameSmall",
+		"despawnEffect": "none"
+		"pierce": true,
+		"pierceCap": 5,
+		"splashDamage": 50,
+		"splashDamageRadius": 20,
+		"homingRange": 64,
+		"homingPower": 0.05
 			}
-			]
+	        }
+		]
 }
