@@ -1,6 +1,6 @@
 {
 "name": "Apocalypse",
-"description": "Empowered Striker unit that can be controlled",
+"description": "Infinity unit that can be controlled",
 "speed": 1.8,
 "accel": 0.04,
 "drag": 0.04,
@@ -24,7 +24,6 @@
 "rotatespeed": 1,
 "engineOffset": 38,
 "engineSize": 7.3,
-	
 "weapons": [
         {"name": "quantum-large-artillery",
 	 "x": 11,
@@ -72,5 +71,21 @@
 		"statusDuration": 60,
 		}
 	}
-     ]
+     ],
+"abilities": [
+       {
+	"type": "ForceFieldAbility",
+	"radius": 80,
+	"regen": 20,
+	"max": 10000,
+	"cooldown": 30
+      },
+      {
+	"type": "RepairFieldAbility",
+	"range": 80,
+	"amount": 2000,
+	"reload": 120
+	      
+      }
+    ]
 }
