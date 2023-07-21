@@ -93,14 +93,14 @@
       },
       {
 	"type": "UnitSpawnAbility",
-        "UnitType": "flare",
+        "unit": "flare",
 	"spawnTime": 180,
 	"spawnX": 20,
 	"spawnY": 0
       },
       {
 	"type": "UnitSpawnAbility",
-        "UnitType": "flare",
+        "unit": "flare",
 	"spawnTime": 180,
 	"spawnX": -20,
 	"spawnY": 0
