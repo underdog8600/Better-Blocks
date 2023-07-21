@@ -49,6 +49,30 @@
 		"homingRange": 64,
 		"homingPower": 0.05
 			}
-	        }
+	        },
+	       {"type": "RepairBeamWeapon",
+                "widthSinMag": 0.11,
+                "reload": 20,
+                "x": 8,
+                "y": 8,
+                "rotate": false,
+                "shoot": 0,
+                "beamWidth": 0.7,
+                "aimDst": 0,
+                "shootCon": 40,
+                "mirror": true,
+
+                "repairSpeed": 1.8,
+                "fractionRepairSpeed": 0.03,
+
+                "targetUnits": false,
+                "targetBuildings": true,
+                "autoTarget": false,
+                "controllable": true,
+                "laserColor", Pal.accent,
+                "healColor", Pal.accent,
+
+                bullet = new BulletType(){{
+                    maxRange = 65f;
 		]
 }
