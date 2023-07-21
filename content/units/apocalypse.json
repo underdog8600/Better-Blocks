@@ -1,8 +1,13 @@
 {
 "name": "Apocalypse",
-"health": 50000,
-"mass": 100.0,
+"description": "Empowered Striker unit that can be controlled",
 "speed": 2,
+"maxVelocity": 0.8,
+"drag": 0.15,
+"hitsize": 50,
+"engineColor": "666495",
+"flying": true,
+"health": 50000,
 "canBuild": true,
 "buildSpeed": 4,
 "mineSpeed": 20,
@@ -10,22 +15,17 @@
 "itemCapacity": 2000,
 "armor": 50,
 "buildTier": 5,
-"hitsize": 50,
-"hitsizeTile": 35,
-"maxVelocity": 0.8,
-"rotatespeed": 0.1,
-"attackLength": 200.0,
-"drag": 0.01,
-"shootCone": 2.0,
-"flying": true,
-"engineOffset": 5,
-"engineSize": 5,
-"baseRotateSpeed": 0.1,
+"mass": 100,
 "commandLimit": 8,
 "range": 320,
 "maxRange": 320,
 "aimDst": 320,
-"weapons":
+	
+"rotatespeed": 0.1,
+"engineOffset": 5,
+"engineSize": 5,
+	
+"weapons": [
         {
 	"name": "nothing",
 	"x": 8,
@@ -55,4 +55,5 @@
 		"homingPower": 0.05
 			}
 	        }
+     ]
 }
