@@ -13,7 +13,7 @@
     "weapons": [
         {
         "length": 3.0,
-        "reload": 2.0,
+        "reload": 6,
         "width": 2.0,
         "shots": 1,
 	"x": 0,
@@ -24,11 +24,11 @@
         "shootSound": "shoot",
         "bullet": {
 			"speed": 12,
-			"damage": 10
+			"damage": 50
 			"Width": 6,
 			"Height": 16,
-			"frontColor": "4acf4d",
-			"backColor": "8cff8f",
+			"frontColor": "ffaf4a",
+			"backColor": "ffaf9a",
 		}
     }
    ]
