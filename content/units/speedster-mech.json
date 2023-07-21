@@ -20,6 +20,7 @@
 "range": 320,
 "maxRange": 320,
 "aimDst": 320,
+"canHeal": true,
 "weapons": [
 	{
 	"name": "nothing",
