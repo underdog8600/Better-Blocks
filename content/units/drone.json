@@ -21,7 +21,6 @@
 	"mirror": false,
         "inaccuracy": 3.0,
 	"ignoreRotation": true,
-        "ejectEffect": "shellEjectSmall",
         "shootSound": "shoot",
         "bullet": {
 			"speed": 12,
