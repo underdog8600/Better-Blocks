@@ -24,9 +24,11 @@
 "baseRotateSpeed": 0.1,
 "maxRange": 320,
 "aimDst": 320,
-    "weapon": {
+"weapon": {
         "length": 20.0,
         "reloadTime": 40.0,
+	"x": 8,
+	"y": 2,
         "width": 20.0,
         "shots": 3,
         "inaccuracy": 4.0,
