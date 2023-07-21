@@ -6,10 +6,10 @@
 "size": 1,
 "absorbLasers": true,
 "chanceDeflect": 50,
-"outputsPower" = false,
-"hasPower" = true,
-"consumesPower" = true,
-"conductivePower" = true,
+"outputsPower": false,
+"hasPower": true,
+"consumesPower": true,
+"conductivePower": true,
 "requirements": [
 	{ "item": "infinitium", "amount": 1 },
 	{ "item": "dark-matter", "amount": 2 }
