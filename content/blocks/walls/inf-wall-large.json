@@ -1,11 +1,18 @@
 {
 "name": "Large Infinity Wall",
 "description": "MORE POWER OF INFINITY",
-"type": "Wall",
+"type": "ShieldWall",
 "health": 70000,
 "size": 2,
 "absorbLasers": true,
 "chanceDeflect": 50,
+"outputsPower": false,
+"hasPower": true,
+"consumesPower": true,
+"conductivePower": true,
+"consumes": {
+	"power": 18
+},
 "requirements": [
 	{ "item": "infinitium", "amount": 4 },
 	{ "item": "dark-matter", "amount": 8 }
