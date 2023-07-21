@@ -57,9 +57,15 @@
         "x": 4,
         "y": 0,
 	"shootY": 6,
-	"beamWidth": 0.2,
+	"beamWidth": 0.4,
 	"rotate": true,
 	"repairSpeed": 1.4,
+        "targetUnits": false,
+        "targetBuildings": true,
+        "autoTarget": false,
+        "controllable": true,
+        "laserColor": "84F491FF",
+        "healColor": "84F491FF",
         "bullet": {
 		"type": "BulletType",
 		"maxRange": 65
