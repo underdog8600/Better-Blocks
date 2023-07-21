@@ -25,7 +25,7 @@
 "range": 320,
 "maxRange": 320,
 "aimDst": 320,
-"weapon":
+"weapons":
         {
 	"name": "nothing",
 	"x": 8,
