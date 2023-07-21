@@ -22,6 +22,8 @@
 "engineOffset": 5,
 "engineSize": 5,
 "baseRotateSpeed": 0.1,
+"maxRange": 320,
+"aimDst": 320,
     "weapon": {
         "length": 20.0,
         "reloadTime": 40.0,
