@@ -28,7 +28,7 @@
 "weapons": [
         {"name": "quantum-large-artillery",
 	 "x": 11,
-	 "y": 27,
+	 "y": 22,
 	 "rotateSpeed": 2,
 	 "reload": 20,
 	 "shootSound": "shoot",
@@ -51,11 +51,11 @@
 	},
 	{"name": "quantum-large-artillery",
 	 "x": 11,
-	 "y": -13,
+	 "y": -15,
 	 "rotateSpeed": 2,
 	 "reload": 22,
 	 "shootSound": "shoot",
-	 "shadow": 7,
+	 "shadow": 12,
 	 "rotate": true,
 	 "recoil": 0.5,
 	 "bullet": {
