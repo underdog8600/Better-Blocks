@@ -93,14 +93,14 @@
       },
       {
 	"type": "UnitSpawnAbility",
-        "unit": "flare",
+        "unit": "avert",
 	"spawnTime": 300,
 	"spawnX": 20,
 	"spawnY": -2
       },
       {
 	"type": "UnitSpawnAbility",
-        "unit": "flare",
+        "unit": "avert",
 	"spawnTime": 300,
 	"spawnX": -20,
 	"spawnY": -2
