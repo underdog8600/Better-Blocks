@@ -60,9 +60,10 @@
 	"cooldown": 30
       },
       {
-	"type": "RepairFieldAbility"
+	"type": "ShieldRegenFieldAbility"
 	"range": 10,
 	"amount": 60,
+	"max": 500,
 	"reload": 1
 	      
       }
