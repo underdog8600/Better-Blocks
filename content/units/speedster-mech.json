@@ -57,15 +57,10 @@
 	"shootY": 6,
 	"beamWidth": 0.2,
 	"rotate": true,
+	"repairSpeed": 1.4,
         "bullet": {
-		"type": "LaserBoltBulletType",
-                "speed": 6,
-		"damage": 0,
-		"maxRange": 65,
-		"lifetime": 35,
-                "healPercent": 3,
-		"backColor": "84F491FF",
-                "frontColor": "84F491FF"
+		"type": "BulletType",
+		"maxRange": 65
 	          }
 	}
 	]
