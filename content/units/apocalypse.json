@@ -26,34 +26,51 @@
 "engineSize": 5,
 	
 "weapons": [
-        {
-	"name": "nothing",
-	"x": 8,
-	"y": -4,
-	"reload": 20,
-	"shootcone": 360,
-	"inaccuracy": 5,
-	"spacing": 0,
-	"shootSound": "shoot",
-	"bullet": {
-		"type": "BasicBulletType",
-		"speed": 6,
-		"lifetime": 40,
-		"damage": 400,
-		"width": 12,
-		"height": 23,
-		"frontColor": "ffaf4a",
-		"backColor": "ffaf9a",
-		"shootEffect": "shootBig"
-		"hitEffect": "hitFlameSmall",
-		"despawnEffect": "none"
-		"pierce": true,
-		"pierceCap": 5,
-		"splashDamage": 100,
-		"splashDamageRadius": 50,
-		"homingRange": 64,
-		"homingPower": 0.05
-			}
-	        }
+        {"name": "quantum-large-artillery",
+	 "x": 11,
+	 "y": 27,
+	 "rotateSpeed": 2,
+	 "reload": 20,
+	 "shootSound": "shoot",
+	 "shadow": 7,
+	 "rotate": true,
+	 "recoil": 0.5,
+	 "bullet": {
+		"type": "FlakBulletType",
+		"shootEffect": "shootBig",
+		"speed": 4,
+		"damage": 150,
+		"ammoMultiplier": 4,
+		"splashDamage": 90,
+		"splashDamageRadius": 25,
+		"collidesGround": true,
+		"lifetime": 47,
+		"status": "blasted",
+		"statusDuration": 60,
+		}
+	},
+	{"name": "quantum-large-artillery",
+	 "x": 11,
+	 "y": -13,
+	 "rotateSpeed": 2,
+	 "reload": 22,
+	 "shootSound": "shoot",
+	 "shadow": 7,
+	 "rotate": true,
+	 "recoil": 0.5,
+	 "bullet": {
+		"type": "FlakBulletType",
+		"shootEffect": "shootBig",
+		"speed": 4,
+		"damage": 150,
+		"ammoMultiplier": 4,
+		"splashDamage": 90,
+		"splashDamageRadius": 25,
+		"collidesGround": true,
+		"lifetime": 47,
+		"status": "blasted",
+		"statusDuration": 60,
+		}
+	}
      ]
 }
