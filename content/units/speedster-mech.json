@@ -62,8 +62,8 @@
       {
 	"type": "RepairFieldAbility",
 	"range": 30,
-	"amount": 100,
-	"reload": 60
+	"amount": 1000,
+	"reload": 120
 	      
       }
     ]
