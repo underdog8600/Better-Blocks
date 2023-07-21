@@ -62,8 +62,8 @@
 		"maxRange": 65,
 		"lifetime": 35,
                 "healPercent": 3,
-		"backColor": "ffaf4a",
-                "frontColor": "ffaf4a"
+		"backColor": "84F491FF",
+                "frontColor": "84F491FF"
 	          }
 	}
 	]
