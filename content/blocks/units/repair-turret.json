@@ -1,5 +1,5 @@
-"name": "Repair Turret",
-"type": "RepairPoint",
+"name": "Repair Turret T",
+"type": "RepairTurret",
 "size": 2,
 "length": 6,
 "repairSpeed": 3,
