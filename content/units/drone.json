@@ -16,8 +16,11 @@
         "reload": 2.0,
         "width": 2.0,
         "shots": 1,
+	"x": 0,
+	"y": 0,
+	"mirror": false,
         "inaccuracy": 3.0,
-        "alternate": true,
+	"ignoreRotation": true,
         "ejectEffect": "shellEjectSmall",
         "shootSound": "shoot",
         "bullet": {
