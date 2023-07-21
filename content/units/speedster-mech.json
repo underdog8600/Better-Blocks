@@ -51,6 +51,7 @@
 			}
 	        },
 	{"type": "RepairBeamWeapon",
+	"name": "nothing",
         "reload": 20,
         "x": 4,
         "y": 0,
