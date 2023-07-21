@@ -21,6 +21,8 @@
 "engineOffset": 5,
 "engineSize": 5,
 "baseRotateSpeed": 0.1,
+"commandLimit": 8,
+"range": 320,
 "maxRange": 320,
 "aimDst": 320,
 "weapon":
