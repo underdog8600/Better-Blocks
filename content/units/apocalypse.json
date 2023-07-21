@@ -1,7 +1,7 @@
 {
 "name": "Apocalypse",
 "description": "Empowered Striker unit that can be controlled",
-"speed": 2,
+"speed": 0.6,
 "accel": 0.04,
 "drag": 0.04,
 "maxVelocity": 0.8,
