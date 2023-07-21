@@ -4,6 +4,7 @@
     "lowAltitude": true,
     "mass": 1.0,
     "speed": 0.4,
+    "circleTarget": true,
     "maxVelocity": 2.0,
     "drag": 0.01,
     "flying": true,
