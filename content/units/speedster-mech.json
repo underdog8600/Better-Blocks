@@ -53,7 +53,7 @@
 	],
 "abilities": [
        {
-	"type": "mindustry.entities.abilities.ForceFieldAbility",
+	"type": "ForceFieldAbility",
 	"radius": 35,
 	"regen": 9,
 	"max": 2000,
