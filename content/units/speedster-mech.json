@@ -57,7 +57,9 @@
 	"rotate": true,
         "bullet": {
 		"type": "LaserBoltBulletType",
-                "maxRange": 65,
+                "speed": 6,
+		"damage": 0,
+		"maxRange": 65,
 		"lifetime": 35,
                 "healPercent": 3,
 		"backColor": "ffaf4a",
