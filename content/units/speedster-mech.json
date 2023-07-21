@@ -20,7 +20,6 @@
 "range": 320,
 "maxRange": 320,
 "aimDst": 320,
-"canHeal": true,
 "weapons": [
 	{
 	"name": "nothing",
@@ -50,27 +49,6 @@
 		"homingRange": 64,
 		"homingPower": 0.05
 			}
-	        },
-	{"type": "RepairBeamWeapon",
-	"name": "nothing",
-        "reload": 20,
-        "x": 4,
-        "y": 0,
-	"shootY": 6,
-	"beamWidth": 0.4,
-	"rotate": false,
-	"mirror": true,
-	"repairSpeed": 1.6,
-        "targetUnits": false,
-        "targetBuildings": true,
-        "autoTarget": true,
-        "controllable": true,
-        "laserColor": "84F491FF",
-        "healColor": "84F491FF",
-        "bullet": {
-		"type": "BulletType",
-		"maxRange": 65
-	          }
-	}
+	        }
 	]
 }
