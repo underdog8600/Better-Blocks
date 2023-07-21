@@ -9,3 +9,5 @@ This mod adds more blocks , materials and enemies (I'll add enemies soon) (OH NO
 - Makc - Carbon (Ukrainian)
 - NoName (Korean)
 - King-BR (Portuguese Brazil)
+
+# Unofficial V7 Update + New Content
