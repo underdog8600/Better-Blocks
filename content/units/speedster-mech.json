@@ -69,12 +69,13 @@
         "targetBuildings": true,
         "autoTarget": false,
         "controllable": true,
-        "laserColor", Pal.accent,
-        "healColor", Pal.accent,
+        "laserColor": "ffaf4a",
+        "healColor": "ffaf4a",
 
         "bullet": {
 		"type": "BulletType",
                 "maxRange": 65
 	          }
-		]
+	}
+	]
 }
