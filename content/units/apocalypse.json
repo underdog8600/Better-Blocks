@@ -21,8 +21,8 @@
 "aimDst": 320,
 	
 "rotatespeed": 1,
-"engineOffset": 5,
-"engineSize": 5,
+"engineOffset": 38,
+"engineSize": 7.3,
 	
 "weapons": [
         {"name": "quantum-large-artillery",
