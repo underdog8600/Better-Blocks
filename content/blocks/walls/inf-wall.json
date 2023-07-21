@@ -10,6 +10,9 @@
 "hasPower": true,
 "consumesPower": true,
 "conductivePower": true,
+"consumes": {
+	"power": 6
+},
 "requirements": [
 	{ "item": "infinitium", "amount": 1 },
 	{ "item": "dark-matter", "amount": 2 }
