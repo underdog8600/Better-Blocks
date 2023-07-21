@@ -58,6 +58,11 @@
 	"regen": 9,
 	"max": 2000,
 	"cooldown": 30
+      },
+      {
+	"type": "RepairFieldAbility"
+	"radius": 10
+	      
       }
     ]
 }
