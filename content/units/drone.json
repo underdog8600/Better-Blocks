@@ -23,12 +23,13 @@
 	"ignoreRotation": true,
         "shootSound": "shoot",
         "bullet": {
-			"speed": 12,
-			"damage": 50
-			"Width": 6,
-			"Height": 16,
-			"frontColor": "ffaf4a",
-			"backColor": "ffaf9a",
+		"speed": 12,
+		"lifetime": 10,
+		"damage": 50,
+		"Width": 6,
+		"Height": 16,
+		"frontColor": "ffaf4a",
+		"backColor": "ffaf9a",
 		}
     }
    ]
