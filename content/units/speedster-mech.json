@@ -59,6 +59,7 @@
 	"shootY": 6,
 	"beamWidth": 0.4,
 	"rotate": true,
+	"mirror": true,
 	"repairSpeed": 1.4,
         "targetUnits": false,
         "targetBuildings": true,
