@@ -50,5 +50,14 @@
 		"homingPower": 0.05
 			}
 	        }
-	]
+	],
+"abilities": [
+       {
+	"type": "mindustry.entities.abilities.ForceFieldAbility",
+	"radius": 35,
+	"regen": 3,
+	"max": 450,
+	"cooldown": 60
+      }
+    ]
 }
