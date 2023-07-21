@@ -19,7 +19,7 @@
 "range": 320,
 "maxRange": 320,
 "aimDst": 320,
-	
+"faceTarget": false,
 "rotatespeed": 1,
 "engineOffset": 38,
 "engineSize": 7.3,
