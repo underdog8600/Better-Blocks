@@ -51,30 +51,17 @@
 			}
 	        },
 	{"type": "heal-weapon-mount",
-        "widthSinMag": 0.11,
         "reload": 20,
         "x": 4,
         "y": 0,
-        "rotate": false,
-        "shoot": 0,
-        "beamWidth": 0.7,
-        "aimDst": 0,
-        "shootCon": 40,
-        "mirror": true,
-
-        "repairSpeed": 1.8,
-        "fractionRepairSpeed": 0.03,
-
-        "targetUnits": false,
-        "targetBuildings": true,
-        "autoTarget": false,
-        "controllable": true,
-        "laserColor": "ffaf4a",
-        "healColor": "ffaf4a",
-
+	"rotate": true,
         "bullet": {
 		"type": "LaserBoltBulletType",
-                "maxRange": 65
+                "maxRange": 65,
+		"lifetime": 35,
+                "healPercent": 3,
+		"backColor": "ffaf4a",
+                "frontColor": "ffaf4a"
 	          }
 	}
 	]
