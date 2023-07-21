@@ -50,10 +50,12 @@
 		"homingPower": 0.05
 			}
 	        },
-	{"type": "heal-weapon-mount",
+	{"type": "RepairBeamWeapon",
         "reload": 20,
         "x": 4,
         "y": 0,
+	"shootY": 6,
+	"beamWidth": 0.2,
 	"rotate": true,
         "bullet": {
 		"type": "LaserBoltBulletType",
