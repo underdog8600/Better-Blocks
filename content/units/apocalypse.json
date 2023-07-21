@@ -90,6 +90,13 @@
 	"amount": 2000,
 	"reload": 120
 	      
+      },
+      {
+	"type": "UnitSpawnAbility",
+        "UnitType": "flare",
+	"spawnTime": 180,
+	"spawnX": 20,
+	"spawnY": 0
       }
     ]
 }
