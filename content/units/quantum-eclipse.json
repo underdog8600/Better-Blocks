@@ -1,7 +1,7 @@
 "name": "Quantum Eclipse",
 "type": "flying",
 "speed": 0.54,
-"accel": 0.08,
+"accel": 0.04,
 "drag": 0.04,
 "rotateSpeed": 1,
 "flying": true,
