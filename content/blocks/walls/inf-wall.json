@@ -1,7 +1,7 @@
 {
 "name": "Infinity Wall",
 "description": "POWER OF INFINITY",
-"type": "Wall",
+"type": "ShieldWall",
 "health": 17500,
 "size": 1,
 "absorbLasers": true,
