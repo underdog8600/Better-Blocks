@@ -50,7 +50,7 @@
 		"homingPower": 0.05
 			}
 	        },
-	{"type": "RepairBeamWeapon",
+	{"type": "heal-weapon-mount",
         "widthSinMag": 0.11,
         "reload": 20,
         "x": 4,
@@ -73,7 +73,7 @@
         "healColor": "ffaf4a",
 
         "bullet": {
-		"type": "BulletType",
+		"type": "LaserBoltBulletType",
                 "maxRange": 65
 	          }
 	}
