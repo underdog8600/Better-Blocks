@@ -61,7 +61,9 @@
       },
       {
 	"type": "RepairFieldAbility"
-	"radius": 10
+	"range": 10,
+	"amount": 60,
+	"reload": 1
 	      
       }
     ]
