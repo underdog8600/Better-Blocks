@@ -7,8 +7,8 @@ health: 30000
 size: 3
 requirements: [
 	super-tithorium/150
-	dark-steel amount:400
-	tithorium amount:300
+	dark-steel/400
+	tithorium/300
 ]
 category: effect
 research: q-vault
