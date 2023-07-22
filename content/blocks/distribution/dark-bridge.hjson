@@ -1,16 +1,16 @@
-"type": "ItemBridge",
-"name": "Dark Bridge",
-"fadeIn": false,
-"moveArrows": false,
-"range": 8,
-"transportTime": 3,
-"arrowSpacing": 20,
-"itemCapacity": 20,
-"hasPower": false,
-"requirements": [
-		{"item": "dark-steel", "amount": 10},
-		{"item": "carbon", "amount": 6},
-		{"item": "carbon-mass", "amount": 6}
-	],
-"category": "distribution",
-"research": "dark-conveyor"
+type: ItemBridge
+name: Dark Bridge
+fadeIn: false
+moveArrows: false
+range: 8
+transportTime: 3
+arrowSpacing: 20
+itemCapacity: 20
+hasPower: false
+requirements: [
+		dark-steel/10
+		arbon/6
+		carbon-mass/6
+	]
+category: distribution
+research: dark-conveyor
