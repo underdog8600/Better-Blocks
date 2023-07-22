@@ -12,7 +12,8 @@ updateEffectChance: 0.03
 consumes: {
 	power: 12.0
 	liquid: {
-		cryofluid/0.1
+		liquid: cryofluid
+		amount: 0.1
 		optional: true
 		booster: true
 	}
