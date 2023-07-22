@@ -9,7 +9,8 @@ rotateSpeed: 9
 consumes: {
 	power: 8.0
 	liquid: {
-		cryofluid/0.06
+		liquid: cryofluid
+    	amount: 0.06
 		optional: true
 		booster: true
 	}

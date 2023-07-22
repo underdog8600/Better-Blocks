@@ -12,7 +12,8 @@ updateEffectChance: 0.03
 consumes: {
 	power: 5.0
 	liquid: {
-		water/0.15
+		liquid: water
+    	amount: 0.15
 		optional: true
 		booster: true
 	}
