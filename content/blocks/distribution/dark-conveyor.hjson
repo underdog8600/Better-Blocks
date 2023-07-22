@@ -1,0 +1,13 @@
+type: Conveyor
+name: Dark conveyor
+description: Dark Dark conveyor
+health: 250
+requirements: [
+	dark-steel/1
+	carbon/1
+	carbon-mass/1
+]
+category: distribution
+speed: 0.12
+displayedSpeed: 16
+research: iron-conveyor
