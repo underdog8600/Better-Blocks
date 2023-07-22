@@ -10,7 +10,7 @@ hasLiquids: false
 craftTime: 150
 craftEffect: pulverizeRed
 // updateEffect: pulverizeRed
-outputitem: phase-fabric/4
+outputItem: phase-fabric/4
 consumes: {
 	power: 12.5
 	items: {
