@@ -9,7 +9,7 @@ itemCapacity: 20
 hasPower: false
 requirements: [
 		dark-steel/10
-		arbon/6
+		carbon/6
 		carbon-mass/6
 	]
 category: distribution
