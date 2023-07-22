@@ -1,5 +1,4 @@
 type: GenericCrafter
-drawer: DrawSmelter
 name: Advanced Cryofluid Mixer
 description: Mixes water titanium to make a lot of cryofluid.
 health: 340
