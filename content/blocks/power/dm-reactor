@@ -1,0 +1,29 @@
+type: NuclearReactor
+name: Dark Matter Reactor
+description: Generates alot of energy
+size: 3
+health: 24000
+hasLiquids: true
+itemDuration: 3600
+powerProduction: 5000
+heating: 0.008
+explosionRadius: 60
+explosionDamage: 10000
+consumes: {
+	items: {
+		items: [
+			dark-matter/1 }
+		]
+	}
+	liquid: {
+		liquid: quantum-liquid
+		amount: 0.2
+	}
+}
+requirements: [
+	quantum-ingot/20}
+	dark-matter/5}
+	]
+category: power
+research: q-generator
+

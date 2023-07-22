@@ -1,0 +1,14 @@
+name: Super Power Node
+description: ._.
+type: PowerNode
+health: 25000
+size: 3
+maxNodes: 40
+laserRange: 70
+requirements: [
+	quantum-ingot/1
+	dark-steel/400
+	lithium/100
+]
+category: power
+research: surge-tower

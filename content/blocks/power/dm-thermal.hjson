@@ -1,0 +1,17 @@
+type: ThermalGenerator
+name: Dark Matter Thermal Generator
+health: 20000
+powerProduction: 800
+generateEffect: redgeneratespark
+effectChance: 0.02
+size: 3
+canOverdrive: false
+floating: true
+ambientSound: hum
+ambientSoundVolume: 0.06
+requirements: [
+	quantum-ingot/20
+	dark-matter/5
+]
+category: power
+research: q-generator

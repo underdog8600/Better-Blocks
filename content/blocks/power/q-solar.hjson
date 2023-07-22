@@ -1,0 +1,13 @@
+type: SolarGenerator
+name: Quantum solar panel
+description: This solar panel one of the best energy generators
+size: 3
+health: 20000
+powerProduction: 20
+requirements: [
+	quantum-ingot/2
+	dark-steel/1600
+	silicon/600
+]
+category: power
+research: solar-panel-large

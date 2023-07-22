@@ -1,0 +1,13 @@
+type: SolarGenerator
+name: Infinity Solar Generator
+description: The best solar panel
+size: 3
+health: 32000
+canOverdrive: false
+powerProduction: 1000
+requirements: [
+	infinitium/2
+	dark-matter/5
+]
+category: power
+research: q-solar
