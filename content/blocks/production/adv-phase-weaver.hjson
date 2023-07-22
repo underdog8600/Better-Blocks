@@ -32,10 +32,10 @@ drawer: [
 	suffix: -bottom
 	}
 	{
-	type: drawWeave
+	type: DrawWeave
 	}
 	{
-	drawDefault
+	type: DrawDefault
 	}
 ]
 category: crafting
