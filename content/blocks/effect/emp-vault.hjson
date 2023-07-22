@@ -1,0 +1,14 @@
+name: Empovered Vault
+description: High capacity vault
+type: StorageBlock
+itemCapacity: 3000
+hasItems: true
+health: 30000
+size: 3
+requirements: [
+	super-tithorium/150
+	dark-steel amount:400
+	tithorium amount:300
+]
+category: effect
+research: q-vault

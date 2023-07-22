@@ -1,0 +1,17 @@
+name: Core: Uranium
+type: CoreBlock
+health: 11000
+itemCapacity: 25000
+size: 6
+unitCapModifier: 30
+unitType: speedster-mech
+requirements: [
+	enriched-uran/20000
+	dark-steel/20000
+	super-tithorium/500
+	nuclear-fuel/1500
+	quantum-ingot/500
+	dark-matter/100
+]
+category: effect
+research: core-nucleus

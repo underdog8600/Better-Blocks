@@ -1,0 +1,11 @@
+type: Unloader
+name: Super Unloader
+description: An Unloader with great speed
+health: 200
+requirements: [
+	dark-steel/50
+	silicon/100
+]
+category: effect
+speed: 2
+research: unloader

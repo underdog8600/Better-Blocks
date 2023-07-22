@@ -1,0 +1,11 @@
+type: Unloader
+name: Infinity Unloader
+description: An Unloader with near instant transfer.
+health: 5000
+requirements: [
+	infinitium/2
+	divinium/4
+]
+category: effect
+speed: 1
+research: super-unloader

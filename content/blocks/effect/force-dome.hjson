@@ -1,0 +1,33 @@
+type: ForceProjector
+name: Force Dome
+description: A better Force Projector with more range and shield health.
+size: 4
+health: 5000
+radius: 200
+shieldHealth: 10000
+phaseShieldBoost: 4000
+phaseRadiusBoost: 120
+phaseUseTime: 350
+breakage: 260
+canOverdrive: true
+cooldownNormal: 9
+cooldownLiquid: 12
+consumes: {
+	power: 20
+	items: {
+		items: [ 
+			phase-fabric/5
+			nuclear-fuel/1
+		]
+		booster: true
+		optional: true
+	}
+}
+category: effect
+requirements: [
+	silicon/800
+	plastanium/500
+	quantum-ingot/4
+	dark-steel/1100
+]
+research: force-projector

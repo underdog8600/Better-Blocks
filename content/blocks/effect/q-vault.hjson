@@ -1,0 +1,14 @@
+name: Quantum Vault
+description: The best vault
+type: StorageBlock
+itemCapacity: 10000
+hasItems: true
+health: 100000
+size: 4
+requirements: [
+	quantum-ingot/10
+	dark-steel/1200
+	titanium/1800
+]
+category: effect
+research: vault

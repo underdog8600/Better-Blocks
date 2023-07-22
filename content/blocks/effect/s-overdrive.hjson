@@ -1,0 +1,29 @@
+name: Super Overdrive Projector
+description: OP version of overdrive projector
+type: OverdriveProjector
+health: 40000
+size: 3
+range: 150
+reload: 60
+speedBoost: 3
+useTime: 800
+phase: #720874
+color: #17C50B
+healPercent: 40
+consumes: {
+	power: 7.5
+	items: {
+		items: [
+			nuclear-fuel/1
+		]
+		booster: true
+		optional: true
+	}
+}
+requirements: [
+	quantum-ingot/3
+	silicon/800
+	dark-steel/1200
+]
+category: effect
+research: overdrive-projector
