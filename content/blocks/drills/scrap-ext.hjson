@@ -1,0 +1,33 @@
+type: AttributeSmelter
+name: Scrap Extractor
+health: 960
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 30
+itemCapacity: 12
+attribute: oil
+baseEfficiency: 0
+boostScale: 0.3
+maxHeatBoost: 4
+outputItem: scrap/3
+updateEffect: pulverize
+updateEffectChance: 0.05
+consumes: {
+	power: 5
+    items: {
+        items: [
+            sand/6
+		    copper/3
+		    lead/2
+        ]
+    }
+}
+requirements: [
+       carbon/40
+       dark-steel/150
+       titanium/120
+]
+category: production
+research: oil-extractor

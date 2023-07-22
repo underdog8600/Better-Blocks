@@ -1,0 +1,24 @@
+name: Infinitium Mechanical Drill
+description: Drill with the power of infinitium. No liquid required for boosting.
+type: Drill
+size: 2
+health: 40000
+tier: 15
+drillTime: 10
+rotateSpeed: 14
+hasLiquids: false
+drawRim: true
+hardnessDrillMultiplier: 15
+updateEffect: pulverizeRed
+drillEffect: healWaveMend
+updateEffectChance: 0.01
+liquidBoostIntensity: 1
+consumes: {
+	power: 60.0
+}
+requirements: [
+	infinitium/4
+	dark-matter/10
+]
+category: production
+research: divine-drill

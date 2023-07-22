@@ -1,0 +1,18 @@
+type: SolidPump
+name: Advanced Water Extractor
+result: water
+pumpAmount: 0.31
+size: 3
+liquidCapacity: 60
+rotateSpeed: 2
+attribute: water
+consumes: {
+	power: 2
+}
+requirements: [
+	metaglass/300
+	silicon/150
+	dark-steel/140
+]
+category: production
+research: water-extractor

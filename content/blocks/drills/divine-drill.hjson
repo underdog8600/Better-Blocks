@@ -1,0 +1,28 @@
+name: Divine Drill
+description: The fastest drill
+type: Drill
+size: 5
+health: 75000
+tier: 15
+drillTime: 20
+hardnessDrillMultiplier: 40
+rotateSpeed: 14
+drawRim: true
+updateEffect: pulverizeRed
+drillEffect: healWaveMend
+updateEffectChance: 0.03
+consumes: {
+	power: 22.0
+	liquid: {
+		cryofluid/0.4
+		optional: true
+		booster: true
+	}
+}
+requirements: [
+	divinium/2
+	quantum-ingot/10
+	dark-steel/800
+]
+category: production
+research: q-drill
