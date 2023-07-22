@@ -8,8 +8,8 @@ hasItems: true
 itemCapacity: 60
 hasLiquids: false
 craftTime: 150
-craftEffect: pulverizeRedder
-updateEffect: pulverizeRed
+craftEffect: pulverizeRed
+// updateEffect: pulverizeRed
 outputitem: phase-fabric/4
 consumes: {
 	power: 12.5
