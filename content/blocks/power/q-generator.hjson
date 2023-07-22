@@ -14,7 +14,8 @@ consumes: {
 		]
 	}
 	liquid: {
-		quantum-liquid/0.1
+		liquid: quantum-liquid
+		mount: 0.1
 	}
 }
 requirements: [
