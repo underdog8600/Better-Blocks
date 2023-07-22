@@ -8,9 +8,9 @@ arrowSpacing: 20
 itemCapacity: 20
 hasPower: false
 requirements: [
-		dark-steel: 10
-		carbon: 6
-		carbon-mass: 6
+		dark-steel/10
+		carbon/6
+		carbon-mass/6
 	]
 category: distribution
 research: dark-conveyor
