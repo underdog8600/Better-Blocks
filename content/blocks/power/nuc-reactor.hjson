@@ -10,8 +10,9 @@ consumes: {
 	power: 40.0
 	item: nuclear-fuel
 	liquid: {
-		cryofluid/0.3
-		}
+		liquid: cryofluid
+		amount: 0.3
+	}
 }
 requirements: [
 	enriched-uran/40
