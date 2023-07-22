@@ -1,0 +1,36 @@
+type: StackConveyor
+name: Dark Matter conveyor
+loadEffect: {
+	type: ParticleEffect
+	line: true
+	particles: 7
+	lifetime: 15
+	length: 25
+	cone: -360
+	lenFrom: 5
+	lenTo: 0
+	colorFrom: 351c75
+	colorTo: 6a329f
+}
+unloadEffect: {
+	type: ParticleEffect
+	line: true
+	particles: 7
+	lifetime: 15
+	length: 25
+	cone: -360
+	lenFrom: 5
+	lenTo: 0
+	colorFrom: 351c75
+	colorTo: 6a329f
+}
+health: 2000
+speed: 0.067
+itemCapacity: 20
+   requirements: [
+		dark-steel/8
+		quantum-ingot/2
+		dark-matter/1
+    ]
+research: plastanium-conveyor
+category: distribution

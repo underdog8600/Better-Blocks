@@ -1,0 +1,12 @@
+type: Conveyor
+name: Infinitium conveyor
+description: Uses power of infinitium to be faster than Dark Matter Conveyor
+health: 8000
+requirements: [
+	dark-steel/40
+	infinitium/1
+]
+category: distribution
+speed: 1.00
+displayedSpeed: 110
+research: dms-conveyor

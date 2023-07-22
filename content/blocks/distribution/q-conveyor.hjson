@@ -1,0 +1,13 @@
+type: Conveyor
+name: Quantum conveyor
+description: The best conveyor
+health: 1200
+requirements: [
+	dark-steel/4
+	quantum-ingot/1
+	super-tithorium/2
+]
+category: distribution
+speed: 0.4
+displayedSpeed: 40
+research: uran-conveyor

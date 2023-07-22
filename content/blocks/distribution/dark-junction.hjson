@@ -1,0 +1,12 @@
+type: Junction
+name: Dark Junction
+speed: 14
+capacity: 10
+health: 300
+requirements: [
+	dark-steel/2
+    carbon/2
+	carbon-mass/2
+]
+research: dark-conveyor
+category: distribution

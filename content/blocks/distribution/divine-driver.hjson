@@ -1,0 +1,20 @@
+name: Divine Driver
+description: A mass driver that has been made out of divine materials.
+type: MassDriver
+health: 30000
+hasPower: true
+minDistribute: 30
+reloadTime: 180
+range: 1000
+itemCapacity: 500
+consumes: {
+	power: 10
+}
+size: 3
+requirements: [
+	dark-steel/800
+	diamond/50
+    divinium/3
+]
+category: distribution
+research: teleporter
