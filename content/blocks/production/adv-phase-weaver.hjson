@@ -26,6 +26,10 @@ requirements: [
 	dark-steel/200
 	super-tithorium/10
 ]
-drawer: drawWeave
+drawer: {
+	type: DrawRegion, suffix: -bottom
+	type: DrawWeave
+	type: DrawDefault
+}
 category: crafting
 research: phase-weaver
