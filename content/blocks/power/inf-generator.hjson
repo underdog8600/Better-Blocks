@@ -1,6 +1,6 @@
 type: ImpactReactor
 name: Infinity Generator
-description: Generates [red]ALOT[] of energy
+description: "Generates [red]ALOT[] of energy"
 size: 4
 health: 51000
 powerProduction: 12000
