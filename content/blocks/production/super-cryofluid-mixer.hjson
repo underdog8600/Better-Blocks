@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Super Cryofluid Mixer
+description: Mixes Cyrofluid and Super Tithorium to create Super Cyrofluid.
+health: 340
+itemCapacity: 30
+liquidCapacity: 50
+size: 3
+craftTime: 120
+hasPower: true
+hasLiquids: true
+hasItems: true
+updateEffect: smeltsmoke
+outputLiquid: super-cryofluid 0.8
+consumes: {
+	power: 3
+	liquid: {
+	  liquid: cryofluid
+	  amount: 0.8
+	}
+	items: {
+	  items: [
+		{
+		  super-tithorium/2
+		}
+	  ]
+	}
+}
+requirements: [
+	metaglass/600
+	silicon/300
+	dark-steel/300
+	super-tithorium/50
+]
+category: crafting
+research: adv-cryofluid-mixer

@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Nuclear Forge
+description: Decompresses and reforges compressed thorium into radioactive uranium
+health: 2000
+itemCapacity: 4
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+idleSound: respawning
+idleSoundVolume: 0.4
+outputItem: uran/1
+consumes: {
+	power: 12.2
+	items: {
+		items: [
+			comp-thorium/2
+		]
+	}
+}
+requirements: [
+	comp-titanium/10
+	comp-thorium/4
+	dark-steel/16
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: thor-comp

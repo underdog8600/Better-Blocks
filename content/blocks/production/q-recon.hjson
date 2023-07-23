@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: Quantum Reconstructor
+description: "Makes [purple]QUANTUM ACID[]."
+health: 25000
+itemCapacity: 8
+liquidCapacity: 160
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 240
+updateEffect: smeltsmoke
+idleSound: respawning
+idleSoundVolume: 0.12
+outputLiquid: quantum-liquid/0.3
+consumes: {
+	power: 10.0
+	items: {
+		items: [
+			plut/3
+			super-tithorium/4
+			nuclear-fuel/2
+		]
+	}
+}
+requirements: [
+	super-tithorium/30
+	ruby/8
+	comp-titanium/150
+	nuclear-fuel/25
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: recon

@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: Forge S100-Titanium
+description: Combines titanium and thorium to produce tithorium.
+health: 2000
+itemCapacity: 20
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: tithorium/2
+consumes: {
+	power: 1.8
+	items: {
+		items: [
+			titanium/6
+			thorium/4
+		]
+	}
+}
+requirements: [
+	titanium/65
+	thorium/80
+	silicon/60
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: alloy-smelter

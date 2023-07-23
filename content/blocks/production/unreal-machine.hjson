@@ -1,0 +1,43 @@
+type: GenericCrafter
+name: Unreal Machine
+description: Combines many materials into a singularity.
+health: 25000
+liquidCapacity: 120
+itemCapacity: 40
+size: 6
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 600
+updateEffect: smeltsmoke
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: singularity/1
+consumes: {
+	power: 150.0
+	items: {
+		items: [
+			blast-compound/20
+			plastanium/20
+			phase-fabric/20
+			surge-alloy/20
+		]
+	}
+	liquid: {
+		liquid: super-cryofluid
+		amount: 0.4
+	}
+}
+requirements: [
+	quantum-ingot/10
+	dark-steel/1400
+	titanium/3000
+	diamond/600
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: forge-3

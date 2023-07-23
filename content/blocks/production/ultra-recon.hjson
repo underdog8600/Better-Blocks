@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: "[#666666]Ultra [#FFFFFF]Reconstructor"
+description: "Use this machine to get [#FFFFFF]I[#EEEEEE]n[#DDDDDD]f[#CCCCCC]i[#BBBBBB]n[#AAAAAA]i[#999999]t[#888888]i[#777777]u[#666666]m"
+health: 60000
+itemCapacity: 5
+size: 8
+hasPower: true
+hasItems: true
+craftTime: 900
+updateEffect: smeltsmoke
+idleSound: respawning
+idleSoundVolume: 0.05
+outputItem: infinitium/1
+consumes: {
+	power: 200
+	items: {
+		items: [
+			singularity/3
+			dark-matter/3
+			divinium/2
+		]
+	}
+}
+requirements: [
+	quantum-ingot/30
+	dark-steel/5000
+	divinium/5
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: divine-recon

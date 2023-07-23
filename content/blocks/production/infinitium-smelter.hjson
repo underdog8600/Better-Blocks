@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: "[#FFFFFF]I[][#EEEEEE]n[][#DDDDDD]f[][#CCCCCC]i[][#BBBBBB]n[][#AAAAAA]i[][#999999]t[][#888888]i[][#777777]u[][#666666]m[] Smelter"
+description: "Melts [#FFFFFF]I[][#EEEEEE]n[][#DDDDDD]f[][#CCCCCC]i[][#BBBBBB]n[][#AAAAAA]i[][#999999]t[][#888888]i[][#777777]u[][#666666]m[] to its liquid form"
+health: 60000
+itemCapacity: 5
+liquidCapacity: 180
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 600
+updateEffect: smeltsmoke
+outputLiquid: infinitium-liquid/0.3
+consumes: {
+	power: 400
+	items: {
+		items: [
+			infinitium/1
+		]
+	}
+}
+requirements: [
+	quantum-ingot/25
+	dark-steel/3000
+	divinium/5
+	infinitium/10
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: ultra-recon

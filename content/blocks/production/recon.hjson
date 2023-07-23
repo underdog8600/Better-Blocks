@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Reconstructor
+description: "You can get [red]RUBY[] from it."
+health: 15000
+itemCapacity: 2
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+outputItem: ruby/1
+consumes: {
+	power: 20.0
+	items: {
+		items: [
+			diamond/1
+		]
+	}
+}
+requirements: [
+	nuclear-fuel/12
+	dark-steel/600
+	diamond/10
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: s-comp

@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: Alloy Forge
+description: A better Alloy Smelter that is more costefficient.
+size: 4
+hasPower: true
+hasItems: true
+hasLiquids: false
+craftTime: 120
+itemCapacity: 20
+craftEffect: pulverizeRed
+updateEffect: hitMeltdown
+outputItem:surge-alloy/4
+consumes: {
+	power: 6.5
+	items: {
+	  items: [
+		  copper/8
+		  lead/8
+		  titanium/5
+		  silicon/7
+	  ]
+	}
+}
+requirements: [
+	silicon/500
+	surge-alloy/200
+	dark-steel/200
+	super-tithorium/10
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: alloy-smelter
+

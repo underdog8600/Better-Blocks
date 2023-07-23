@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: Concentrator
+description: Uses coal and oil to get carbon mass
+health: 1400
+itemCapacity: 20
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 30
+idleSound: respawning
+idleSoundVolume: 0.08
+updateEffect: smeltsmoke
+outputItem: carbon-mass/1
+consumes: {
+	power: 5.0
+	liquid: {
+		liquid: oil
+		amount: 0.2
+	}
+	items: {
+		items: [
+			coal/10
+		]
+	}
+}
+requirements: [
+	dark-steel/70
+	thorium/30
+	comp-titanium/20
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: separator

@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Plutonium Forge
+description: Don't touch this machine
+health: 8000
+itemCapacity: 10
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 180
+updateEffect: smeltsmoke
+idleSound: respawning
+idleSoundVolume: 0.12
+outputItem: plut/1
+consumes: {
+	power: 15.0
+	items: {
+		items: [
+			uran/4
+			enriched-uran/3
+		]
+	}
+}
+requirements: [
+	comp-titanium/40
+	dark-steel/200
+	nuclear-fuel/5
+	enriched-uran/12
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: e-mach

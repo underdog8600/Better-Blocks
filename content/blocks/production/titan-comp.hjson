@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Titanium Compresor
+description: You can get compressed titanium from it.
+health: 1800
+itemCapacity: 20
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+outputItem: comp-titanium/1
+consumes: {
+	power: 7.5
+	items: {
+		items: [
+			titanium/10
+		]
+	}
+}
+requirements: [
+	titanium/45
+	thorium/40
+]
+category: crafting
+research: multi-press

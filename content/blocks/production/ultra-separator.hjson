@@ -1,0 +1,44 @@
+type: Separator
+name: Ulta Seperator
+description: "An Ultra Separator. Uses liquified [#FFFFFF]I[][#EEEEEE]n[][#DDDDDD]f[][#CCCCCC]i[][#BBBBBB]n[][#AAAAAA]i[][#999999]t[][#888888]i[][#777777]u[][#666666]m[] to produce all ores."
+size: 4
+health: 60000
+hasPower: true
+solid: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 90
+itemCapacity: 50
+craftTime: 1
+spinnerSpeed: -5
+consumes: {
+	power: 8
+	liquid: 
+		liquid: infinitium-liquid
+		amount: 0.01
+	}
+requirements: [
+	quantum-ingot/35
+	dark-steel/2000
+	divinium/5
+	infinitium/10
+]
+results: [
+	copperamount: 100
+	lead/100
+	coal/99
+	titanium/98
+	metaglass/98
+	iron/98
+	thorium/97
+	graphite/95
+	silicon/95
+	uran/93
+	pyratite/89
+	blast-compound/85
+	plastanium/83
+	phase-fabric/59
+	surge-alloy/48
+]
+category: crafting
+research: disassembler

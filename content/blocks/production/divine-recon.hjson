@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: "[#5BDBD5]Divine Reconstructor"
+description: "Use this machine to get [#5BDBD5]Divinium"
+health: 30000
+itemCapacity: 25
+size: 6
+hasPower: true
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+idleSound: respawning
+idleSoundVolume: 0.05
+outputItem: divinium/1
+consumes: {
+	power: 66.666666
+	items: {
+		items: [
+			dark-matter/1
+			diamond/20
+		]
+	}
+}
+requirements: [
+	quantum-ingot/18
+	dark-steel/3000
+	dark-matter/2
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: atomic-forge

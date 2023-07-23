@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Forge S200-Titanium Plus
+description: Upgrades Tithorium to Super Tithorium.
+health: 5000
+itemCapacity: 30
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: super-tithorium/1
+consumes: {
+	power: 3.5
+	items: {
+		items: [
+			tithorium/2
+			thorium/15
+		]
+	}
+}
+requirements: [
+	tithorium/30
+	titanium/120
+	silicon/75
+	dark-steel/100
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: forge-1

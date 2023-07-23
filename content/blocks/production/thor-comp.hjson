@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Thorium Compresor
+description: You can get compressed thorium from it.
+health: 2600
+itemCapacity: 20
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+outputItem: comp-thorium/1
+consumes: {
+	power: 12.5
+	items: {
+		items: [
+			thorium/10
+		]
+	}
+}
+requirements: [
+	comp-titanium/8
+	thorium/60
+]
+category: crafting
+research: multi-press

@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: "Melter Type [yellow]A"
+description: Uses lots of scrap to get enriched slag
+health: 2850
+itemCapacity: 12
+liquidCapacity: 12
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+outputLiquid: enriched-slag/0.2
+consumes: {
+	power: 2.5
+	items: {
+		items: [
+			scrap/4
+		]
+	}
+}
+requirements: [
+	dark-steel/20
+	iron/40
+	comp-titanium/35
+	carbon/8
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: melter

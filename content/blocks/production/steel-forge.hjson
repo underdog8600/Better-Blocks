@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Steel Forge
+description: Makes Dark Steel.
+health: 2000
+itemCapacity: 10
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+idleSound: respawning
+idleSoundVolume: 0.1
+outputItem: dark-steel/1
+consumes: {
+	power: 1.8
+	items: {
+		items: [
+			titanium/3
+			graphite/2
+			iron/5
+		]
+	}
+}
+requirements: [
+	titanium/40
+	iron/45
+	silicon/75
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: kiln

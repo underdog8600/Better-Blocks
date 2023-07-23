@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: Forge S1000-Quantum
+description: Combines the best materials to produce QUANTUM INGOT.
+health: 14000
+liquidCapacity: 200
+itemCapacity: 10
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 240
+updateEffect: smeltsmoke
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: quantum-ingot/1
+consumes: {
+	power: 4.0
+	items: {
+		items: [
+			super-tithorium/5
+		]
+	}
+	liquid: {
+		liquid: quantum-liquid
+		amount: 0.2
+	}
+}
+requirements: [
+	tithorium/60
+	titanium/200
+	super-tithorium/18
+	dark-steel/600
+]
+drawer: [
+	{
+	type: DrawSmelter
+	}
+]
+category: crafting
+research: forge-2
