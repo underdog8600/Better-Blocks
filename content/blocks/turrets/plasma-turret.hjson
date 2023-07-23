@@ -11,7 +11,9 @@ chargeEffects: 15
 cooldown: 0.01
 recoil: 2
 hasPower: true
-//powerUse: 4.0
+consumes: {
+  power: 4
+}
 shootShake: 4
 shoot: {
 	type: ShootSpread
