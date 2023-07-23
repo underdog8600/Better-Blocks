@@ -17,7 +17,7 @@ shootType: {
 	//colors: [ECD36FAA, F3E979FF, FFFFFF]
 	length: 240
 	width: 20
-	damage: 125
+	damage: 300
 	collidesTiles: true
 	shootEffect: lancerLaserShoot
 	smokeEffect: lancerLaserShootSmoke
