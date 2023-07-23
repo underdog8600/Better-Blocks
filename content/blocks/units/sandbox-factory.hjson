@@ -5,22 +5,22 @@ consumes: {
 	power: 1
 }
 plans: [
-	{unit: scepter,requirements: [{item: silicon/0}],time: 180},
-	{unit: reign,requirements: [{item: silicon/0}],time: 180},
-	{unit: vela,requirements: [{item: silicon/0}],time: 180},
-	{unit: corvus,requirements: [{item: silicon/0}],time: 180},
-	{unit: arkyid,requirements: [{item: silicon/0}],time: 180},
-	{unit: toxopid,requirements: [{item: silicon/0}],time: 180},
-	{unit: antumbra,requirements: [{item: silicon/0}],time: 180},
-	{unit: eclipse,requirements: [{item: silicon/0}],time: 180},
+	{"unit": "scepter","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "reign","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "vela","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "corvus","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "arkyid","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "toxopid","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "antumbra","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "eclipse","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
 
-	{unit: dark-scepter,requirements: [{item: silicon/0}],time: 180},
-	{unit: quantum-reign,requirements: [{item: silicon/0}],time: 180},
-	{unit: dark-vela,requirements: [{item: silicon/0}],time: 180},
-	{unit: quantum-corvus,requirements: [{item: silicon/0}],time: 180},
-	{unit: dark-arkyid,requirements: [{item: silicon/0}],time: 180},
-	{unit: quantum-toxopid,requirements: [{item: silicon/0}],time: 180},
-	{unit: dark-antumbra,requirements: [{item: silicon/0}],time: 180},
-	{unit: quantum-eclipse,requirements: [{item: silicon/0}],time: 180}
+	{"unit": "dark-scepter","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "quantum-reign","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "dark-vela","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "quantum-corvus","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "dark-arkyid","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "quantum-toxopid","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "dark-antumbra","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "quantum-eclipse","requirements": [{"item": "silicon", "amount": 0}],"time": 180}
 ]
 category: units
