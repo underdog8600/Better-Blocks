@@ -10,7 +10,7 @@ hasPower: true
 hasLiquids: true
 hasItems: true
 updateEffect: smeltsmoke
-outputLiquid: super-cryofluid 0.8
+outputLiquid: super-cryofluid/0.8
 consumes: {
 	power: 3
 	liquid: {
