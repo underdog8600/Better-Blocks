@@ -25,7 +25,7 @@ requirements: [
 	infinitium/10
 ]
 results: [
-	copperamount: 100
+	copperamount/100
 	lead/100
 	coal/99
 	titanium/98
