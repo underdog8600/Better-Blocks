@@ -13,10 +13,11 @@ craftTime: 1
 spinnerSpeed: -5
 consumes: {
 	power: 8
-	liquid: 
+	liquid: {
 		liquid: infinitium-liquid
 		amount: 0.01
 	}
+}
 requirements: [
 	quantum-ingot/35
 	dark-steel/2000
