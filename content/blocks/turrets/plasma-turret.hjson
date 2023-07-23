@@ -10,10 +10,9 @@ chargeMaxDelay: 50
 chargeEffects: 15
 cooldown: 0.01
 recoil: 2
+hasPower: true
 powerUse: 4.0
 shootShake: 4
-chargeEffect: lancerLaserCharge
-chargeBeginEffect: lancerLaserChargeBegin
 shootType: {
 	type: LaserBulletType
 	//colors: [ECD36FAA, F3E979FF, FFFFFF]
@@ -28,6 +27,13 @@ shootType: {
 	sideAngle: 15
 	sideWidth: 0
 	sideLength: 0
+	chargeEffect: {
+		type: SeqEffect
+		effects: [
+			lancerLaserChargeBegin
+			lancerLaserCharge
+		]
+	}
 }
 inaccuracy: 0.1
 rotatespeed: 12
