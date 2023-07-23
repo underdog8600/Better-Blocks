@@ -1,4 +1,4 @@
-type: LaserTurret
+type: PowerTurret
 name: Plasma Turret
 description: This turret uses not many energy but has alot of damage
 health: 1500
@@ -11,8 +11,14 @@ chargeEffects: 15
 cooldown: 0.01
 recoil: 2
 hasPower: true
-powerUse: 4.0
+//powerUse: 4.0
 shootShake: 4
+shoot: {
+	type: ShootSpread
+	spread: 0
+	shots: 1
+	firstShotDelay: 60
+}
 shootType: {
 	type: LaserBulletType
 	//colors: [ECD36FAA, F3E979FF, FFFFFF]
