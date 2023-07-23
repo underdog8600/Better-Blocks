@@ -1,0 +1,11 @@
+name: Large Carbon Wall
+description: Upgraded version of large steel wall
+type: Wall
+health: 9360
+size: 2
+requirements: [
+	dark-steel/24
+	carbon/24
+]
+category: defense
+research: carbon-wall

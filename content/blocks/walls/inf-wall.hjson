@@ -1,0 +1,21 @@
+name: Infinity Wall
+description: POWER OF INFINITY
+type: ShieldWall
+health: 17500
+size: 1
+absorbLasers: true
+chanceDeflect: 50
+outputsPower: false
+hasPower: true
+consumesPower: true
+conductivePower: true
+shieldHealth: 4000
+consumes: {
+	power: 6
+}
+requirements: [
+	infinitium/1
+	dark-matter/2
+]
+category: defense
+research: q-wall

@@ -1,0 +1,11 @@
+name: Quantum Wall
+description: OP Wall... Nothing more.
+type: Wall
+health: 8050
+size: 1
+absorbLasers: true
+requirements: [
+	quantum-ingot/1
+]
+category: defense
+research: uran-wall

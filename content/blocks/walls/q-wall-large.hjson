@@ -1,0 +1,11 @@
+name: Quantum Wall large
+description: OP Wall... 2x2... wow...
+type: Wall
+health: 32200
+size: 2
+absorbLasers: true
+requirements: [
+	quantum-ingot/4
+]
+category: defense
+research: q-wall

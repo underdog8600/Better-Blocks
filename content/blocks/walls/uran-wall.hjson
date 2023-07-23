@@ -1,0 +1,11 @@
+name: Uranium Wall
+description: So nice wall.
+type: Wall
+health: 1450
+size: 1
+requirements: [
+	uran/2
+	dark-steel/4
+]
+category: defense
+research: thorium-wall

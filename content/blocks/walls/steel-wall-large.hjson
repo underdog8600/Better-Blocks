@@ -1,0 +1,10 @@
+name: Large Steel Wall
+description: Large Nice wall with high protection
+type: Wall
+health: 4080
+size: 2
+requirements: [
+	dark-steel/24
+]
+category: defense
+research: steel-wall
