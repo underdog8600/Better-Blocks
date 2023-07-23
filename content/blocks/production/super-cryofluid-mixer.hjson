@@ -19,9 +19,7 @@ consumes: {
 	}
 	items: {
 	  items: [
-		{
 		  super-tithorium/2
-		}
 	  ]
 	}
 }
