@@ -12,13 +12,22 @@ cooldown: 0.01
 recoil: 2
 powerUse: 4.0
 shootShake: 4
-shootEffect: lancerLaserShoot
-smokeEffect: lancerLaserShootSmoke
 chargeEffect: lancerLaserCharge
 chargeBeginEffect: lancerLaserChargeBegin
 shootType: {
-	type: lancerLaser
-	damage: 30
+	type: LaserBulletType
+	//colors: [ECD36FAA, F3E979FF, FFFFFF]
+	length: 240
+	width: 20
+	damage: 125
+	collidesTiles: true
+	//lightColor: F3E979FF
+	lightRadius: 10
+	shootEffect: lancerLaserShoot
+	smokeEffect: lancerLaserShootSmoke
+	sideAngle: 15
+	sideWidth: 0
+	sideLength: 0
 }
 inaccuracy: 0.1
 rotatespeed: 12
