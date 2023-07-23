@@ -4,16 +4,12 @@ description: This turret uses not many energy but has alot of damage
 health: 1500
 size: 5
 reload: 40
-range: 160
+range: 240
 recoil: 2
 consumes: {
 	power: 4
-	update: false
 }
 shoot: {
-	type: ShootSpread
-	spread: 0
-	shots: 1
 	firstShotDelay: 60
 }
 shootType: {
@@ -23,13 +19,8 @@ shootType: {
 	width: 20
 	damage: 125
 	collidesTiles: true
-	//lightColor: F3E979FF
-	lightRadius: 10
 	shootEffect: lancerLaserShoot
 	smokeEffect: lancerLaserShootSmoke
-	sideAngle: 15
-	sideWidth: 0
-	sideLength: 0
 	chargeEffect: {
 		type: SeqEffect
 		effects: [
