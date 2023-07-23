@@ -1,0 +1,19 @@
+name: Repair Turret T
+type: RepairTurret
+size: 2
+length: 6
+repairSpeed: 3
+repairRadius: 145
+powerUse: 5
+beamWidth: 1.1
+pulseRadius: 6.1
+coolantUse: 0.16
+coolantMultiplier: 1.6
+acceptCoolant: true
+requirements: [
+	silicon/90
+	thorium/80
+	plastanium/60
+]
+category: units
+research: repair-point

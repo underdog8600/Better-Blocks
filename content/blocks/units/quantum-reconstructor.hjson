@@ -1,0 +1,36 @@
+type: Reconstructor
+name: Quantum Reconstructor
+size: 9
+constructTime: 27000
+liquidCapacity: 240
+consumes: {
+	power: 40
+    liquid: {
+		liquid: super-cryofluid
+		amount: 4
+	}
+	items: {
+		items: [
+			silicon/1000
+			super-tithorium/650
+			quantum-ingot/50
+			plut/350
+		]
+	}
+}
+requirements: [
+	dark-steel/5000
+	super-tithorium/1200
+	silicon amount:8000
+	nuclear-fuel/300
+	plut/500
+	quantum-ingot/30
+]
+upgrades: [
+        [dark-scepter , quantum-reign]
+        [dark-vela , quantum-corvus]
+	[dark-arkyid , quantum-toxopid]
+	[dark-antumbra , quantum-eclipse]
+]
+category: units
+research: dark-reconstructor
