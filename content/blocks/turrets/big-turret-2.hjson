@@ -1,0 +1,60 @@
+type: ItemTurret
+name: Laser Turret L200-U Omega
+description: Laser Minigun
+targetAir: true
+targetGround: true
+health: 7000
+size: 4
+inaccuracy: 5
+reload: 3
+shootCone: 40
+shots: 5
+range: 300
+burstSpacing: 6
+ammoTypes: {
+	tithorium: {
+		speed: 8
+		damage: 4
+		width: 4
+		height: 6
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 10
+	}
+	super-tithorium: {
+		speed: 10
+		damage: 6
+		width: 4
+		height: 7
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 15
+	}
+	plut: {
+		speed: 7
+		damage: 12
+		width: 6
+		height: 15
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 20
+	}
+	nuclear-fuel: {
+		speed: 15
+		damage: 15
+		width: 4
+		height: 12
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 20
+	}
+}
+requirements: [
+	diamond/12
+	nuclear-fuel/6
+	plut/10
+	super-tithorium/20
+	dark-steel/30
+]
+category: turret
+research: spectre

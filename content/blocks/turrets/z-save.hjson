@@ -1,0 +1,29 @@
+type: ItemTurret
+name: Z
+description: Saves the game
+targetAir: true
+targetGround: true
+health: 1000000
+size: 1
+inaccuracy: 0
+reload: 6
+shootCone: 40
+shots: 5
+range: 300
+burstSpacing: 6
+ammoTypes: {
+	copper: {
+		speed: 10
+		damage: 10000
+		width: 4
+		height: 6
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 10
+	}
+}
+requirements: [
+	copper/1
+]
+category: turret
+research: duo

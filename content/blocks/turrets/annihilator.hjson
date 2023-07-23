@@ -1,0 +1,47 @@
+type: LaserTurret
+name: Annihilator
+description: When you want something gone.
+targetAir: true
+targetGround: true
+health: 80000
+size: 6
+reload: 240
+shootCone: 20
+liquidCapacity: 60
+coolantMultiplier: 1
+shootType: {
+	type: ContinuousLaserBulletType
+	damage: 750
+	width: 12
+	length: 320
+    ammoMultiplier: 1
+	colors: [
+		FFFFFFAA,
+		000000AA,
+		000000FF,
+		FFFFFFF
+	]
+}
+range: 320
+shootShake: 3
+firingMoveFract: 0.5
+shootDuration: 360
+recoil: 2
+shootSound: laserbig
+shootEffect: shootBigSmoke2
+consumes: {
+	liquid: {
+		liquid: super-cryofluid
+        update: false
+		amount: 1
+		}
+	power: 20
+}
+activeSound: beam
+requirements: [
+	dark-steel/3000
+	dark-matter/10
+	infinitium/6
+]
+category: turret
+research: giant-turret-1

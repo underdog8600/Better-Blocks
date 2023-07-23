@@ -1,0 +1,34 @@
+type: LaserTurret
+name: Laser Turret B2-A
+description: Fast Energy Gun
+targetAir: true
+targetGround: true
+health: 300
+size: 2
+inaccuracy: 12
+chargeTime: 20
+chargeMaxDelay: 20
+chargeEffects: 4
+recoil: 2
+shootType: {
+	type: lancerLaser
+	damage: 10
+}
+shootEffect: lancerLaserShoot
+smokeEffect: lancerLaserShootSmoke
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+powerUse: 1.2
+shootShake: 1.3
+reload: 20
+shootCone: 40
+shots: 2
+range: 90
+requirements: [
+	comp-titanium/14
+	uran/12
+	thorium/25
+]
+category: turret
+shootSound: laser
+research: lancer
