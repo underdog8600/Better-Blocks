@@ -1,47 +1,56 @@
-vanquish = new TankUnitType("vanquish"){{
-            hitSize = 28f;
-            treadPullOffset = 4;
-            speed = 0.63f;
-            health = 11000;
-            armor = 20f;
-            itemCapacity = 0;
-            crushDamage = 13f / 5f;
-            treadRects = new Rect[]{new Rect(22 - 154f/2f, 16 - 154f/2f, 28, 130)};
+name: Quantum Vanquish
+type: TankUnitType
+hitSize: 28
+treadPullOffset: 4
+speed: 0.63
+health: 11000
+armo: 20
+itemCapacity: 0
+crushDamage: 3
+treadRects = new Rect[]{new Rect(22 - 154f/2f, 16 - 154f/2f, 28, 130)};
 
-            weapons.add(new Weapon("vanquish-weapon"){{
-                shootSound = Sounds.mediumCannon;
-                layerOffset = 0.0001f;
-                reload = 70f;
-                shootY = 71f / 4f;
-                shake = 5f;
-                recoil = 4f;
-                rotate = true;
-                rotateSpeed = 1f;
-                mirror = false;
-                x = 0f;
-                y = 0;
-                shadow = 28f;
-                heatColor = Color.valueOf("f9350f");
-                cooldownTime = 80f;
+weapons: [
+{
+name: vanquish-weapon
+shootSound: mediumCannon
+layerOffset: 0.0001
+reloa: 70
+shootY: 17.75
+shake: 5
+recoil: 4
+rotate: true
+rotateSpeed: 1
+mirror: false
+x: 0
+y: 0
+shadow: 28
+heatColor: f9350f
+cooldownTime: 80
 
-                bullet = new BasicBulletType(8f, 190){{
-                    sprite = "missile-large";
-                    width = 9.5f;
-                    height = 13f;
-                    lifetime = 18f;
-                    hitSize = 6f;
-                    shootEffect = Fx.shootTitan;
-                    smokeEffect = Fx.shootSmokeTitan;
-                    pierceCap = 2;
-                    pierce = true;
-                    pierceBuilding = true;
-                    hitColor = backColor = trailColor = Color.valueOf("feb380");
-                    frontColor = Color.white;
-                    trailWidth = 3.1f;
-                    trailLength = 8;
-                    hitEffect = despawnEffect = Fx.blastExplosion;
-                    splashDamageRadius = 20f;
-                    splashDamage = 50f;
+bullet: {
+type: BasicBulletType
+speed: 8
+damage: 190
+sprite: missile-large
+width: 9.5
+height: 13
+lifetime: 18
+hitSize: 6
+shootEffect: shootTitan
+smokeEffect: shootSmokeTitan
+pierceCap: 2
+pierce: true
+pierceBuilding: true
+hitColor: feb380
+backColor: feb380
+trailColor: feb380
+frontColor: "white"
+trailWidth: 3.1
+trailLength: 8
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+splashDamageRadius: 20
+splashDamage: 50
 
                     fragOnHit = false;
                     fragRandomSpread = 0f;
