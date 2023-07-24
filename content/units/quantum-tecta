@@ -88,30 +88,32 @@ damage: 60
                     width: 10
                     height: 10
 
-                    lightColor: 
-trailColor: 
-backColor = Pal.techBlue;
-                    lightRadius = 40f;
-                    lightOpacity = 0.7f;
+                    lightColor: 8ca9e8
+trailColor: 8ca9e8
+backColor: 8ca9e8
+                    lightRadius: 40
+                    lightOpacity: 0.7
 
-                    trailWidth = 2.8f;
-                    trailLength = 20;
-                    trailChance = -1f;
-                    despawnSound = Sounds.dullExplosion;
+                    trailWidth: 2.8
+                    trailLength: 20
+                    trailChance: -1
+                    despawnSound: dullExplosion
 
-                    despawnEffect = Fx.none;
-                    hitEffect = new ExplosionEffect(){{
-                        lifetime = 20f;
-                        waveStroke = 2f;
-                        waveColor = sparkColor = trailColor;
-                        waveRad = 12f;
-                        smokeSize = 0f;
-                        smokeSizeBase = 0f;
-                        sparks = 10;
-                        sparkRad = 35f;
-                        sparkLen = 4f;
-                        sparkStroke = 1.5f;
-                    }};
-                }};
-            }});
-        }};
+                    despawnEffect: none
+                    hitEffect: {
+                        type: ExplosionEffect
+                        lifetime: 20
+                        waveStroke: 2
+                        waveColor: trailColor
+sparkColor: trailColor
+                        waveRad: 12
+                        smokeSize: 0
+                        smokeSizeBase: 0
+                        sparks: 10
+                        sparkRad: 35
+                        sparkLen: 4
+                        sparkStroke: 1.5
+                    }
+                }
+            }
+        ]
