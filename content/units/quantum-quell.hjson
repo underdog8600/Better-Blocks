@@ -22,31 +22,29 @@ abilities: [
 	y: 1
       }
 ]
-            weapons: [
-                { 
-                name: quantum-quell-weapon
-                shootSound: missileSmall
-                x: 12.75
-                y: 1.25
-                rotate: true
-                rotateSpeed: 2
-                reload: 55
-                layerOffset: -0.001
-                recoil: 1
-                rotationLimit: 60
-
-                bullet: {
-                    type: BulletType
-                    shootEffect: shootBig
-                    smokeEffect: shootBigSmoke2
-                    shake: 1
-                    speed: 0
-                    keepVelocity: false
-                    collidesAir: false
-
-                    spawnUnit: quantum-quell-missile
-                }
-            }
+weapons: [
+	{ 
+        name: quantum-quell-weapon
+        shootSound: missileSmall
+        x: 12.75
+        y: 1.25
+        rotate: true
+        rotateSpeed: 2
+        reload: 55
+        layerOffset: -0.001
+        recoil: 1
+        rotationLimit: 60
+        bullet: {
+                type: BulletType
+                shootEffect: shootBig
+                smokeEffect: shootBigSmoke2
+                shake: 1
+                speed: 0
+                keepVelocity: false
+                collidesAir: false
+                spawnUnit: quantum-quell-missile
+        	}
+        }
 ]
 engines: [
   {
