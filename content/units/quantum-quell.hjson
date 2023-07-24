@@ -17,7 +17,7 @@ engineSize: 4.8
 engineOffset: 15.25
 abilities: [
        {
-	type: "SuppressionFieldAbility",
+	type: SuppressionFieldAbility
 	orbRadius: 5.3
 	y: 1
       }
