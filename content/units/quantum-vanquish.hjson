@@ -7,10 +7,10 @@ health: 11000
 armo: 20
 itemCapacity: 0
 crushDamage: 3
-treadRects = new Rect[]{new Rect(22 - 154f/2f, 16 - 154f/2f, 28, 130)};
+//treadRects = new Rect[]{new Rect(22 - 154f/2f, 16 - 154f/2f, 28, 130)};
 treadRects: [
   {
-    x: -55
+    x: 55
     y: -61
     width: 28
     height: 130
