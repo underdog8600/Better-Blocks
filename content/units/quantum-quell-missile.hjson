@@ -19,7 +19,8 @@ template: MissileUnitType
                             bullet: {
                                 type: ExplosionBulletType
                                 speed: 25
-                                damage: 110
+                                splashDamage: 110
+                                splashDamageRadius: 27
                                 shootEffect: massiveExplosion
                                 collidesAir: false
                             }
