@@ -57,20 +57,25 @@ abilities: [
                         engineLayer: effect
                         health: 45
                         loopSoundVolume: 0.1
-                        weapons.add(new Weapon(){{
-                            shootCone = 360f;
-                            mirror = false;
-                            reload = 1f;
-                            shootOnDeath = true;
-                            bullet = new ExplosionBulletType(110f, 25f){{
-                                shootEffect = Fx.massiveExplosion;
-                                collidesAir = false;
-                            }};
-                        }});
-                    }};
-                }};
-            }});
-
+                        weapons: [
+                            {
+                            shootCone: 360
+                            mirror: false
+                            reload: 1
+                            shootOnDeath: true
+                            bullet: {
+                                type: ExplosionBulletType
+                                speed: 25
+                                damage: 110
+                                shootEffect: massiveExplosion
+                                collidesAir: false
+                            }
+                        }
+                       ]
+                    }
+                }
+            }
+]
             setEnginesMirror(
             new UnitEngine(62 / 4f, -60 / 4f, 3.9f, 315f),
             new UnitEngine(72 / 4f, -29 / 4f, 3f, 315f)
