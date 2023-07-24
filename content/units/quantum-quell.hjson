@@ -1,5 +1,5 @@
 name: quantum-quell
-aiController: FlyingFollowAI
+//aiController: FlyingFollowAI
 envDisabled: 0
 lowAltitude: false
 flying: true
