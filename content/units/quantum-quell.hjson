@@ -36,7 +36,7 @@ abilities: [
                 rotationLimit: 60
 
                 bullet: {
-                    type: BulletType
+                    //type: BulletType
                     shootEffect: shootBig
                     smokeEffect: shootBigSmoke2
                     shake: 1
