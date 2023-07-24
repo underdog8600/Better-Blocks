@@ -1,167 +1,173 @@
-        collaris = new ErekirUnitType("collaris"){{
-            drag = 0.1f;
-            speed = 1.1f;
-            hitSize = 44f;
-            health = 18000;
-            armor = 9f;
-            rotateSpeed = 1.6f;
-            lockLegBase = true;
-            legContinuousMove = true;
-            legStraightness = 0.6f;
-            baseLegStraightness = 0.5f;
+collaris: new ErekirUnitType("collaris"){{
+drag: 0.1
+speed: 1.1
+hitSize: 44
+health: 18000
+armor: 9
+rotateSpeed: 1.6
+lockLegBase: true
+legContinuousMove: true
+legStraightness: 0.6
+baseLegStraightness: 0.5
 
-            legCount = 8;
-            legLength = 30f;
-            legForwardScl = 2.1f;
-            legMoveSpace = 1.05f;
-            rippleScale = 1.2f;
-            stepShake = 0.5f;
-            legGroupSize = 2;
-            legExtension = -6f;
-            legBaseOffset = 19f;
-            legStraightLength = 0.9f;
-            legMaxLength = 1.2f;
+legCount: 8
+legLength: 30
+legForwardScl: 2.1
+legMoveSpace: 1.05
+rippleScale: 1.2
+stepShake: 0.5
+legGroupSize: 2
+legExtension: -6
+legBaseOffset: 19
+legStraightLength: 0.9
+legMaxLength: 1.2
 
-            ammoType = new PowerAmmoType(2000);
+ammoType: new PowerAmmoType(2000)
 
-            legSplashDamage = 32;
-            legSplashRange = 32;
-            drownTimeMultiplier = 2f;
+legSplashDamage: 32
+legSplashRange: 32
+drownTimeMultiplier: 2
 
-            hovering = true;
-            shadowElevation = 0.4f;
-            groundLayer = Layer.legUnit;
+hovering: true
+shadowElevation: 0.4
+groundLayer: Layer.legUnit
 
-            targetAir = false;
-            alwaysShootWhenMoving = true;
+targetAir: false
+alwaysShootWhenMoving: true
 
-            weapons.add(new Weapon("collaris-weapon"){{
-                shootSound = Sounds.pulseBlast;
-                mirror = true;
-                rotationLimit = 30f;
-                rotateSpeed = 0.4f;
-                rotate = true;
+weapons.add(new Weapon("collaris-weapon"){{
+	shootSound: Sounds.pulseBlast
+	mirror: true
+	rotationLimit: 30
+	rotateSpeed: 0.4
+	rotate: true
 
-                x = 48 / 4f;
-                y = -28f / 4f;
-                shootY = 64f / 4f;
-                recoil = 4f;
-                reload = 130f;
-                cooldownTime = reload * 1.2f;
-                shake = 7f;
-                layerOffset = 0.02f;
-                shadow = 10f;
+	x: 48 / 4
+	y: -28f / 4
+	shootY: 64f / 4
+	recoil: 4
+	reload: 130
+	cooldownTime: reload * 1.2
+	shake: 7
+	layerOffset: 0.02
+	shadow: 10
 
-                shootStatus = StatusEffects.slow;
-                shootStatusDuration = reload + 1f;
+	shootStatus: StatusEffects.slow
+	shootStatusDuration: reload + 1
 
-                shoot.shots = 1;
-                heatColor = Color.red;
+	shoot.shots: 1
+	heatColor: Color.red
 
-                for(int i = 0; i < 5; i++){
-                    int fi = i;
-                    parts.add(new RegionPart("-blade"){{
-                        under = true;
-                        layerOffset = -0.001f;
-                        heatColor = Pal.techBlue;
-                        heatProgress = PartProgress.heat.add(0.2f).min(PartProgress.warmup);
-                        progress = PartProgress.warmup.blend(PartProgress.reload, 0.1f);
-                        x = 13.5f / 4f;
-                        y = 10f / 4f - fi * 2f;
-                        moveY = 1f - fi * 1f;
-                        moveX = fi * 0.3f;
-                        moveRot = -45f - fi * 17f;
+	for(int i: 0 i < 5 i++){
+		int fi: i
+		parts.add(new RegionPart("-blade"){{
+			under: true
+			layerOffset: -0.001
+			heatColor: Pal.techBlue
+			heatProgress: PartProgress.heat.add(0.2f).min(PartProgress.warmup)
+			progress: PartProgress.warmup.blend(PartProgress.reload, 0.1f)
+			x: 13.5f / 4
+			y: 10f / 4f - fi * 2
+			moveY: 1f - fi * 1
+			moveX: fi * 0.3
+			moveRot: -45f - fi * 17
 
-                        moves.add(new PartMove(PartProgress.reload.inv().mul(1.8f).inv().curve(fi / 5f, 0.2f), 0f, 0f, 36f));
-                    }});
-                }
+			moves.add(new PartMove(PartProgress.reload.inv().mul(1.8f).inv().curve(fi / 5f, 0.2f), 0f, 0f, 36f))
+		}})
+	}
 
-                bullet = new ArtilleryBulletType(5.5f, 260){{
-                    collidesTiles = collides = true;
-                    lifetime = 70f;
-                    shootEffect = Fx.shootBigColor;
-                    smokeEffect = Fx.shootSmokeSquareBig;
-                    frontColor = Color.white;
-                    trailEffect = new MultiEffect(Fx.artilleryTrail, Fx.artilleryTrailSmoke);
-                    hitSound = Sounds.none;
-                    width = 18f;
-                    height = 24f;
+	bullet: new ArtilleryBulletType(5.5f, 260){{
+		collidesTiles: collides: true
+		lifetime: 70
+		shootEffect: Fx.shootBigColor
+		smokeEffect: Fx.shootSmokeSquareBig
+		frontColor: Color.white
+		trailEffect: new MultiEffect(Fx.artilleryTrail, Fx.artilleryTrailSmoke)
+		hitSound: Sounds.none
+		width: 18
+		height: 24
 
-                    lightColor = trailColor = hitColor = backColor = Pal.techBlue;
-                    lightRadius = 40f;
-                    lightOpacity = 0.7f;
+		lightColor: 
+		trailColor: 
+		hitColor: 
+		backColor: Pal.techBlue
+		lightRadius: 40
+		lightOpacity: 0.7
 
-                    trailWidth = 4.5f;
-                    trailLength = 19;
-                    trailChance = -1f;
+		trailWidth: 4.5
+		trailLength: 19
+		trailChance: -1
 
-                    despawnEffect = Fx.none;
-                    despawnSound = Sounds.dullExplosion;
+		despawnEffect: Fx.none
+		despawnSound: Sounds.dullExplosion
 
-                    hitEffect = despawnEffect = new ExplosionEffect(){{
-                        lifetime = 34f;
-                        waveStroke = 4f;
-                        waveColor = sparkColor = trailColor;
-                        waveRad = 25f;
-                        smokeSize = 0f;
-                        smokeSizeBase = 0f;
-                        sparks = 10;
-                        sparkRad = 25f;
-                        sparkLen = 8f;
-                        sparkStroke = 3f;
-                    }};
+		hitEffect: despawnEffect: new ExplosionEffect(){{
+			lifetime: 34
+			waveStroke: 4
+			waveColor: sparkColor: trailColor
+			waveRad: 25
+			smokeSize: 0
+			smokeSizeBase: 0
+			sparks: 10
+			sparkRad: 25
+			sparkLen: 8
+			sparkStroke: 3
+		}}
 
-                    splashDamage = 85f;
-                    splashDamageRadius = 20f;
+		splashDamage: 85
+		splashDamageRadius: 20
 
-                    fragBullets = 15;
-                    fragVelocityMin = 0.5f;
-                    fragRandomSpread = 130f;
-                    fragLifeMin = 0.3f;
-                    despawnShake = 5f;
+		fragBullets: 15
+		fragVelocityMin: 0.5
+		fragRandomSpread: 130
+		fragLifeMin: 0.3
+		despawnShake: 5
 
-                    fragBullet = new BasicBulletType(5.5f, 50){{
-                        pierceCap = 2;
-                        pierceBuilding = true;
+		fragBullet: new BasicBulletType(5.5f, 50){{
+			pierceCap: 2
+			pierceBuilding: true
 
-                        homingPower = 0.09f;
-                        homingRange = 150f;
+			homingPower: 0.09
+			homingRange: 150
 
-                        lifetime = 50f;
-                        shootEffect = Fx.shootBigColor;
-                        smokeEffect = Fx.shootSmokeSquareBig;
-                        frontColor = Color.white;
-                        hitSound = Sounds.none;
-                        width = 12f;
-                        height = 20f;
+			lifetime: 50
+			shootEffect: Fx.shootBigColor
+			smokeEffect: Fx.shootSmokeSquareBig
+			frontColor: Color.white
+			hitSound: Sounds.none
+			width: 12
+			height: 20
 
-                        lightColor = trailColor = hitColor = backColor = Pal.techBlue;
-                        lightRadius = 40f;
-                        lightOpacity = 0.7f;
+			lightColor: 
+			trailColor: 
+			hitColor: 
+			backColor: Pal.techBlue
+			lightRadius: 40
+			lightOpacity: 0.7
 
-                        trailWidth = 2.2f;
-                        trailLength = 7;
-                        trailChance = -1f;
-                        
-                        collidesAir = false;
+			trailWidth: 2.2
+			trailLength: 7
+			trailChance: -1
+			
+			collidesAir: false
 
-                        despawnEffect = Fx.none;
-                        splashDamage = 46f;
-                        splashDamageRadius = 30f;
+			despawnEffect: Fx.none
+			splashDamage: 46
+			splashDamageRadius: 30
 
-                        hitEffect = despawnEffect = new MultiEffect(new ExplosionEffect(){{
-                            lifetime = 30f;
-                            waveStroke = 2f;
-                            waveColor = sparkColor = trailColor;
-                            waveRad = 5f;
-                            smokeSize = 0f;
-                            smokeSizeBase = 0f;
-                            sparks = 5;
-                            sparkRad = 20f;
-                            sparkLen = 6f;
-                            sparkStroke = 2f;
-                        }}, Fx.blastExplosion);
-                    }};
-                }};
-            }});
-        }};
+			hitEffect: despawnEffect: new MultiEffect(new ExplosionEffect(){{
+				lifetime: 30
+				waveStroke: 2
+				waveColor: sparkColor: trailColor
+				waveRad: 5
+				smokeSize: 0
+				smokeSizeBase: 0
+				sparks: 5
+				sparkRad: 20
+				sparkLen: 6
+				sparkStroke: 2
+			}}, Fx.blastExplosion)
+		}}
+	}}
+}})
+}}
