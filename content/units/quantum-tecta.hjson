@@ -47,7 +47,7 @@ abilities": [
 
             hovering: true
             shadowElevation: 0.4
-            groundLayer: Layer.legUnit
+            groundLayer: 75
 
             weapons: [
 {
