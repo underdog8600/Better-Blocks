@@ -44,35 +44,7 @@ abilities: [
                     keepVelocity: false
                     collidesAir: false
 
-                    spawnUnit: {
-                        //type: MissileUnitType
-                        name: quantum-quell-missile
-                        targetAir: false
-                        speed: 4.3
-                        maxRange: 6
-                        lifetime: 84
-                        outlineColor: darkOutline
-                        engineColor: sapBulletBack
-                        trailColor: sapBulletBack
-                        engineLayer: effect
-                        health: 45
-                        loopSoundVolume: 0.1
-                        weapons: [
-                            {
-                            shootCone: 360
-                            mirror: false
-                            reload: 1
-                            shootOnDeath: true
-                            bullet: {
-                                type: ExplosionBulletType
-                                speed: 25
-                                damage: 110
-                                shootEffect: massiveExplosion
-                                collidesAir: false
-                            }
-                        }
-                       ]
-                    }
+                    spawnUnit: quantum-quell-missile
                 }
             }
 ]
