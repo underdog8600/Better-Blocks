@@ -64,25 +64,33 @@ name: quantum-tecta-weapon
                 shake: 3
                 cooldownTime: 40
 
-                shoot.shots: 3
+        shoot: {
+      shots: 3
+    }
                 inaccuracy: 3
                 velocityRnd: 0.33
                 heatColor: FFFFFFF
 
-                bullet = new MissileBulletType(4.2f, 60){{
-                    homingPower = 0.2f;
-                    weaveMag = 4;
-                    weaveScale = 4;
-                    lifetime = 55f;
-                    shootEffect = Fx.shootBig2;
-                    smokeEffect = Fx.shootSmokeTitan;
-                    splashDamage = 70f;
-                    splashDamageRadius = 30f;
-                    frontColor = Color.white;
-                    hitSound = Sounds.none;
-                    width = height = 10f;
+                bullet: {
+type: MissileBulletType
+speed: 4.2
+damage: 60
+                    homingPower: 0.2
+                    weaveMag: 4
+                    weaveScale: 4
+                    lifetime: 55
+                    shootEffect: shootBig2
+                    smokeEffect: shootSmokeTitan
+                    splashDamage: 70
+                    splashDamageRadius: 30
+                    frontColor: FFFFFFFF
+                    hitSound: none
+                    width: 10
+                    height: 10
 
-                    lightColor = trailColor = backColor = Pal.techBlue;
+                    lightColor: 
+trailColor: 
+backColor = Pal.techBlue;
                     lightRadius = 40f;
                     lightOpacity = 0.7f;
 
