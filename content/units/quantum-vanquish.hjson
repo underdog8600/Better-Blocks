@@ -1,5 +1,6 @@
 name: Quantum Vanquish
-type: TankUnitType
+type: tank
+template: TankUnitType
 hitSize: 28
 treadPullOffset: 4
 speed: 0.63
