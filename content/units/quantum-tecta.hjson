@@ -1,5 +1,5 @@
 name: Quantum Tecta
-type: ErekiraUnitType
+type: legs
 drag: 0.1
             speed: 0.6
             hitSize: 23
