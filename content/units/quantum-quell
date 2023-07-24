@@ -10,7 +10,7 @@ accel: 0.1
 health: 6000
 armor: 4
 hitSize: 36
-payloadCapacity = Mathf.sqr(3f) * tilePayload;
+//payloadCapacity = Mathf.sqr(3f) * tilePayload;
 researchCostMultiplier: 0
 targetAir: false
 engineSize: 4.8
@@ -22,36 +22,41 @@ abilities: [
 	y: 1
       }
 ]
-            weapons.add(new Weapon("quell-weapon"){{
-                shootSound = Sounds.missileSmall;
-                x = 51 / 4f;
-                y = 5 / 4f;
-                rotate = true;
-                rotateSpeed = 2f;
-                reload = 55f;
-                layerOffset = -0.001f;
-                recoil = 1f;
-                rotationLimit = 60f;
+            weapons: [
+                { 
+                name: quantum-quell-weapon
+                shootSound: missileSmall
+                x: 12.75
+                y: 1.25
+                rotate: true
+                rotateSpeed: 2
+                reload: 55
+                layerOffset: -0.001
+                recoil: 1
+                rotationLimit: 60
 
-                bullet = new BulletType(){{
-                    shootEffect = Fx.shootBig;
-                    smokeEffect = Fx.shootBigSmoke2;
-                    shake = 1f;
-                    speed = 0f;
-                    keepVelocity = false;
-                    collidesAir = false;
+                bullet: {
+                    type: BulletType
+                    shootEffect: shootBig
+                    smokeEffect: shootBigSmoke2
+                    shake: 1
+                    speed: 0
+                    keepVelocity: false
+                    collidesAir: false
 
-                    spawnUnit = new MissileUnitType("quell-missile"){{
-                        targetAir = false;
-                        speed = 4.3f;
-                        maxRange = 6f;
-                        lifetime = 60f * 1.4f;
-                        outlineColor = Pal.darkOutline;
-                        engineColor = trailColor = Pal.sapBulletBack;
-                        engineLayer = Layer.effect;
-                        health = 45;
-                        loopSoundVolume = 0.1f;
-
+                    spawnUnit: {
+                        type: MissileUnitType
+                        name: quantum-quell-missile
+                        targetAir: false
+                        speed: 4.3
+                        maxRange: 6
+                        lifetime: 84
+                        outlineColor: darkOutline
+                        engineColor: sapBulletBack
+                        trailColor: sapBulletBack
+                        engineLayer: effect
+                        health: 45
+                        loopSoundVolume: 0.1
                         weapons.add(new Weapon(){{
                             shootCone = 360f;
                             mirror = false;
