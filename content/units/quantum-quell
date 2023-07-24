@@ -1,24 +1,21 @@
-        quell = new ErekirUnitType("quell"){{
-            aiController = FlyingFollowAI::new;
-            envDisabled = 0;
-
-            lowAltitude = false;
-            flying = true;
-            drag = 0.06f;
-            speed = 1.1f;
-            rotateSpeed = 3.2f;
-            accel = 0.1f;
-            health = 6000f;
-            armor = 4f;
-            hitSize = 36f;
-            payloadCapacity = Mathf.sqr(3f) * tilePayload;
-            researchCostMultiplier = 0f;
-            targetAir = false;
-
-            engineSize = 4.8f;
-            engineOffset = 61 / 4f;
-
-            abilities.add(new SuppressionFieldAbility(){{
+name: quantum-quell
+aiController: FlyingFollowAI
+envDisabled: 0
+lowAltitude: false
+flying: true
+drag: 0.06
+speed: 1.1
+rotateSpeed: 3.2
+accel: 0.1
+health: 6000
+armor: 4
+hitSize: 36
+payloadCapacity = Mathf.sqr(3f) * tilePayload;
+researchCostMultiplier: 0
+targetAir: false
+engineSize: 4.8
+engineOffset: 15.25
+abilities.add(new SuppressionFieldAbility(){{
                 orbRadius = 5.3f;
                 y = 1f;
             }});
