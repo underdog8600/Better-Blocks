@@ -11,7 +11,7 @@ crushDamage: 3
 //treadRects = new Rect[]{new Rect(22 - 154f/2f, 16 - 154f/2f, 28, 130)};
 treadRects: [
   {
-    x: 55
+    x: 50
     y: -61
     width: 28
     height: 130
@@ -19,7 +19,7 @@ treadRects: [
 ]
 weapons: [
 {
-name: vanquish-weapon
+name: quantum-vanquish-weapon
 shootSound: mediumCannon
 layerOffset: 0.0001
 reload: 70
@@ -89,10 +89,38 @@ splashDamage: 20
 }
 }
 {              
-name: vanquish-point-weapon
+name: quantum-vanquish-point-weapon
 reload: 70
 x: 12
 y: 8.5
+shootY: 5.5
+recoil: 2
+rotate: true
+rotateSpeed: 2
+
+bullet: {
+type: BasicBulletType
+speed: 4.5
+damage: 25
+width: 6.5
+height: 11
+shootEffect: sparkShoot
+smokeEffect: shootBigSmoke
+hitColor: feb380
+backColor: feb380
+trailColor: feb380
+frontColor: FFFFFFFF
+trailWidth: 1.5
+trailLength: 4
+hitEffect: hitBulletColor
+despawnEffect: hitBulletColor
+}
+}
+{              
+name: quantum-vanquish-point-weapon
+reload: 70
+x: 12
+y: -8.5
 shootY: 5.5
 recoil: 2
 rotate: true
