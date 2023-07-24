@@ -76,8 +76,17 @@ abilities: [
                 }
             }
 ]
-            setEnginesMirror(
-            new UnitEngine(62 / 4f, -60 / 4f, 3.9f, 315f),
-            new UnitEngine(72 / 4f, -29 / 4f, 3f, 315f)
-            );
-        }};
+engines: [
+  {
+    x: 15.5
+    y: -15
+    rotation: 315
+    radius: 3.9
+  }
+  {
+    x: 18
+    y: -7.25
+    rotation: 315
+    radius: 3
+  }
+]
