@@ -51,31 +51,36 @@ hitEffect: blastExplosion
 despawnEffect: blastExplosion
 splashDamageRadius: 20
 splashDamage: 50
+fragOnHit: false
+fragRandomSpread: 0
+fragSpread: 10
+fragBullets: 5
+fragVelocityMin: 1
+despawnSound: dullExplosion
 
-                    fragOnHit = false;
-                    fragRandomSpread = 0f;
-                    fragSpread = 10f;
-                    fragBullets = 5;
-                    fragVelocityMin = 1f;
-                    despawnSound = Sounds.dullExplosion;
-
-                    fragBullet = new BasicBulletType(8f, 35){{
-                        sprite = "missile-large";
-                        width = 8f;
-                        height = 12f;
-                        lifetime = 15f;
-                        hitSize = 4f;
-                        hitColor = backColor = trailColor = Color.valueOf("feb380");
-                        frontColor = Color.white;
-                        trailWidth = 2.8f;
-                        trailLength = 6;
-                        hitEffect = despawnEffect = Fx.blastExplosion;
-                        splashDamageRadius = 10f;
-                        splashDamage = 20f;
-                    }};
-                }};
-            }});
-
+fragBullet: {
+type: BasicBulletType
+speed: 8
+damage: 35
+sprite: missile-large
+width: 8
+height: 12
+lifetime: 15
+hitSize: 4
+hitColor: feb380
+backColor: feb380
+trailColor: feb380
+frontColor: "white"
+trailWidth: 2.8
+trailLength: 6
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+splashDamageRadius: 10
+splashDamage: 20
+}
+}
+}
+]
             int i = 0;
             for(float f : new float[]{34f / 4f, -36f / 4f}){
                 int fi = i ++;
