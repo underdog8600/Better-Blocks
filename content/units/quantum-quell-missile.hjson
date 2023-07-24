@@ -7,7 +7,7 @@ template: MissileUnitType
                         outlineColor: darkOutline
                         engineColor: sapBulletBack
                         trailColor: sapBulletBack
-                        //engineLayer: effect
+                        engineLayer: 110
                         health: 45
                         loopSoundVolume: 0.1
                         weapons: [
