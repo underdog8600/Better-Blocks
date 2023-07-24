@@ -44,7 +44,8 @@ abilities: [
                     keepVelocity: false
                     collidesAir: false
 
-                    spawnUnit: {
+                    type: spawnUnit
+                        {
                         type: MissileUnitType
                         name: quantum-quell-missile
                         targetAir: false
