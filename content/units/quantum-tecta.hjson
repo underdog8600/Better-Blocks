@@ -17,7 +17,7 @@ drag: 0.1
 abilities: [
        {
 	type: ShieldArcAbility
-                region: "quantum-tecta-shield"
+                region: quantum-tecta-shield
                 radius: 36
                 angle: 82
                 regen: 0.6
