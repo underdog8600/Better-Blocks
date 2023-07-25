@@ -53,7 +53,7 @@ weapons: [
               {
 	      type: RegionPart
               suffix: -glow
-	      color: Color.red
+	      color: FFFFFFFF
 	      blending: additive
 	      outline: false
               mirror: false
@@ -76,7 +76,7 @@ weapons: [
 		progress: warmup
 		mirror: true
 		under: true
-		heatColor: new Color(1f, 0.1f, 0.1f)
+		heatColor: ff1a1a
 		moveX: 4.25
 		moveY: -3.75
 		x: 8
@@ -89,8 +89,8 @@ weapons: [
 		progress: warmup
 		mirror: true
 		outline: false
-		colorTo: new Color(1f, 0f, 0f, 0.5f)
-		color: colorTo.cpy().a(0f)
+		colorTo: ff000080
+		color: ff0000
 		moveX: 4.25
 		moveY: -3.75
 		x: 8
@@ -98,6 +98,7 @@ weapons: [
 	}
 	]
 
+/*
 	for(int i: 1 i <= 3 i++){
 		int fi: i
 		parts.add(new RegionPart("-blade"){{
@@ -113,6 +114,98 @@ weapons: [
 			x: 11 / 4
 		}})
 	}
+*/
+	parts: [
+		{
+		type: RegionPart
+		suffix: -blade
+		progress: {
+			type: warmup
+			delay: 0.6
+			op: blend
+			other: {
+				type: reload
+				amount: 0.3
+				}
+			}
+		heatProgess:
+			{
+			type: heat
+			op: add
+			amount: 0.3
+			other: {
+				type: warmup
+				op: min
+				}
+			}
+		heatColor: ff1a1a
+		mirror: true
+		under: true
+		moveRot: -40
+		moveX: 3
+		layerOffset: -0.002
+		x: 2.75
+		}
+		{
+		type: RegionPart
+		suffix: -blade
+		progress: {
+			type: warmup
+			delay: 0.3
+			op: blend
+			other: {
+				type: reload
+				amount: 0.3
+				}
+			}
+		heatProgess:
+			{
+			type: heat
+			op: add
+			amount: 0.3
+			other: {
+				type: warmup
+				op: min
+				}
+			}
+		heatColor: ff1a1a
+		mirror: true
+		under: true
+		moveRot: -80
+		moveX: 3
+		layerOffset: -0.002
+		x: 2.75
+		}
+		{
+		type: RegionPart
+		suffix: -blade
+		progress: {
+			type: warmup
+			delay: 0
+			op: blend
+			other: {
+				type: reload
+				amount: 0.3
+				}
+			}
+		heatProgess:
+			{
+			type: heat
+			op: add
+			amount: 0.3
+			other: {
+				type: warmup
+				op: min
+				}
+			}
+		heatColor: ff1a1a
+		mirror: true
+		under: true
+		moveRot: -120
+		moveX: 3
+		layerOffset: -0.002
+		x: 2.75
+		}
 
 	bullet: new BasicBulletType(8f, 360f){{
 		sprite: "missile-large"
