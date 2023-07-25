@@ -31,30 +31,31 @@ drownTimeMultiplier: 2
 
 hovering: true
 shadowElevation: 0.4
-groundLayer: Layer.legUnit
+groundLayer: 75
 
 targetAir: false
 alwaysShootWhenMoving: true
 
-weapons.add(new Weapon("collaris-weapon"){{
-	shootSound: Sounds.pulseBlast
+weapons: [
+       {name: infinity-collaris-weapon
+	shootSound: pulseBlast
 	mirror: true
 	rotationLimit: 30
 	rotateSpeed: 0.4
 	rotate: true
 
-	x: 48 / 4
-	y: -28f / 4
-	shootY: 64f / 4
+	x: 12
+	y: -7
+	shootY: 16
 	recoil: 4
 	reload: 130
-	cooldownTime: reload * 1.2
+	cooldownTime: 156
 	shake: 7
 	layerOffset: 0.02
 	shadow: 10
 
-	shootStatus: StatusEffects.slow
-	shootStatusDuration: reload + 1
+	shootStatus: slow
+	shootStatusDuration: 131
 
 	shoot.shots: 1
 	heatColor: Color.red
