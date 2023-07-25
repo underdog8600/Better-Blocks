@@ -109,7 +109,6 @@ weapons: [
 			op: blend
 			other: {
 				type: reload
-				//amount: 0.3
 				}
 		}
 		heatProgess:
@@ -139,7 +138,6 @@ weapons: [
 			op: blend
 			other: {
 				type: reload
-				//amount: 0.3
 				}
 		}
 		heatProgess:
@@ -169,7 +167,6 @@ weapons: [
 			op: blend
 			other: {
 				type: reload
-				//amount: 0.3
 				}
 		}
 		heatProgess:
