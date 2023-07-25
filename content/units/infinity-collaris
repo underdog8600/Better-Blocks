@@ -108,6 +108,18 @@ weapons: [
                     amount: 0.1
                     other: reload
              }
+             moves: [
+                   {
+                    type: PartMove
+                    progress: reload
+                    mul: 1.8
+                    offset: 0
+                    duration: 0.2
+                    x: 0
+                    y: 0
+                    rot: 36
+                   }
+             ]
         }
         ]
 	bullet: {
