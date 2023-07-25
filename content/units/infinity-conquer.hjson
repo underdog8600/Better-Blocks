@@ -253,7 +253,7 @@ weapons: [
 			trailLength: 7
 			weaveScale: 2.5
 			weaveMag: 1.95
-
+			mirror: true
 			splashDamage: 65
 			splashDamageRadius: 30
 			despawnEffect: {
