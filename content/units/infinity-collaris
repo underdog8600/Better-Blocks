@@ -1,4 +1,5 @@
-collaris: new ErekirUnitType("collaris"){{
+name: Infinity Collaris
+type: legs
 drag: 0.1
 speed: 1.1
 hitSize: 44
@@ -22,7 +23,7 @@ legBaseOffset: 19
 legStraightLength: 0.9
 legMaxLength: 1.2
 
-ammoType: new PowerAmmoType(2000)
+//ammoType: new PowerAmmoType(2000)
 
 legSplashDamage: 32
 legSplashRange: 32
