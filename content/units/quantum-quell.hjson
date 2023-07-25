@@ -50,12 +50,14 @@ engines: [
   {
     x: 15.5
     y: -15
+    mirror: true
     rotation: 315
     radius: 3.9
   }
   {
     x: 18
     y: -7.25
+    mirror: true
     rotation: 315
     radius: 3
   }
