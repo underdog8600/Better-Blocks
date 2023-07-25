@@ -234,7 +234,7 @@ weapons: [
 			{
 			type: BasicBulletType
 			speed: 8.2
-			damage 60
+			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
@@ -275,7 +275,7 @@ weapons: [
 			{
 			type: BasicBulletType
 			speed: 8.1
-			damage 60
+			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
@@ -316,7 +316,7 @@ weapons: [
 			{
 			type: BasicBulletType
 			speed: 8.064
-			damage 60
+			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
@@ -357,7 +357,7 @@ weapons: [
 			{
 			type: BasicBulletType
 			speed: 8.05
-			damage 60
+			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
@@ -398,7 +398,7 @@ weapons: [
 			{
 			type: BasicBulletType
 			speed: 8.04
-			damage 60
+			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
@@ -439,7 +439,7 @@ weapons: [
 			{
 			type: BasicBulletType
 			speed: 8.032
-			damage 60
+			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
