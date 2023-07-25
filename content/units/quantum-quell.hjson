@@ -10,7 +10,7 @@ accel: 0.1
 health: 6000
 armor: 4
 hitSize: 36
-//payloadCapacity = Mathf.sqr(3f) * tilePayload;
+payloadCapacity: 550
 researchCostMultiplier: 0
 targetAir: false
 engineSize: 4.8
