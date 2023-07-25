@@ -110,11 +110,13 @@ weapons: [
              }
              moves: [
                    {
-                    type: PartMove
-                    progress: reload
-                    mul: 1.8
-                    offset: 0
-                    duration: 0.2
+		    progress: {
+			type: reload
+			op: curve
+			offset: 0
+			duration: 0.2
+			}
+                    //mul: 1.8
                     x: 0
                     y: 0
                     rot: 36
