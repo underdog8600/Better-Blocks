@@ -61,7 +61,7 @@ weapons: [
       		shots: 1
     	}
 	heatColor: FFFFFFF
-
+/*
 	for(int i: 0 i < 5 i++){
 		int fi: i
 		parts.add(new RegionPart("-blade"){{
@@ -79,7 +79,7 @@ weapons: [
 			moves.add(new PartMove(PartProgress.reload.inv().mul(1.8f).inv().curve(fi / 5f, 0.2f), 0f, 0f, 36f))
 		}})
 	}
-
+*/
 	bullet: {
                 type: ArtilleryBulletType
                 speed: 5.5
