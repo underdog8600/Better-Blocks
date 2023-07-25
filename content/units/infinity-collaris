@@ -80,6 +80,36 @@ weapons: [
 		}})
 	}
 */
+        parts: [
+              {
+              type: RegionPart
+              suffix: -blade
+              under: true
+              layerOffset: -0.001
+              heatColor: 8ca9e8
+              x: 3.375
+              y: 2.5
+              moveY: 1
+              moveX: 0
+              moveRot: -45
+              heatProgress: {
+                    type: heat
+                    op: add
+                    amount: 0.2
+                    other: {
+                          type: warmup
+                          op: min
+                          other: heat
+                    }
+              }
+              progress: {
+                    type: warmup
+                    op: blend
+                    amount: 0.1
+                    other: reload
+             }
+        }
+        ]
 	bullet: {
                 type: ArtilleryBulletType
                 speed: 5.5
