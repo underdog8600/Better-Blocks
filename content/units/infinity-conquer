@@ -7,9 +7,26 @@ health: 22000
 armor: 26
 crushDamage: 25f / 5
 rotateSpeed: 0.8
-
-//float xo: 231f/2f, yo: 231f/2
-treadRects: new Rect[]{new Rect(27 - xo, 152 - yo, 56, 73), new Rect(24 - xo, 51 - 9 - yo, 29, 17), new Rect(59 - xo, 18 - 9 - yo, 39, 19)}
+treadRects: [
+  {
+    x: -88.5
+    y: 36.5
+    width: 56
+    height: 73
+  }
+  {
+    x: -91.5
+    y: -73.5
+    width: 29
+    height: 17
+  }
+  {
+    x: -56.5
+    y: -106.5
+    width: 39
+    height: 19
+  }
+]
 
 weapons.add(new Weapon("conquer-weapon"){{
 	shootSound: Sounds.largeCannon
