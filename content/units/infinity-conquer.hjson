@@ -201,7 +201,7 @@ weapons: [
 		height: 20
 		lifetime: 35
 		hitSize: 6
-		smokeEffect: FshootSmokeTitan
+		smokeEffect: shootSmokeTitan
 		pierceCap: 3
 		pierce: true
 		pierceBuilding: true
