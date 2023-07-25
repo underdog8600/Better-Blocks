@@ -57,8 +57,10 @@ weapons: [
 	shootStatus: slow
 	shootStatusDuration: 131
 
-	shoot.shots: 1
-	heatColor: Color.red
+	shoot: {
+      		shots: 1
+    	}
+	heatColor: FFFFFFF
 
 	for(int i: 0 i < 5 i++){
 		int fi: i
@@ -78,13 +80,19 @@ weapons: [
 		}})
 	}
 
-	bullet: new ArtilleryBulletType(5.5f, 260){{
-		collidesTiles: collides: true
+	bullet: {
+                type: ArtilleryBulletType
+                speed: 5.5
+                damage: 260
+		collidesTiles: true
+                collides: true
 		lifetime: 70
-		shootEffect: Fx.shootBigColor
-		smokeEffect: Fx.shootSmokeSquareBig
-		frontColor: Color.white
-		trailEffect: new MultiEffect(Fx.artilleryTrail, Fx.artilleryTrailSmoke)
+		shootEffect: shootBigColor
+		smokeEffect: shootSmokeSquareBig
+		frontColor: FFFFFFFF
+		trailEffect: {
+                      MultiEffect(Fx.artilleryTrail, Fx.artilleryTrailSmoke)
+                }
 		hitSound: Sounds.none
 		width: 18
 		height: 24
