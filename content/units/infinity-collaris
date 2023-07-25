@@ -91,7 +91,15 @@ weapons: [
 		smokeEffect: shootSmokeSquareBig
 		frontColor: FFFFFFFF
 		trailEffect: {
-                      MultiEffect(Fx.artilleryTrail, Fx.artilleryTrailSmoke)
+                      type: MultiEffect
+                      effect: [
+                           {
+                           effect: artilleryTrail
+                           }
+                           {
+                           effect: artilleryTrailSmoke
+                           }
+                      ]
                 }
 		hitSound: Sounds.none
 		width: 18
@@ -171,20 +179,28 @@ weapons: [
 			splashDamageRadius: 30
 
 			hitEffect: {
-                                type: MultiEffect(new ExplosionEffect(){{
-				lifetime: 30
-				waveStroke: 2
-				waveColor: 8ca9e8
-                                sparkColor: 8ca9e8
-				waveRad: 5
-				smokeSize: 0
-				smokeSizeBase: 0
-				sparks: 5
-				sparkRad: 20
-				sparkLen: 6
-				sparkStroke: 2
-			}}, Fx.blastExplosion)
-		}}
-	}}
-}})
-}}
+                                type: MultiEffect
+                                effect: [
+                                      {
+                                      type: ExplosionEffect
+				      lifetime: 30
+				      waveStroke: 2
+				      waveColor: 8ca9e8
+                                      sparkColor: 8ca9e8
+				      waveRad: 5
+				      smokeSize: 0
+				      smokeSizeBase: 0
+				      sparks: 5
+				      sparkRad: 20
+				      sparkLen: 6
+				      sparkStroke: 2
+                                      }
+                                      {
+			              type: blastExplosion
+                                      }
+                                ]
+                        }
+                }
+        }
+}
+]
