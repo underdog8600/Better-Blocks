@@ -28,8 +28,10 @@ treadRects: [
   }
 ]
 
-weapons.add(new Weapon("conquer-weapon"){{
-	shootSound: Sounds.largeCannon
+weapons: [
+        {
+        name: infinity-conquer-weapon
+	shootSound: largeCannon
 	layerOffset: 0.1
 	reload: 100
 	shootY: 32.5
@@ -41,51 +43,60 @@ weapons.add(new Weapon("conquer-weapon"){{
 	x: 0
 	y: -2
 	shadow: 50
-	heatColor: Color.valueOf("f9350f")
+	heatColor: f9350f
 	shootWarmupSpeed: 0.06
 	cooldownTime: 110
-	heatColor: Color.valueOf("f9350f")
+	heatColor: f9350f
 	minWarmup: 0.9
 
-	parts.addAll(
-	new RegionPart("-glow"){{
-		color: Color.red
-		blending: Blending.additive
-		outline: mirror: false
-	}},
-	new RegionPart("-sides"){{
-		progress: PartProgress.warmup
-		mirror: true
-		under: true
-		moveX: 0.75
-		moveY: 0.75
-		moveRot: 82
-		x: 37 / 4
-		y: 8 / 4
-	}},
-	new RegionPart("-sinks"){{
-		progress: PartProgress.warmup
+	parts: [
+              {
+	      type: RegionPart
+              suffix: -glow
+	      color: Color.red
+	      blending: additive
+	      outline: false
+              mirror: false
+	      }
+              {
+	      type: RegionPart
+              suffix: -sides
+	      progress: warmup
+	      mirror: true
+	      under: true
+	      moveX: 0.75
+	      moveY: 0.75
+	      moveRot: 82
+	      x: 9.25
+	      y: 2
+	}
+        {
+	        type: RegionPart
+                suffix: -sinks
+		progress: warmup
 		mirror: true
 		under: true
 		heatColor: new Color(1f, 0.1f, 0.1f)
-		moveX: 17f / 4
-		moveY: -15f / 4
-		x: 32 / 4
-		y: -34 / 4
-	}},
-	new RegionPart("-sinks-heat"){{
-		blending: Blending.additive
-		progress: PartProgress.warmup
+		moveX: 4.25
+		moveY: -3.75
+		x: 8
+		y: -8.5
+	}
+        {
+	        type: RegionPart
+                suffix: -sinks-heat
+		blending: additive
+		progress: warmup
 		mirror: true
 		outline: false
 		colorTo: new Color(1f, 0f, 0f, 0.5f)
 		color: colorTo.cpy().a(0f)
-		moveX: 17f / 4
-		moveY: -15f / 4
-		x: 32 / 4
-		y: -34 / 4
-	}}
-	)
+		moveX: 4.25
+		moveY: -3.75
+		x: 8
+		y: -8.5
+	}
+	]
 
 	for(int i: 1 i <= 3 i++){
 		int fi: i
