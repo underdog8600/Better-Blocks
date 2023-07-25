@@ -97,9 +97,9 @@ weapons: [
 		x: 8
 		y: -8.5
 		}
-	]
+	//]
 
-	parts: [
+	//parts: [
 		{
 		type: RegionPart
 		suffix: -blade
@@ -108,9 +108,9 @@ weapons: [
 			delay: 0.6
 			op: blend
 			other: {
-			type: reload
-			//amount: 0.3
-			}
+				type: reload
+				//amount: 0.3
+				}
 		}
 		heatProgess:
 		{
@@ -134,13 +134,13 @@ weapons: [
 		type: RegionPart
 		suffix: -blade
 		progress: {
-		type: warmup
-		delay: 0.3
-		op: blend
-		other: {
-			type: reload
-			//amount: 0.3
-			}
+			type: warmup
+			delay: 0.3
+			op: blend
+			other: {
+				type: reload
+				//amount: 0.3
+				}
 		}
 		heatProgess:
 		{
@@ -164,13 +164,13 @@ weapons: [
 		type: RegionPart
 		suffix: -blade
 		progress: {
-		type: warmup
-		delay: 0
-		op: blend
-		other: {
-			type: reload
-			//amount: 0.3
-			}
+			type: warmup
+			delay: 0
+			op: blend
+			other: {
+				type: reload
+				//amount: 0.3
+				}
 		}
 		heatProgess:
 		{
