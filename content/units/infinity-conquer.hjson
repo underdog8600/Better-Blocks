@@ -106,6 +106,7 @@ weapons: [
 		progress: {
 			type: warmup
 			delay: 0.6
+			amount: 0.3
 			op: blend
 			other: {
 				type: reload
@@ -113,10 +114,10 @@ weapons: [
 		}
 		heatProgess:
 		{
-			type: heat
-			op: add
-			amount: 0.3
-			other: {
+		type: heat
+		op: add
+		amount: 0.3
+		other: {
 			type: warmup
 			op: min
 			}
@@ -135,6 +136,7 @@ weapons: [
 		progress: {
 			type: warmup
 			delay: 0.3
+			amount: 0.3
 			op: blend
 			other: {
 				type: reload
@@ -164,6 +166,7 @@ weapons: [
 		progress: {
 			type: warmup
 			delay: 0
+			amount: 0.3
 			op: blend
 			other: {
 				type: reload
