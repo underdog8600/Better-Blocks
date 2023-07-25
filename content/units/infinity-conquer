@@ -1,4 +1,5 @@
-conquer: new TankUnitType("conquer"){{
+name: Infinity Conquer
+type: TankUnitType
 hitSize: 46
 treadPullOffset: 1
 speed: 0.48
