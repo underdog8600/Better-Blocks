@@ -123,6 +123,174 @@ weapons: [
                    }
              ]
         }
+              {
+              type: RegionPart
+              suffix: -blade
+              under: true
+              layerOffset: -0.001
+              heatColor: 8ca9e8
+              x: 3.375
+              y: 0.5
+              moveY: 0
+              moveX: 0.3
+              moveRot: -62
+              heatProgress: {
+                    type: heat
+                    op: add
+                    amount: 0.2
+                    other: {
+                          type: warmup
+                          op: min
+                          other: heat
+                    }
+              }
+              progress: {
+                    type: warmup
+                    op: blend
+                    amount: 0.1
+                    other: reload
+             }
+             moves: [
+                   {
+		    progress: {
+			type: reload
+			op: curve
+			offset: 0.2
+			duration: 0.2
+			}
+                    //mul: 1.8
+                    x: 0
+                    y: 0
+                    rot: 36
+                   }
+             ]
+        }
+              {
+              type: RegionPart
+              suffix: -blade
+              under: true
+              layerOffset: -0.001
+              heatColor: 8ca9e8
+              x: 3.375
+              y: -1.5
+              moveY: -1
+              moveX: 0.6
+              moveRot: -79
+              heatProgress: {
+                    type: heat
+                    op: add
+                    amount: 0.2
+                    other: {
+                          type: warmup
+                          op: min
+                          other: heat
+                    }
+              }
+              progress: {
+                    type: warmup
+                    op: blend
+                    amount: 0.1
+                    other: reload
+             }
+             moves: [
+                   {
+		    progress: {
+			type: reload
+			op: curve
+			offset: 0.4
+			duration: 0.2
+			}
+                    //mul: 1.8
+                    x: 0
+                    y: 0
+                    rot: 36
+                   }
+             ]
+        }
+              {
+              type: RegionPart
+              suffix: -blade
+              under: true
+              layerOffset: -0.001
+              heatColor: 8ca9e8
+              x: 3.375
+              y: -3.5
+              moveY: -2
+              moveX: 0.9
+              moveRot: -96
+              heatProgress: {
+                    type: heat
+                    op: add
+                    amount: 0.2
+                    other: {
+                          type: warmup
+                          op: min
+                          other: heat
+                    }
+              }
+              progress: {
+                    type: warmup
+                    op: blend
+                    amount: 0.1
+                    other: reload
+             }
+             moves: [
+                   {
+		    progress: {
+			type: reload
+			op: curve
+			offset: 0.6
+			duration: 0.2
+			}
+                    //mul: 1.8
+                    x: 0
+                    y: 0
+                    rot: 36
+                   }
+             ]
+        }
+              {
+              type: RegionPart
+              suffix: -blade
+              under: true
+              layerOffset: -0.001
+              heatColor: 8ca9e8
+              x: 3.375
+              y: -5.5
+              moveY: -3
+              moveX: 1.2
+              moveRot: -113
+              heatProgress: {
+                    type: heat
+                    op: add
+                    amount: 0.2
+                    other: {
+                          type: warmup
+                          op: min
+                          other: heat
+                    }
+              }
+              progress: {
+                    type: warmup
+                    op: blend
+                    amount: 0.1
+                    other: reload
+             }
+             moves: [
+                   {
+		    progress: {
+			type: reload
+			op: curve
+			offset: 0.8
+			duration: 0.2
+			}
+                    //mul: 1.8
+                    x: 0
+                    y: 0
+                    rot: 36
+                   }
+             ]
+        }
         ]
 	bullet: {
                 type: ArtilleryBulletType
