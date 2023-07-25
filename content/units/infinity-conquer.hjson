@@ -221,8 +221,8 @@ weapons: [
 		pierceCap: 3
 		pierce: true
 		pierceBuilding: true
-		hitColor: 
-		backColor: 
+		hitColor: feb380
+		backColor: feb380
 		trailColor: feb380
 		frontColor: FFFFFFFF
 		trailWidth: 4
@@ -234,7 +234,7 @@ weapons: [
 			type: ExplosionEffect
 			lifetime: 40
 			waveStroke: 4
-			waveColor: 
+			waveColor: feb380
 			sparkColor: feb380
 			waveRad: 15
 			smokeSize: 5
@@ -261,8 +261,8 @@ weapons: [
 					pierceCap: 2
 					pierce: true
 					pierceBuilding: true
-					hitColor: 
-					backColor: 
+					hitColor: feb380
+					backColor: feb380
 					trailColor: feb380
 					frontColor: FFFFFFFF
 					trailWidth: 2.5
@@ -276,7 +276,7 @@ weapons: [
 						type: ExplosionEffect
 						lifetime: 50
 						waveStroke: 4
-						waveColor: 
+						waveColor: feb380
 						sparkColor: feb380
 						waveRad: 30
 						smokeSize: 7
@@ -302,8 +302,8 @@ weapons: [
 					pierceCap: 2
 					pierce: true
 					pierceBuilding: true
-					hitColor: 
-					backColor: 
+					hitColor: feb380
+					backColor: feb380
 					trailColor: feb380
 					frontColor: FFFFFFFF
 					trailWidth: 2.5
@@ -317,7 +317,7 @@ weapons: [
 						type: ExplosionEffect
 						lifetime: 50
 						waveStroke: 4
-						waveColor: 
+						waveColor: feb380
 						sparkColor: feb380
 						waveRad: 30
 						smokeSize: 7
@@ -343,8 +343,8 @@ weapons: [
 					pierceCap: 2
 					pierce: true
 					pierceBuilding: true
-					hitColor: 
-					backColor: 
+					hitColor: feb380
+					backColor: feb380
 					trailColor: feb380
 					frontColor: FFFFFFFF
 					trailWidth: 2.5
@@ -358,7 +358,7 @@ weapons: [
 						type: ExplosionEffect
 						lifetime: 50
 						waveStroke: 4
-						waveColor: 
+						waveColor: feb380
 						sparkColor: feb380
 						waveRad: 30
 						smokeSize: 7
@@ -384,8 +384,8 @@ weapons: [
 					pierceCap: 2
 					pierce: true
 					pierceBuilding: true
-					hitColor: 
-					backColor: 
+					hitColor: feb380
+					backColor: feb380
 					trailColor: feb380
 					frontColor: FFFFFFFF
 					trailWidth: 2.5
@@ -399,7 +399,7 @@ weapons: [
 						type: ExplosionEffect
 						lifetime: 50
 						waveStroke: 4
-						waveColor: 
+						waveColor: feb380
 						sparkColor: feb380
 						waveRad: 30
 						smokeSize: 7
@@ -425,8 +425,8 @@ weapons: [
 					pierceCap: 2
 					pierce: true
 					pierceBuilding: true
-					hitColor: 
-					backColor: 
+					hitColor: feb380
+					backColor: feb380
 					trailColor: feb380
 					frontColor: FFFFFFFF
 					trailWidth: 2.5
@@ -440,7 +440,7 @@ weapons: [
 						type: ExplosionEffect
 						lifetime: 50
 						waveStroke: 4
-						waveColor: 
+						waveColor: feb380
 						sparkColor: feb380
 						waveRad: 30
 						smokeSize: 7
@@ -466,8 +466,8 @@ weapons: [
 					pierceCap: 2
 					pierce: true
 					pierceBuilding: true
-					hitColor: 
-					backColor: 
+					hitColor: feb380
+					backColor: feb380
 					trailColor: feb380
 					frontColor: FFFFFFFF
 					trailWidth: 2.5
@@ -481,7 +481,7 @@ weapons: [
 						type: ExplosionEffect
 						lifetime: 50
 						waveStroke: 4
-						waveColor: 
+						waveColor: feb380
 						sparkColor: feb380
 						waveRad: 30
 						smokeSize: 7
