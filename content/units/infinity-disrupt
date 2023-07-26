@@ -1,7 +1,7 @@
-disrupt: new ErekirUnitType("disrupt"){{
-aiController: FlyingFollowAI::new
+name: Infinity Disrupt
+type: flying
+//aiController: FlyingFollowAI::new
 envDisabled: 0
-
 lowAltitude: false
 flying: true
 drag: 0.07
@@ -11,22 +11,25 @@ accel: 0.1
 health: 12000
 armor: 9
 hitSize: 46
-payloadCapacity: Mathf.sqr(6f) * tilePayload
+payloadCapacity: 600
 targetAir: false
-
 engineSize: 6
 engineOffset: 25.25
 
-float orbRad: 5f, partRad: 3
-int parts: 10
+//float orbRad: 5f, partRad: 3
+//int parts: 10
 
-abilities.add(new SuppressionFieldAbility(){{
-	orbRadius: orbRad
-	particleSize: partRad
+abilities: [
+        {
+        type: SuppressionFieldAbility
+	orbRadius: 5
+	particleSize: 3
 	y: 10
-	particles: parts
-}})
+	particles: 10
+        }
+]
 
+/*
 for(int i : Mathf.signs){
 	abilities.add(new SuppressionFieldAbility(){{
 		orbRadius: orbRad
@@ -38,11 +41,14 @@ for(int i : Mathf.signs){
 		display: active: false
 	}})
 }
+*/
 
-weapons.add(new Weapon("disrupt-weapon"){{
-	shootSound: Sounds.missileLarge
-	x: 78f / 4
-	y: -10f / 4
+weapons: [
+         {
+        name: infinity-disrupt-weapon
+	shootSound: missileLarge
+	x: 19.5
+	y: -2.5
 	mirror: true
 	rotate: true
 	rotateSpeed: 0.4
@@ -58,19 +64,29 @@ weapons.add(new Weapon("disrupt-weapon"){{
 	shoot.shotDelay: 5
 	inaccuracy: 28
 
-	parts.add(new RegionPart("-blade"){{
-		heatProgress: PartProgress.warmup
-		progress: PartProgress.warmup.blend(PartProgress.reload, 0.15f)
-		heatColor: Color.valueOf("9c50ff")
-		x: 5 / 4
+	parts: [
+               {
+                type: RegionPart
+                suffix: -blade
+		heatProgress: warmup
+		progress: {
+                      progress: warmup
+                      op: blend
+                      amount: 0.15
+                      other: {
+                            progress: reload
+                      }
+                }
+		heatColor: 9c50ff
+		x: 1.25
 		y: 0
 		moveRot: -33
 		moveY: -1
 		moveX: -1
 		under: true
 		mirror: true
-	}})
-
+	}
+        ]
 	bullet: new BulletType(){{
 		shootEffect: Fx.sparkShoot
 		smokeEffect: Fx.shootSmokeTitan
