@@ -1,0 +1,14 @@
+tankAssembler = new UnitAssembler("tank-assembler"){{
+requirements(Category.units, with(Items.thorium, 500, Items.oxide, 150, Items.carbide, 80, Items.silicon, 500));
+regionSuffix = "-dark";
+size = 5;
+plans.add(
+new AssemblerUnitPlan(UnitTypes.vanquish, 60f * 50f, PayloadStack.list(UnitTypes.stell, 4, Blocks.tungstenWallLarge, 10)),
+new AssemblerUnitPlan(UnitTypes.conquer, 60f * 60f * 3f, PayloadStack.list(UnitTypes.locus, 6, Blocks.carbideWallLarge, 20))
+);
+areaSize = 13;
+researchCostMultiplier = 0.4f;
+
+consumePower(3f);
+consumeLiquid(Liquids.cyanogen, 9f / 60f);
+}};
