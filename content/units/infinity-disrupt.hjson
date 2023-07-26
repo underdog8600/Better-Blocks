@@ -60,8 +60,10 @@ weapons: [
 	shootWarmupSpeed: 0.1
 	shootY: 2
 	shootCone: 40
-	shoot.shots: 3
-	shoot.shotDelay: 5
+        shoot: {
+      		shots: 3
+                shotDelay: 5
+    	}
 	inaccuracy: 28
 
 	parts: [
