@@ -35,7 +35,7 @@ plans: [
     unit: quantum-vanquish
     time: 360
     requirements: [
-          q-wall-large/8
+          "q-wall-large/8"
           vanquish/1
     ]
   }
