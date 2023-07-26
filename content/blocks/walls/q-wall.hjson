@@ -4,6 +4,14 @@ type: ShieldWall
 health: 8050
 size: 1
 absorbLasers: true
+outputsPower: false
+hasPower: true
+consumesPower: true
+conductivePower: true
+shieldHealth: 2000
+consumes: {
+	power: 9
+}
 requirements: [
 	quantum-ingot/1
 ]
