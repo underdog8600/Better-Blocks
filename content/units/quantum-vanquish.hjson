@@ -117,7 +117,7 @@ weapons: [
   }
   {              
   name: quantum-vanquish-point-weapon
-  reload: 70
+  reload: 80
   x: 12
   y: -8.5
   shootY: 5.5
