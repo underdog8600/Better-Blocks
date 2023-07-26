@@ -4,7 +4,7 @@ type: Wall
 health: 2340
 size: 1
 requirements: [
-	      dark-steel/6
+	dark-steel/6
         carbon/6
 ]
 category: defense
