@@ -23,7 +23,7 @@ plans: [
 	{"unit": "dark-antumbra","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
 	{"unit": "quantum-eclipse","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
 
-	{"unit": quantum-vanquish","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
+	{"unit": "quantum-vanquish","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
 	{"unit": "infinity-conquer","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
 	{"unit": "quantum-quell","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
 	{"unit": "infinity-disrupt","requirements": [{"item": "silicon", "amount": 0}],"time": 180},
