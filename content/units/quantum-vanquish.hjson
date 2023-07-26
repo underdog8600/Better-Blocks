@@ -4,8 +4,8 @@ template: TankUnitType
 hitSize: 28
 treadPullOffset: 4
 speed: 0.63
-health: 11000
-armor: 20
+health: 100000
+armor: 24
 itemCapacity: 0
 crushDamage: 3
 treadRects: [
