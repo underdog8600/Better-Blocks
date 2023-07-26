@@ -1,0 +1,17 @@
+name: Infinity Assembler Module
+type: UnitAssemblerModule
+size: 9
+payloadSpeed: 1.5
+tier: 3
+consumes: {
+  power: 10
+}
+requirements: [
+	iron/3000
+	dark-steel/2500
+	tithorium/1000
+	silicon/1400
+	super-tithorium/300
+	plut/500
+]
+category: units
