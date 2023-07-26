@@ -17,7 +17,7 @@ plans: [
     unit: vanquish
     time: 360
     requirements: [
-          Blocks.tungstenWallLarge/10
+          tungsten-wall-large/10
           stell/4
     ]
   }
