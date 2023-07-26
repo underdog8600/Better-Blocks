@@ -14,6 +14,24 @@ consumes: {
 plans: [
       {
     type: AssemblerUnitPlan
+    unit: vanquish
+    time: 360
+    requirements: [
+          tungstenWallLarge/10
+          stell/4
+    ]
+  }
+      {
+    type: AssemblerUnitPlan
+    unit: conquer
+    time: 360
+    requirements: [
+          carbideWallLarge/20
+          locus/6
+    ]
+  }
+      {
+    type: AssemblerUnitPlan
     unit: quantum-vanquish
     time: 360
     requirements: [
