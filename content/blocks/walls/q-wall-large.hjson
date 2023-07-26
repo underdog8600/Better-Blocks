@@ -1,5 +1,5 @@
 name: Quantum Wall large
-description: OP Wall... 2x2... wow...
+description: OP Wall, Absorbs lasers and has shield, 2x2.
 type: ShieldWall
 health: 32200
 size: 2
