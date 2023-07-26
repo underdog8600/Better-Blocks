@@ -19,7 +19,7 @@ weapons: [
   bullet: {
     type: ExplosionBulletType
     speed: 25
-    splashDamage: 110
+    splashDamage: 1000
     splashDamageRadius: 27
     shootEffect: massiveExplosion
     collidesAir: false
