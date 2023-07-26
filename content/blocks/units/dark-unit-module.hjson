@@ -5,5 +5,13 @@ tier: 1
 consumes: {
   power: 2
 }
+requirements: [
+	iron/3000
+	dark-steel/2500
+	tithorium/1000
+	silicon/1400
+	super-tithorium/300
+	plut/500
+]
 category: units
 buildVisibility: shown
