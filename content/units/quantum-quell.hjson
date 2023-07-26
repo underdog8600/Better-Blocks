@@ -7,8 +7,8 @@ drag: 0.06
 speed: 1.1
 rotateSpeed: 3.2
 accel: 0.1
-health: 6000
-armor: 4
+health: 36000
+armor: 8
 hitSize: 36
 payloadCapacity: 550
 researchCostMultiplier: 0
