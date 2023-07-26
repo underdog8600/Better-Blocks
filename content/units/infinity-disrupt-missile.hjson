@@ -25,7 +25,7 @@ parts: [
 	colorTo: Color.white
 	progress: 
               {
-               progress: life
+               type: life
                op: curve
                interp: pow5In
               }
@@ -35,7 +35,7 @@ parts: [
         suffix: -fin
 	mirror: true
         progress: {
-              progress: life
+              type: life
               //mul(3f)
               op: curve
               interp: pow5In
