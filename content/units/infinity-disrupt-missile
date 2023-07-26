@@ -10,7 +10,7 @@ lowAltitude: true
 engineSize: 3
 engineColor: 
 trailColor: sapBulletBack
-engineLayer: Layer.effect
+engineLayer: 110
 deathExplosionEffect: none
 loopSoundVolume: 0.1
 
