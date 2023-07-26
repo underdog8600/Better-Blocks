@@ -96,7 +96,7 @@ weapons: [
 		speed: 0
 		keepVelocity: false
 		collidesAir: false
-		spawnUnit: quantum-quell-missile
+		spawnUnit: infinity-disrupt-missile
 	}
 }
 ]
