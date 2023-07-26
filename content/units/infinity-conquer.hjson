@@ -249,7 +249,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 2.5
-			weaveMag: 3.57
+			weaveMag: -3.57
 
 			splashDamage: 65
 			splashDamageRadius: 30
@@ -290,7 +290,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 2.92
-			weaveMag: 3.23
+			weaveMag: -3.23
 
 			splashDamage: 65
 			splashDamageRadius: 30
@@ -331,7 +331,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 3.33
-			weaveMag: 2.9
+			weaveMag: -2.9
 
 			splashDamage: 65
 			splashDamageRadius: 30
@@ -372,7 +372,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 3.75
-			weaveMag: 2.57
+			weaveMag: -2.57
 
 			splashDamage: 65
 			splashDamageRadius: 30
@@ -413,7 +413,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 4.17
-			weaveMag: 2.23
+			weaveMag: -2.23
 
 			splashDamage: 65
 			splashDamageRadius: 30
@@ -454,7 +454,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 4.58
-			weaveMag: 1.9
+			weaveMag: -1.9
 
 			splashDamage: 65
 			splashDamageRadius: 30
