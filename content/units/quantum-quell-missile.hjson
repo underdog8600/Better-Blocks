@@ -8,7 +8,7 @@ outlineColor: darkOutline
 engineColor: sapBulletBack
 trailColor: sapBulletBack
 engineLayer: 110
-health: 45
+health: 400
 loopSoundVolume: 0.1
 weapons: [
   {
