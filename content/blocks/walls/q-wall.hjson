@@ -1,5 +1,5 @@
 name: Quantum Wall
-description: OP Wall, Absorbs lasers and had shield.
+description: OP Wall, Absorbs lasers and has shield.
 type: ShieldWall
 health: 8050
 size: 1
