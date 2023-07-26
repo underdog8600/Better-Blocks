@@ -15,7 +15,7 @@ plans: [
       {
     type: AssemblerUnitPlan
     unit: vanquish
-    time: 360
+    time: 3000
     requirements: [
           tungsten-wall-large/10
           stell/4
@@ -24,7 +24,7 @@ plans: [
       {
     type: AssemblerUnitPlan
     unit: conquer
-    time: 360
+    time: 10800
     requirements: [
           carbide-wall-large/20
           locus/6
@@ -33,7 +33,7 @@ plans: [
       {
     type: AssemblerUnitPlan
     unit: quantum-vanquish
-    time: 360
+    time: 6000
     requirements: [
           better-blocks-mod-q-wall-large/8
           vanquish/1
@@ -42,9 +42,9 @@ plans: [
       {
     type: AssemblerUnitPlan
     unit: infinity-conquer
-    time: 360
+    time: 21600
     requirements: [
-          better-blocks-mod-inf-wall-large/8
+          better-blocks-mod-inf-wall-large/10
           conquer/1
     ]
   }
