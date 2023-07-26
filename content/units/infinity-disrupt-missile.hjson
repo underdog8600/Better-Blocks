@@ -4,7 +4,7 @@ targetAir: false
 speed: 4.6
 maxRange: 5
 outlineColor: darkOutline
-health: 70
+health: 700
 homingDelay: 10
 lowAltitude: true
 engineSize: 3
