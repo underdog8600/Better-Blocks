@@ -1,6 +1,6 @@
 name: Quantum Wall
 description: OP Wall... Nothing more.
-type: Wall
+type: ShieldWall
 health: 8050
 size: 1
 absorbLasers: true
