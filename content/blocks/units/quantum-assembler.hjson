@@ -33,4 +33,4 @@ plans: [
 ]
 category: units
 researchCostMultiplier: 0.4
-buildVisibility: sandboxOnly
+buildVisibility: shown
