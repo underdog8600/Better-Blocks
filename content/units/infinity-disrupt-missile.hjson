@@ -56,7 +56,8 @@ weapons: [
 	bullet: {
                 type: ExplosionBulletType
                 speed: 25
-                damage: 140
+                splashDamage: 140
+                splashDamageRadius: 30
 	        collidesAir: false
 		suppressionRange: 140
 		shootEffect: {
