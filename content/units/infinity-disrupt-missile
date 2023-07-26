@@ -47,30 +47,35 @@ parts: [
 	y: -1.5
 	}
 
-			weapons.add(new Weapon(){{
-				shootCone: 360
-				mirror: false
-				reload: 1
-				shootOnDeath: true
-				bullet: new ExplosionBulletType(140f, 25f){{
-					collidesAir: false
-					suppressionRange: 140
-					shootEffect: new ExplosionEffect(){{
-						lifetime: 50
-						waveStroke: 5
-						waveLife: 8
-						waveColor: Color.white
-						sparkColor: 
-						smokeColor: Pal.suppress
-						waveRad: 40
-						smokeSize: 4
-						smokes: 7
-						smokeSizeBase: 0
-						sparks: 10
-						sparkRad: 40
-						sparkLen: 6
-						sparkStroke: 2
-					}}
-				}}
-			}})
-		}}
+weapons: [
+       {
+	shootCone: 360
+	mirror: false
+	reload: 1
+	shootOnDeath: true
+	bullet: {
+                type: ExplosionBulletType
+                speed: 25
+                damage: 140
+	        collidesAir: false
+		suppressionRange: 140
+		shootEffect: {
+                        type: ExplosionEffect
+			lifetime: 50
+			waveStroke: 5
+			waveLife: 8
+			waveColor: Color.white
+			sparkColor: 
+			smokeColor: Pal.suppress
+			waveRad: 40
+			smokeSize: 4
+			smokes: 7
+			smokeSizeBase: 0
+			sparks: 10
+			sparkRad: 40
+			sparkLen: 6
+			sparkStroke: 2
+			}
+		}
+	}
+]
