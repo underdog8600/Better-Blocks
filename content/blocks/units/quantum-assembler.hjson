@@ -35,7 +35,7 @@ plans: [
     unit: quantum-vanquish
     time: 360
     requirements: [
-          "item": "Quantum Wall Large", "amount": 8
+          better-blocks-mod-q-wall-large/8
           vanquish/1
     ]
   }
@@ -44,7 +44,7 @@ plans: [
     unit: infinity-conquer
     time: 360
     requirements: [
-          inf-wall-large/8
+          better-blocks-mod-inf-wall-large/8
           conquer/1
     ]
   }
