@@ -50,14 +50,14 @@ weapons: [
         bullet: {
 		type: MissileBulletType
 		speed: 4.2
-		damage: 60
+		damage: 150
                 homingPower: 0.2
                 weaveMag: 4
                 weaveScale: 4
                 lifetime: 55
                 shootEffect: shootBig2
                 smokeEffect: shootSmokeTitan
-                splashDamage: 70
+                splashDamage: 100
                 splashDamageRadius: 30
                 frontColor: FFFFFFFF
                 hitSound: none
