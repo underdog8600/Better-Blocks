@@ -27,6 +27,26 @@ abilities: [
 	y: 10
 	particles: 10
         }
+        {
+        type: SuppressionFieldAbility
+	orbRadius: 5
+	particleSize: 3
+	y: -8
+        x: -10.75
+	particles: 10
+        display: false
+        active: false
+        }
+        {
+        type: SuppressionFieldAbility
+	orbRadius: 5
+	particleSize: 3
+	y: -8
+        x: 10.75
+	particles: 10
+        display: false
+        active: false
+        }
 ]
 
 /*
