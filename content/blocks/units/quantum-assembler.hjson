@@ -49,6 +49,14 @@ plans: [
     ]
   }
 ]
+requirements: [
+	dark-steel/5000
+	super-tithorium/1200
+	silicon/8000
+	nuclear-fuel/300
+	plut/500
+	quantum-ingot/30
+]
 category: units
 researchCostMultiplier: 0.4
 buildVisibility: shown
