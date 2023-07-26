@@ -3,8 +3,8 @@ type: legs
 drag: 0.1
 speed: 0.6
 hitSize: 23
-health: 7300
-armor: 5
+health: 41000
+armor: 9
 lockLegBase: true
 legContinuousMove: true
 legGroupSize: 3
