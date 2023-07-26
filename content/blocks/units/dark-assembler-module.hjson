@@ -1,3 +1,4 @@
+name: Dark Assembler Module
 type: UnitAssemblerModule
 size: 5
 payloadSpeed: 1.5
