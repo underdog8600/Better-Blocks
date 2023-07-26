@@ -61,25 +61,6 @@ weapons: [
       		shots: 1
     	}
 	heatColor: FFFFFFF
-/*
-	for(int i: 0 i < 5 i++){
-		int fi: i
-		parts.add(new RegionPart("-blade"){{
-			under: true
-			layerOffset: -0.001
-			heatColor: Pal.techBlue
-			heatProgress: PartProgress.heat.add(0.2f).min(PartProgress.warmup)
-			progress: PartProgress.warmup.blend(PartProgress.reload, 0.1f)
-			x: 13.5f / 4
-			y: 10f / 4f - fi * 2
-			moveY: 1f - fi * 1
-			moveX: fi * 0.3
-			moveRot: -45f - fi * 17
-
-			moves.add(new PartMove(PartProgress.reload.inv().mul(1.8f).inv().curve(fi / 5f, 0.2f), 0f, 0f, 36f))
-		}})
-	}
-*/
         parts: [
               {
               type: RegionPart
@@ -295,7 +276,7 @@ weapons: [
 	bullet: {
                 type: ArtilleryBulletType
                 speed: 5.5
-                damage: 260
+                damage: 1000
 		collidesTiles: true
                 collides: true
 		lifetime: 70
@@ -346,7 +327,7 @@ weapons: [
 			sparkStroke: 3
 		}
 
-		splashDamage: 85
+		splashDamage: 600
 		splashDamageRadius: 20
 
 		fragBullets: 15
@@ -358,7 +339,7 @@ weapons: [
 		fragBullet: {
                         type: BasicBulletType
                         speed: 5.5
-                        damage: 50
+                        damage: 250
 			pierceCap: 2
 			pierceBuilding: true
 
@@ -387,7 +368,7 @@ weapons: [
 			collidesAir: false
 
 			despawnEffect: none
-			splashDamage: 46
+			splashDamage: 250
 			splashDamageRadius: 30
 
 			hitEffect: {
