@@ -10,7 +10,7 @@ consumesPower: true
 conductivePower: true
 shieldHealth: 2000
 consumes: {
-	power: 9
+	power: 3
 }
 requirements: [
 	quantum-ingot/1
