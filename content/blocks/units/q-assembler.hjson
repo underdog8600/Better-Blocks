@@ -21,5 +21,15 @@ plans: [
           vanquish/1
     ]
   }
+      {
+    type: AssemblerUnitPlan
+    unit: infinity-conquer
+    time: 360
+    requirements: [
+          inf-wall-large/8
+          conquer/1
+    ]
+  }
+]
 category: units
 researchCostMultiplier: 0.4
