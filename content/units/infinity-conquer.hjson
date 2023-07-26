@@ -229,14 +229,14 @@ weapons: [
 		}
 
 		spawnBullets: [
-			{
+			{//0
 			type: BasicBulletType
-			speed: 8.2
+			speed: 1.73 //8.2
 			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
-			lifetime: 39.15
+			lifetime: 62.53 //39.15
 			weaveRandom: false
 			hitSize: 5
 			pierceCap: 2
@@ -249,7 +249,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 2.5
-			weaveMag: 1.95
+			weaveMag: 3.57 //1.95
 
 			splashDamage: 65
 			splashDamageRadius: 30
@@ -270,14 +270,14 @@ weapons: [
 				sparkStroke: 1.5
 				}
 			}
-			{
+			{//1
 			type: BasicBulletType
-			speed: 8.1
+			speed: 3.07 //8.1
 			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
-			lifetime: 39.57
+			lifetime: 55.6 //39.57
 			weaveRandom: false
 			hitSize: 5
 			pierceCap: 2
@@ -290,7 +290,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 2.92
-			weaveMag: 3.95
+			weaveMag: 3.23 //3.95
 
 			splashDamage: 65
 			splashDamageRadius: 30
@@ -311,14 +311,14 @@ weapons: [
 				sparkStroke: 1.5
 				}
 			}
-			{
+			{//2
 			type: BasicBulletType
-			speed: 8.064
+			speed: 4.4 //8.064
 			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
-			lifetime: 39.72
+			lifetime: 50.16 //39.72
 			weaveRandom: false
 			hitSize: 5
 			pierceCap: 2
@@ -331,7 +331,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 3.33
-			weaveMag: 5.952
+			weaveMag: 2.9 //5.952
 
 			splashDamage: 65
 			splashDamageRadius: 30
@@ -352,14 +352,14 @@ weapons: [
 				sparkStroke: 1.5
 				}
 			}
-			{
+			{//3
 			type: BasicBulletType
-			speed: 8.05
+			speed: 5.73 //8.05
 			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
-			lifetime: 39.78
+			lifetime: 45.78 //39.78
 			weaveRandom: false
 			hitSize: 5
 			pierceCap: 2
@@ -372,7 +372,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 3.75
-			weaveMag: 7.95
+			weaveMag: 2.57 //7.95
 
 			splashDamage: 65
 			splashDamageRadius: 30
@@ -393,14 +393,14 @@ weapons: [
 				sparkStroke: 1.5
 				}
 			}
-			{
+			{//4
 			type: BasicBulletType
-			speed: 8.04
+			speed: 7.07 //8.04
 			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
-			lifetime: 39.83
+			lifetime: 42.17 //39.83
 			weaveRandom: false
 			hitSize: 5
 			pierceCap: 2
@@ -413,7 +413,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 4.17
-			weaveMag: 9.95
+			weaveMag: 2.23 //9.95
 
 			splashDamage: 65
 			splashDamageRadius: 30
@@ -434,14 +434,14 @@ weapons: [
 				sparkStroke: 1.5
 				}
 			}
-			{
+			{//5
 			type: BasicBulletType
-			speed: 8.032
+			speed: 8.4 //8.032
 			damage: 60
 			drag: 0.002
 			width: 12
 			height: 11
-			lifetime: 39.86
+			lifetime: 39.15 //39.86
 			weaveRandom: false
 			hitSize: 5
 			pierceCap: 2
@@ -454,7 +454,7 @@ weapons: [
 			trailWidth: 2.5
 			trailLength: 7
 			weaveScale: 4.58
-			weaveMag: 11.95
+			weaveMag: 1.9 //11.95
 
 			splashDamage: 65
 			splashDamageRadius: 30
