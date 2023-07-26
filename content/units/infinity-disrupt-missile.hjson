@@ -17,7 +17,7 @@ loopSoundVolume: 0.1
 parts: [
         {
         type: ShapePart
-        layer: Layer.effect
+        layer: 110
 	circle: true
 	y: -0.25
 	radius: 1.5
