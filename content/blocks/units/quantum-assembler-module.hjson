@@ -1,0 +1,17 @@
+name: Quantum Assembler Module
+type: UnitAssemblerModule
+size: 7
+payloadSpeed: 1.5
+tier: 2
+consumes: {
+  power: 4
+}
+requirements: [
+	iron/3000
+	dark-steel/2500
+	tithorium/1000
+	silicon/1400
+	super-tithorium/300
+	plut/500
+]
+category: units
