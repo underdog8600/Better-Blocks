@@ -1,0 +1,25 @@
+name: Quantum Assembler
+type: UnitAssembler
+size: 5
+areaSize: 13
+dronesCreated: 4
+hasLiquids: true
+liquidCapacity: 240
+consumes: {
+  power: 15
+  liquids: [
+    super/cryofluid/0.6
+  ]
+}
+plans: [
+      {
+    type: AssemblerUnitPlan
+    unit: quantum-vanquish
+    time: 360
+    requirements: [
+          q-wall-large/8
+          vanquish/1
+    ]
+  }
+category: units
+researchCostMultiplier: 0.4
