@@ -46,7 +46,7 @@ parts: [
 	x: 0.75
 	y: -1.5
 	}
-
+]
 weapons: [
        {
 	shootCone: 360
