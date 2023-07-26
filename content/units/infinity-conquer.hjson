@@ -192,7 +192,7 @@ weapons: [
 	bullet: {
 		type: BasicBulletType
 		speed: 8
-		damage: 360
+		damage: 3000
 		sprite: missile-large
 		width: 12
 		height: 20
@@ -232,7 +232,7 @@ weapons: [
 			{//0
 			type: BasicBulletType
 			speed: 1.73
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
@@ -273,7 +273,7 @@ weapons: [
 			{//1
 			type: BasicBulletType
 			speed: 3.07
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
@@ -314,7 +314,7 @@ weapons: [
 			{//2
 			type: BasicBulletType
 			speed: 4.4
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
@@ -355,7 +355,7 @@ weapons: [
 			{//3
 			type: BasicBulletType
 			speed: 5.73
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
@@ -396,7 +396,7 @@ weapons: [
 			{//4
 			type: BasicBulletType
 			speed: 7.07
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
@@ -437,7 +437,7 @@ weapons: [
 			{//5
 			type: BasicBulletType
 			speed: 8.4
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
@@ -478,7 +478,7 @@ weapons: [
 			{//0
 			type: BasicBulletType
 			speed: 1.73
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
@@ -519,7 +519,7 @@ weapons: [
 			{//1
 			type: BasicBulletType
 			speed: 3.07
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
@@ -560,7 +560,7 @@ weapons: [
 			{//2
 			type: BasicBulletType
 			speed: 4.4
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
@@ -601,7 +601,7 @@ weapons: [
 			{//3
 			type: BasicBulletType
 			speed: 5.73
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
@@ -642,7 +642,7 @@ weapons: [
 			{//4
 			type: BasicBulletType
 			speed: 7.07
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
@@ -683,7 +683,7 @@ weapons: [
 			{//5
 			type: BasicBulletType
 			speed: 8.4
-			damage: 60
+			damage: 400
 			drag: 0.002
 			width: 12
 			height: 11
