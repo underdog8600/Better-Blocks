@@ -70,7 +70,7 @@ weapons: [
                 suffix: -blade
 		heatProgress: warmup
 		progress: {
-                      progress: warmup
+                      type: warmup
                       op: blend
                       amount: 0.15
                       other: {
