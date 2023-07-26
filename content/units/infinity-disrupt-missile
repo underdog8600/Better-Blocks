@@ -1,37 +1,51 @@
-MissileUnitType("disrupt-missile"){{
-			targetAir: false
-			speed: 4.6
-			maxRange: 5
-			outlineColor: Pal.darkOutline
-			health: 70
-			homingDelay: 10
-			lowAltitude: true
-			engineSize: 3
-			engineColor: 
-			trailColor: Pal.sapBulletBack
-			engineLayer: Layer.effect
-			deathExplosionEffect: Fx.none
-			loopSoundVolume: 0.1
+name: infinity-disrupt-missile
+template: MissileUnitType
+targetAir: false
+speed: 4.6
+maxRange: 5
+outlineColor: darkOutline
+health: 70
+homingDelay: 10
+lowAltitude: true
+engineSize: 3
+engineColor: 
+trailColor: sapBulletBack
+engineLayer: Layer.effect
+deathExplosionEffect: none
+loopSoundVolume: 0.1
 
-			parts.add(new ShapePart(){{
-				layer: Layer.effect
-				circle: true
-				y: -0.25
-				radius: 1.5
-				color: Pal.suppress
-				colorTo: Color.white
-				progress: PartProgress.life.curve(Interp.pow5In)
-			}})
-
-			parts.add(new RegionPart("-fin"){{
-				mirror: true
-				progress: PartProgress.life.mul(3f).curve(Interp.pow5In)
-				moveRot: 32
-				rotation: -6
-				moveY: 1.5
-				x: 3f / 4
-				y: -6f / 4
-			}})
+parts: [
+        {
+        type: ShapePart
+        layer: Layer.effect
+	circle: true
+	y: -0.25
+	radius: 1.5
+	color: Pal.suppress
+	colorTo: Color.white
+	progress: 
+              {
+               progress: life
+               op: curve
+               interp: pow5In
+              }
+	}
+        {
+        type: RegionPart
+        suffix: -fin
+	mirror: true
+        progress: {
+              progress: life
+              //mul(3f)
+              op: curve
+              interp: pow5In
+              }
+	moveRot: 32
+	rotation: -6
+	moveY: 1.5
+	x: 0.75
+	y: -1.5
+	}
 
 			weapons.add(new Weapon(){{
 				shootCone: 360
