@@ -74,7 +74,7 @@ weapons: [
                       op: blend
                       amount: 0.15
                       other: {
-                            progress: reload
+                            type: reload
                       }
                 }
 		heatColor: 9c50ff
