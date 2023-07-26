@@ -1,0 +1,9 @@
+type: UnitAssemblerModule
+size: 5
+payloadSpeed: 1.5
+tier: 1
+consumes: {
+  power: 2
+}
+category: units
+buildVisibility: shown
