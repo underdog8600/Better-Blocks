@@ -26,7 +26,7 @@ plans: [
     unit: conquer
     time: 360
     requirements: [
-          carbideWallLarge/20
+          carbide-wall-large/20
           locus/6
     ]
   }
@@ -44,7 +44,7 @@ plans: [
     unit: infinity-conquer
     time: 360
     requirements: [
-          better-blocks-inf-wall-large/8
+          inf-wall-large/8
           conquer/1
     ]
   }
