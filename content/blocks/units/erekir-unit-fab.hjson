@@ -24,7 +24,7 @@ plans: [
   {
 	unit: dagger
 	requirements: [
-		//beryllium/50
+		beryllium/50
 		silicon/70
 	]
 	time: 2400
