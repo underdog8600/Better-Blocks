@@ -1,6 +1,7 @@
 name: Super Cargo Loader
 type: UnitCargoLoader
 size: 3
+unitType: super-manifold
 health: 650
 buildTime: 480
 consumes: {
