@@ -16,12 +16,16 @@ rotateSpeed: 9
 accel: 0.2
 itemCapacity: 200
 health: 200
-hitSize: 14
+hitSize: 11
 engineSize: 2.3
 engineOffset: 6.5
 hidden: true
 
-            setEnginesMirror(
-                new UnitEngine(24 / 4f, -24 / 4f, 2.3f, 315f)
-            );
-        }};
+engines: [
+  {
+    x: 6
+    y: -6
+    rotation: 315
+    radius: 2.3
+  }
+]
