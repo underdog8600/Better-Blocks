@@ -1,0 +1,8 @@
+name: Dark Constructor
+type: Constructor
+hasPower: true
+buildSpeed: 0.75
+maxBlockSize: 3
+minBlockSize: 2
+size: 5
+consumePower: 2
