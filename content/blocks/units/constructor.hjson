@@ -1,5 +1,6 @@
 regionSuffix: ""
 filter: [
+/*
         tungsten-wall-large
         beryllium-wall-large
         carbide-wall-large
@@ -9,4 +10,5 @@ filter: [
         beam-node
         q-wall-large
         inf-wall-large
+*/
 ]
