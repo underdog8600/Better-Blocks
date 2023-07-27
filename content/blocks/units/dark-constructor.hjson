@@ -5,7 +5,9 @@ buildSpeed: 0.75
 maxBlockSize: 3
 minBlockSize: 2
 size: 5
-consumePower: 2
+consumes: {
+  power: 2
+}
 category: units
 requirements: [
    dark-steel/200
