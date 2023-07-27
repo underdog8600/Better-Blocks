@@ -1,5 +1,5 @@
 name: Super Manifold
-type: flying
+type: tether
 controller: CargoAI
 isEnemy: false
 allowedInPayloads: false
