@@ -1,0 +1,4 @@
+name: Cargo Unload Point
+type: UnitCargoUnloadPoint
+size: 2
+itemCapacity: 100
