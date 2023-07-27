@@ -1,7 +1,7 @@
 name: Dark Payload Conveyor
 type: PayloadConveyor
 size: 7
-moveTime: 140
+moveTime: 60
 payloadLimit: 7
 category: units
 requirements: [
