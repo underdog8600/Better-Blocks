@@ -1,4 +1,4 @@
-name: Erika Unit Fabricator
+name: Erekir Unit Fabricator
 type: UnitFactory
 size: 3
 consumes: {
