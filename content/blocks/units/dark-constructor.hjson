@@ -6,3 +6,8 @@ maxBlockSize: 3
 minBlockSize: 2
 size: 5
 consumePower: 2
+requirements: [
+  copper/300
+  graphite/150
+  surge-alloy/25
+]
