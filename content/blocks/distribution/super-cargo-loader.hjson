@@ -7,7 +7,7 @@ consumes: {
         power: 1
         liquid: super-cryofluid/0.5
 }
-itemCapacity = 200;
+itemCapacity: 200
 requirements: [
 	dark-steel/3
 	super-tithorium/1
