@@ -14,11 +14,20 @@ consumes: {
 plans: [
       {
     type: AssemblerUnitPlan
+    unit: conquer
+    time: 10800
+    requirements: [
+          carbide-wall-large/20
+          locus/6
+    ]
+  }
+      {
+    type: AssemblerUnitPlan
     unit: quantum-vanquish
     time: 27000
     requirements: [
           better-blocks-mod-q-wall-large/8
-          vanquish/1
+          stell/4
     ]
   }
       {
@@ -27,7 +36,7 @@ plans: [
     time: 36000
     requirements: [
           better-blocks-mod-inf-wall-large/10
-          conquer/1
+          locus/6
     ]
   }
 ]
