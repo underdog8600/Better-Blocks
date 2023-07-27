@@ -1,11 +1,11 @@
 name: Dark Payload Conveyor
 type: PayloadConveyor
-size: 7
+size: 5
 moveTime: 60
-payloadLimit: 7
+payloadLimit: 5
 category: units
 requirements: [
    dark-steel/20
    carbon/20
-	carbon-mass/20
+   carbon-mass/20
 ]
