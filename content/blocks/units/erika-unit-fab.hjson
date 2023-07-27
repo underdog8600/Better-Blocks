@@ -5,7 +5,30 @@ consumes: {
 	power: 2
 }
 plans: [
-
+  {
+	unit: stell
+	requirements: [
+		beryllium/40
+		silicon/50
+	]
+	time: 2100
+  }
+  {
+	unit: elude
+	requirements: [
+		graphite/50
+		silicon/70
+	]
+	time: 2400
+  }
+  {
+	unit: merui
+	requirements: [
+		beryllium/50
+		silicon/70
+	]
+	time: 2400
+  }
 ]
 requirements: [
 	silicon/20
