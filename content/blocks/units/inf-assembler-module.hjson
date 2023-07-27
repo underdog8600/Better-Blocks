@@ -7,11 +7,10 @@ consumes: {
   power: 10
 }
 requirements: [
-	iron/3000
-	dark-steel/2500
-	tithorium/1000
-	silicon/1400
-	super-tithorium/300
-	plut/500
+	dark-steel/8000
+	silicon/10000
+	super-tithorium/1000
+        quantum-ingot/200
+        infinitium/30
 ]
 category: units
