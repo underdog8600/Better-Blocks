@@ -5,7 +5,5 @@ moveTime: 60
 payloadLimit: 7
 category: units
 requirements: [
-  copper/300
-  graphite/150
-  surge-alloy/25
+   dark-steel/30
 ]
