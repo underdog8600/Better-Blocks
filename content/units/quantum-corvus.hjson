@@ -35,7 +35,9 @@ weapons:[
 	cooldownTime: 350
 	shootStatusDuration: 120
 	shootStatus: unmoving
-	firstShotDelay: 300
+	shoot: [
+		firstShotDelay: 100
+	]
 	parentizeEffects: true
 	bullet: {
 		type: LaserBulletType
