@@ -36,3 +36,4 @@ requirements: [
         tungsten/60
 ]
 category: units
+buildVisibility: shown
