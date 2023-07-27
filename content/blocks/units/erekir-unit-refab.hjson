@@ -19,7 +19,7 @@ requirements: [
       iron/250
       dark-steel/120
       silicon/150
-      oxide/40
+      carbon/40
 ]
 upgrades: [
     [stell , locus]
