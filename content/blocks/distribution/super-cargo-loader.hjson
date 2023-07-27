@@ -1,6 +1,7 @@
 name: Super Cargo Loader
 type: UnitCargoLoader
 size: 3
+health: 650
 buildTime: 480
 consumes: [
         {
@@ -11,4 +12,9 @@ consumes: [
         }
 ]
 itemCapacity = 200;
-researchCost = with(Items.silicon, 2500, Items.surgeAlloy, 20, Items.oxide, 30);
+requirements: [
+	dark-steel/3
+	super-tithorium/1
+	tithorium/2
+]
+category: distribution
