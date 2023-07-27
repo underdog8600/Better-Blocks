@@ -1,0 +1,14 @@
+name: Super Cargo Loader
+type: UnitCargoLoader
+size: 3
+buildTime: 480
+consumes: [
+        {
+        power: 1
+        liquid: {
+               super-cryofluid/0.5
+                }
+        }
+]
+itemCapacity = 200;
+researchCost = with(Items.silicon, 2500, Items.surgeAlloy, 20, Items.oxide, 30);
