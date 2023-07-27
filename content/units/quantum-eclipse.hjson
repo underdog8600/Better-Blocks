@@ -1,0 +1,96 @@
+name: Quantum Eclipse
+type: flying
+speed: 0.54
+accel: 0.04
+drag: 0.04
+rotateSpeed: 1
+flying: true
+lowAltitude: true
+health: 71000
+engineOffset: 38
+engineSize: 7.3
+hitSize: 58
+destructibleWreck: false
+armor: 16
+targetFlags: [
+	reactor battery core
+]
+weapons: [
+	{
+	name: quantum-large-laser-mount
+	 shake: 4
+	 shootY: 9
+	 x: 18
+	 y: 5
+	 rotateSpeed: 2
+	 reload: 45
+	 recoil: 4
+	 shootSound: laser
+	 shadow: 20
+	 rotate: true
+	 bullet: {
+			type: LaserBulletType
+			damage: 180
+			sideAngle: 20
+			sideWidth: 1.5
+			sideLength: 80
+			width: 25
+			length: 230
+			shootEffect: shockwave
+			colors: [
+				ec7458aa
+				ff9c5a
+				ffffff
+			]
+		}
+	}
+	{
+	name: quantum-large-artillery
+	 x: 11
+	 y: 27
+	 rotateSpeed: 2
+	 reload: 9
+	 shootSound: shoot
+	 shadow: 7
+	 rotate: true
+	 recoil: 0.5
+	 bullet: {
+		type: FlakBulletType
+		shootEffect: shootBig
+		speed: 4
+		damage: 15
+		ammoMultiplier: 4
+		splashDamage: 90
+		splashDamageRadius: 25
+		collidesGround: true
+		lifetime: 47
+		status: blasted
+		statusDuration: 60
+		}
+	}
+	{
+	name: quantum-large-artillery
+	 y: -13
+	 x: 20
+	 reload: 12
+	 ejectEffect: casing1
+	 rotateSpeed: 7
+	 shake: 1
+	 shootSound: shoot
+	 rotate: true
+	 shadow: 12
+	 bullet: {
+		type: FlakBulletType
+		shootEffect: shootBig
+		speed: 4
+		damage: 15
+		ammoMultiplier: 4
+		splashDamage: 90
+		splashDamageRadius: 25
+		collidesGround: true
+		lifetime: 47
+		status: blasted
+		statusDuration: 60
+		}
+	}
+]

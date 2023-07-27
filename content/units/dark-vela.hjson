@@ -1,0 +1,83 @@
+name: Dark Vela
+type: mech
+hitSize: 24
+rotateSpeed: 1.8
+mechFrontSway: 1
+buildSpeed: 3
+mechStepParticles: true
+mechStepShake: 0.15
+drownTimeMultiplier: 4
+speed: 0.44
+boostMultiplier: 2.4
+engineOffset: 12
+engineSize: 6
+lowAltitude: true
+riseSpeed: 0.02
+health: 22000
+armor: 12
+canBoost: true
+landShake: 4
+immunities: [
+    burning
+]
+commandLimit: 8
+singleTarget: true
+weapons: [
+    {
+    name: dark-vela-weapon
+    mirror: false
+    top: false
+    shake: 4
+    shootY: 13
+    x: 0
+    y: 0
+    firstShotDelay: 40
+    parentizeEffects: true
+    reload: 155
+    recoil: 0
+    chargeSound: lasercharge2
+    shootSound: beam
+    continuous: true
+    cooldownTime: 200
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 60
+      length: 180
+      width: 8
+      hitEffect: hitMeltHeal
+      drawSize: 420
+      lifetime: 160
+      shake: 1
+      despawnEffect: smokeCloud
+      smokeEffect: none
+      shootEffect: greenLaserChargeSmall
+      incendChance: 0.1
+      incendSpread: 5
+      incendAmount: 1
+      healPercent: 5
+      collidesTeam: true
+      colors: [
+        98ffa933
+        98ffa980
+        98ffa9CC
+        FFFFFF
+      ]
+    }
+    shootStatus: slow
+    shootStatusDuration: 200
+  }
+]
+RepairBeamWeapon: [
+  {
+    name: dark-repair-beam-weapon-center-large
+    x: 11
+    y: -7.5
+    shootY: 6
+    beamWidth: 0.8
+    repairSpeed: 1.4
+    bullet: {
+      type: 
+      maxRange: 120
+      }
+  }
+]

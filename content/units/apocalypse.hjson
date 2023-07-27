@@ -1,0 +1,108 @@
+name: Apocalypse
+description: Infinity unit that can be controlled
+speed: 1.8
+accel: 0.04
+drag: 0.04
+hitsize: 50
+engineColor: 666495
+flying: true
+lowAltitude: true
+health: 50000
+canBuild: true
+buildSpeed: 4
+mineSpeed: 20
+mineTier: 8
+itemCapacity: 2000
+armor: 50
+buildTier: 5
+commandLimit: 8
+range: 320
+maxRange: 320
+aimDst: 320
+faceTarget: false
+rotatespeed: 1
+engineOffset: 35
+engineSize: 7.3
+weapons: [
+        {
+	name: quantum-large-artillery
+	 x: 11
+	 y: 20
+	 rotateSpeed: 2
+	 reload: 20
+	 shootSound: shoot
+	 shadow: 7
+	 rotate: true
+	 recoil: 0.5
+	 bullet: {
+		type: FlakBulletType
+		shootEffect: shootBig
+		speed: 4
+		damage: 500
+		ammoMultiplier: 4
+		splashDamage: 200
+		splashDamageRadius: 25
+		collidesGround: true
+		lifetime: 60
+		status: blasted
+		statusDuration: 60
+		homingRange: 64
+		homingPower: 0.05
+		}
+	}
+	{name: quantum-large-artillery
+	 x: 11
+	 y: -18
+	 rotateSpeed: 2
+	 reload: 22
+	 shootSound: shoot
+	 shadow: 12
+	 rotate: true
+	 recoil: 0.5
+	 bullet: {
+		type: FlakBulletType
+		shootEffect: shootBig
+		speed: 4
+		damage: 500
+		ammoMultiplier: 4
+		splashDamage: 200
+		splashDamageRadius: 25
+		collidesGround: true
+		lifetime: 60
+		status: blasted
+		statusDuration: 60
+		homingRange: 64
+		homingPower: 0.05
+		}
+	}
+     ]
+abilities: [
+       {
+	type: ForceFieldAbility
+	radius: 80
+	regen: 20
+	max: 10000
+	cooldown: 30
+      }
+      {
+	type: RepairFieldAbility
+	range: 80
+	amount: 2000
+	reload: 120
+	      
+      }
+      {
+	type: UnitSpawnAbility
+        unit: drone
+	spawnTime: 300
+	spawnX: 20
+	spawnY: -2
+      }
+      {
+	type: UnitSpawnAbility
+        unit: drone
+	spawnTime: 300
+	spawnX: -20
+	spawnY: -2
+      }
+    ]
