@@ -1,0 +1,11 @@
+regionSuffix: ""
+filter: {
+        tungstenWallLarge
+        berylliumWallLarge
+        carbideWallLarge
+        reinforcedSurgeWallLarge
+        reinforcedLiquidContainer
+        reinforcedContainer
+        beamNode
+        
+}
