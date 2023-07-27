@@ -22,9 +22,8 @@ requirements: [
       oxide/40
 ]
 upgrades: [
-    [fortress , dark-scepter]
-    [quasar , dark-vela]
-    [spiroct , dark-arkyid]
-    [zenith , dark-antumbra]
+    [stell , locus]
+    [elude , avert]
+    [merui , cleroi]
 ]
 category: units
