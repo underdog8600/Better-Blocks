@@ -5,5 +5,7 @@ moveTime: 60
 payloadLimit: 7
 category: units
 requirements: [
-   dark-steel/30
+   dark-steel/20
+   carbon/20
+	carbon-mass/20
 ]
