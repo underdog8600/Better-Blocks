@@ -8,7 +8,8 @@ size: 5
 consumePower: 2
 category: units
 requirements: [
-  copper/300
-  graphite/150
-  surge-alloy/25
+   dark-steel/200
+   iron/150
+   silicon/150
+   phase-fabric/40
 ]
