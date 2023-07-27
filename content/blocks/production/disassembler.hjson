@@ -1,4 +1,8 @@
-Items.sand, 2,
-                Items.graphite, 1,
-                Items.titanium, 1,
-                Items.thorium, 1
+results: [
+      sand/2
+      graphite/1
+      titanium/1
+      thorium/1
+      berylium/1
+      tungsten/1
+]
