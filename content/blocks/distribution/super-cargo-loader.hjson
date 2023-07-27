@@ -3,14 +3,10 @@ type: UnitCargoLoader
 size: 3
 health: 650
 buildTime: 480
-consumes: [
-        {
+consumes: {
         power: 1
-        liquid: {
-               super-cryofluid/0.5
-                }
-        }
-]
+        liquid: super-cryofluid/0.5
+}
 itemCapacity = 200;
 requirements: [
 	dark-steel/3
