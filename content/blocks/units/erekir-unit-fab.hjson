@@ -5,7 +5,7 @@ consumes: {
 	power: 2
 }
 plans: [
-/*  {
+  {
 	unit: stell
 	requirements: [
 		beryllium/40
@@ -20,7 +20,7 @@ plans: [
 		silicon/70
 	]
 	time: 2400
-  } */
+  }
   {
 	unit: dagger
 	requirements: [
@@ -32,8 +32,8 @@ plans: [
 ]
 requirements: [
 	silicon/20
-        //beryllium/200
-        //tungsten/60
+        iron/200
+        dark-steel/60
 ]
 category: units
 buildVisibility: shown
