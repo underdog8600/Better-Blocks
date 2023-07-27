@@ -36,7 +36,7 @@ weapons:[
 	shootStatusDuration: 120
 	shootStatus: unmoving
 	shoot: {
-		firstShotDelay: 100
+		firstShotDelay: 80
 	}
 	parentizeEffects: true
 	bullet: {
