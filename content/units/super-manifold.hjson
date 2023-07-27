@@ -28,4 +28,10 @@ engines: [
     rotation: 315
     radius: 2.3
   }
+  {
+    x: -6
+    y: -6
+    rotation: 315
+    radius: 2.3
+  }
 ]
