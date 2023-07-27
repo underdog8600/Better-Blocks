@@ -6,6 +6,7 @@ maxBlockSize: 3
 minBlockSize: 2
 size: 5
 consumePower: 2
+category: units
 requirements: [
   copper/300
   graphite/150
