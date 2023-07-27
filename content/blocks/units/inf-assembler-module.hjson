@@ -1,6 +1,6 @@
 name: Infinity Assembler Module
 type: UnitAssemblerModule
-size: 9
+size: 7
 payloadSpeed: 1.5
 tier: 3
 consumes: {
