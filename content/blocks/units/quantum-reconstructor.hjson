@@ -7,7 +7,7 @@ consumes: {
 	power: 40
     liquid: {
 		liquid: super-cryofluid
-		amount: 3
+		amount: 4
 	}
 	items: {
 		items: [
