@@ -6,7 +6,7 @@ dronesCreated: 4
 hasLiquids: true
 liquidCapacity: 240
 consumes: {
-  power: 15
+  power: 40
   liquids: [
     super-cryofluid/4
   ]
