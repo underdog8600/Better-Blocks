@@ -1,0 +1,53 @@
+name: Ship Quantum Assembler
+type: UnitAssembler
+size: 5
+areaSize: 13
+dronesCreated: 4
+hasLiquids: true
+liquidCapacity: 240
+consumes: {
+  power: 40
+  liquids: [
+    super-cryofluid/4
+  ]
+}
+plans: [
+      {
+    type: AssemblerUnitPlan
+    unit: disrupt
+    time: 10800
+    requirements: [
+          carbide-wall-large/20
+         avert/6
+    ]
+  }
+      {
+    type: AssemblerUnitPlan
+    unit: quantum-quell
+    time: 27000
+    requirements: [
+          better-blocks-mod-q-wall-large/8
+          elude/4
+    ]
+  }
+      {
+    type: AssemblerUnitPlan
+    unit: infinity-disrupt
+    time: 36000
+    requirements: [
+          better-blocks-mod-inf-wall-large/10
+          avert/6
+    ]
+  }
+]
+requirements: [
+	dark-steel/5000
+	super-tithorium/1200
+	silicon/8000
+	nuclear-fuel/300
+	plut/500
+	quantum-ingot/30
+]
+category: units
+researchCostMultiplier: 0.4
+buildVisibility: shown
