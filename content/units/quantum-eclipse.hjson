@@ -13,7 +13,9 @@ hitSize: 58
 destructibleWreck: false
 armor: 16
 targetFlags: [
-	reactor battery core
+	reactor
+	battery
+	core
 ]
 weapons: [
 	{
