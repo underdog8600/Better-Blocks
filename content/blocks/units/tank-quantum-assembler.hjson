@@ -8,14 +8,14 @@ liquidCapacity: 240
 consumes: {
   power: 15
   liquids: [
-    super-cryofluid/3
+    super-cryofluid/4
   ]
 }
 plans: [
       {
     type: AssemblerUnitPlan
     unit: quantum-vanquish
-    time: 6000
+    time: 27000
     requirements: [
           better-blocks-mod-q-wall-large/8
           vanquish/1
@@ -24,7 +24,7 @@ plans: [
       {
     type: AssemblerUnitPlan
     unit: infinity-conquer
-    time: 21600
+    time: 36000
     requirements: [
           better-blocks-mod-inf-wall-large/10
           conquer/1
