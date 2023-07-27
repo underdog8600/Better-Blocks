@@ -1,5 +1,5 @@
 type: Reconstructor
-name: Erekir Reconstructor
+name: Erekir Unit ReFabricator
 size: 3
 constructTime: 3000
 consumes: {
