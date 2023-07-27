@@ -1,0 +1,34 @@
+type: Reconstructor
+name: Erekir Reconstructor
+size: 3
+constructTime: 10800
+liquidCapacity: 120
+consumes: {
+	power: 30
+    liquid: {
+		liquid: super-cryofluid
+		amount: 2
+	}
+	items: {
+		items: [
+			silicon/850
+			dark-steel/750
+			super-tithorium/500
+		]
+	}
+}
+requirements: [
+	iron/3000
+	dark-steel/2500
+	tithorium/1000
+	silicon/1400
+	super-tithorium/300
+	plut/500
+]
+upgrades: [
+    [fortress , dark-scepter]
+    [quasar , dark-vela]
+	[spiroct , dark-arkyid]
+	[zenith , dark-antumbra]
+]
+category: units
