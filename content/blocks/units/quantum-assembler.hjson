@@ -1,4 +1,4 @@
-name: Quantum Assembler
+name: Tank Quantum Assembler
 type: UnitAssembler
 size: 5
 areaSize: 13
@@ -12,24 +12,6 @@ consumes: {
   ]
 }
 plans: [
-      {
-    type: AssemblerUnitPlan
-    unit: vanquish
-    time: 3000
-    requirements: [
-          tungsten-wall-large/10
-          stell/4
-    ]
-  }
-      {
-    type: AssemblerUnitPlan
-    unit: conquer
-    time: 10800
-    requirements: [
-          carbide-wall-large/20
-          locus/6
-    ]
-  }
       {
     type: AssemblerUnitPlan
     unit: quantum-vanquish
