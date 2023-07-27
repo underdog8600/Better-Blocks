@@ -7,12 +7,10 @@ consumes: {
   power: 2
 }
 requirements: [
-	iron/3000
-	dark-steel/2500
-	tithorium/1000
-	silicon/1400
-	super-tithorium/300
-	plut/500
+	iron/200
+	dark-steel/150
+	tithorium/100
+	silicon/140
 ]
 category: units
 buildVisibility: shown
