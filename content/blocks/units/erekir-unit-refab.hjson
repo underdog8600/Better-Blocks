@@ -16,8 +16,8 @@ consumes: {
 	}
 }
 requirements: [
-      beryllium/250
-      tungsten/120
+      iron/250
+      dark-steel/120
       silicon/150
       oxide/40
 ]
