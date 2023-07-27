@@ -5,7 +5,7 @@ consumes: {
 	power: 2
 }
 plans: [
-  {
+/*  {
 	unit: stell
 	requirements: [
 		beryllium/40
@@ -20,9 +20,9 @@ plans: [
 		silicon/70
 	]
 	time: 2400
-  }
+  } */
   {
-	unit: merui
+	unit: dagger
 	requirements: [
 		beryllium/50
 		silicon/70
