@@ -2,7 +2,7 @@ name: Cargo Unload Point
 type: UnitCargoUnloadPoint
 size: 2
 health: 200
-itemCapacity: 100
+itemCapacity: 200
 requirements: [
 	dark-steel/1
 	super-tithorium/1
