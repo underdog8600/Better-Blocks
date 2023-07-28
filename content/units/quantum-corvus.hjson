@@ -63,10 +63,10 @@ weapons:[
         lifetime: 80
         sizeFrom: 100
         sizeTo: 0
-        strokeFrom: 10
-        strokeTo: 0
+        strokeFrom: 3
+        strokeTo: 6
         colorFrom: 88558e
-        colorTo: e65555
+        colorTo: 88558e
       }
         {
           lightOpacity: 0
