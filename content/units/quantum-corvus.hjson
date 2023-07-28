@@ -63,8 +63,8 @@ weapons:[
         lifetime: 80
         sizeFrom: 100
         sizeTo: 0
-        strokeFrom: 3
-        strokeTo: 4
+        strokeFrom: 1
+        strokeTo: 2
         colorFrom: 88558e
         colorTo: 88558e
       }
@@ -75,8 +75,8 @@ weapons:[
         sizeTo: 0
         strokeFrom: 0
         strokeTo: 40
-        colorFrom: 88558e66
-        colorTo: 88558e66
+        colorFrom: 88558e
+        colorTo: 88558e
       }
       {
         type: WaveEffect
