@@ -2,7 +2,8 @@ name: Bazercon
 type: flying
 controller: MinerAI
 //unitCommand: mineCommand
-defaultCommand: mineCommand
+//defaultCommand: mineCommand
+defaultController: MinerAI
 health: 1500
 flying: true
 mass: 6.0
