@@ -68,20 +68,26 @@ weapons:[
         colorFrom: 88558e
         colorTo: 88558e
       }
-        {
-          lightOpacity: 0
-          length: 130
-          baseLength: 140
-          lifetime: 60
-          cone: 20
-          particles: 40
-          colorFrom: 9f9f9f
-          colorTo: 787878
-          sizeFrom: 5
-          sizeTo: 0
-          interp: pow3Out
-          sizeInterp: pow3In
-        }
+      {
+        type: WaveEffect
+        lifetime: 80
+        sizeFrom: 0
+        sizeTo: 50
+        strokeFrom: 0
+        strokeTo: 50
+        colorFrom: 88558e
+        colorTo: 88558e
+      }
+      {
+        type: WaveEffect
+        lifetime: 80
+        sizeFrom: 0
+        sizeTo: 30
+        strokeFrom: 0
+        strokeTo: 30
+        colorFrom: ffffff
+        colorTo: ffffff
+      }
         ]
                 }
 /*
