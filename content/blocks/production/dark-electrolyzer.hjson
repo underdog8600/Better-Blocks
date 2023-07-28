@@ -1,0 +1,40 @@
+name: Dark Electrolyzer
+type: GenericCrafter
+size: 3
+researchCostMultiplier: 1.2
+craftTime: 10
+rotate: true
+invertFlip: true
+group: BlockGroup.liquids
+liquidCapacity: 50
+consumes:
+consumeLiquid(Liquids.water, 10f / 60f);
+            consumePower(1f);
+
+            drawer = new DrawMulti(
+                new DrawRegion("-bottom"),
+                new DrawLiquidTile(Liquids.water, 2f),
+                new DrawBubbles(Color.valueOf("7693e3")){{
+                    sides = 10;
+                    recurrence = 3f;
+                    spread = 6;
+                    radius = 1.5f;
+                    amount = 20;
+                }},
+                new DrawRegion(),
+                new DrawLiquidOutputs(),
+                new DrawGlowRegion(){{
+                    alpha = 0.7f;
+                    color = Color.valueOf("c4bdf3");
+                    glowIntensity = 0.3f;
+                    glowScale = 6f;
+                }}
+            );
+
+            ambientSound = Sounds.electricHum;
+            ambientSoundVolume = 0.08f;
+
+            regionRotated1 = 3;
+            outputLiquids = LiquidStack.with(Liquids.ozone, 4f / 60, Liquids.hydrogen, 6f / 60);
+            liquidOutputDirections = new int[]{1, 3};
+requirements(Category.crafting, with(Items.silicon, 50, Items.graphite, 40, Items.iron, 130, Items.dark-steel, 80));
