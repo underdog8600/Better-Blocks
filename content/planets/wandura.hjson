@@ -75,6 +75,7 @@ mesh: [
     cscl: 1
     cthresh: 1
   }
+/*
   {
     type: NoiseMesh
     divisions: 6
@@ -135,6 +136,7 @@ mesh: [
     cscl: 1.8
     cthresh: 1
   }
+*/
 ]
 //mesh to use for drawing the clouds, essentially just a second mesh
 cloudMesh: [
@@ -153,6 +155,7 @@ cloudMesh: [
     scl: 1
     thresh: 0.43
   }
+/*
   {
     type: HexSkyMesh
     speed: 2
@@ -164,4 +167,5 @@ cloudMesh: [
     scl: 0.9
     thresh: 0.43
   }
+*/
 ]
