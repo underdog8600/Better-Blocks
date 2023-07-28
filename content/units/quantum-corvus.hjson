@@ -70,20 +70,6 @@ weapons:[
       }
         {
           lightOpacity: 0
-          length: 180
-          baseLength: 160
-          lifetime: 90
-          cone: 15
-          particles: 50
-          colorFrom: 787878
-          colorTo: 787878
-          sizeFrom: 5
-          sizeTo: 0
-          interp: pow3Out
-          sizeInterp: pow2In
-        }
-        {
-          lightOpacity: 0
           length: 130
           baseLength: 140
           lifetime: 60
