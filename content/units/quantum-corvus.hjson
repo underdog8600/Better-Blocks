@@ -58,6 +58,21 @@ weapons:[
                 chargeEffect: {
                         type: MultiEffect
                         effects: [
+      {
+        line: true
+        lifetime: 45
+        particles: 22
+        length: -80
+        baseLength: 100
+        strokeFrom: 3
+        strokeTo: 0
+        lenFrom: 0
+        lenTo: 8
+        colorFrom: ffd2ae
+        colorTo: ffd2ae
+        interp: pow2Out
+        sizeInterp: linear
+      }
                               {
                                 type: WaveEffect
                                 lifetime: 80
