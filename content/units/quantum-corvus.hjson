@@ -72,8 +72,8 @@ weapons:[
                                 type: ParticalEffect
                                 lifetime: 80
                                 particles: 12
-                                length: 100
-                                interp: linear
+                                length: 50
+                                //interp: linear
                                 lenFrom: 50
                                 lenTo: 0
                                 //sizeInterp: pow2In
