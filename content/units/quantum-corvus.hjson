@@ -64,7 +64,7 @@ weapons:[
         sizeFrom: 100
         sizeTo: 0
         strokeFrom: 3
-        strokeTo: 6
+        strokeTo: 4
         colorFrom: 88558e
         colorTo: 88558e
       }
@@ -74,9 +74,9 @@ weapons:[
         sizeFrom: 0
         sizeTo: 0
         strokeFrom: 0
-        strokeTo: 30
-        colorFrom: 88558e
-        colorTo: 88558e
+        strokeTo: 40
+        colorFrom: 88558e66
+        colorTo: 88558e66
       }
       {
         type: WaveEffect
@@ -84,7 +84,7 @@ weapons:[
         sizeFrom: 0
         sizeTo: 0
         strokeFrom: 0
-        strokeTo: 10
+        strokeTo: 20
         colorFrom: ffffff
         colorTo: ffffff
       }
