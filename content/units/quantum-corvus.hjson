@@ -73,7 +73,7 @@ weapons:[
                                 lifetime: 80
                                 particles: 12
                                 length: 100
-                                interp: linearInverse
+                                interp: -linear
                                 //sizeInterp: pow2In
                                 sizeFrom: 1
                                 sizeTo: 3
