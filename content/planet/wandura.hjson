@@ -49,6 +49,7 @@ rotateTime: 5000
 accessible: true
 //whether to allow launching to numbered sectors - set to false for erekir sector behaviour
 allowLaunchToNumbered: false
+alwaysUnlocked: true
 //visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
 //use objects {} to make a single mesh, and the below format to create multiple
 mesh: [
