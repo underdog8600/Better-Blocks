@@ -1,25 +1,5 @@
-//earthlike(?) planet, name is an easter egg referencing v6 exotic
-//also an example
-
-//generator - necessary to prevent crashes, even if you do not use numbered sectors
-//also accepts just doing generator: AsteroidGenerator
-//also these numbers are funny and i have no idea how they precisely work
-generator: {
-  type: AsteroidGenerator
-  berylChance: 0.45
-  iceChance: 0.15
-  ferricChance: 0.55
-  stoneChance: 2
-  radMin: 1500
-  radMax: 1500
-  berylliumScale: 4
-  copperScale: 0.6
-  scale: 25
-  mag: 0.5
-  thresh: 0.9
-  fscl: 30
-  fper: 0.4
-}
+name: Sorix
+generator: AsteroidGenerator
 //sector count - larger numbers mean exponentially more sectors, may crash above 4
 sectorSize: 3.1
 //terrain generation seed the planet uses for its sectors
