@@ -46,7 +46,7 @@ orbitTime: 12000
 rotateTime: 5000
 //add tidalLock: true and updateLighting: false to make a planet's daylight not move
 //whether this planet can be selected, ever
-accessible: false
+accessible: true
 //whether to allow launching to numbered sectors - set to false for erekir sector behaviour
 allowLaunchToNumbered: false
 //visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
