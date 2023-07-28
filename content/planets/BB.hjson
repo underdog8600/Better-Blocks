@@ -5,7 +5,7 @@ orbitOffset: 140
 orbitTime: 12000
 camRadius: -0.7
 minZoom: 1
-bloom: true
+bloom: falae
 alwaysUnlocked: true
 updateLighting: false
 atmosphereRadIn: 0
@@ -14,6 +14,7 @@ drawOrbit: false
 defaultEnv: 17
 //defaultCore: core-citadel
 clearSectorOnLose: true
+hiddenItems: [ ]
 //TODO this needs a proper asteroid mesh
 mesh: {
   type: NoiseMesh
