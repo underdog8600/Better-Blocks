@@ -6,7 +6,7 @@ consumes: {
 }
 plans: [
   {
-	unit: Bazercon
+	unit: bazercon
 	requirements: [
 		dark-steel/100
 		silicon/200
