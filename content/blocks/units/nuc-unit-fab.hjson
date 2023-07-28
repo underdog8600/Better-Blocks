@@ -6,7 +6,7 @@ consumes: {
 }
 plans: [
   {
-	unit: stell
+	unit: Bazercon
 	requirements: [
 		beryllium/40
 		silicon/50
@@ -15,7 +15,7 @@ plans: [
   }
 ]
 requirements: [
-	silicon/20
+  silicon/20
   iron/200
   dark-steel/60
 ]
