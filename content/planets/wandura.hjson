@@ -55,7 +55,7 @@ alwaysUnlocked: true
 mesh: [
   {
     //a two colour mesh type
-    type: NoiseMesh
+    type: HexMesh
     //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
     divisions: 5
     //mesh size - 1 is serpulo
