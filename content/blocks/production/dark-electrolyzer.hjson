@@ -7,9 +7,10 @@ rotate: true
 invertFlip: true
 group: BlockGroup.liquids
 liquidCapacity: 50
-consumes:
-consumeLiquid(Liquids.water, 10f / 60f);
-            consumePower(1f);
+consumes: {
+	power: 1
+	liquid: water/0.6
+}
 
             drawer = new DrawMulti(
                 new DrawRegion("-bottom"),
