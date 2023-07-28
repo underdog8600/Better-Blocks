@@ -56,8 +56,8 @@ weapons:[
 		lightningColor: 88558e
 		//chargeEffect: greenLaserCharge
                 chargeEffect: {
-     type: MultiEffect
-      effects: [
+                        type: MultiEffect
+                        effects: [
       {
         type: WaveEffect
         lifetime: 80
@@ -74,7 +74,7 @@ weapons:[
         sizeFrom: 0
         sizeTo: 0
         strokeFrom: 0
-        strokeTo: 40
+        strokeTo: 35
         colorFrom: 88558e
         colorTo: 88558e
       }
@@ -90,27 +90,6 @@ weapons:[
       }
         ]
                 }
-/*
-                chargeEffect: {
-                        type: Effect
-                        life: 80
-                        clipSize: 100
-                        color: Pal.heal
-                        stroke(e.fin() * 2f);
-                        Lines.circle(e.x, e.y, 4f + e.fout() * 100f);
-
-                        Fill.circle(e.x, e.y, e.fin() * 20);
-
-                        randLenVectors(e.id, 20, 40f * e.fout(), (x, y) -> {
-                          Fill.circle(e.x + x, e.y + y, e.fin() * 5f);
-                          Drawf.light(e.x + x, e.y + y, e.fin() * 15f, Pal.heal, 0.7f);
-
-                        color();
-
-                        Fill.circle(e.x, e.y, e.fin() * 10);
-                        Drawf.light(e.x, e.y, e.fin() * 20f, Pal.heal, 0.7f);
-                        }).followParent(true).rotWithParent(true),
-*/
 		healPercent: 35
 		collidesTeam: true
 		sideAngle: 15
