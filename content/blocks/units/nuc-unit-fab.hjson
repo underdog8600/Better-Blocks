@@ -8,10 +8,11 @@ plans: [
   {
 	unit: Bazercon
 	requirements: [
-		beryllium/40
-		silicon/50
+		dark-steel/100
+		silicon/200
+                nuclear-fuel/2
 	]
-	time: 2100
+	time: 3600
   }
 ]
 requirements: [
