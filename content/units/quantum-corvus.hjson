@@ -72,7 +72,7 @@ weapons:[
                                 lifetime: 80
                                 particles: 12
                                 length: -50
-                                baseLength: 50
+                                baseLength: 80
                                 interp: pow2Out
                                 lenFrom: 50
                                 lenTo: 0
