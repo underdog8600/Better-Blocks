@@ -84,7 +84,7 @@ weapons:[
                                 colorTo: 88558e
                               }
                               {
-                                type: WaveEffect
+                                //type: WaveEffect
                                 lifetime: 80
                                 sizeFrom: 0
                                 sizeTo: 0
@@ -94,7 +94,7 @@ weapons:[
                                 colorTo: 88558e
                               }
                               {
-                                type: WaveEffect
+                                //type: WaveEffect
                                 layer: 112
                                 lifetime: 80
                                 sizeFrom: 0
