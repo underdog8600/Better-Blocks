@@ -9,6 +9,8 @@ speed: 0.2
 hitsize: 15
 hitsizeTile: 10
 maxVelocity: 1.0
-drag: 0.1
+drag: 0.01
 engineOffset: 1
 engineSize: 1
+mineSpeed: 10
+mineTier: 8
