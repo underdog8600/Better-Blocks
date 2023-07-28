@@ -57,8 +57,10 @@ weapons:[
 		chargeEffect: greenLaserCharge
 /*
                 chargeEffect: {
-                        type: Effect(80f, 100f, e -> {
-                        color(Pal.heal);
+                        type: Effect
+                        life: 80
+                        clipSize: 100
+                        color: Pal.heal
                         stroke(e.fin() * 2f);
                         Lines.circle(e.x, e.y, 4f + e.fout() * 100f);
 
