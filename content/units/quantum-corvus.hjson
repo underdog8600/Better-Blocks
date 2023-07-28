@@ -54,7 +54,6 @@ weapons:[
 		largeHit: true
 		lightColor: 88558e
 		lightningColor: 88558e
-		//chargeEffect: greenLaserCharge
                 chargeEffect: {
                         type: MultiEffect
                         effects: [
@@ -77,36 +76,29 @@ weapons:[
                                 interp: pow2Out
                                 lenFrom: 50
                                 lenTo: 0
-                                //sizeInterp: pow2In
                                 sizeFrom: 1
                                 sizeTo: 3
                                 colorFrom: 88558e
                                 colorTo: 88558e
                               }
                               {
-                                //type: WaveEffect
                                 lifetime: 80
                                 particles: 1
                                 randLength: false
                                 length: 0
                                 sizeFrom: 0
-                                sizeTo: 33
-                                //strokeFrom: 0
-                                //strokeTo: 33
+                                sizeTo: 20
                                 colorFrom: 88558e
                                 colorTo: 88558e
                               }
                               {
-                                //type: WaveEffect
                                 layer: 112
                                 lifetime: 80
                                 particles: 1
                                 randLength: false
                                 length: 0
                                 sizeFrom: 0
-                                sizeTo: 16
-                                //strokeFrom: 0
-                                //strokeTo: 16
+                                sizeTo: 10
                                 colorFrom: ffffff
                                 colorTo: ffffff
                               }
