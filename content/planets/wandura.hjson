@@ -52,8 +52,8 @@ allowLaunchToNumbered: false
 alwaysUnlocked: true
 //visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
 //use objects {} to make a single mesh, and the below format to create multiple
-mesh: {
-  type: multiMesh:
+mesh: 
+  //type: multiMesh:
   {
     //a two colour mesh type
     type: NoiseMesh
@@ -76,6 +76,7 @@ mesh: {
     cscl: 1
     cthresh: 1
   }
+/*
   {
     type: NoiseMesh
     divisions: 6
@@ -137,9 +138,9 @@ mesh: {
     cthresh: 1
   }
 }
+*/
 //mesh to use for drawing the clouds, essentially just a second mesh
-/*
-cloudMesh: [
+cloudMesh: 
   {
     type: HexSkyMesh
     //rotate speed 
@@ -155,7 +156,7 @@ cloudMesh: [
     scl: 1
     thresh: 0.43
   }
-
+/*
   {
     type: HexSkyMesh
     speed: 2
