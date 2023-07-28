@@ -88,6 +88,7 @@ weapons:[
                                 lifetime: 80
                                 particles: 1
                                 randLength: false
+                                length: 0
                                 sizeFrom: 0
                                 sizeTo: 33
                                 //strokeFrom: 0
@@ -101,6 +102,7 @@ weapons:[
                                 lifetime: 80
                                 particles: 1
                                 randLength: false
+                                length: 0
                                 sizeFrom: 0
                                 sizeTo: 16
                                 //strokeFrom: 0
