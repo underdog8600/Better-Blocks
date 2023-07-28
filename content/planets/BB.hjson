@@ -1,0 +1,33 @@
+generator: AsteroidGenerator
+parent: sun
+orbitRadius: 32
+orbitOffset: 140
+orbitTime: 12000
+camRadius: -0.7
+minZoom: 1
+bloom: true
+alwaysUnlocked: true
+updateLighting: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0
+drawOrbit: false
+defaultEnv: 17
+//defaultCore: core-citadel
+clearSectorOnLose: true
+//TODO this needs a proper asteroid mesh
+mesh: {
+  type: NoiseMesh
+  divisions: 3
+  radius: 0.1
+  planet: BB
+  color1: 60496d
+  color2: 3c4448
+  octaves: 4
+  persistence: 0.2
+  scale: 0.99
+  mag: 5
+  coct: 4
+  cper: 1.4
+  cscl: 0.3
+  cthresh: 0.01
+}
