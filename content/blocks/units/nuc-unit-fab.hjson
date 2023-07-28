@@ -1,4 +1,4 @@
-name: Nuculer Unit Fabricator
+name: Nuclear Unit Fabricator
 type: UnitFactory
 size: 5
 consumes: {
