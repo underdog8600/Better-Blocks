@@ -58,37 +58,37 @@ weapons:[
                 chargeEffect: {
                         type: MultiEffect
                         effects: [
-      {
-        type: WaveEffect
-        lifetime: 80
-        sizeFrom: 100
-        sizeTo: 0
-        strokeFrom: 1
-        strokeTo: 2
-        colorFrom: 88558e
-        colorTo: 88558e
-      }
-      {
-        type: WaveEffect
-        lifetime: 80
-        sizeFrom: 0
-        sizeTo: 0
-        strokeFrom: 0
-        strokeTo: 35
-        colorFrom: 88558e
-        colorTo: 88558e
-      }
-      {
-        type: WaveEffect
-        lifetime: 80
-        sizeFrom: 0
-        sizeTo: 0
-        strokeFrom: 0
-        strokeTo: 20
-        colorFrom: ffffff
-        colorTo: ffffff
-      }
-        ]
+                              {
+                                type: WaveEffect
+                                lifetime: 80
+                                sizeFrom: 100
+                                sizeTo: 0
+                                strokeFrom: 1
+                                strokeTo: 2
+                                colorFrom: 88558e
+                                colorTo: 88558e
+                              }
+                              {
+                                type: WaveEffect
+                                lifetime: 80
+                                sizeFrom: 0
+                                sizeTo: 0
+                                strokeFrom: 0
+                                strokeTo: 35
+                                colorFrom: 88558e
+                                colorTo: 88558e
+                              }
+                              {
+                                type: WaveEffect
+                                lifetime: 80
+                                sizeFrom: 0
+                                sizeTo: 0
+                                strokeFrom: 0
+                                strokeTo: 20
+                                colorFrom: ffffff
+                                colorTo: ffffff
+                              }
+                        ]
                 }
 		healPercent: 35
 		collidesTeam: true
