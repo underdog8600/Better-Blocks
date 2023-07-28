@@ -2,7 +2,7 @@ name: Nuclear Unit Fabricator
 type: UnitFactory
 size: 5
 consumes: {
-	power: 4
+	power: 15
 }
 plans: [
   {
@@ -15,9 +15,11 @@ plans: [
   }
 ]
 requirements: [
-  silicon/20
-  iron/200
-  dark-steel/60
+        silicon/500
+	comp-titanium/40
+	dark-steel/200
+	nuclear-fuel/5
+	enriched-uran/12
 ]
 category: units
   
