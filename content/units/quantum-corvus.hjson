@@ -55,6 +55,8 @@ weapons:[
 		lightColor: 88558e
 		lightningColor: 88558e
 		chargeEffect: greenLaserCharge
+                chargeEffect: {
+
 		healPercent: 35
 		collidesTeam: true
 		sideAngle: 15
