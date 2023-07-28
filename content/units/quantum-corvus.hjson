@@ -89,7 +89,7 @@ weapons:[
                                 sizeFrom: 0
                                 sizeTo: 0
                                 strokeFrom: 0
-                                strokeTo: 30
+                                strokeTo: 33
                                 colorFrom: 88558e
                                 colorTo: 88558e
                               }
@@ -100,7 +100,7 @@ weapons:[
                                 sizeFrom: 0
                                 sizeTo: 0
                                 strokeFrom: 0
-                                strokeTo: 15
+                                strokeTo: 17
                                 colorFrom: ffffff
                                 colorTo: ffffff
                               }
