@@ -53,6 +53,7 @@ alwaysUnlocked: true
 //visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
 //use objects {} to make a single mesh, and the below format to create multiple
 mesh: [
+  type: multiMesh:
   {
     //a two colour mesh type
     type: NoiseMesh
