@@ -72,7 +72,7 @@ weapons:[
                                 type: ParticalEffect
                                 lifetime: 80
                                 particles: 12
-                                interp: circleIn
+                                interp: circleOut
                                 sizeFrom: 1
                                 sizeTo: 3
                                 colorFrom: 88558e
