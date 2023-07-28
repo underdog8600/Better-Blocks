@@ -1,0 +1,14 @@
+name: Bazercon
+type: flying
+controller: MinerAI
+defaultCommand: mineCommand
+health: 1500
+flying: true
+mass: 6.0
+speed: 0.2
+hitsize: 15
+hitsizeTile: 10
+maxVelocity: 1.0
+drag: 0.1
+engineOffset: 1
+engineSize: 1
