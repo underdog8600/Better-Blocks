@@ -72,8 +72,9 @@ weapons:[
                                 type: ParticalEffect
                                 lifetime: 80
                                 particles: 12
-                                sizeFrom: 3
-                                sizeTo: 6
+                                interp: pow2In
+                                sizeFrom: 1
+                                sizeTo: 4
                                 colorFrom: 88558e
                                 colorTo: 88558e
                               }
