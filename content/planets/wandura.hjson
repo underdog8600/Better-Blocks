@@ -55,7 +55,7 @@ alwaysUnlocked: true
 mesh: [
   {
     //a two colour mesh type
-    type: HexMesh
+    type: NoiseMesh
     //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
     divisions: 5
     //mesh size - 1 is serpulo
@@ -139,6 +139,7 @@ mesh: [
 */
 ]
 //mesh to use for drawing the clouds, essentially just a second mesh
+/*
 cloudMesh: [
   {
     type: HexSkyMesh
@@ -155,7 +156,7 @@ cloudMesh: [
     scl: 1
     thresh: 0.43
   }
-/*
+
   {
     type: HexSkyMesh
     speed: 2
@@ -167,5 +168,6 @@ cloudMesh: [
     scl: 0.9
     thresh: 0.43
   }
-*/
+
 ]
+*/
