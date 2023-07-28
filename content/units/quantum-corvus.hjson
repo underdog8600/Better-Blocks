@@ -69,6 +69,15 @@ weapons:[
                                 colorTo: 88558e
                               }
                               {
+                                type: ParticalEffect
+                                lifetime: 80
+                                particles: 12
+                                sizeFrom: 3
+                                sizeTo: 6
+                                colorFrom: 88558e
+                                colorTo: 88558e
+                              }
+                              {
                                 type: WaveEffect
                                 lifetime: 80
                                 sizeFrom: 0
