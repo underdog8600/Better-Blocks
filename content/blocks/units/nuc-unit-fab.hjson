@@ -1,0 +1,23 @@
+name: Nuculer Unit Fabricator
+type: UnitFactory
+size: 5
+consumes: {
+	power: 4
+}
+plans: [
+  {
+	unit: stell
+	requirements: [
+		beryllium/40
+		silicon/50
+	]
+	time: 2100
+  }
+]
+requirements: [
+	silicon/20
+  iron/200
+  dark-steel/60
+]
+category: units
+  
