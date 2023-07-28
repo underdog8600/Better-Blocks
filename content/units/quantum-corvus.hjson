@@ -86,6 +86,8 @@ weapons:[
                               {
                                 //type: WaveEffect
                                 lifetime: 80
+                                particles: 1
+                                randLength: false
                                 sizeFrom: 0
                                 sizeTo: 33
                                 //strokeFrom: 0
@@ -97,6 +99,8 @@ weapons:[
                                 //type: WaveEffect
                                 layer: 112
                                 lifetime: 80
+                                particles: 1
+                                randLength: false
                                 sizeFrom: 0
                                 sizeTo: 16
                                 //strokeFrom: 0
