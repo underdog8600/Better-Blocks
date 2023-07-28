@@ -14,3 +14,4 @@ engineOffset: 1
 engineSize: 1
 mineSpeed: 10
 mineTier: 8
+itemCapacity: 300
