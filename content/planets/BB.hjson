@@ -1,4 +1,4 @@
-generator: AsteroidGenerator
+generator: SerpuloPlanetGenerator
 parent: sun
 orbitRadius: 32
 orbitOffset: 140
