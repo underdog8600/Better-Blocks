@@ -9,7 +9,7 @@ consumes: {
 	power: 1.6
 	liquid: infinitium-liquid/0.4
 }
-
+buildVisibility: shown
 category: crafting
 requirements: [
 	quantum-ingot/35
