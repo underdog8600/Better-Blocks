@@ -14,7 +14,7 @@ consumes: {
 drawer: [
 	{
 	type: DrawRegion
-	suffix: -bottom
+	suffix: -top
 	}
 	{
 	type: DrawDefault
