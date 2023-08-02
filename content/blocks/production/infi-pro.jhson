@@ -2,12 +2,15 @@ name: Infinity Producer
 type: itemSource
 size: 3
 health: 10000
+hasPower: true
+hasLiquids: true
+liquidCapacity: 10
 consumes: {
 	power: 1.6
 	liquid: infinitium-liquid/0.4
 }
 
-
+category: crafting
 requirements: [
 	quantum-ingot/35
 	dark-steel/2000
