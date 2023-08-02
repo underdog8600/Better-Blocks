@@ -1,6 +1,6 @@
 name: Infinity Producer
 type: itemSource
-size: 5
+size: 4
 health: 100000
 hasPower: true
 hasLiquids: true
@@ -8,18 +8,9 @@ liquidCapacity: 10
 itemCapacity: 0
 itemsPerSecond: 30
 consumes: {
-	power: 20000
+	power: 10000
 	liquid: infinitium-liquid/0.6
 }
-drawer: [
-	{
-	type: DrawRegion
-	suffix: -center
-	}
-	{
-	type: DrawDefault
-	}
-]
 buildVisibility: shown
 category: crafting
 requirements: [
