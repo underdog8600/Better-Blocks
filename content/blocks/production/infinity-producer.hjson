@@ -11,6 +11,12 @@ consumes: {
 	power: 20000
 	liquid: infinitium-liquid/0.6
 }
+drawer: [
+	{
+	type: DrawRegion
+	suffix: -center
+	}
+]
 buildVisibility: shown
 category: crafting
 requirements: [
