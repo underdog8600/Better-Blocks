@@ -16,6 +16,9 @@ drawer: [
 	type: DrawRegion
 	suffix: -center
 	}
+	{
+	type: DrawDefault
+	}
 ]
 buildVisibility: shown
 category: crafting
