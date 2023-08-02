@@ -6,3 +6,11 @@ consumes: {
 	power: 1.6
 	liquid: infinitium-liquid/0.4
 }
+
+
+requirements: [
+	quantum-ingot/35
+	dark-steel/2000
+	divinium/5
+	infinitium/10
+]
