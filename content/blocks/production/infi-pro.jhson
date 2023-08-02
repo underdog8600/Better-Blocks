@@ -4,5 +4,5 @@ size: 3
 health: 10000
 consumes: {
 	power: 1.6
-	liquid: water/0.4
+	liquid: infinitium-liquid/0.4
 }
