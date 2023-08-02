@@ -6,6 +6,7 @@ hasPower: true
 hasLiquids: true
 liquidCapacity: 10
 itemCapacity: 0
+itemsPerSecond: 30
 consumes: {
 	power: 300
 	liquid: infinitium-liquid/0.4
