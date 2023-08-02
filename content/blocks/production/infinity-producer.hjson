@@ -1,6 +1,6 @@
 name: Infinity Producer
 type: itemSource
-size: 4
+size: 5
 health: 100000
 hasPower: true
 hasLiquids: true
