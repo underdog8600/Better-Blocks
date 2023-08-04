@@ -21,89 +21,80 @@ ammoTypes: {
 	smokeEffect: shootSmallSmoke
 	ammoMultiplier: 10
 	}
-  plastanium: {
-    collidesGround: false
-    damage: 20
-    splashDamage: 25
-    splashDamageRadius: 25
-    ammoMultiplier: 5
-    speed: 5
-    lifetime: 45
-    sprite: missile-large
-    width: 11
-    height: 17
-    frontColor: fffac6
-    backColor: d8d97f
-    trailColor: d8d97f
-    trailChance: 0.15
-    fragBullets: 55
-    fragLifeMin: 0
-    fragBullet: {
-      collidesGround: false
-      damage: 7
-      speed: 3
-      lifetime: 15
-      width: 6
-      height: 12
-      shrinkY: 1
-      frontColor: fffac6
-      backColor: d8d97f
-      despawnEffect: none
-    }
-    hitEffect: plasticExplosion
-  }
-  blast-compound: {
-    type: FlakBulletType
-    damage: 55
-    collides: false
-    collidesGround: false
-    splashDamage: 45
-    splashDamageRadius: 30
-    explodeRange: 10
-    explodeDelay: 10
-    ammoMultiplier: 4
-    speed: 2
-    lifetime: 112
-    sprite: shell
-    width: 13
-    height: 17
-    frontColor: ffd2ae
-    backColor: e58956
-    trailColor: e58956
-    trailChance: 0.15
+surge-alloy: {
+    ammoMultiplier: 1
+    speed: 8
+    lifetime: 100
+    damage: 3500
     hitEffect: massiveExplosion
-    status: blasted
-  }
-  //i genuinely have no idea how to balance this, so its surge tier 
-  surge-alloy: {
-    collidesGround: false
-    damage: 31
-    pierce: true
-    pierceCap: 6
+    collidesTiles: false
     absorbable: false
-    ammoMultiplier: 2
-    reloadMultiplier: 1.2
-    speed: 3
-    lifetime: 75
-    homingPower: 0.02
-    homingRange: 60
-    sprite: large-bomb
-    width: 12
-    height: 12
-    trailLength: 7
-    trailWidth: 3
+    width: 30
+    height: 30
     shrinkY: 0
-    bulletInterval: 3
-    intervalBullet: {
-      type: BulletType
-      collidesGround: false
-      damage: 17
-      lifetime: 1
-      despawnEffect: none
-      //lose your sanity
-      status: shocked
-    } 
+    //sprite: exotic-mod-sword-2
+    fragBullets: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullet: {
+      collides: false
+      collidesTiles: false
+      hittable: false
+      absorbable: false
+      speed: 60
+      lifetime: 2
+      width: 0.01
+      height: 0.01
+      fragBullets: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragBullet: {
+        speed: 8
+        lifetime: 20
+        damage: 3500
+        homingPower: 1
+        homingRange: 150
+        hitEffect: massiveExplosion
+        pierce: true
+        collidesTiles: false
+        width: 15
+        height: 15
+        shrinkY: 0
+        //sprite: exotic-mod-sword-2
+        fragBullets: 1
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragBullet: {
+          collides: false
+          collidesTiles: false
+          hittable: false
+          absorbable: false
+          speed: 100
+          lifetime: 2
+          width: 0.01
+          height: 0.01
+          fragBullets: 1
+          fragVelocityMin: 1
+          fragVelocityMax: 1
+          fragBullet: {
+            speed: 8
+            lifetime: 20
+            damage: 3500
+            homingPower: 1
+            homingRange: 150
+            hitEffect: massiveExplosion
+            pierce: true
+            collidesTiles: false
+            width: 15
+            height: 15
+            shrinkY: 0
+            //sprite: exotic-mod-sword-2
+          }
+        }
+      }
+    }
   }
+}
 }
 requirements: [
 	copper/1
