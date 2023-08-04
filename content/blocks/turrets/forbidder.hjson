@@ -29,13 +29,26 @@ ammoTypes: {
         despawnEffect: instBomb
         pierce: true
         trailSpacing: 20
-        damage: 40000
+        damage: 20000
         frontColor: 000000
         backColor: 000000
         buildingDamageMultiplier: 0.6
         speed: 700
         hitShake: 6
         ammoMultiplier: 1
+        fragBullets: 20
+                fragBullet: {
+                     damage: 5000
+                     speed: 6
+                     pierce: true
+                     pierceCap: 3
+                     lifetime: 80
+                     width: 6
+                     height: 8
+                     frontColor: 000000
+                     backColor: 000000
+                     despawnEffect: none
+                   }
     }
 }
 requirements: [
