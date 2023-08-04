@@ -15,12 +15,23 @@ range: 350
 ammoTypes: {
 	comp-titanium: {
 		speed: 12
-		damage: 500
+		damage: 300
 		width: 6
 		height: 15
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 6
+                fragBullets: 10
+                fragBullet: {
+                     damage: 30
+                     speed: 8
+                     //lifetime: 15
+                     width: 6
+                     height: 12
+                     //frontColor: fffac6
+                     //backColor: d8d97f
+                     despawnEffect: none
+                   }
 	}
 	super-tithorium: {
 		speed: 12
