@@ -32,7 +32,7 @@ lead: {
     width: 30
     height: 30
     shrinkY: 0
-    sprite: large-orb
+    //sprite: large-orb
     fragBullets: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
@@ -108,7 +108,8 @@ coal: {
     width: 30
     height: 30
     shrinkY: 0
-    //sprite: exotic-mod-sword-2
+    sprite: large-orb
+    frontColor: 000000
     fragBullets: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
@@ -121,6 +122,8 @@ coal: {
       lifetime: 48
       width: 30
       height: 30
+      sprite: large-orb
+      frontColor: 000000
       fragBullets: 1
       fragVelocityMin: 1
       fragVelocityMax: 1
@@ -136,7 +139,8 @@ coal: {
         width: 30
         height: 30
         shrinkY: 0
-        //sprite: exotic-mod-sword-2
+        sprite: large-orb
+        frontColor: 000000
         fragBullets: 1
         fragVelocityMin: 1
         fragVelocityMax: 1
@@ -149,6 +153,8 @@ coal: {
           lifetime: 48
           width: 30
           height: 30
+          sprite: large-orb
+          frontColor: 000000
           fragBullets: 1
           fragVelocityMin: 1
           fragVelocityMax: 1
@@ -164,7 +170,8 @@ coal: {
             width: 30
             height: 30
             shrinkY: 0
-            //sprite: exotic-mod-sword-2
+            sprite: large-orb
+            frontColor: 000000
           }
         }
       }
