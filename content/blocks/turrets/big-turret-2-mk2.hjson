@@ -44,8 +44,8 @@ ammoTypes: {
 	super-tithorium: {
 		speed: 12
 		damage: 220
-		width: 15
-		height: 15
+		width: 18
+		height: 18
                 splashDamage: 150
                 splashDamageRadius: 25
                 sprite: large-bomb
@@ -72,8 +72,8 @@ ammoTypes: {
 	quantum-ingot: {
 		speed: 12
 		damage: 250
-		width: 15
-		height: 15
+		width: 21
+		height: 21
                 splashDamage: 200
                 splashDamageRadius: 25
                 sprite: large-bomb
