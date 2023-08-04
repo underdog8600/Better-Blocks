@@ -26,7 +26,7 @@ coal: {
     reloadMultiplier: 0.25
     speed: 2
     lifetime: 400
-    damage: 5000
+    damage: 10000
     homingPower: 1
     homingRange: 200
     hitEffect: massiveExplosion
@@ -62,8 +62,8 @@ coal: {
       fragBullet: {
         speed: 2
         lifetime: 80
-        damage: 5000
-        homingPower: 0.5
+        damage: 10000
+        homingPower: 0.2
         homingRange: 200
         hitEffect: massiveExplosion
         pierce: true
@@ -99,8 +99,8 @@ coal: {
           fragBullet: {
             speed: 2
             lifetime: 80
-            damage: 5000
-            homingPower: 0.5
+            damage: 10000
+            homingPower: 0.2
             homingRange: 200
             hitEffect: massiveExplosion
             pierce: true
