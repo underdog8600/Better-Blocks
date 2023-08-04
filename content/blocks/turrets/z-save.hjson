@@ -41,6 +41,7 @@ lead: {
       collidesTiles: false
       hittable: false
       absorbable: false
+      fragOnHit: false
       speed: 8
       lifetime: 12
       width: 15
@@ -69,6 +70,7 @@ lead: {
           collidesTiles: false
           hittable: false
           absorbable: false
+          fragOnHit: false
           speed: 8
           lifetime: 12
           width: 15
@@ -119,6 +121,7 @@ coal: {
       collidesTiles: false
       hittable: false
       absorbable: false
+      fragOnHit: false
       speed: 2
       lifetime: 48
       width: 30
@@ -152,6 +155,7 @@ coal: {
           collidesTiles: false
           hittable: false
           absorbable: false
+          fragOnHit: false
           speed: 2
           lifetime: 48
           width: 30
