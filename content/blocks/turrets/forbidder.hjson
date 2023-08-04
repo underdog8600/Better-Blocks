@@ -42,8 +42,8 @@ ammoTypes: {
                      damage: 1000
                      speed: 4
                      pierce: true
-                     pierceCap: 3
-                     lifetime: 80
+                     pierceCap: 1
+                     lifetime: 30
                      width: 6
                      height: 3
                      frontColor: 000000
