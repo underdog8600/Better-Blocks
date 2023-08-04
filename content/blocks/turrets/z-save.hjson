@@ -6,7 +6,7 @@ targetGround: true
 health: 1000000
 size: 1
 inaccuracy: 0
-reload: 70
+reload: 150
 shootCone: 40
 shots: 1
 range: 300
@@ -42,7 +42,7 @@ lead: {
       hittable: false
       absorbable: false
       speed: 16
-      lifetime: 10
+      lifetime: 6
       width: 15
       height: 15
       fragBullets: 1
@@ -53,7 +53,7 @@ lead: {
         lifetime: 20
         damage: 2000
         homingPower: 1
-        homingRange: 150
+        homingRange: 200
         hitEffect: massiveExplosion
         pierce: true
         collidesTiles: false
@@ -70,7 +70,7 @@ lead: {
           hittable: false
           absorbable: false
           speed: 16
-          lifetime: 10
+          lifetime: 6
           width: 15
           height: 15
           fragBullets: 1
@@ -81,7 +81,7 @@ lead: {
             lifetime: 20
             damage: 2000
             homingPower: 1
-            homingRange: 150
+            homingRange: 200
             hitEffect: massiveExplosion
             pierce: true
             collidesTiles: false
