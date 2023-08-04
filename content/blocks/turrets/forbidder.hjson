@@ -25,7 +25,7 @@ ammoTypes: {
         shootEffect: instShoot
         hitEffect: instHit
         smokeEffect: smokeCloud
-        trailEffect: instTrail
+        //trailEffect: instTrail
         trailColor: 000000
         despawnEffect: instBomb
         pierce: true
