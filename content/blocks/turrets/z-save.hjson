@@ -21,81 +21,6 @@ ammoTypes: {
 	smokeEffect: shootSmallSmoke
 	ammoMultiplier: 10
 	}
-lead: {
-    ammoMultiplier: 1
-    speed: 8
-    lifetime: 100
-    damage: 2000
-    hitEffect: massiveExplosion
-    collidesTiles: false
-    absorbable: false
-    width: 30
-    height: 30
-    shrinkY: 0
-    //sprite: large-orb
-    fragBullets: 1
-    fragVelocityMin: 1
-    fragVelocityMax: 1
-    fragBullet: {
-      collides: false
-      collidesTiles: false
-      hittable: false
-      absorbable: false
-      fragOnHit: false
-      speed: 8
-      lifetime: 12
-      width: 15
-      height: 15
-      fragBullets: 1
-      fragVelocityMin: 1
-      fragVelocityMax: 1
-      fragBullet: {
-        speed: 8
-        lifetime: 20
-        damage: 2000
-        homingPower: 1
-        homingRange: 200
-        hitEffect: massiveExplosion
-        pierce: true
-        collidesTiles: false
-        width: 15
-        height: 15
-        shrinkY: 0
-        //sprite: exotic-mod-sword-2
-        fragBullets: 1
-        fragVelocityMin: 1
-        fragVelocityMax: 1
-        fragBullet: {
-          collides: false
-          collidesTiles: false
-          hittable: false
-          absorbable: false
-          fragOnHit: false
-          speed: 8
-          lifetime: 12
-          width: 15
-          height: 15
-          fragBullets: 1
-          fragVelocityMin: 1
-          fragVelocityMax: 1
-          fragBullet: {
-            speed: 8
-            lifetime: 20
-            damage: 2000
-            homingPower: 1
-            homingRange: 200
-            hitEffect: massiveExplosion
-            pierce: true
-            collidesTiles: false
-            width: 15
-            height: 15
-            shrinkY: 0
-            //sprite: exotic-mod-sword-2
-          }
-        }
-      }
-    }
-  }
 coal: {
     ammoMultiplier: 1
     reloadMultiplier: 0.25
@@ -138,12 +63,12 @@ coal: {
         speed: 2
         lifetime: 80
         damage: 5000
-        homingPower: 1
+        homingPower: 0.5
         homingRange: 200
         hitEffect: massiveExplosion
         pierce: true
         collidesTiles: false
-        //fragOnHit: false
+        fragOnHit: false
         width: 30
         height: 30
         shrinkY: 0
@@ -175,7 +100,7 @@ coal: {
             speed: 2
             lifetime: 80
             damage: 5000
-            homingPower: 1
+            homingPower: 0.5
             homingRange: 200
             hitEffect: massiveExplosion
             pierce: true
