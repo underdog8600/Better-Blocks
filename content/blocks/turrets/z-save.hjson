@@ -113,6 +113,7 @@ coal: {
     sprite: circle-bullet
     frontColor: 000000
     backColor: 000000
+    fragRandomSpread: 0
     fragBullets: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
@@ -129,6 +130,7 @@ coal: {
       sprite: circle-bullet
       frontColor: 000000
       backColor: 000000
+      fragRandomSpread: 0
       fragBullets: 1
       fragVelocityMin: 1
       fragVelocityMax: 1
@@ -148,6 +150,7 @@ coal: {
         sprite: circle-bullet
         frontColor: 000000
         backColor: 000000
+        fragRandomSpread: 0
         fragBullets: 1
         fragVelocityMin: 1
         fragVelocityMax: 1
@@ -164,6 +167,7 @@ coal: {
           sprite: circle-bullet
           frontColor: 000000
           backColor: 000000
+          fragRandomSpread: 0
           fragBullets: 1
           fragVelocityMin: 1
           fragVelocityMax: 1
