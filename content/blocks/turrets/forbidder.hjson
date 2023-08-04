@@ -29,7 +29,7 @@ ammoTypes: {
 	//trailSpacing: 20
 	trailInterval: 2
 	trailEffect: {
-	      type: particleEffect
+	      //type: particleEffect
 	      lifetime: 30
 	      //sizeFrom: 5
 	      //sizeTo: 2
