@@ -16,7 +16,7 @@ ammoTypes: {
 	comp-titanium: {
 		speed: 12
 		damage: 200
-		width: 6
+		width: 15
 		height: 15
                 splashDamage: 100
                 splashDamageRadius: 25
