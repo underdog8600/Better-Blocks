@@ -20,6 +20,7 @@ ammoTypes: {
 		height: 15
                 splashDamage: 100
                 splashDamageRadius: 25
+                sprite: large-bomb
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 6
