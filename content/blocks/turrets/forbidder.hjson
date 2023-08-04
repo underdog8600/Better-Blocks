@@ -27,8 +27,11 @@ ammoTypes: {
         smokeEffect: smokeCloud
         trailEffect: instTrail
         despawnEffect: instBomb
+        pierce: true
         trailSpacing: 20
         damage: 40000
+        frontColor: 000000
+        backColor: 000000
         buildingDamageMultiplier: 0.6
         speed: 700
         hitShake: 6
