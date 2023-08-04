@@ -61,7 +61,7 @@ coal: {
       fragVelocityMax: 1
       fragBullet: {
         speed: 2
-        lifetime: 80
+        lifetime: 120
         damage: 10000
         homingPower: 0.1
         homingRange: 200
@@ -98,7 +98,7 @@ coal: {
           fragVelocityMax: 1
           fragBullet: {
             speed: 2
-            lifetime: 80
+            lifetime: 120
             damage: 10000
             homingPower: 0.1
             homingRange: 200
