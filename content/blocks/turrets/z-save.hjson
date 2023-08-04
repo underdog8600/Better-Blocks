@@ -33,9 +33,9 @@ coal: {
     collidesTiles: false
     absorbable: false
     width: 40
-    height: 20
+    height: 40
     shrinkY: 0
-    //sprite: circle-bullet
+    sprite: large-bomb
     frontColor: 000000
     backColor: 000000
     fragRandomSpread: 0
@@ -51,8 +51,8 @@ coal: {
       speed: 2
       lifetime: 48
       width: 40
-      height: 20
-      //sprite: circle-bullet
+      height: 40
+      sprite: large-bomb
       frontColor: 000000
       backColor: 000000
       fragRandomSpread: 0
@@ -70,9 +70,9 @@ coal: {
         collidesTiles: false
         fragOnHit: false
         width: 40
-        height: 20
+        height: 40
         shrinkY: 0
-        //sprite: circle-bullet
+        sprite: large-bomb
         frontColor: 000000
         backColor: 000000
         fragRandomSpread: 0
@@ -88,8 +88,8 @@ coal: {
           speed: 2
           lifetime: 48
           width: 40
-          height: 20
-          //sprite: circle-bullet
+          height: 40
+          sprite: large-bomb
           frontColor: 000000
           backColor: 000000
           fragRandomSpread: 0
@@ -106,9 +106,9 @@ coal: {
             pierce: true
             collidesTiles: false
             width: 40
-            height: 20
+            height: 40
             shrinkY: 0
-            //sprite: circle-bullet
+            sprite: large-bomb
             frontColor: 000000
             backColor: 000000
           }
