@@ -25,36 +25,8 @@ ammoTypes: {
         shootEffect: instShoot
         hitEffect: instHit
         smokeEffect: smokeCloud
-        //trailEffect: instTrail
-	//trailSpacing: 20
-	trailInterval: 2
-	trailEffect: {
-	      //type: particleEffect
-	      lifetime: 30
-	      //sizeFrom: 5
-	      //sizeTo: 2
-	      //strokeFrom: 4
-	      ///strokeTo: 2
-	      colorFrom: 000000
-	      colorTo: 000000
-	      draw: {
-	      	type: tri
-	      	x: 0
-	      	y: 0
-	      	width: 15
-	      	length: 10
-	      	rotation: 0
-	      }
-	      draw: {
-	      	type: tri
-	      	x: 0
-	      	y: 0
-	      	width: 15
-	      	length: 10
-	      	rotation: 180
-	      }
-	}
-        trailColor: 000000
+        trailEffect: instTrail
+	trailSpacing: 20
         despawnEffect: instBomb
         pierce: true
         damage: 20000
