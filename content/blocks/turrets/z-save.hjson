@@ -108,7 +108,7 @@ coal: {
     width: 30
     height: 30
     shrinkY: 0
-    //sprite: large-orb
+    sprite: circle-bullet
     frontColor: 000000
     backColor: 000000
     fragBullets: 1
@@ -123,7 +123,7 @@ coal: {
       lifetime: 48
       width: 30
       height: 30
-      //sprite: large-orb
+      sprite: circle-bullet
       frontColor: 000000
       backColor: 000000
       fragBullets: 1
@@ -141,7 +141,7 @@ coal: {
         width: 30
         height: 30
         shrinkY: 0
-        //sprite: large-orb
+        sprite: circle-bullet
         frontColor: 000000
         backColor: 000000
         fragBullets: 1
@@ -156,7 +156,7 @@ coal: {
           lifetime: 48
           width: 30
           height: 30
-          //sprite: large-orb
+          sprite: circle-bullet
           frontColor: 000000
           backColor: 000000
           fragBullets: 1
@@ -174,7 +174,7 @@ coal: {
             width: 30
             height: 30
             shrinkY: 0
-            //sprite: large-orb
+            sprite: circle-bullet
             frontColor: 000000
             backColor: 000000
           }
