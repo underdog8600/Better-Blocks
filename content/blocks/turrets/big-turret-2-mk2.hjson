@@ -27,15 +27,15 @@ ammoTypes: {
                 fragBullets: 10
                 fragBullet: {
                      damage: 40
-                     speed: 10
+                     speed: 6
                      pierce: true
                      pierceCap: 3
-                     homingPower: 0.5
+                     homingPower: 1
                      homingRange: 60
-                     homingDelay: 40
+                     homingDelay: 20
                      //lifetime: 15
                      width: 6
-                     height: 12
+                     height: 8
                      //frontColor: fffac6
                      //backColor: d8d97f
                      despawnEffect: none
