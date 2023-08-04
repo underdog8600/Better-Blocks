@@ -96,8 +96,8 @@ lead: {
   }
 coal: {
     ammoMultiplier: 1
-    speed: 4
-    lifetime: 200
+    speed: 2
+    lifetime: 400
     damage: 2000
     homingPower: 1
     homingRange: 200
@@ -116,24 +116,24 @@ coal: {
       collidesTiles: false
       hittable: false
       absorbable: false
-      speed: 4
-      lifetime: 24
-      width: 15
-      height: 15
+      speed: 2
+      lifetime: 48
+      width: 30
+      height: 30
       fragBullets: 1
       fragVelocityMin: 1
       fragVelocityMax: 1
       fragBullet: {
-        speed: 4
-        lifetime: 40
+        speed: 2
+        lifetime: 80
         damage: 2000
         homingPower: 1
         homingRange: 200
         hitEffect: massiveExplosion
         pierce: true
         collidesTiles: false
-        width: 15
-        height: 15
+        width: 30
+        height: 30
         shrinkY: 0
         //sprite: exotic-mod-sword-2
         fragBullets: 1
@@ -144,24 +144,24 @@ coal: {
           collidesTiles: false
           hittable: false
           absorbable: false
-          speed: 4
-          lifetime: 24
-          width: 15
-          height: 15
+          speed: 2
+          lifetime: 48
+          width: 30
+          height: 30
           fragBullets: 1
           fragVelocityMin: 1
           fragVelocityMax: 1
           fragBullet: {
-            speed: 4
-            lifetime: 40
+            speed: 2
+            lifetime: 80
             damage: 2000
             homingPower: 1
             homingRange: 200
             hitEffect: massiveExplosion
             pierce: true
             collidesTiles: false
-            width: 15
-            height: 15
+            width: 30
+            height: 30
             shrinkY: 0
             //sprite: exotic-mod-sword-2
           }
