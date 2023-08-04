@@ -32,7 +32,7 @@ lead: {
     width: 30
     height: 30
     shrinkY: 0
-    //sprite: exotic-mod-sword-2
+    sprite: large-orb
     fragBullets: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
