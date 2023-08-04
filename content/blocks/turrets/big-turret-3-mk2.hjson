@@ -17,6 +17,8 @@ ammoTypes: {
 		damage: 360
 		width: 6
 		height: 17
+                pierce: true
+                pierceCap: 5
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 2
@@ -26,6 +28,8 @@ ammoTypes: {
 		damage: 600
 		width: 8
 		height: 25
+                pierce: true
+                pierceCap: 5
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 4
