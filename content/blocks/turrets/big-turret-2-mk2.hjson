@@ -27,6 +27,8 @@ ammoTypes: {
                 fragBullet: {
                      damage: 40
                      speed: 8
+                     homingPower: 0.5
+                     homingRange: 60
                      //lifetime: 15
                      width: 6
                      height: 12
