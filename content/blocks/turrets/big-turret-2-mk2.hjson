@@ -27,7 +27,9 @@ ammoTypes: {
                 fragBullets: 10
                 fragBullet: {
                      damage: 40
-                     speed: 8
+                     speed: 10
+                     pierce: true
+                     pierceCap: 2
                      homingPower: 0.5
                      homingRange: 60
                      //lifetime: 15
