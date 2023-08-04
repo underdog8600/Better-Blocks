@@ -29,7 +29,7 @@ ammoTypes: {
                      damage: 40
                      speed: 10
                      pierce: true
-                     pierceCap: 2
+                     pierceCap: 3
                      homingPower: 0.5
                      homingRange: 60
                      homingDelay: 40
