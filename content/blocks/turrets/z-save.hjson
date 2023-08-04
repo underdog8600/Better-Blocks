@@ -41,8 +41,8 @@ lead: {
       collidesTiles: false
       hittable: false
       absorbable: false
-      speed: 16
-      lifetime: 6
+      speed: 12
+      lifetime: 8
       width: 15
       height: 15
       fragBullets: 1
@@ -69,8 +69,8 @@ lead: {
           collidesTiles: false
           hittable: false
           absorbable: false
-          speed: 16
-          lifetime: 6
+          speed: 12
+          lifetime: 8
           width: 15
           height: 15
           fragBullets: 1
@@ -79,6 +79,81 @@ lead: {
           fragBullet: {
             speed: 8
             lifetime: 20
+            damage: 2000
+            homingPower: 1
+            homingRange: 200
+            hitEffect: massiveExplosion
+            pierce: true
+            collidesTiles: false
+            width: 15
+            height: 15
+            shrinkY: 0
+            //sprite: exotic-mod-sword-2
+          }
+        }
+      }
+    }
+  }
+coal: {
+    ammoMultiplier: 1
+    speed: 4
+    lifetime: 200
+    damage: 2000
+    homingPower: 1
+    homingRange: 200
+    hitEffect: massiveExplosion
+    collidesTiles: false
+    absorbable: false
+    width: 30
+    height: 30
+    shrinkY: 0
+    //sprite: exotic-mod-sword-2
+    fragBullets: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullet: {
+      collides: false
+      collidesTiles: false
+      hittable: false
+      absorbable: false
+      speed: 4
+      lifetime: 24
+      width: 15
+      height: 15
+      fragBullets: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragBullet: {
+        speed: 4
+        lifetime: 40
+        damage: 2000
+        homingPower: 1
+        homingRange: 200
+        hitEffect: massiveExplosion
+        pierce: true
+        collidesTiles: false
+        width: 15
+        height: 15
+        shrinkY: 0
+        //sprite: exotic-mod-sword-2
+        fragBullets: 1
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragBullet: {
+          collides: false
+          collidesTiles: false
+          hittable: false
+          absorbable: false
+          speed: 4
+          lifetime: 24
+          width: 15
+          height: 15
+          fragBullets: 1
+          fragVelocityMin: 1
+          fragVelocityMax: 1
+          fragBullet: {
+            speed: 4
+            lifetime: 40
             damage: 2000
             homingPower: 1
             homingRange: 200
