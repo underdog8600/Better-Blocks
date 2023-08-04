@@ -110,6 +110,7 @@ coal: {
     shrinkY: 0
     sprite: large-orb
     frontColor: 000000
+    backColor: 000000
     fragBullets: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
@@ -124,6 +125,7 @@ coal: {
       height: 30
       sprite: large-orb
       frontColor: 000000
+      backColor: 000000
       fragBullets: 1
       fragVelocityMin: 1
       fragVelocityMax: 1
@@ -141,6 +143,7 @@ coal: {
         shrinkY: 0
         sprite: large-orb
         frontColor: 000000
+        backColor: 000000
         fragBullets: 1
         fragVelocityMin: 1
         fragVelocityMax: 1
@@ -155,6 +158,7 @@ coal: {
           height: 30
           sprite: large-orb
           frontColor: 000000
+          backColor: 000000
           fragBullets: 1
           fragVelocityMin: 1
           fragVelocityMax: 1
@@ -172,6 +176,7 @@ coal: {
             shrinkY: 0
             sprite: large-orb
             frontColor: 000000
+            backColor: 000000
           }
         }
       }
