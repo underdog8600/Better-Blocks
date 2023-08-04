@@ -141,6 +141,7 @@ coal: {
         hitEffect: massiveExplosion
         pierce: true
         collidesTiles: false
+        fragOnHit: false
         width: 30
         height: 30
         shrinkY: 0
@@ -175,6 +176,7 @@ coal: {
             hitEffect: massiveExplosion
             pierce: true
             collidesTiles: false
+            fragOnHit: false
             width: 30
             height: 30
             shrinkY: 0
