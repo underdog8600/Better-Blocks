@@ -95,7 +95,6 @@ surge-alloy: {
     }
   }
 }
-}
 requirements: [
 	copper/1
 ]
