@@ -41,8 +41,8 @@ lead: {
       collidesTiles: false
       hittable: false
       absorbable: false
-      speed: 12
-      lifetime: 8
+      speed: 8
+      lifetime: 12
       width: 15
       height: 15
       fragBullets: 1
@@ -69,8 +69,8 @@ lead: {
           collidesTiles: false
           hittable: false
           absorbable: false
-          speed: 12
-          lifetime: 8
+          speed: 8
+          lifetime: 12
           width: 15
           height: 15
           fragBullets: 1
