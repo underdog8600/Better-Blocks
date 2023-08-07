@@ -54,8 +54,8 @@ ammoTypes: {
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 15
-                frontColor: 800080
-                backColor: 800080
+                frontColor: 7b68ee
+                backColor: 7b68ee
                 fragBullets: 8
                 fragBullet: {
                      damage: 45
