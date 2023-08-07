@@ -58,6 +58,9 @@ lead: {
       lightningLength: 10
       lightningLengthRand: 4
       lightningColor: 000000
+      hitEffect: none
+      despawnEffect: none
+      smokeEffect: none
     }
 }
 coal: {
