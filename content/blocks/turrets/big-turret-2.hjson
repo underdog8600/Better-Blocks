@@ -22,6 +22,8 @@ ammoTypes: {
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 8
+                frontColor: 1E90FF
+                backColor: 1E90FF
                 fragBullets: 4
                 fragBullet: {
                      damage: 10
@@ -49,7 +51,9 @@ ammoTypes: {
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 10
-                fragBullets: 8
+                frontColor: 1E90FF
+                backColor: 1E90FF
+                fragBullets: 4
                 fragBullet: {
                      damage: 15
                      speed: 6
@@ -76,7 +80,9 @@ ammoTypes: {
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 15
-                fragBullets: 8
+                frontColor: 1E90FF
+                backColor: 1E90FF
+                fragBullets: 4
                 fragBullet: {
                      damage: 25
                      speed: 6
@@ -103,7 +109,9 @@ ammoTypes: {
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 15
-                fragBullets: 8
+                frontColor: 1E90FF
+                backColor: 1E90FF
+                fragBullets: 4
                 fragBullet: {
                      damage: 30
                      speed: 6
