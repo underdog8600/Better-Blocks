@@ -22,8 +22,8 @@ ammoTypes: {
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 15
-                frontColor: 1E90FF
-                backColor: 1E90FF
+                frontColor: 7b68ee
+                backColor: 7b68ee
 	}
 	quantum-ingot: {
 		speed: 25
