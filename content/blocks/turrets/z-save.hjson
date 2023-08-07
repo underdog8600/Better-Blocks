@@ -29,6 +29,11 @@ coal: {
     damage: 10000
     homingPower: 1
     homingRange: 200
+    lightning: 4
+    lightningDamage: 2000
+    lightningLength: 8
+    lightningLengthRand: 4
+    lightningColor: 000000
     hitEffect: massiveExplosion
     collidesTiles: false
     absorbable: false
@@ -63,6 +68,11 @@ coal: {
         speed: 2
         lifetime: 120
         damage: 10000
+        lightning: 4
+        lightningDamage: 2000
+        lightningLength: 8
+        lightningLengthRand: 4
+        lightningColor: 000000
         homingPower: 0.1
         homingRange: 200
         hitEffect: massiveExplosion
@@ -100,6 +110,11 @@ coal: {
             speed: 2
             lifetime: 120
             damage: 10000
+            lightning: 4
+            lightningDamage: 2000
+            lightningLength: 8
+            lightningLengthRand: 4
+            lightningColor: 000000
             homingPower: 0.1
             homingRange: 200
             hitEffect: massiveExplosion
