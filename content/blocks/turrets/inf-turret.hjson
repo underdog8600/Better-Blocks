@@ -22,6 +22,8 @@ ammoTypes: {
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 15
+                frontColor: 1E90FF
+                backColor: 1E90FF
 	}
 	quantum-ingot: {
 		speed: 25
@@ -32,6 +34,8 @@ ammoTypes: {
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 25
+                frontColor: 1E90FF
+                backColor: 1E90FF
 	}
 	infinitium: {
 		speed: 40
@@ -42,6 +46,8 @@ ammoTypes: {
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 30
+                frontColor: 1E90FF
+                backColor: 1E90FF
 	}
 }
 requirements: [
