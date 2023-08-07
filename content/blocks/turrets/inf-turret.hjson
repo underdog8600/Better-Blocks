@@ -37,7 +37,7 @@ ammoTypes: {
                      homingPower: 0.2
                      homingRange: 240
                      homingDelay: 40
-                     lifetime: 80
+                     lifetime: 120
                      width: 9
                      height: 12
                      frontColor: 7b68ee
