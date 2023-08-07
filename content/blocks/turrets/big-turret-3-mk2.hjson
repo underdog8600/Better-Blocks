@@ -14,22 +14,22 @@ burstSpacing: 6
 ammoTypes: {
 	silicon: {
 		speed: 25
-		damage: 360
+		damage: 300
 		width: 6
 		height: 17
                 pierce: true
-                pierceCap: 5
+                pierceCap: 3
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 2
 	}
 	comp-titanium: {
 		speed: 32
-		damage: 600
+		damage: 400
 		width: 8
 		height: 25
                 pierce: true
-                pierceCap: 5
+                pierceCap: 3
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 4
