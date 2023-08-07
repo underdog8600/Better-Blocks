@@ -45,7 +45,6 @@ ammoTypes: {
                      despawnEffect: none
                    }
 	}
-	}
 	quantum-ingot: {
 		speed: 25
 		damage: 2000
