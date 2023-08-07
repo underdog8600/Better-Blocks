@@ -47,9 +47,11 @@ ammoTypes: {
 	}
 	quantum-ingot: {
 		speed: 15
-		damage: 400
+		damage: 0
 		width: 24
 		height: 30
+                splashDamage: 400
+                splashDamageRadius: 25
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 25
@@ -76,9 +78,11 @@ ammoTypes: {
 	}
 	infinitium: {
 		speed: 20
-		damage: 600
+		damage: 0
 		width: 34
 		height: 45
+                splashDamage: 600
+                splashDamageRadius: 25
 		shootEffect: shootBig
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 30
