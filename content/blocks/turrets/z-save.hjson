@@ -6,7 +6,7 @@ targetGround: true
 health: 1000000
 size: 1
 inaccuracy: 0
-reload: 150
+reload: 200
 shootCone: 40
 shots: 1
 range: 300
@@ -19,11 +19,12 @@ ammoTypes: {
 	height: 6
 	shootEffect: shootSmall
 	smokeEffect: shootSmallSmoke
+        reloadMultiplier: 20
 	ammoMultiplier: 10
 	}
 coal: {
     ammoMultiplier: 1
-    reloadMultiplier: 0.35
+    reloadMultiplier: 0.25
     speed: 2
     lifetime: 400
     damage: 2000
