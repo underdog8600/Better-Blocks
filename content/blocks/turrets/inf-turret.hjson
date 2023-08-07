@@ -33,13 +33,13 @@ ammoTypes: {
                      splashDamage: 200
                      splashDamageRadius: 25
                      pierce: true
-                     pierceCap: 3
+                     pierceCap: 4
                      homingPower: 0.2
-                     homingRange: 200
+                     homingRange: 240
                      homingDelay: 40
                      lifetime: 80
-                     width: 6
-                     height: 8
+                     width: 9
+                     height: 12
                      frontColor: 7b68ee
                      backColor: 7b68ee
                      despawnEffect: none
