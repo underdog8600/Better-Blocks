@@ -70,14 +70,9 @@ coal: {
     reloadMultiplier: 0.35
     speed: 2
     lifetime: 400
-    damage: 10000
+    damage: 2000
     homingPower: 1
     homingRange: 200
-    lightning: 4
-    lightningDamage: 2000
-    lightningLength: 10
-    lightningLengthRand: 4
-    lightningColor: 000000
     hitEffect: none
     despawnEffect: none
     collidesTiles: false
@@ -88,6 +83,22 @@ coal: {
     sprite: large-orb
     frontColor: 000000
     backColor: 000000
+    bulletInterval: 20
+    intervalBullets: 5
+    intervalBullet: {
+      speed: 6
+      width: 1
+      height: 1
+      lifetime: 10
+      lightning: 4
+      lightningDamage: 500
+      lightningLength: 10
+      lightningLengthRand: 4
+      lightningColor: 000000
+      hitEffect: none
+      despawnEffect: none
+      smokeEffect: none
+    }
     fragRandomSpread: 0
     fragBullets: 1
     fragVelocityMin: 1
@@ -111,13 +122,8 @@ coal: {
       fragVelocityMax: 1
       fragBullet: {
         speed: 2
-        lifetime: 120
-        damage: 10000
-        lightning: 4
-        lightningDamage: 2000
-        lightningLength: 10
-        lightningLengthRand: 4
-        lightningColor: 000000
+        lifetime: 150
+        damage: 2000
         homingPower: 0.1
         homingRange: 200
         hitEffect: none
@@ -131,6 +137,22 @@ coal: {
         sprite: large-orb
         frontColor: 000000
         backColor: 000000
+        bulletInterval: 20
+        intervalBullets: 5
+        intervalBullet: {
+          speed: 6
+          width: 1
+          height: 1
+          lifetime: 10
+          lightning: 4
+          lightningDamage: 500
+          lightningLength: 10
+          lightningLengthRand: 4
+          lightningColor: 000000
+          hitEffect: none
+          despawnEffect: none
+          smokeEffect: none
+        }
         fragRandomSpread: 0
         fragBullets: 1
         fragVelocityMin: 1
@@ -154,13 +176,8 @@ coal: {
           fragVelocityMax: 1
           fragBullet: {
             speed: 2
-            lifetime: 120
-            damage: 10000
-            lightning: 4
-            lightningDamage: 2000
-            lightningLength: 10
-            lightningLengthRand: 4
-            lightningColor: 000000
+            lifetime: 150
+            damage: 2000
             homingPower: 0.1
             homingRange: 200
             hitEffect: massiveExplosion
@@ -172,6 +189,22 @@ coal: {
             sprite: large-orb
             frontColor: 000000
             backColor: 000000
+            bulletInterval: 20
+            intervalBullets: 5
+            intervalBullet: {
+              speed: 6
+              width: 1
+              height: 1
+              lifetime: 10
+              lightning: 4
+              lightningDamage: 500
+              lightningLength: 10
+              lightningLengthRand: 4
+              lightningColor: 000000
+              hitEffect: none
+              despawnEffect: none
+              smokeEffect: none
+            }
           }
         }
       }
