@@ -34,7 +34,7 @@ coal: {
     lightningLength: 10
     lightningLengthRand: 4
     lightningColor: 000000
-    //hitEffect: massiveExplosion
+    hitEffect: none
     collidesTiles: false
     absorbable: false
     width: 40
@@ -75,7 +75,7 @@ coal: {
         lightningColor: 000000
         homingPower: 0.1
         homingRange: 200
-        //hitEffect: massiveExplosion
+        hitEffect: none
         pierce: true
         collidesTiles: false
         fragOnHit: false
