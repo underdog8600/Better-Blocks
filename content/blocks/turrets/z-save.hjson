@@ -37,6 +37,7 @@ lead: {
     lightningColor: 000000
     hitEffect: none
     despawnEffect: none
+    smokeEffect: none
     collidesTiles: false
     absorbable: false
     width: 40
