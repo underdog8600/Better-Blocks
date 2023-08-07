@@ -14,39 +14,47 @@ burstSpacing: 6
 ammoTypes: {
 	tithorium: {
 		speed: 8
-		damage: 4
+		damage: 60
+                splashDamage: 20
+                splashDamageRadius: 25
 		width: 4
 		height: 6
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 10
+		ammoMultiplier: 8
 	}
 	super-tithorium: {
 		speed: 10
-		damage: 6
+		damage: 80
+                splashDamage: 30
+                splashDamageRadius: 25
 		width: 4
 		height: 7
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 15
+		ammoMultiplier: 10
 	}
 	plut: {
 		speed: 7
-		damage: 12
+		damage: 120
+                splashDamage: 50
+                splashDamageRadius: 25
 		width: 6
 		height: 15
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 20
+		ammoMultiplier: 15
 	}
 	nuclear-fuel: {
 		speed: 15
-		damage: 15
+		damage: 140
+                splashDamage: 60
+                splashDamageRadius: 25
 		width: 4
 		height: 12
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
-		ammoMultiplier: 20
+		ammoMultiplier: 15
 	}
 }
 requirements: [
