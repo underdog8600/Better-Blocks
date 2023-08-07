@@ -33,6 +33,8 @@ ammoTypes: {
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 4
+                frontColor: 1E90FF
+                backColor: 1E90FF
 	}
 }
 requirements: [
