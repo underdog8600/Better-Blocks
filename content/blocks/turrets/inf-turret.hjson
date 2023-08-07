@@ -15,10 +15,10 @@ burstSpacing: 3
 ammoTypes: {
 	super-tithorium: {
 		speed: 15
-		damage: 200
+		damage: 0
 		width: 18
 		height: 24
-                splashDamage: 180
+                splashDamage: 400
                 splashDamageRadius: 50
                 //sprite: large-bomb
 		shootEffect: shootSmall
@@ -28,9 +28,9 @@ ammoTypes: {
                 backColor: 7b68ee
                 fragBullets: 4
                 fragBullet: {
-                     damage: 120
+                     damage: 0
                      speed: 6
-                     splashDamage: 80
+                     splashDamage: 200
                      splashDamageRadius: 25
                      pierce: true
                      pierceCap: 3
