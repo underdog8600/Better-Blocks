@@ -22,6 +22,22 @@ ammoTypes: {
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 8
+                fragBullets: 4
+                fragBullet: {
+                     damage: 10
+                     speed: 6
+                     pierce: true
+                     pierceCap: 1
+                     //homingPower: 1
+                     //homingRange: 120
+                     //homingDelay: 20
+                     lifetime: 60
+                     width: 6
+                     height: 8
+                     //frontColor: fffac6
+                     //backColor: d8d97f
+                     despawnEffect: none
+                   }
 	}
 	super-tithorium: {
 		speed: 10
@@ -33,6 +49,22 @@ ammoTypes: {
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 10
+                fragBullets: 8
+                fragBullet: {
+                     damage: 15
+                     speed: 6
+                     pierce: true
+                     pierceCap: 1
+                     //homingPower: 1
+                     //homingRange: 120
+                     //homingDelay: 20
+                     lifetime: 60
+                     width: 6
+                     height: 8
+                     //frontColor: fffac6
+                     //backColor: d8d97f
+                     despawnEffect: none
+                   }
 	}
 	plut: {
 		speed: 7
@@ -44,6 +76,22 @@ ammoTypes: {
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 15
+                fragBullets: 8
+                fragBullet: {
+                     damage: 25
+                     speed: 6
+                     pierce: true
+                     pierceCap: 1
+                     //homingPower: 1
+                     //homingRange: 120
+                     //homingDelay: 20
+                     lifetime: 60
+                     width: 6
+                     height: 8
+                     //frontColor: fffac6
+                     //backColor: d8d97f
+                     despawnEffect: none
+                   }
 	}
 	nuclear-fuel: {
 		speed: 15
@@ -55,6 +103,22 @@ ammoTypes: {
 		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 15
+                fragBullets: 8
+                fragBullet: {
+                     damage: 30
+                     speed: 6
+                     pierce: true
+                     pierceCap: 1
+                     //homingPower: 1
+                     //homingRange: 120
+                     //homingDelay: 20
+                     lifetime: 60
+                     width: 6
+                     height: 8
+                     //frontColor: fffac6
+                     //backColor: d8d97f
+                     despawnEffect: none
+                   }
 	}
 }
 requirements: [
