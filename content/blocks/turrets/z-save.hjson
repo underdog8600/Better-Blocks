@@ -136,8 +136,8 @@ surge-alloy: {
       lifetime: 100
       damage: 1000
       homingPower: 1
-      homingRange: 150
-      homingDelay: 30
+      homingRange: 200
+      homingDelay: 15
       hitEffect: massiveExplosion
       pierce: true
       collidesTiles: false
@@ -152,8 +152,8 @@ surge-alloy: {
         lifetime: 100
         damage: 1000
         homingPower: 1
-        homingRange: 150
-        homingDelay: 30
+        homingRange: 200
+        homingDelay: 15
         hitEffect: massiveExplosion
         pierce: true
         collidesTiles: false
@@ -169,8 +169,8 @@ surge-alloy: {
           lifetime: 100
           damage: 1000
           homingPower: 1
-          homingRange: 150
-          homingDelay: 30
+          homingRange: 200
+          homingDelay: 15
           hitEffect: massiveExplosion
           pierce: true
           collidesTiles: false
@@ -185,7 +185,8 @@ surge-alloy: {
             lifetime: 100
             damage: 1000
             homingPower: 1
-            homingRange: 150
+            homingRange: 200
+            homingDelay: 15
             hitEffect: massiveExplosion
             pierce: true
             collidesTiles: false
