@@ -27,6 +27,7 @@ lead: {
     speed: 2
     lifetime: 800
     damage: 10000
+    pierce: true
     homingPower: 0.2
     homingRange: 200
     lightning: 4
