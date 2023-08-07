@@ -26,7 +26,7 @@ lead: {
     reloadMultiplier: 0.35
     speed: 2
     lifetime: 600
-    damage: 1000
+    damage: 100
     pierce: true
     homingPower: 0.2
     homingRange: 200
@@ -46,8 +46,10 @@ lead: {
     sprite: large-orb
     frontColor: 000000
     backColor: 000000
+    weaveScale: 0.5
+    weaveMag: 1
     bulletInterval: 10
-    intervalBullets: 5
+    intervalBullets: 10
     intervalBullet: {
       speed: 8
       width: 1
