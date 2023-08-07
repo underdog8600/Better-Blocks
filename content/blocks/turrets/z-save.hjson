@@ -58,6 +58,7 @@ coal: {
     lightningLengthRand: 4
     lightningColor: 000000
     hitEffect: none
+    despawnEffect: none
     collidesTiles: false
     absorbable: false
     width: 40
@@ -99,6 +100,7 @@ coal: {
         homingPower: 0.1
         homingRange: 200
         hitEffect: none
+        despawnEffect: none
         pierce: true
         collidesTiles: false
         fragOnHit: false
