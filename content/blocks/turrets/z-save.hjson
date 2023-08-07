@@ -31,10 +31,10 @@ coal: {
     homingRange: 200
     lightning: 4
     lightningDamage: 2000
-    lightningLength: 8
+    lightningLength: 10
     lightningLengthRand: 4
     lightningColor: 000000
-    hitEffect: massiveExplosion
+    //hitEffect: massiveExplosion
     collidesTiles: false
     absorbable: false
     width: 40
@@ -70,12 +70,12 @@ coal: {
         damage: 10000
         lightning: 4
         lightningDamage: 2000
-        lightningLength: 8
+        lightningLength: 10
         lightningLengthRand: 4
         lightningColor: 000000
         homingPower: 0.1
         homingRange: 200
-        hitEffect: massiveExplosion
+        //hitEffect: massiveExplosion
         pierce: true
         collidesTiles: false
         fragOnHit: false
@@ -112,7 +112,7 @@ coal: {
             damage: 10000
             lightning: 4
             lightningDamage: 2000
-            lightningLength: 8
+            lightningLength: 10
             lightningLengthRand: 4
             lightningColor: 000000
             homingPower: 0.1
