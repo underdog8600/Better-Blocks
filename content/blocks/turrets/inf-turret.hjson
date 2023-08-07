@@ -14,16 +14,37 @@ maxAmmo: 60
 burstSpacing: 3
 ammoTypes: {
 	super-tithorium: {
-		speed: 25
-		damage: 1200
-		type: BasicBulletType
+		speed: 15
+		damage: 200
 		width: 18
 		height: 24
-		shootEffect: shootBig
+                splashDamage: 180
+                splashDamageRadius: 50
+                //sprite: large-bomb
+		shootEffect: shootSmall
 		smokeEffect: shootSmallSmoke
 		ammoMultiplier: 15
                 frontColor: 7b68ee
                 backColor: 7b68ee
+                fragBullets: 4
+                fragBullet: {
+                     damage: 120
+                     speed: 6
+                     splashDamage: 80
+                     splashDamageRadius: 25
+                     pierce: true
+                     pierceCap: 3
+                     homingPower: 0.2
+                     homingRange: 200
+                     homingDelay: 40
+                     lifetime: 80
+                     width: 6
+                     height: 8
+                     frontColor: 7b68ee
+                     backColor: 7b68ee
+                     despawnEffect: none
+                   }
+	}
 	}
 	quantum-ingot: {
 		speed: 25
