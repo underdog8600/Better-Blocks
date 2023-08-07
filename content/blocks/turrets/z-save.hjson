@@ -21,6 +21,29 @@ ammoTypes: {
 	smokeEffect: shootSmallSmoke
 	ammoMultiplier: 10
 	}
+lead: {
+    ammoMultiplier: 1
+    reloadMultiplier: 0.35
+    speed: 2
+    lifetime: 800
+    damage: 10000
+    homingPower: 0.2
+    homingRange: 200
+    lightning: 4
+    lightningDamage: 2000
+    lightningLength: 10
+    lightningLengthRand: 4
+    lightningColor: 000000
+    hitEffect: none
+    collidesTiles: false
+    absorbable: false
+    width: 40
+    height: 40
+    shrinkY: 0
+    sprite: large-orb
+    frontColor: 000000
+    backColor: 000000
+}
 coal: {
     ammoMultiplier: 1
     reloadMultiplier: 0.35
