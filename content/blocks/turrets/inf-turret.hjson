@@ -30,7 +30,7 @@ ammoTypes: {
                 fragBullet: {
                      damage: 200
                      speed: 10
-                     splashDamage: 400
+                     splashDamage: 200
                      splashDamageRadius: 50
                      pierce: true
                      pierceCap: 3
@@ -46,9 +46,8 @@ ammoTypes: {
                    }
 	}
 	quantum-ingot: {
-		speed: 25
-		damage: 2000
-		type: BasicBulletType
+		speed: 15
+		damage: 400
 		width: 24
 		height: 30
 		shootEffect: shootBig
@@ -56,11 +55,28 @@ ammoTypes: {
 		ammoMultiplier: 25
                 frontColor: 800080
                 backColor: 800080
+                fragBullets: 4
+                fragBullet: {
+                     damage: 400
+                     speed: 10
+                     splashDamage: 400
+                     splashDamageRadius: 50
+                     pierce: true
+                     pierceCap: 3
+                     homingPower: 0.2
+                     homingRange: 300
+                     homingDelay: 60
+                     lifetime: 180
+                     width: 12
+                     height: 15
+                     frontColor: 800080
+                     backColor: 800080
+                     despawnEffect: none
+                   }
 	}
 	infinitium: {
-		speed: 40
-		damage: 4000
-		type: BasicBulletType
+		speed: 20
+		damage: 600
 		width: 34
 		height: 45
 		shootEffect: shootBig
@@ -68,6 +84,24 @@ ammoTypes: {
 		ammoMultiplier: 30
                 frontColor: 000000
                 backColor: 000000
+                fragBullets: 4
+                fragBullet: {
+                     damage: 600
+                     speed: 10
+                     splashDamage: 600
+                     splashDamageRadius: 50
+                     pierce: true
+                     pierceCap: 3
+                     homingPower: 0.2
+                     homingRange: 300
+                     homingDelay: 60
+                     lifetime: 180
+                     width: 17
+                     height: 22
+                     frontColor: 000000
+                     backColor: 000000
+                     despawnEffect: none
+                   }
 	}
 }
 requirements: [
