@@ -11,10 +11,10 @@ liquidCapacity: 60
 coolantMultiplier: 1
 shootType: {
 	type: ContinuousLaserBulletType
-	damage: 750
+	damage: 1500
 	width: 12
 	length: 320
-    ammoMultiplier: 1
+        ammoMultiplier: 1
 	colors: [
 		FFFFFFAA,
 		000000AA,
@@ -41,7 +41,7 @@ activeSound: beam
 requirements: [
 	dark-steel/3000
 	dark-matter/10
-	infinitium/6
+	infinitium/8
 ]
 category: turret
 research: giant-turret-1
