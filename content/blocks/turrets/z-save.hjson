@@ -25,7 +25,7 @@ lead: {
     ammoMultiplier: 1
     reloadMultiplier: 0.35
     speed: 2
-    lifetime: 800
+    lifetime: 600
     damage: 10000
     pierce: true
     homingPower: 0.2
