@@ -29,11 +29,11 @@ ammoTypes: {
                 fragBullets: 4
                 fragBullet: {
                      damage: 0
-                     speed: 6
+                     speed: 12
                      splashDamage: 200
                      splashDamageRadius: 25
                      pierce: true
-                     pierceCap: 4
+                     //pierceCap: 4
                      homingPower: 0.2
                      homingRange: 240
                      homingDelay: 40
