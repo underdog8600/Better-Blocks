@@ -11,7 +11,7 @@ liquidCapacity: 60
 coolantMultiplier: 1
 shootType: {
 	type: ContinuousLaserBulletType
-	damage: 1500
+	damage: 1100
 	width: 12
 	length: 320
         ammoMultiplier: 1
