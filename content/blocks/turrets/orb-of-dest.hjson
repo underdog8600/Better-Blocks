@@ -15,21 +15,20 @@ drawer: [
    type: drawTurret
    parts: [
     {
-     type: HaloPart
+     type: ShapePart
      progress: {
          type: warmup
          delay: 0.5
          }
      color: 000000
      layer: 100
+     circle: true
+     hollow: true
      y: -15
-     haloRotation: 90
-     shapes: 2
-     triLengt: 0
-     triLengthTo: 20
-     haloRadius: 16
-     tri: true
-     radius: 4
+     stroke: 0
+     strokeTo: 5
+     rotateSpeed: 10
+     radius: 20
     }
    ]
   }
