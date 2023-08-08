@@ -41,7 +41,7 @@ activeSound: beam
 requirements: [
 	dark-steel/3000
 	dark-matter/10
-	infinitium/8
+	infinitium/60
 ]
 category: turret
 research: giant-turret-1
