@@ -27,7 +27,7 @@ coal: {
     reloadMultiplier: 0.25
     speed: 2
     lifetime: 400
-    damage: 1000
+    damage: 800
     homingPower: 1
     homingRange: 200
     hitEffect: none
@@ -48,7 +48,7 @@ coal: {
       height: 1
       lifetime: 10
       lightning: 4
-      lightningDamage: 500
+      lightningDamage: 300
       lightningLength: 10
       lightningLengthRand: 4
       lightningColor: 000000
@@ -80,7 +80,7 @@ coal: {
       fragBullet: {
         speed: 2
         lifetime: 150
-        damage: 1000
+        damage: 800
         homingPower: 0.1
         homingRange: 200
         hitEffect: none
@@ -102,7 +102,7 @@ coal: {
           height: 1
           lifetime: 10
           lightning: 4
-          lightningDamage: 500
+          lightningDamage: 300
           lightningLength: 10
           lightningLengthRand: 4
           lightningColor: 000000
@@ -134,7 +134,7 @@ coal: {
           fragBullet: {
             speed: 2
             lifetime: 150
-            damage: 1000
+            damage: 800
             homingPower: 0.1
             homingRange: 200
             hitEffect: massiveExplosion
@@ -154,7 +154,7 @@ coal: {
               height: 1
               lifetime: 10
               lightning: 4
-              lightningDamage: 500
+              lightningDamage: 300
               lightningLength: 10
               lightningLengthRand: 4
               lightningColor: 000000
