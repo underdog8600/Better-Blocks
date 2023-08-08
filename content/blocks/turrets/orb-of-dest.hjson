@@ -20,8 +20,8 @@ drawer: [
          type: warmup
          delay: 0.5
          }
-     color: Pal.accent
-     layer: Layer.effect
+     color: 000000
+     layer: 100
      y: -15
      haloRotation: 90
      shapes: 2
