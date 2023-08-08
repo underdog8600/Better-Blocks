@@ -1,0 +1,164 @@
+type: ItemTurret
+name: Orb of Destruction
+description: . . .
+targetAir: true
+targetGround: true
+health: 100000
+size: 7
+inaccuracy: 0
+reload: 200
+shootCone: 40
+shots: 1
+range: 300
+ammoTypes: {
+infinitium: {
+    ammoMultiplier: 1
+    reloadMultiplier: 0.25
+    speed: 2
+    lifetime: 400
+    damage: 800
+    homingPower: 1
+    homingRange: 200
+    hitEffect: none
+    despawnEffect: none
+    collidesTiles: false
+    absorbable: false
+    width: 40
+    height: 40
+    shrinkY: 0
+    sprite: large-orb
+    frontColor: 000000
+    backColor: 000000
+    bulletInterval: 20
+    intervalBullets: 5
+    intervalBullet: {
+      speed: 6
+      width: 1
+      height: 1
+      lifetime: 10
+      lightning: 4
+      lightningDamage: 300
+      lightningLength: 10
+      lightningLengthRand: 4
+      lightningColor: 000000
+      hitEffect: none
+      despawnEffect: none
+      smokeEffect: none
+    }
+    fragRandomSpread: 0
+    fragBullets: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullet: {
+      collides: false
+      collidesTiles: false
+      hittable: false
+      absorbable: false
+      //fragOnHit: false
+      speed: 2
+      lifetime: 48
+      width: 40
+      height: 40
+      sprite: large-orb
+      frontColor: 000000
+      backColor: 000000
+      fragRandomSpread: 0
+      fragBullets: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragBullet: {
+        speed: 2
+        lifetime: 150
+        damage: 800
+        homingPower: 0.1
+        homingRange: 200
+        hitEffect: none
+        despawnEffect: none
+        pierce: true
+        collidesTiles: false
+        fragOnHit: false
+        width: 40
+        height: 40
+        shrinkY: 0
+        sprite: large-orb
+        frontColor: 000000
+        backColor: 000000
+        bulletInterval: 20
+        intervalBullets: 5
+        intervalBullet: {
+          speed: 6
+          width: 1
+          height: 1
+          lifetime: 10
+          lightning: 4
+          lightningDamage: 300
+          lightningLength: 10
+          lightningLengthRand: 4
+          lightningColor: 000000
+          hitEffect: none
+          despawnEffect: none
+          smokeEffect: none
+        }
+        fragRandomSpread: 0
+        fragBullets: 1
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragBullet: {
+          collides: false
+          collidesTiles: false
+          hittable: false
+          absorbable: false
+          //fragOnHit: false
+          speed: 2
+          lifetime: 48
+          width: 40
+          height: 40
+          sprite: large-orb
+          frontColor: 000000
+          backColor: 000000
+          fragRandomSpread: 0
+          fragBullets: 1
+          fragVelocityMin: 1
+          fragVelocityMax: 1
+          fragBullet: {
+            speed: 2
+            lifetime: 150
+            damage: 800
+            homingPower: 0.1
+            homingRange: 200
+            hitEffect: massiveExplosion
+            pierce: true
+            collidesTiles: false
+            width: 40
+            height: 40
+            shrinkY: 0
+            sprite: large-orb
+            frontColor: 000000
+            backColor: 000000
+            bulletInterval: 20
+            intervalBullets: 5
+            intervalBullet: {
+              speed: 6
+              width: 1
+              height: 1
+              lifetime: 10
+              lightning: 4
+              lightningDamage: 300
+              lightningLength: 10
+              lightningLengthRand: 4
+              lightningColor: 000000
+              hitEffect: none
+              despawnEffect: none
+              smokeEffect: none
+            }
+          }
+        }
+      }
+    }
+  }
+}
+requirements: [
+	copper/1
+]
+category: turret
+research: inf-turret
