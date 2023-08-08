@@ -52,8 +52,8 @@ ammoTypes: {
     }
 }
 requirements: [
-	infinitium/6
-    surge-alloy/1000
+	infinitium/60
+        surge-alloy/1000
 	dark-steel/2000
 ]
 category: turret
