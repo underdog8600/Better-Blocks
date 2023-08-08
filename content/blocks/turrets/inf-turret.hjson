@@ -109,7 +109,7 @@ ammoTypes: {
 	}
 }
 requirements: [
-	infinitium/4
+	infinitium/40
 	dark-steel/2000
 ]
 category: turret
