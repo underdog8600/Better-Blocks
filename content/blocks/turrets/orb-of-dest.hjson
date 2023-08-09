@@ -34,17 +34,17 @@ drawer: [
      type: ShapePart
      progress: {
          type: reload
-         delay: 5
+         //delay: 5
          }
      color: 000000
      layer: 100
      circle: true
-     hollow: true
-     stroke: 6
-     strokeTo: 0
+     hollow: false
+     //stroke: 8
+     //strokeTo: 0
      rotateSpeed: 10
      radius: 8
-     //radiusTo: 0
+     radiusTo: 0
     }
    ]
   }
