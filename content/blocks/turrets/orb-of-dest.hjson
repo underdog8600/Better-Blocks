@@ -16,13 +16,19 @@ drawer: [
    parts: [
      {
      type: HaloPart
-     progress: {
-         type: charge
+     //progress: {
+         //type: charge
 
-         }
+         //}
      color: 000000
      layer: 100
-     haloRotateSpeed: 8
+     //haloRotateSpeed: 8
+     haloRotateSpeed: {
+        progress: {
+           type: charge
+           amount: 8
+        }
+     }
      shapes: 4
      triLength: 8
      //triLengthTo: 0
