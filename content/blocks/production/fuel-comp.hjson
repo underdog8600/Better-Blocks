@@ -15,7 +15,7 @@ consumes: {
 	power: 8.0
 	items: {
 		items: [
-			comp-thorium/9
+			comp-thorium/5
 			enriched-uran/3
 		]
 	}
