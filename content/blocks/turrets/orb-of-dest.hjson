@@ -213,7 +213,10 @@ infinitium: {
   }
 }
 requirements: [
-	copper/1
+	dark-steel/3000
+	dark-matter/50
+        surge-alloy/1000
+	infinitium/100
 ]
 category: turret
 research: inf-turret
