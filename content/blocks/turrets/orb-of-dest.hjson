@@ -24,11 +24,11 @@ drawer: [
      layer: 100
      circle: true
      hollow: true
-     stroke: 10
+     stroke: 4
      strokeTo: 0
      rotateSpeed: 10
-     radius: 2
-     radiusTo: 10
+     radius: 10
+     radiusTo: 0
     }
    ]
   }
