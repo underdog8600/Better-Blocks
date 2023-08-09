@@ -22,12 +22,12 @@ drawer: [
          }
      color: 000000
      layer: 100
-     haloRotateSpeed: 12
+     haloRotateSpeed: 8
      shapes: 4
      triLength: 8
-     triLengthTo: 0
+     //triLengthTo: 0
      haloRotation: 45
-     haloRadius: 20
+     haloRadius: -18
      tri: true
      radius: 8
     }
