@@ -27,7 +27,7 @@ drawer: [
      stroke: 10
      strokeTo: 0
      rotateSpeed: 10
-     radius: 16
+     radius: 10
     }
    ]
   }
