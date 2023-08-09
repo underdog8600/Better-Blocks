@@ -30,6 +30,22 @@ drawer: [
      radius: 12
      radiusTo: 0
     }
+    {
+     type: ShapePart
+     progress: {
+         type: reload
+         delay: 0.5
+         }
+     color: 000000
+     layer: 100
+     circle: true
+     hollow: true
+     stroke: 2
+     strokeTo: 0
+     rotateSpeed: 10
+     radius: 6
+     radiusTo: 0
+    }
    ]
   }
 ]
