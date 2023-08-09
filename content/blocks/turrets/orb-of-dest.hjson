@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Orb of Destruction
-description: . . .
+description: Destroys all in its path.
 targetAir: true
 targetGround: true
 health: 100000
