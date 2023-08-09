@@ -27,9 +27,9 @@ drawer: [
      triLength: 8
      //triLengthTo: 0
      haloRotation: 45
-     haloRadius: -18
+     haloRadius: -17
      tri: true
-     radius: 8
+     radius: 10
     }
     {
      type: ShapePart
