@@ -16,7 +16,7 @@ consumes: {
 	items: {
 		items: [
 			tithorium/2
-			thorium/12
+			thorium/10
 		]
 	}
 }
