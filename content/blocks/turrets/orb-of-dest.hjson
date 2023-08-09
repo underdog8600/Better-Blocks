@@ -24,7 +24,7 @@ drawer: [
      layer: 100
      circle: true
      hollow: true
-     stroke: 4
+     stroke: 6
      strokeTo: 0
      rotateSpeed: 10
      radius: 16
