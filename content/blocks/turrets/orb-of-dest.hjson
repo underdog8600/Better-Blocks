@@ -6,7 +6,7 @@ targetGround: true
 health: 100000
 size: 7
 inaccuracy: 0
-reload: 200
+reload: 720
 shootCone: 40
 shots: 1
 range: 300
@@ -69,7 +69,6 @@ drawer: [
 ammoTypes: {
 infinitium: {
     ammoMultiplier: 1
-    reloadMultiplier: 0.25
     speed: 2
     lifetime: 400
     damage: 800
