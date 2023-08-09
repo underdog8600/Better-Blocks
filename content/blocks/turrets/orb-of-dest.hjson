@@ -18,7 +18,7 @@ drawer: [
      type: HaloPart
      progress: {
          type: charge
-         //delay: 0.5
+
          }
      color: 000000
      layer: 100
