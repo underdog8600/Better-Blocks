@@ -22,13 +22,7 @@ drawer: [
          //}
      color: 000000
      layer: 100
-     //haloRotateSpeed: 8
-     haloRotateSpeed: {
-        progress: {
-           type: charge
-           amount: 8
-        }
-     }
+     haloRotateSpeed: 8
      shapes: 4
      triLength: 8
      //triLengthTo: 0
