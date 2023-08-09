@@ -17,7 +17,7 @@ drawer: [
      {
      type: HaloPart
      progress: {
-         type: reload
+         type: warmup
          //delay: 0.5
          }
      color: 000000
