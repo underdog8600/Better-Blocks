@@ -27,23 +27,23 @@ drawer: [
      stroke: 4
      strokeTo: 0
      rotateSpeed: 10
-     radius: 12
+     radius: 16
      radiusTo: 0
     }
     {
      type: ShapePart
      progress: {
          type: reload
-         delay: 0.5
+         delay: 1
          }
      color: 000000
      layer: 100
      circle: true
      hollow: true
-     stroke: 2
+     stroke: 6
      strokeTo: 0
      rotateSpeed: 10
-     radius: 6
+     radius: 8
      radiusTo: 0
     }
    ]
