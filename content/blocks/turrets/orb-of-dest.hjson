@@ -34,7 +34,7 @@ drawer: [
      type: ShapePart
      progress: {
          type: reload
-         delay: 1
+         delay: 5
          }
      color: 000000
      layer: 100
@@ -44,7 +44,7 @@ drawer: [
      strokeTo: 0
      rotateSpeed: 10
      radius: 8
-     radiusTo: 0
+     //radiusTo: 0
     }
    ]
   }
