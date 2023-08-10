@@ -8,7 +8,7 @@ drillTime: 10
 rotateSpeed: 14
 hasLiquids: false
 drawRim: true
-hardnessDrillMultiplier: 15
+hardnessDrillMultiplier: 10
 updateEffect: pulverizeRed
 drillEffect: healWaveMend
 updateEffectChance: 0.01
