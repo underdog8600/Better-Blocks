@@ -1,0 +1,19 @@
+name: Infinity Teleporter
+description: Teleporter with the power of Infinity.
+type: MassDriver
+health: 50000
+hasPower: true
+minDistribute: 10
+reloadTime: 180
+range: 3000
+itemCapacity: 20
+consumes: {
+	power: 8
+}
+size: 1
+requirements: [
+	dark-steel/100
+  infinitium/10
+]
+category: distribution
+research: divine-driver
