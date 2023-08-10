@@ -4,7 +4,7 @@ type: MassDriver
 health: 50000
 hasPower: true
 minDistribute: 10
-reloadTime: 180
+reloadTime: 60
 range: 3000
 itemCapacity: 20
 consumes: {
