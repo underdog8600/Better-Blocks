@@ -4,8 +4,8 @@ type: Drill
 size: 4
 health: 35000
 tier: 12
-drillTime: 35
-hardnessDrillMultiplier: 45
+drillTime: 40
+hardnessDrillMultiplier: 40
 rotateSpeed: 12
 drawRim: true
 updateEffect: pulverizeRed
