@@ -5,6 +5,7 @@ health: 50000
 hasPower: true
 minDistribute: 10
 reloadTime: 60
+rotateSpeed: 20
 range: 3000
 itemCapacity: 20
 consumes: {
@@ -13,7 +14,7 @@ consumes: {
 size: 1
 requirements: [
 	dark-steel/100
-  infinitium/10
+        infinitium/10
 ]
 category: distribution
 research: divine-driver
