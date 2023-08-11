@@ -6,6 +6,8 @@ hasPower: true
 minDistribute: 10
 reloadTime: 60
 rotateSpeed: 20
+bulletSpeed: 10
+bulletLifetime: 400
 range: 3000
 itemCapacity: 20
 consumes: {
