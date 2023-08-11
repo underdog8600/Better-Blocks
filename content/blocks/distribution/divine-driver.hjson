@@ -5,6 +5,7 @@ health: 30000
 hasPower: true
 minDistribute: 30
 reloadTime: 180
+rotateSpeed: 20
 range: 1000
 itemCapacity: 500
 consumes: {
