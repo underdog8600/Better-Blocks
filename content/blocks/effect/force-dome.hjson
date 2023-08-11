@@ -19,7 +19,8 @@ consumes: {
 			phase-fabric/5
 			nuclear-fuel/1
 		]
-		booster: true
+		//booster: true
+                boost: true
 		optional: true
 	}
 }
