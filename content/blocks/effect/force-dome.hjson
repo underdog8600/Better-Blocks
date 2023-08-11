@@ -4,11 +4,12 @@ description: A better Force Projector with more range and shield health.
 size: 4
 health: 5000
 radius: 200
+sides: 8
 shieldHealth: 10000
 phaseShieldBoost: 4000
 phaseRadiusBoost: 120
 phaseUseTime: 350
-breakage: 260
+//breakage: 260
 canOverdrive: true
 cooldownNormal: 9
 cooldownLiquid: 12
