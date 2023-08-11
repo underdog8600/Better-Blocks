@@ -17,10 +17,10 @@ consumes: {
 	items: {
 		items: [ 
 			phase-fabric/5
-			nuclear-fuel/1
+			//nuclear-fuel/1
 		]
 		booster: true
-		//optional: true
+		optional: true
 	}
 }
 category: effect
