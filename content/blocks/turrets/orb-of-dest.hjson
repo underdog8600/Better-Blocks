@@ -92,7 +92,7 @@ infinitium: {
       height: 1
       lifetime: 10
       lightning: 4
-      lightningDamage: 300
+      lightningDamage: 500
       lightningLength: 10
       lightningLengthRand: 4
       lightningColor: 000000
@@ -146,7 +146,7 @@ infinitium: {
           height: 1
           lifetime: 10
           lightning: 4
-          lightningDamage: 300
+          lightningDamage: 500
           lightningLength: 10
           lightningLengthRand: 4
           lightningColor: 000000
@@ -198,7 +198,7 @@ infinitium: {
               height: 1
               lifetime: 10
               lightning: 4
-              lightningDamage: 300
+              lightningDamage: 500
               lightningLength: 10
               lightningLengthRand: 4
               lightningColor: 000000
