@@ -85,9 +85,9 @@ infinitium: {
     frontColor: 000000
     backColor: 000000
     bulletInterval: 10
-    intervalBullets: 8
+    intervalBullets: 5
     intervalBullet: {
-      speed: 10
+      speed: 6
       width: 1
       height: 1
       lifetime: 10
@@ -139,9 +139,9 @@ infinitium: {
         frontColor: 000000
         backColor: 000000
         bulletInterval: 10
-        intervalBullets: 8
+        intervalBullets: 5
         intervalBullet: {
-          speed: 10
+          speed: 6
           width: 1
           height: 1
           lifetime: 10
@@ -191,9 +191,9 @@ infinitium: {
             frontColor: 000000
             backColor: 000000
             bulletInterval: 10
-            intervalBullets: 8
+            intervalBullets: 5
             intervalBullet: {
-              speed: 10
+              speed: 6
               width: 1
               height: 1
               lifetime: 10
