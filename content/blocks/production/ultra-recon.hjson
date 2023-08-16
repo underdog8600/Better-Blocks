@@ -15,7 +15,7 @@ consumes: {
 	power: 200
 	items: {
 		items: [
-			singularity/3
+			singularity/6
 			dark-matter/3
 			divinium/2
 		]
