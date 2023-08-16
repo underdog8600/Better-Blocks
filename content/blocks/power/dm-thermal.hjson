@@ -1,7 +1,7 @@
 type: ThermalGenerator
 name: Dark Matter Thermal Generator
 health: 20000
-powerProduction: 800
+powerProduction: 200
 generateEffect: redgeneratespark
 effectChance: 0.02
 size: 3
