@@ -7,10 +7,10 @@ unitCapModifier: 35
 unitType: nucledon
 requirements: [
 	enriched-uran/25000
-	dark-steel/30000
+	dark-steel/25000
 	super-tithorium/5000
-	nuclear-fuel/5000
-	quantum-ingot/3000
+	nuclear-fuel/2000
+	quantum-ingot/2000
         divinium/10
 ]
 category: effect
