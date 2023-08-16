@@ -5,6 +5,7 @@ drag: 0.15
 hitsize: 24
 engineColor: 666495
 flying: true
+isEnemy: false
 health: 8000
 canBuild: true
 buildSpeed: 6
