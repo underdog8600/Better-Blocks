@@ -8,7 +8,7 @@ size: 6
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 600
+craftTime: 300
 updateEffect: smeltsmoke
 idleSound: respawning
 idleSoundVolume: 0.5
@@ -25,7 +25,7 @@ consumes: {
 	}
 	liquid: {
 		liquid: super-cryofluid
-		amount: 0.4
+		amount: 0.2
 	}
 }
 requirements: [
