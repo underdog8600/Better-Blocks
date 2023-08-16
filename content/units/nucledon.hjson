@@ -1,17 +1,25 @@
 name: Nucledon
-speed: 5
+speed: 6
 maxVelocity: 2.5
 drag: 0.15
 hitsize: 24
 engineColor: 666495
 flying: true
-health: 10000
+health: 8000
 canBuild: true
-buildSpeed: 3
-mineSpeed: 16
+buildSpeed: 6
+mineSpeed: 20
 mineTier: 8
 itemCapacity: 200
-armor: 20
+armor: 10
 buildTier: 5
 mass: 15
 commandLimit: 8
+abilities: [
+    {
+	type: RepairFieldAbility
+	range: 30
+	amount: 1000
+	reload: 60
+    }
+]
