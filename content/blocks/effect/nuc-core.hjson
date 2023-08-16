@@ -6,12 +6,11 @@ size: 6
 unitCapModifier: 30
 unitType: speedster-mech
 requirements: [
-	enriched-uran/20000
-	dark-steel/20000
-	super-tithorium/500
-	nuclear-fuel/1500
-	quantum-ingot/500
-	dark-matter/100
+	enriched-uran/14000
+	dark-steel/16000
+	super-tithorium/300
+	nuclear-fuel/1000
+	quantum-ingot/200
 ]
 category: effect
 research: core-nucleus
