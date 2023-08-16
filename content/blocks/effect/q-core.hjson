@@ -4,14 +4,14 @@ health: 30000
 itemCapacity: 35000
 size: 7
 unitCapModifier: 35
-unitType: nucldon
+unitType: nucledon
 requirements: [
 	enriched-uran/25000
 	dark-steel/30000
 	super-tithorium/5000
 	nuclear-fuel/5000
 	quantum-ingot/3000
-  divinium/10
+        divinium/10
 ]
 category: effect
 research: nuc-core
