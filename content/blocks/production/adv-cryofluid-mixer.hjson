@@ -11,11 +11,11 @@ hasLiquids: true
 hasItems: true
 outputLiquid: cryofluid/0.4
 consumes: {
-	power: 1.6
+	power: 3
 	liquid: water/0.4
 	items: {
 		items: [
-			titanium/4
+			titanium/1
 	  	]
 	}
 }
