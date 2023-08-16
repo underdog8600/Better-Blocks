@@ -11,6 +11,7 @@ requirements: [
 	super-tithorium/300
 	nuclear-fuel/1000
 	quantum-ingot/200
+        dark-matter/10
 ]
 category: effect
 research: core-nucleus
