@@ -6,7 +6,7 @@ drag: 0.15
 hitsize: 24
 engineColor: 666495
 flying: true
-health: 10000
+health: 6000
 canBuild: true
 buildSpeed: 3
 mineSpeed: 16
@@ -16,15 +16,15 @@ armor: 20
 buildTier: 5
 mass: 15
 commandLimit: 8
-range: 320
-maxRange: 320
-aimDst: 320
+range: 260
+maxRange: 260
+aimDst: 260
 weapons: [
 	{
 	name: nothing
 	x: 0
 	y: 2
-	reload: 5
+	reload: 15
 	shootcone: 360
 	inaccuracy: 5
 	spacing: 0
@@ -33,7 +33,7 @@ weapons: [
 		type: BasicBulletType
 		speed: 8
 		lifetime: 40
-		damage: 200
+		damage: 400
 		width: 8
 		height: 23
 		frontColor: ffaf4a
@@ -55,7 +55,7 @@ abilities: [
 	type: ForceFieldAbility
 	radius: 35
 	regen: 9
-	max: 2000
+	max: 1000
 	cooldown: 30
     }
     {
