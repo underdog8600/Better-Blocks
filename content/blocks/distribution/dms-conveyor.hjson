@@ -1,5 +1,6 @@
 type: StackConveyor
 name: Dark Matter conveyor
+description: Dark Matter Stack Conveyor, twice as fast as Plastonium in every way. Can also be placed on liquids.
 loadEffect: {
 	type: ParticleEffect
 	line: true
