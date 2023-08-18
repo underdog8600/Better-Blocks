@@ -1,6 +1,6 @@
 type: Conveyor
 name: Infinitium conveyor
-description: Uses power of infinitium to be faster than Dark Matter Conveyor
+description: Uses power of infinitium to be faster than Dark Matter Conveyor. Can be placed on liquids.
 health: 8000
 requirements: [
 	dark-steel/40
