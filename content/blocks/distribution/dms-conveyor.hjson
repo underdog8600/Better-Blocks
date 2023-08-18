@@ -27,6 +27,7 @@ unloadEffect: {
 health: 2000
 speed: 0.067
 itemCapacity: 20
+placeableLiquid: true
    requirements: [
 		dark-steel/8
 		quantum-ingot/2
