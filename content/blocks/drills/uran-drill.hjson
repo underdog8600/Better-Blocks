@@ -1,10 +1,10 @@
 name: Uranium Drill
 description: Uses power of uranium to drill faster
 type: Drill
-size: 3
+size: 4
 health: 2000
 tier: 8
-drillTime: 95
+drillTime: 80
 rotateSpeed: 8
 drawRim: true
 updateEffect: pulverizeRed
