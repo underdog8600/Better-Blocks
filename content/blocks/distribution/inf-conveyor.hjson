@@ -9,4 +9,5 @@ requirements: [
 category: distribution
 speed: 1.00
 displayedSpeed: 110
+placeableLiquid: true
 research: dms-conveyor
