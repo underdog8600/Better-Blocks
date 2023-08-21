@@ -1,22 +1,16 @@
 name: Super Drill
-description: The best drill... and its 2x2
+description: 2x2 Drill, no boosting required.
 type: Drill
 size: 2
 health: 10000
 tier: 8
-drillTime: 110
+drillTime: 60
 rotateSpeed: 9
 consumes: {
 	power: 8.0
-	liquid: {
-		liquid: cryofluid
-    	amount: 0.06
-		optional: true
-		booster: true
-	}
 }
 requirements: [
-	super-tithorium/18
+	super-tithorium/20
 	dark-steel/100
 ]
 category: production
