@@ -15,7 +15,7 @@ consumes: {
 	liquid: water/0.4
 	items: {
 		items: [
-			titanium/1
+			titanium/2
 	  	]
 	}
 }
