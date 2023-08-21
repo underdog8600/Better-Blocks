@@ -1,0 +1,11 @@
+type: Unloader
+name: Dark Unloader
+description: A faster Unloader.
+health: 200
+requirements: [
+	dark-steel/50
+	silicon/100
+]
+category: effect
+speed: 3
+research: unloader
