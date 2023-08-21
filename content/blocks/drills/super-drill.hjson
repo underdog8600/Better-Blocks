@@ -6,6 +6,7 @@ health: 10000
 tier: 8
 drillTime: 60
 rotateSpeed: 9
+hardnessDrillMultiplier: 20
 consumes: {
 	power: 8.0
 }
