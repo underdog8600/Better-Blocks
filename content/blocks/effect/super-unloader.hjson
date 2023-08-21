@@ -1,10 +1,11 @@
 type: Unloader
 name: Super Unloader
 description: An Unloader with great speed
-health: 200
+health: 2000
 requirements: [
 	dark-steel/50
-	silicon/100
+	//silicon/100
+        super-tithorium/10
 ]
 category: effect
 speed: 1.5
