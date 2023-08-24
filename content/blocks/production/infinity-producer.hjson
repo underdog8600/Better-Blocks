@@ -29,12 +29,13 @@ drawer: [
 	type: DrawDefault
 	}
         {
-        type: DrawLiquid
+        type: DrawRegion
+        suffix: -liquid
         }
 	{
 	type: DrawRegion
         suffix: -spinner
-        rotateSpeed: -5
+        rotateSpeed: -20
 	}
         {
         type: DrawRegion
