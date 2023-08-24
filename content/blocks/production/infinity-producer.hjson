@@ -9,13 +9,13 @@ hasLiquids: true
 hasItems: true
 liquidCapacity: 90
 itemCapacity: 5
-craftTime: 240
+craftTime: 300
 outputItem: infinitium/1
 consumes: {
 	power: 500
 	liquid: {
 		liquid: infinitium-liquid
-		amount: 0.225
+		amount: 0.1
 	}
 }
 requirements: [
