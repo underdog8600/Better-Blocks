@@ -12,7 +12,7 @@ itemCapacity: 5
 craftTime: 540
 outputItem: infinitium/1
 consumes: {
-	power: 1000
+	power: 500
 	liquid: {
 		liquid: infinitium-liquid
 		amount: 0.1
@@ -23,7 +23,7 @@ requirements: [
 	dark-steel/5000
 	divinium/40
         singularity/50
-	infinitium/100
+	infinitium/15
 ]
 drawer: [
 	{
