@@ -3,12 +3,12 @@ name: Infinity Generator
 description: "Generates [red]ALOT[] of energy"
 size: 4
 health: 51000
-powerProduction: 14000
+powerProduction: 15000
 hasLiquids: true
 itemCapacity: 3
 itemDuration: 3600
 consumes: {
-    power: 0
+    power: 1000
 	item: divinium
 	liquid: {
 		liquid: infinitium-liquid
