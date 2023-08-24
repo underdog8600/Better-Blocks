@@ -8,7 +8,7 @@ solid: true
 hasLiquids: true
 hasItems: true
 liquidCapacity: 90
-itemCapacity: 50
+itemCapacity: 5
 craftTime: 540
 spinnerSpeed: -5
 outputItem: infinitium/1
