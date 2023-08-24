@@ -47,10 +47,6 @@ drawer: [
     plasma1: FFFFFF
     plasma2: 5BDBD5
   }
-  {
-    type: DrawRegion
-    suffix: -light
-  }
 ]
 requirements: [
 	infinitium/4
