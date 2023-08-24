@@ -11,6 +11,7 @@ liquidCapacity: 90
 itemCapacity: 50
 craftTime: 540
 spinnerSpeed: -5
+outputItem: infinitium/1
 consumes: {
 	power: 8
 	liquid: {
