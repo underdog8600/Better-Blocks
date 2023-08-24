@@ -20,8 +20,9 @@ consumes: {
 }
 requirements: [
 	dark-matter/50
-	dark-steel/20000
+	dark-steel/5000
 	divinium/40
+        singularity/50
 	infinitium/100
 ]
 drawer: [
