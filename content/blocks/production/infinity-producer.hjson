@@ -30,9 +30,6 @@ drawer: [
 	type: DrawDefault
 	}
 	{
-	type: DrawLiquid
-	}
-	{
 	type: DrawSpinner
 	}
         {
