@@ -23,7 +23,7 @@ requirements: [
 	quantum-ingot/25
 	dark-steel/3000
 	divinium/5
-	infinitium/20
+	infinitium/10
 ]
 drawer: [
 	{
