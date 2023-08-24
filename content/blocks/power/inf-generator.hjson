@@ -21,6 +21,10 @@ drawer: [
     suffix: -bottom
   }
   {
+    type: DrawRegion
+    suffix: -light
+  }
+  {
     type: DrawDefault
   }
   {
