@@ -9,37 +9,20 @@ hasLiquids: true
 hasItems: true
 liquidCapacity: 90
 itemCapacity: 50
-craftTime: 1
+craftTime: 540
 spinnerSpeed: -5
 consumes: {
 	power: 8
 	liquid: {
 		liquid: infinitium-liquid
-		amount: 0.01
+		amount: 0.1
 	}
 }
 requirements: [
 	quantum-ingot/35
-	dark-steel/2000
+	dark-steel/20000
 	divinium/5
-	infinitium/10
-]
-results: [
-	copper/100
-	lead/100
-	coal/99
-	titanium/98
-	metaglass/98
-	iron/98
-	thorium/97
-	graphite/95
-	silicon/95
-	uran/93
-	pyratite/89
-	blast-compound/85
-	plastanium/83
-	phase-fabric/59
-	surge-alloy/48
+	infinitium/100
 ]
 category: crafting
 research: disassembler
