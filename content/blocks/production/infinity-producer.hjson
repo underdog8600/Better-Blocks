@@ -13,17 +13,17 @@ craftTime: 540
 spinnerSpeed: -5
 outputItem: infinitium/1
 consumes: {
-	power: 8
+	power: 1000
 	liquid: {
 		liquid: infinitium-liquid
 		amount: 0.1
 	}
 }
 requirements: [
-	quantum-ingot/35
+	dark-matter/50
 	dark-steel/20000
-	divinium/5
+	divinium/40
 	infinitium/100
 ]
 category: crafting
-research: disassembler
+research: infinitium-smelter
