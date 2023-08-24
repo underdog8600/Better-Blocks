@@ -7,8 +7,6 @@ powerProduction: 12000
 hasLiquids: true
 itemCapacity: 3
 itemDuration: 3600
-plasma1: FFFFFF
-plasma2: 5BDBD5
 consumes: {
     power: 0
 	item: divinium
@@ -17,6 +15,43 @@ consumes: {
 		amount: 0.02
 	}
 }
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawPlasma
+    suffix: -plasma-0
+    plasma1: FFFFFF
+    plasma2: 5BDBD5
+  }
+  {
+    type: DrawPlasma
+    suffix: -plasma-1
+    plasma1: FFFFFF
+    plasma2: 5BDBD5
+  }
+  {
+    type: DrawPlasma
+    suffix: -plasma-2
+    plasma1: FFFFFF
+    plasma2: 5BDBD5
+  }
+  {
+    type: DrawPlasma
+    suffix: -plasma-3
+    plasma1: FFFFFF
+    plasma2: 5BDBD5
+  }
+  {
+    type: DrawRegion
+    suffix: -light
+  }
+]
 requirements: [
 	infinitium/4
 	dark-matter/12
