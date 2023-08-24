@@ -15,7 +15,7 @@ consumes: {
 	power: 500
 	liquid: {
 		liquid: infinitium-liquid
-		amount: 0.2333
+		amount: 0.225
 	}
 }
 requirements: [
