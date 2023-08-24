@@ -29,25 +29,25 @@ drawer: [
   }
   {
     type: DrawPlasma
-    suffix: -plasma-0
+    suffix: -plasma0-
     plasma1: FFFFFF
     plasma2: 5BDBD5
   }
   {
     type: DrawPlasma
-    suffix: -plasma-1
+    suffix: -plasma1-
     plasma1: FFFFFF
     plasma2: 5BDBD5
   }
   {
     type: DrawPlasma
-    suffix: -plasma-2
+    suffix: -plasma2-
     plasma1: FFFFFF
     plasma2: 5BDBD5
   }
   {
     type: DrawPlasma
-    suffix: -plasma-3
+    suffix: -plasma3-
     plasma1: FFFFFF
     plasma2: 5BDBD5
   }
