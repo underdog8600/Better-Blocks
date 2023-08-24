@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Infinity Producer
-description: Uses liquified [#FFFFFF]I[][#EEEEEE]n[][#DDDDDD]f[][#CCCCCC]i[][#BBBBBB]n[][#AAAAAA]i[][#999999]t[][#888888]i[][#777777]u[][#666666]m[] to produce more [#FFFFFF]I[][#EEEEEE]n[][#DDDDDD]f[][#CCCCCC]i[][#BBBBBB]n[][#AAAAAA]i[][#999999]t[][#888888]i[][#777777]u[][#666666]m[] than put into it.
+description: "Uses liquified [#FFFFFF]I[][#EEEEEE]n[][#DDDDDD]f[][#CCCCCC]i[][#BBBBBB]n[][#AAAAAA]i[][#999999]t[][#888888]i[][#777777]u[][#666666]m[] to produce more [#FFFFFF]I[][#EEEEEE]n[][#DDDDDD]f[][#CCCCCC]i[][#BBBBBB]n[][#AAAAAA]i[][#999999]t[][#888888]i[][#777777]u[][#666666]m[] than put into it."
 size: 4
 health: 60000
 hasPower: true
