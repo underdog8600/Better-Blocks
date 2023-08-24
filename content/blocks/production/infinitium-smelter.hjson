@@ -10,7 +10,7 @@ hasLiquids: true
 hasItems: true
 craftTime: 600
 updateEffect: smeltsmoke
-outputLiquid: infinitium-liquid/0.3
+outputLiquid: infinitium-liquid/0.1
 consumes: {
 	power: 400
 	items: {
