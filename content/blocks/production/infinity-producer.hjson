@@ -10,7 +10,6 @@ hasItems: true
 liquidCapacity: 90
 itemCapacity: 5
 craftTime: 540
-spinnerSpeed: -5
 outputItem: infinitium/1
 consumes: {
 	power: 1000
@@ -30,7 +29,9 @@ drawer: [
 	type: DrawDefault
 	}
 	{
-	type: DrawSpinner
+	type: DrawRegion
+        suffix: -spinner
+        rotateSpeed: -5
 	}
         {
         type: DrawRegion
