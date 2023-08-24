@@ -25,5 +25,20 @@ requirements: [
 	divinium/40
 	infinitium/100
 ]
+drawer: [
+	{
+	type: DrawDefault
+	}
+	{
+	type: DrawLiquid
+	}
+	{
+	type: DrawSpinner
+	}
+        {
+        type: DrawRegion
+        suffix: -top
+        }
+]
 category: crafting
 research: infinitium-smelter
