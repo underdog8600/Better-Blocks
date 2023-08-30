@@ -1,21 +1,23 @@
 type: GenericCrafter
-name: Advanced Cryofluid Mixer
-description: Mixes water titanium to make a lot of cryofluid.
+name: Advanced Blast Mixer
+description: Combines pyrite mixer and centrifuge into one machine.
 health: 340
 itemCapacity: 30
 liquidCapacity: 90
-size: 3
-craftTime: 120
+size: 5
+craftTime: 90
 hasPower: true
 hasLiquids: true
 hasItems: true
-outputLiquid: cryofluid/0.4
+outputItem: blast-compound/2
 consumes: {
-	power: 3
+	power: 10
 	liquid: water/0.4
 	items: {
 		items: [
-			titanium/2
+			coal/2
+			sand/4
+			lead/4
 	  	]
 	}
 }
@@ -26,4 +28,4 @@ requirements: [
 	carbon/50
 ]
 category: crafting
-research: cryofluid-mixer
+research: blast-mixer
