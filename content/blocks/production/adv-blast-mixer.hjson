@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Advanced Blast Mixer
-description: Combines pyrite mixer and centrifuge into one machine.
+description: Combines pyrite mixer and cultivator into one machine.
 health: 340
 itemCapacity: 30
 liquidCapacity: 90
