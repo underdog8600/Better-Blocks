@@ -12,7 +12,7 @@ hasItems: true
 outputItem: blast-compound/2
 consumes: {
 	power: 10
-	liquid: water/0.4
+	liquid: water/0.5
 	items: {
 		items: [
 			coal/2
