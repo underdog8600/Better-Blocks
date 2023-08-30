@@ -5,6 +5,7 @@ drag: 0.15
 hitsize: 24
 engineColor: 666495
 flying: true
+lowAltitude: false
 isEnemy: false
 targetPriority: -2
 health: 8000
