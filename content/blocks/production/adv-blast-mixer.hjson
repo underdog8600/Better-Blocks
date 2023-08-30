@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Advanced Blast Mixer
 description: Combines pyrite mixer and cultivator into one machine.
 health: 340
-itemCapacity: 30
+itemCapacity: 12
 liquidCapacity: 90
 size: 5
 craftTime: 90
@@ -22,8 +22,8 @@ consumes: {
 	}
 }
 requirements: [
-	metaglass/500
-	silicon/200
+	lead/400
+	titanium/300
 	dark-steel/180
 	carbon/50
 ]
