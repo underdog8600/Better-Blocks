@@ -15,9 +15,10 @@ consumes: {
 	items: {
 	  items: [
 		  copper/8
-		  lead/8
+		  lead/12
 		  titanium/5
-		  silicon/7
+		  coal/7
+                  sand/7
 	  ]
 	}
 }
