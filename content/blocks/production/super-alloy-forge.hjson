@@ -11,7 +11,7 @@ craftEffect: pulverizeRed
 updateEffect: hitMeltdown
 outputItem:surge-alloy/4
 consumes: {
-	power: 6.5
+	power: 12
 	items: {
 	  items: [
 		  copper/8
@@ -22,10 +22,10 @@ consumes: {
 	}
 }
 requirements: [
-	silicon/500
-	surge-alloy/200
-	dark-steel/200
-	super-tithorium/10
+	silicon/700
+	surge-alloy/300
+	dark-steel/500
+        quantum-ingot/10
 ]
 drawer: [
 	{
