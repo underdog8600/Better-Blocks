@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Alloy Forge
-description: A better Alloy Smelter that is more costefficient.
+name: Super Alloy Forge
+description: An Alloy Forge that has a Silicon Crucible in it with Pyrite Mixer.
 size: 6
 hasPower: true
 hasItems: true
@@ -33,4 +33,4 @@ drawer: [
 	}
 ]
 category: crafting
-research: alloy-smelter
+research: alloy-forge
