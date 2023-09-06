@@ -23,6 +23,7 @@ requirements: [
 	nuclear-fuel/20
 	comp-titanium/60
 	dark-steel/140
+        con-comp/50
 ]
 drawer: [
 	{
