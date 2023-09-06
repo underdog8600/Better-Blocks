@@ -20,6 +20,7 @@ consumes: {
 requirements: [
 	nuclear-fuel/12
 	dark-steel/600
+        con-comp/200
 	diamond/10
 ]
 drawer: [
