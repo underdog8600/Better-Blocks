@@ -6,7 +6,7 @@ itemCapacity: 10
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 30
+craftTime: 60
 updateEffect: smeltsmoke
 idleSound: respawning
 idleSoundVolume: 0.1
@@ -15,9 +15,9 @@ consumes: {
 	power: 1.8
 	items: {
 		items: [
-			titanium/3
+			titanium/2
 			graphite/2
-			iron/5
+			iron/3
 		]
 	}
 }
