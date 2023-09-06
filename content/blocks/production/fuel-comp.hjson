@@ -24,6 +24,7 @@ requirements: [
 	comp-titanium/32
 	enriched-uran/10
 	dark-steel/25
+        con-comp/40
 ]
 drawer: [
 	{
