@@ -31,6 +31,7 @@ consumes: {
 requirements: [
 	quantum-ingot/10
 	dark-steel/1400
+        con-comp/500
 	titanium/3000
 	diamond/600
 ]
