@@ -21,6 +21,7 @@ consumes: {
 requirements: [
 	dark-matter/50
 	dark-steel/5000
+        con-comp/1200
 	divinium/40
         singularity/50
 	infinitium/15
