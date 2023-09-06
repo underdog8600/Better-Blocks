@@ -24,6 +24,7 @@ requirements: [
 	titanium/65
 	thorium/80
 	silicon/60
+        con-comp/20
 ]
 drawer: [
 	{
