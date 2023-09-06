@@ -25,6 +25,7 @@ requirements: [
 	titanium/120
 	silicon/75
 	dark-steel/100
+        con-comp/40
 ]
 drawer: [
 	{
