@@ -15,7 +15,7 @@ consumes: {
 	items: {
 	  items: [
 		  copper/8
-		  lead/10
+		  lead/9
 		  titanium/5
 		  coal/5
                   sand/7
@@ -26,6 +26,7 @@ requirements: [
 	silicon/700
 	surge-alloy/300
 	dark-steel/500
+        con-comp/200
         quantum-ingot/10
 ]
 drawer: [
