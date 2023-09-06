@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Construction Forge
 description: Takes Dark Steel and Silicon to make Construction Components
 health: 2000
-itemCapacity: 4
+itemCapacity: 10
 size: 2
 hasPower: true
 hasItems: true
@@ -12,7 +12,7 @@ idleSound: respawning
 idleSoundVolume: 0.4
 outputItem: con-comp/1
 consumes: {
-	power: 12.2
+	power: 2
 	items: {
 		items: [
 			dark-steel/4
@@ -26,6 +26,13 @@ requirements: [
 	dark-steel/16
 ]
 drawer: [
+	{
+	type: DrawDefault
+	}
+	{
+	type: DrawRegion
+        suffix: -top
+	}
 	{
 	type: DrawSmelter
 	}
