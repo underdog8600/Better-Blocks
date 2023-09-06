@@ -28,6 +28,7 @@ requirements: [
 	ruby/8
 	comp-titanium/150
 	nuclear-fuel/25
+        con-comp/50
 ]
 drawer: [
 	{
