@@ -30,6 +30,7 @@ requirements: [
 	titanium/200
 	super-tithorium/18
 	dark-steel/600
+        con-comp/200
 ]
 drawer: [
 	{
