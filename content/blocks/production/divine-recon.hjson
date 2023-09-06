@@ -24,6 +24,7 @@ requirements: [
 	quantum-ingot/18
 	dark-steel/3000
 	dark-matter/2
+        con-comp/1000
 ]
 drawer: [
 	{
