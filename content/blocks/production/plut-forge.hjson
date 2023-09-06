@@ -23,6 +23,7 @@ consumes: {
 requirements: [
 	comp-titanium/40
 	dark-steel/200
+        con-comp/80
 	nuclear-fuel/5
 	enriched-uran/12
 ]
