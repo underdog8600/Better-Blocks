@@ -1,0 +1,9 @@
+"type": "material",
+"name": "Construction Component",
+"description": Used for buildings 3x3 and higher in size
+"hardness": 10
+"cost": 3
+"color": "#3a3a3a"
+"radioactivity": 0.0
+"explosiveness": 0.0
+"flammability": 0.1
