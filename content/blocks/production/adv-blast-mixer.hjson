@@ -25,7 +25,7 @@ requirements: [
 	lead/400
 	titanium/300
 	dark-steel/180
-	carbon/50
+        con-comp/50
 ]
 category: crafting
 research: blast-mixer
