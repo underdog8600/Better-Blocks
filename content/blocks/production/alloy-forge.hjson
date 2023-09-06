@@ -26,6 +26,7 @@ requirements: [
 	surge-alloy/200
 	dark-steel/200
 	super-tithorium/10
+        con-comp/60
 ]
 drawer: [
 	{
