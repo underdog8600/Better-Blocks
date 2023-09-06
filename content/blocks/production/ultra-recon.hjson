@@ -24,6 +24,7 @@ consumes: {
 requirements: [
 	quantum-ingot/30
 	dark-steel/5000
+        con-comp/1400
 	divinium/5
 ]
 drawer: [
