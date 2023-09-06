@@ -27,6 +27,7 @@ requirements: [
 	metaglass/600
 	silicon/300
 	dark-steel/300
+        con-comp/100
 	super-tithorium/50
 ]
 category: crafting
