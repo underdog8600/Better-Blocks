@@ -24,6 +24,7 @@ requirements: [
 	dark-steel/1800
 	titanium/4000
 	ruby/400
+        con-comp/600
 ]
 drawer: [
 	{
