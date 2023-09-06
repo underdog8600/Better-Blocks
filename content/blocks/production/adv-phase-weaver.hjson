@@ -25,6 +25,7 @@ requirements: [
 	phase-fabric/150
 	dark-steel/200
 	super-tithorium/10
+        con-comp/60
 ]
 drawer: [
 	{
